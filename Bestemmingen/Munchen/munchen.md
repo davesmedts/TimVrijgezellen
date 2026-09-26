@@ -13,6 +13,13 @@
 
 Munchen is een sterke bestemming voor een volledig mannenweekend. De stad combineert een grote voetbalbeleving met biercultuur, restaurants, bars, clubs en veel georganiseerde activiteiten. De belangrijkste beperking is de beschikbaarheid van 13 tickets voor Bayern München. De stad zelf is duurder dan Gelsenkirchen, maar biedt duidelijk meer mogelijkheden buiten het voetbal.
 
+## Normaal weer midden april
+
+- Overdag: ongeveer **13-17 °C**.
+- ’s Nachts: ongeveer **3-7 °C**.
+- Verwachting: fris voorjaar met kans op regenbuien; in de omgeving kan het weer sneller omslaan.
+- Praktisch: voorzie een jas en plan een brouwerijtour, museum of Arena Tour als weerbestendige activiteit.
+
 ## Voorlopig programma
 
 ### Vrijdag 16 april
@@ -61,7 +68,22 @@ De officiële Bundesliga-kalender vermeldt Bayern München - Hoffenheim op speel
 - Groepstotaal voor 13 personen: **€1.950 - €3.250**
 - Bagage: handbagage controleren; ruimbagage is niet noodzakelijk voor een weekend maar moet per airline worden bevestigd
 
-De vluchtprijs is een planningsraming en geen live offerte. Voor 13 personen moet de prijs worden gecontroleerd als één groepsboeking of als meerdere boekingen. Een vlucht na het werk op vrijdag kan duurder zijn dan een middagvlucht.
+### Concrete zoekopdracht - 25/09/2026
+
+Vliegen is voor Munchen de meest aangewezen vervoersoptie. Er werd een passende rechtstreekse combinatie vanaf Brussels Airport gevonden:
+
+| Traject | Airline | Tijd | Prijsindicatie |
+|---|---|---:|---:|
+| Brussel (BRU) → Munchen (MUC), vrijdag 16/04/2027 | Lufthansa, uitgevoerd voor Brussels Airlines | **18:10 - 19:30** | |
+| Munchen (MUC) → Brussel (BRU), zondag 18/04/2027 | Lufthansa | **17:55 - 19:15** | |
+
+- Retourprijs: **ongeveer €193 per persoon**.
+- Skyscanner toonde een totaal van ongeveer **€1.544 voor 8 reizigers**; voor 13 personen is dat indicatief ongeveer **€2.509** aan hetzelfde tarief.
+- De combinatie voldoet aan de gewenste vrijdagavond- en zondagavonduren en is rechtstreeks.
+- Voor 13 personen moet de prijs nog worden gecontroleerd als één groepsboeking of als meerdere boekingen. Een vlucht na het werk op vrijdag kan duurder worden zodra de goedkoopste tariefklassen verdwijnen.
+- [Exacte zoekopdracht Brussel - Munchen op Skyscanner](https://www.skyscanner.net/transport/flights/bru/muc/270416/270418/?adultsv2=13&currency=EUR&cabinclass=economy&rtn=1&locale=nl-NL)
+
+De vluchtprijs is een actuele indicatie en geen live offerte. Bagage- en stoeltoeslagen moeten vóór boeking worden gecontroleerd.
 
 ## Verblijf
 
@@ -213,3 +235,4 @@ Deze totalen zijn inclusief vlucht, lokaal vervoer, verblijf, voetbal, activitei
 - [Munich Tourism: openbaar vervoer](https://www.munich.travel/en/topics/urban-districts/get-around-munich)
 - [Munich Tourism: groepsrondleidingen](https://www.munich.travel/en/categories/plan/groups/guided-tours-for-groups)
 - [Munich Tourism: verblijf](https://www.munich.travel/en/topics/urban-districts/hotels-hostels-campsites-munich)
+- [Skyscanner, Brussel - Munchen, 16-18 april 2027](https://www.skyscanner.net/transport/flights/bru/muc/270416/270418/?adultsv2=13&currency=EUR&cabinclass=economy&rtn=1&locale=nl-NL)

@@ -12,6 +12,13 @@
 
 Een volledig mannenweekend in Londen met een voetbalwedstrijd, goed eten en drinken, nachtleven en een of twee groepsactiviteiten.
 
+## Normaal weer midden april
+
+- Overdag: ongeveer **13-16 °C**.
+- ’s Nachts: ongeveer **6-9 °C**.
+- Verwachting: wisselvallig voorjaar met kans op buien en wind; zonnige periodes zijn ook mogelijk.
+- Praktisch: neem een waterdichte jas en lagen mee. Plan minstens één indooractiviteit.
+
 ## Voorlopig programma
 
 ### Vrijdag 16 april
@@ -79,6 +86,22 @@ Beide wedstrijden zijn logistiek interessante alternatieven omdat de groep dezel
 - Een speciale groepsboeking is op de officiële groepspagina voorzien vanaf 16 personen. De online zoekflow toont tegelijk een groepsoptie voor 10 tot 20 reizigers. Voor 13 personen moet daarom worden bevestigd of de boeking als groep of als gewone online reservering gebeurt.
 - De raming betreft alleen Brussel-Zuid - Londen St Pancras. Een eventuele treinrit Antwerpen - Brussel en lokaal vervoer in Londen zijn niet inbegrepen, tenzij die in een Eurostar-ticket worden opgenomen.
 - Voor het traject Brussel - Londen vermeldt Eurostar een reistijd van ongeveer 2 uur en 1 minuut. Vertrek na het werk vereist voldoende marge voor de rit vanuit Antwerpen, check-in en grenscontroles in Brussel-Zuid.
+
+### Vluchtalternatief
+
+Er is een passende rechtstreekse vlucht vanaf Brussels Airport naar Londen Heathrow:
+
+| Traject | Airline | Tijd | Prijsindicatie |
+|---|---|---:|---:|
+| Brussel (BRU) → Londen Heathrow (LHR), vrijdag 16/04/2027 | British Airways | **21:30 - 21:35** | |
+| Londen Heathrow (LHR) → Brussel (BRU), zondag 18/04/2027 | British Airways | **17:35 - 19:55** | |
+
+- Retourprijs: **ongeveer €183 per persoon**.
+- Skyscanner toonde een totaal van ongeveer **€1.464 voor 8 reizigers**; voor 13 personen is dat indicatief ongeveer **€2.379** aan hetzelfde tarief.
+- De vlucht voldoet aan de gewenste uren, maar Heathrow ligt buiten het centrum. Reken nog op luchthaven- en stadsvervoer, naast de verplichte Britse ETA.
+- Vliegen is daarom niet duidelijk meer aangewezen dan Eurostar. Eurostar brengt de groep rechtstreeks naar Londen St Pancras, terwijl de actuele vluchtprijs slechts beperkt boven de bestaande Eurostar-raming ligt. Eurostar blijft voorlopig de aanbevolen optie; vliegen wordt interessant als de vluchtprijs daalt of de Eurostarprijs sterk stijgt.
+- Skyscanner toont bij deze zoekopdracht maximaal 8 reizigers. De prijs voor 13 personen moet daarom via een groepsaanvraag of meerdere controles worden bevestigd.
+- [Exacte zoekopdracht Brussel - Londen op Skyscanner](https://www.skyscanner.net/transport/flights/bru/lon/270416/270418/?adultsv2=13&currency=EUR&cabinclass=economy&rtn=1&locale=nl-NL)
 
 ## Verblijf
 
@@ -177,3 +200,4 @@ De ramingen voor vervoer, verblijf en voetbaltickets zijn voorlopig. Ze omvatten
 - [Millwall tickets](https://www.millwallfc.co.uk/tickets)
 - [Eurostar Brussel-Londen](https://www.eurostar.com/be-en/train/brussels-to-london)
 - [Britse ETA](https://www.gov.uk/eta/apply)
+- [Skyscanner, Brussel - Londen, 16-18 april 2027](https://www.skyscanner.net/transport/flights/bru/lon/270416/270418/?adultsv2=13&currency=EUR&cabinclass=economy&rtn=1&locale=nl-NL)
