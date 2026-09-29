@@ -44,6 +44,9 @@ Ticketraming: **€20 - €100 per persoon** voor gewone tickets; officiële hos
 - Skyscanner toont bij deze zoekopdracht maximaal 8 reizigers. De prijs voor 13 personen moet daarom via een groepsaanvraag of meerdere controles worden bevestigd.
 - [Exacte zoekopdracht Brussel - Lissabon op Skyscanner](https://www.skyscanner.net/transport/flights/bru/lis/270416/270418/?adultsv2=13&currency=EUR&cabinclass=economy&rtn=1&locale=nl-NL)
 
+- Simulatie bij TAP airlines als groepsboeking kost 258€ per persoon. Apart boeken, mogelijk over meerdere vluchten aangewezen.
+- Parkeerkosten voor 1 weekend 51€ per auto, maximum 3 auto's is 153€ voor de groep
+
 ## Verblijf
 
 - Baixa/Chiado: centraal en goed voor restaurants en bezienswaardigheden.
@@ -73,6 +76,48 @@ Lissabon heeft metro, trams, bussen, taxi’s en ritdiensten. De luchthaven ligt
 - Daguitstap naar Sintra.
 - Escape room, kookworkshop of cocktailworkshop.
 
+### Kajak- en snorkeltour Arrábida/Sesimbra
+
+Een georganiseerde kajak- en snorkeltour naar de kust van Arrábida of Sesimbra is een sterke optie voor de zaterdag. De activiteit vindt niet in de stad zelf plaats, maar de meeste volledige formules voorzien transfer vanuit Lissabon.
+
+- Vertrek: bij voorkeur zaterdag **17 april 2027**; vrijdagavond aankomen om 22:50 is te laat voor deze activiteit.
+- Duur: ongeveer **6,5-7 uur inclusief transfer**.
+- Activiteit: kajakken langs kliffen en grotten, zwemmen/snorkelen en een strandstop.
+- Inbegrepen bij de meest complete formule: transfer vanuit Lissabon, kajak, peddel, zwemvest, snorkelmateriaal, professionele begeleiding en picknick.
+- Sommige formules voorzien ook wetsuits, waterdichte tassen, fruit en drank. Dit moet bij boeking voor april 2027 worden bevestigd.
+- Geschikt voor beginners; ervaring is normaal niet vereist.
+- Voor 13 personen moet vooraf worden bevestigd of iedereen samen kan vertrekken en of een private minibus of extra gids nodig is.
+
+#### Kostprijsraming
+
+| Formule | Richtprijs p.p. | Richtprijs voor 13 personen | Opmerking |
+|---|---:|---:|---|
+| All-inclusive formule | €80 | €1.040 | Transfer, materiaal, gids en picknick; groepslimiet vooraf bevestigen |
+| Lisbon Kayak Tours | €85-€95 | €1.105-€1.235 | Transfer, kajak, snorkelmateriaal en picknick vermeld; website toont twee prijzen |
+| Premium/private formule | €120 | €1.560 | Reserve voor private vervoer, extra begeleiding of seizoentoeslag |
+
+Voor de planning wordt **€95 per persoon**, of **€1.235 voor 13 personen**, als realistische raming gebruikt.
+
+#### Aanbevolen dagindeling
+
+- 07:00: ontbijt.
+- 08:00-08:30: pickup in het centrum van Lissabon.
+- 09:30: aankomst aan de kust en veiligheidsbriefing.
+- 09:30-13:00: kajakken, grotten, strandstop en snorkelen.
+- 13:00-14:00: picknick.
+- 14:00-15:30: transfer terug naar Lissabon.
+- Vanaf 16:00: rusten, drankje en voorbereiden op het diner.
+
+De kajak- en snorkeltour wordt best als **hoofdactiviteit van zaterdag** gepland. Combineer ze niet met Adventure Park Jamor of een andere volledige excursie op dezelfde dag.
+
+#### Aandachtspunten voor april
+
+- De zeetemperatuur in Sesimbra bedraagt midden april gemiddeld ongeveer **16-17 °C**; een wetsuit is sterk aanbevolen.
+- De activiteit is geschikt voor april, maar blijft afhankelijk van wind, golven en regen.
+- Snorkelen zal door het koude water eerder een korte activiteit zijn; kajakken en de kust verkennen blijven de hoofdactiviteiten.
+- Vraag vooraf naar gratis annulering of een alternatief bij ongunstige weersomstandigheden.
+- Vraag ook expliciet of wetsuit, snorkelmateriaal, picknick, water en eventuele dieetwensen inbegrepen zijn.
+
 ## Eten, drinken en nachtleven
 
 Lissabon heeft een brede restaurant- en barscene. Bairro Alto is geschikt voor een barcrawl, Cais do Sodré voor restaurants en bars, en Pink Street voor een meer toeristische uitgaansavond. Voor een groep van 13 zijn reservaties voor het diner en eventuele rooftops noodzakelijk.
@@ -86,19 +131,19 @@ Lissabon heeft een brede restaurant- en barscene. Bairro Alto is geschikt voor e
 | Voetbalticket | €20 | €50 | €100 |
 | Verblijf - hostel | €60 | €110 | €180 |
 | Verblijf - budgethotel | €110 | €180 | €280 |
-| Activiteiten | €0 | €0 | €0 |
+| Kajak- en snorkeltour | €80 | €95 | €120 |
 | Eten en drinken | €0 | €0 | €0 |
 | Nachtleven | €0 | €0 | €0 |
 | Reserve | €0 | €0 | €0 |
-| **Totaal met hostel** | **€249** | **€395** | **€590** |
-| **Totaal met budgethotel** | **€299** | **€465** | **€690** |
+| **Totaal met hostel** | **€329** | **€490** | **€710** |
+| **Totaal met budgethotel** | **€379** | **€560** | **€810** |
 
-Activiteiten, eten en drinken, nachtleven en reserve staan voorlopig op €0 en worden later verder uitgewerkt.
+De totalen hierboven zijn berekend alsof de kajak- en snorkeltour wordt gekozen. Eten, drinken, nachtleven en reserve staan voorlopig nog op €0 en worden later verder uitgewerkt.
 
 ### Groepstotalen voor 13 personen
 
-- Totaal met hostel: **€3.237 - €7.670**; realistische middenraming **€5.135**.
-- Totaal met budgethotel: **€3.887 - €8.970**; realistische middenraming **€6.045**.
+- Totaal met hostel inclusief kajakoptie: **€4.277 - €9.230**; realistische middenraming **€6.370**.
+- Totaal met budgethotel inclusief kajakoptie: **€4.927 - €10.530**; realistische middenraming **€7.280**.
 
 Belgische reizigers kunnen Portugal bezoeken met een geldige Belgische identiteitskaart. Er zijn geen ETA- of visumkosten voor dit korte verblijf.
 
@@ -116,3 +161,8 @@ Belgische reizigers kunnen Portugal bezoeken met een geldige Belgische identitei
 - [Portugal officiële toeristische website](https://www.visitportugal.com/en)
 - [Huidige kalenderfeed Primeira Liga](https://site.api.espn.com/apis/site/v2/sports/soccer/por.1/scoreboard?dates=20270418)
 - [Skyscanner, Brussel - Lissabon, 16-18 april 2027](https://www.skyscanner.net/transport/flights/bru/lis/270416/270418/?adultsv2=13&currency=EUR&cabinclass=economy&rtn=1&locale=nl-NL)
+- [Lisbon Kayak Tours - kajak, snorkelen en picknick](https://www.lisbonkayak.com/)
+- [Lisbon Kayak Tours - tourinformatie en prijzen](https://www.lisbonkayak.com/our-tour)
+- [Lisbon Kayak Tours - FAQ en groepsgrootte](https://www.lisbonkayak.com/faqs)
+- [Meira Pro Center - all-inclusive kajaktour vanuit Lissabon](https://meiraprocenter.com/tours-kayak-arrabida)
+- [Meira Pro Center - dagtrip vanuit Lissabon naar Sesimbra](https://meiraprocenter.com/day-trip-from-lisbon-to-sesimbra)

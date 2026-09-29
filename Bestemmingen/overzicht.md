@@ -17,13 +17,15 @@
 
 | Bestemming | Vervoer | Concreet vlucht-/transporttarief p.p. | Tijdvoorwaarden | Voetbalstatus | Hostelbasis p.p. | Budgethotelbasis p.p. |
 |---|---|---:|---|---|---:|---:|
+| **Amsterdam** | Auto/minibus | Geen vlucht nodig | Auto/trein praktisch | Geen wedstrijd opgenomen | Nog te bepalen | Nog te bepalen |
 | **Londen** | Eurostar | €120-€180 retour, raming | Goed haalbaar | West Ham, QPR of Millwall op zaterdag | €273-€550,50* | €343-€665,50* |
 | **München** | Vlucht BRU-MUC | **± €193 retour**, direct | **Geschikt** | Bayern - Hoffenheim, datum nog niet vast | €280-€915 | €330-€1.045 |
-| **Istanbul** | Vlucht BRU-IST | **± €287 retour**, direct | Geschikt volgens de huidige vluchtoptie | Beşiktaş - Konyaspor op zondag | €245-€765 | €285-€865 |
-| **Budapest** | Vlucht BRU-BUD | **± €264 retour**, direct | Geschikt | Wedstrijd nog onbekend | €180-€529 | €220-€619 |
+| **Istanbul** | Vlucht BRU-IST | **± €297 retour**, direct | Geschikt volgens de huidige vluchtoptie | Beşiktaş - Konyaspor op zondag | €245-€765 | €285-€865 |
+| **Budapest** | Vlucht BRU-BUD | **± €263 retour**, direct | Geschikt | Wedstrijd nog onbekend | €180-€529 | €220-€619 |
 | **Krakow** | Vlucht CRL heen / BRU terug | **± €227 retour**, directe losse vluchten | Aankomst zondagavond; verschillende luchthavens | Twee thuiswedstrijden op zaterdag | €175-€452 | €205-€522 |
 | **Sofia** | Vlucht BRU-SOF | **± €302 retour**, direct | Aankomst zondagavond; vertrek vóór 18:00 | Wedstrijd nog onbekend | €180-€522 | €205-€592 |
 | **Madrid** | Vlucht BRU-MAD | **± €192 retour**, direct | Goed volgens de huidige vluchtoptie | Atlético thuis; Real uit bij Getafe | €260-€775 | €320-€895 |
+| **Barcelona** | Vlucht BRU-BCN | **± €130 retour**, direct | Geschikt; aftrap wedstrijd nog niet vast | FC Barcelona - Espanyol op zaterdag of zondag | €265-€625 | €325-€745 |
 | **Sevilla** | Vlucht | Geen geschikte avondcombinatie gevonden | Niet geschikt zonder flexibele uren | Betis thuis op zondag | €245-€690 | €295-€780 |
 | **Valencia** | Vlucht | Geen geschikte avondcombinatie gevonden | Niet geschikt zonder flexibele uren | Levante thuis op zondag | €210-€560 | €250-€650 |
 | **Porto** | Vlucht BRU-OPO via LIS | **± €171 retour**, 1 overstap | Geschikt volgens de huidige vluchtoptie | FC Porto - Santa Clara op zondag | €225-€515 | €265-€595 |
@@ -37,14 +39,15 @@
 
 | Rang | Bestemming | Zoekresultaat | Beoordeling |
 |---:|---|---:|---|
-| 1 | **Lissabon** | ± €169, direct | Goedkoop en direct; Benfica - Nacional is de momenteel bekende wedstrijdoptie. |
-| 2 | **Porto** | ± €171, via Lissabon | Goedkoop, maar geen rechtstreekse passende retourcombinatie gevonden; wedstrijd en overstap maken de planning kwetsbaar. |
-| 3 | **Madrid** | ± €192, direct | Sterke rechtstreekse combinatie volgens de huidige vluchtoptie. |
-| 4 | **München** | ± €193, direct | Zeer bruikbaar; vrijdag 18:10 heen en zondag 17:55 terug. |
-| 5 | **Krakow** | ± €227, direct maar CRL heen en BRU terug | Prijs is goed, maar twee verschillende luchthavens in België. |
-| 6 | **Budapest** | ± €264, direct | Voldoet aan de uren: vrijdagavond heen en zondag 18:00 terug. |
-| 7 | **Istanbul** | ± €287, direct | Voldoet aan de gewenste vluchturen volgens de huidige optie. |
-| 8 | **Sofia** | ± €302, direct | Zondag vertrek 17:55; bruikbaar als zondagavond aankomst volstaat, niet bij vertrek strikt na 18:00. |
+| 1 | **Barcelona** | ± €130, direct | Goedkoopste passende rechtstreekse optie; FC Barcelona - Espanyol staat op zaterdag of zondag. |
+| 2 | **Lissabon** | ± €169, direct | Goedkoop en direct; Benfica - Nacional is de momenteel bekende wedstrijdoptie. |
+| 3 | **Porto** | ± €171, via Lissabon | Goedkoop, maar geen rechtstreekse passende retourcombinatie gevonden; wedstrijd en overstap maken de planning kwetsbaar. |
+| 4 | **Madrid** | ± €192, direct | Sterke rechtstreekse combinatie volgens de huidige vluchtoptie. |
+| 5 | **München** | ± €193, direct | Zeer bruikbaar; vrijdag 18:10 heen en zondag 17:55 terug. |
+| 6 | **Krakow** | ± €227, direct maar CRL heen en BRU terug | Prijs is goed, maar twee verschillende luchthavens in België. |
+| 7 | **Budapest** | ± €263, direct | Voldoet aan de uren: vrijdagavond heen en zondag 18:00 terug. |
+| 8 | **Istanbul** | ± €297, direct | Voldoet aan de gewenste vluchturen volgens de huidige optie. |
+| 9 | **Sofia** | ± €302, direct | Zondag vertrek 17:55; bruikbaar als zondagavond aankomst volstaat, niet bij vertrek strikt na 18:00. |
 | - | **Sevilla** | Geen geschikte combinatie | Flexibele uren of extra nacht nodig. |
 | - | **Valencia** | Geen geschikte combinatie | Flexibele uren of extra nacht nodig. |
 
@@ -142,6 +145,7 @@ Zodra de ontbrekende rubrieken worden ingevuld, zullen de eindbedragen vooral st
 - [Krakow](Krakow/krakow.md)
 - [Sofia](Sofia/sofia.md)
 - [Madrid](Madrid/madrid.md)
+- [Barcelona](Barcelona/barcelona.md)
 - [Sevilla](Sevilla/sevilla.md)
 - [Valencia](Valencia/valencia.md)
 - [Porto](Porto/porto.md)

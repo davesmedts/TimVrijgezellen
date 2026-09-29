@@ -44,8 +44,8 @@ Voor de gewenste reisperiode en uren werd de volgende passende rechtstreekse opt
 | Brussel (BRU) → Budapest (BUD), vrijdag 16/04/2027 | Brussels Airlines | **21:05 - 23:00** | |
 | Budapest (BUD) → Brussel (BRU), zondag 18/04/2027 | Brussels Airlines | **18:00 - 20:05** | |
 
-- Retourprijs: **ongeveer €264 per persoon**.
-- Skyscanner toonde een totaal van ongeveer **€2.106 voor 8 reizigers**; voor 13 personen is dat indicatief ongeveer **€3.432** aan hetzelfde tarief.
+- Retourprijs: **ongeveer €263 per persoon**.
+- Skyscanner toonde een totaal van ongeveer **€2.104 voor 8 reizigers**; voor 13 personen is dat indicatief ongeveer **€3.419** aan hetzelfde tarief.
 - Deze combinatie voldoet aan beide tijdsvoorwaarden: vertrek op vrijdag na 17:00 en vertrek uit Budapest op zondagavond.
 - Charleroi (CRL) had geen rechtstreekse combinatie die aan beide voorwaarden voldoet; de zichtbare heenreizen vertrokken om 09:30 of 12:45.
 - Eindhoven (EIN) had geen rechtstreekse combinatie die aan beide voorwaarden voldoet. Een verbinding via Amsterdam rond €240 vertrok al om 16:00 en voldoet dus niet aan de heenreisvoorwaarde.

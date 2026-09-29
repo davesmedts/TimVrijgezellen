@@ -48,8 +48,8 @@ Vliegen is voor Istanbul de meest aangewezen vervoersoptie. De best passende rec
 | Brussel (BRU) → Istanbul (IST), vrijdag 16/04/2027 | Turkish Airlines | **18:50 - 23:20** | |
 | Istanbul (IST) → Brussel (BRU), zondag 18/04/2027 | Turkish Airlines | **18:50 - 21:25** | |
 
-- Retourprijs: **ongeveer €287 per persoon**.
-- Skyscanner toonde een totaal van ongeveer **€2.292 voor 8 reizigers**; voor 13 personen is dat indicatief ongeveer **€3.731** aan hetzelfde tarief.
+- Retourprijs: **ongeveer €297 per persoon**.
+- Skyscanner toonde een totaal van ongeveer **€2.372 voor 8 reizigers**; voor 13 personen is dat indicatief ongeveer **€3.861** aan hetzelfde tarief.
 - De combinatie voldoet aan beide tijdsvoorwaarden en gebruikt Istanbul Airport (IST), niet Sabiha Gökçen (SAW).
 - Rechtstreekse opties vanuit Charleroi naar Sabiha Gökçen leverden voor deze data geen passende combinatie op.
 - Skyscanner toont bij deze zoekopdracht maximaal 8 reizigers. De prijs voor 13 personen moet daarom via een groepsaanvraag of meerdere controles worden bevestigd.
