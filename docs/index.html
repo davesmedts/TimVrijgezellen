@@ -1,0 +1,268 @@
+<!doctype html>
+<html lang="nl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <meta
+      name="description"
+      content="Het vertrekpunt voor Tims vrijgezellenweekend van 16 tot 18 april 2027."
+    />
+    <title>Vrijgezellen Tim — weekend 2027</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./assets/styles.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#inhoud">Ga naar de inhoud</a>
+    <div class="ambient" aria-hidden="true">
+      <span class="ambient__orb ambient__orb--blue"></span>
+      <span class="ambient__orb ambient__orb--purple"></span>
+      <span class="ambient__orb ambient__orb--green"></span>
+      <span class="ambient__grid"></span>
+    </div>
+
+    <header class="site-header">
+      <div class="container header-inner">
+        <a class="brand" href="./index.html" aria-label="Vrijgezellen Tim — overzicht">
+          <span class="brand-mark" aria-hidden="true">
+            <i></i><i></i><i></i><i></i>
+          </span>
+          <span>tim<span class="muted">//</span>2027</span>
+        </a>
+
+        <nav class="tabs" aria-label="Hoofdnavigatie">
+          <a class="tab is-active" href="./index.html" aria-current="page">overzicht</a>
+          <a class="tab" href="./bestemmingen/barcelona.html">barcelona</a>
+          <a class="tab" href="./bestemmingen/lissabon.html">lissabon</a>
+          <span class="tab tab--muted" title="Er komen later nog bestemmingen bij">+ meer volgt</span>
+        </nav>
+      </div>
+    </header>
+
+    <main id="inhoud">
+      <section class="hero container">
+        <div class="hero-copy">
+          <p class="eyebrow"><span class="status-dot"></span> planning actief / versie 0.1</p>
+          <h1>Vrijgezellen<br /><span class="text-gradient">Tim.</span></h1>
+          <p class="hero-lede">
+            Eén weekend. Dertien man. Een stad die nog gekozen moet worden. Dit is het centrale
+            vertrekpunt voor alle opties, afspraken en updates.
+          </p>
+          <div class="hero-actions">
+            <a class="button button--primary" href="#bestemmingen">Bekijk bestemmingen <span>↘</span></a>
+            <a class="button button--ghost" href="#opzet">Lees het opzet</a>
+          </div>
+        </div>
+
+        <aside class="terminal-card" aria-label="Kerngegevens van het weekend">
+          <div class="window-bar">
+            <span class="window-dot window-dot--red"></span>
+            <span class="window-dot window-dot--yellow"></span>
+            <span class="window-dot window-dot--green"></span>
+            <span class="window-title">~/weekend/tim.conf</span>
+          </div>
+          <div class="terminal-body">
+            <p><span class="prompt">$</span> weekend --status</p>
+            <dl class="terminal-list">
+              <div><dt>datum</dt><dd>16—18.04.2027</dd></div>
+              <div><dt>groep</dt><dd>13 personen</dd></div>
+              <div><dt>vertrek</dt><dd>vrijdag na 17:00</dd></div>
+              <div><dt>retour</dt><dd>zondagavond</dd></div>
+              <div><dt>budget</dt><dd class="yellow">max. €450 p.p.</dd></div>
+              <div><dt>locatie</dt><dd class="blue">in onderzoek_</dd></div>
+            </dl>
+          </div>
+        </aside>
+      </section>
+
+      <section class="countdown-section container" aria-labelledby="countdown-title">
+        <div class="countdown-card" data-countdown data-target="2027-04-16T17:00:00+02:00">
+          <div class="countdown-intro">
+            <p class="section-kicker">de klok tikt</p>
+            <h2 id="countdown-title">Tot vertrek.</h2>
+            <p>Vrijdag 16 april 2027 · 17:00 Belgische tijd</p>
+          </div>
+          <div class="countdown-grid" aria-live="off" aria-label="Aftellen tot vertrek">
+            <div class="countdown-unit"><strong data-days>---</strong><span>dagen</span></div>
+            <div class="countdown-unit"><strong data-hours>--</strong><span>uren</span></div>
+            <div class="countdown-unit"><strong data-minutes>--</strong><span>minuten</span></div>
+            <div class="countdown-unit"><strong data-seconds>--</strong><span>seconden</span></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section container" id="opzet">
+        <div class="section-heading">
+          <p class="section-kicker">01 / het kader</p>
+          <h2>De vaste afspraken.</h2>
+          <p>Alles wat een bestemming moet respecteren om op de shortlist te blijven.</p>
+        </div>
+
+        <div class="facts-grid">
+          <article class="fact-card accent-blue">
+            <span class="fact-card__index">01</span>
+            <p class="fact-card__label">Weekend</p>
+            <p class="fact-card__value">16 → 18 april</p>
+            <p class="fact-card__meta">Vrijdagavond tot zondagavond</p>
+          </article>
+          <article class="fact-card accent-yellow">
+            <span class="fact-card__index">02</span>
+            <p class="fact-card__label">Budgetplafond</p>
+            <p class="fact-card__value">€450 p.p.</p>
+            <p class="fact-card__meta">Vervoer, slapen en activiteiten</p>
+          </article>
+          <article class="fact-card accent-green">
+            <span class="fact-card__index">03</span>
+            <p class="fact-card__label">Groep</p>
+            <p class="fact-card__value">13 deelnemers</p>
+            <p class="fact-card__meta">Groepsboekingen zijn noodzakelijk</p>
+          </article>
+          <article class="fact-card accent-purple">
+            <span class="fact-card__index">04</span>
+            <p class="fact-card__label">Bestemming</p>
+            <p class="fact-card__value">Nog te kiezen</p>
+            <p class="fact-card__meta">Barcelona en Lissabon in onderzoek</p>
+          </article>
+        </div>
+
+        <div class="mission-grid">
+          <article class="panel mission-panel">
+            <p class="panel-label">must_have[]</p>
+            <h3>De stad moet meer bieden dan alleen een bed.</h3>
+            <div class="check-list">
+              <p><span class="check check--green">✓</span> Een volwaardige citytrip</p>
+              <p><span class="check check--blue">✓</span> Sterk nachtleven</p>
+              <p><span class="check check--purple">✓</span> Activiteit voor de hele groep</p>
+            </div>
+          </article>
+          <article class="panel nice-panel">
+            <p class="panel-label">nice_to_have</p>
+            <span class="large-icon" aria-hidden="true">⚽</span>
+            <h3>Een voetbalwedstrijd</h3>
+            <p>
+              Een grote bonus, maar niet belangrijker dan een haalbaar en sterk volledig weekend.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section container" id="bestemmingen">
+        <div class="section-heading section-heading--split">
+          <div>
+            <p class="section-kicker">02 / shortlist</p>
+            <h2>Bestemmingen.</h2>
+          </div>
+          <p>Twee steden zijn momenteel weerhouden. De lijst groeit mee met het onderzoek.</p>
+        </div>
+
+        <div class="destination-grid">
+          <a class="destination-card destination-card--barcelona" href="./bestemmingen/barcelona.html">
+            <div class="destination-card__top">
+              <span class="country-code">ES</span>
+              <span class="status-badge"><i></i> in onderzoek</span>
+            </div>
+            <div class="destination-card__content">
+              <p class="destination-card__number">01</p>
+              <h3>Barcelona</h3>
+              <p>Tapas, kust, nachtleven en mogelijk een stadsderby.</p>
+            </div>
+            <dl class="mini-stats">
+              <div><dt>vlucht</dt><dd>rechtstreeks</dd></div>
+              <div><dt>raming*</dt><dd>± €390</dd></div>
+              <div><dt>voetbal</dt><dd>Barça — Espanyol</dd></div>
+            </dl>
+            <span class="card-link">Open dossier <span>↗</span></span>
+          </a>
+
+          <a class="destination-card destination-card--lisbon" href="./bestemmingen/lissabon.html">
+            <div class="destination-card__top">
+              <span class="country-code">PT</span>
+              <span class="status-badge"><i></i> in onderzoek</span>
+            </div>
+            <div class="destination-card__content">
+              <p class="destination-card__number">02</p>
+              <h3>Lissabon</h3>
+              <p>Uitzichten, petiscos, rooftops en avontuur op het water.</p>
+            </div>
+            <dl class="mini-stats">
+              <div><dt>vlucht</dt><dd>rechtstreeks</dd></div>
+              <div><dt>raming*</dt><dd>± €490</dd></div>
+              <div><dt>voetbal</dt><dd>Benfica — Nacional</dd></div>
+            </dl>
+            <span class="card-link">Open dossier <span>↗</span></span>
+          </a>
+
+          <article class="destination-card destination-card--empty">
+            <div class="empty-plus">+</div>
+            <h3>Volgende optie</h3>
+            <p>Nieuwe bestemmingen krijgen hier automatisch dezelfde vaste structuur.</p>
+          </article>
+        </div>
+        <p class="footnote">
+          * Raming op basis van de huidige onderzoeksfiches. Eten, drinken en nachtleven zijn nog
+          niet volledig inbegrepen; prijzen zijn dus niet definitief.
+        </p>
+      </section>
+
+      <section class="section container">
+        <div class="section-heading">
+          <p class="section-kicker">03 / parameters</p>
+          <h2>Praktisch speelveld.</h2>
+        </div>
+
+        <div class="practical-grid">
+          <article class="panel practical-panel">
+            <div class="panel-icon panel-icon--blue" aria-hidden="true">→</div>
+            <p class="panel-label">vervoer</p>
+            <h3>Vliegen, trein of auto.</h3>
+            <p>De beste balans tussen vertrekuur, reistijd, flexibiliteit en groepsprijs telt.</p>
+          </article>
+          <article class="panel practical-panel">
+            <div class="panel-icon panel-icon--purple" aria-hidden="true">⌂</div>
+            <p class="panel-label">overnachten</p>
+            <h3>Hotel, huurhuis of hostel.</h3>
+            <p>Centraal, groepsvriendelijk en zonder het budget al vóór zaterdag op te eten.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section container group-section">
+        <div class="section-heading section-heading--split">
+          <div>
+            <p class="section-kicker">04 / de groep</p>
+            <h2>13 namen. Eén plan.</h2>
+          </div>
+          <p>De groepsgrootte bepaalt mee welke vluchten, verblijven en activiteiten haalbaar zijn.</p>
+        </div>
+        <ul class="people-list" aria-label="Deelnemers">
+          <li class="person person--featured">Tim <span>the groom</span></li>
+          <li class="person">Dave</li>
+          <li class="person">Vincent</li>
+          <li class="person">Nick</li>
+          <li class="person">Kevin</li>
+          <li class="person">Thomas</li>
+          <li class="person">Bossie</li>
+          <li class="person">Boca</li>
+          <li class="person">Timo</li>
+          <li class="person">Yannick</li>
+          <li class="person">Broekie</li>
+          <li class="person">Koen</li>
+          <li class="person">Nicky</li>
+        </ul>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <p><span class="status-dot"></span> planning in uitvoering</p>
+        <p>vrijgezellen tim <span class="muted">//</span> 16—18.04.2027</p>
+      </div>
+    </footer>
+    <script src="./assets/countdown.js" defer></script>
+  </body>
+</html>
