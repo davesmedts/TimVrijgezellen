@@ -503,6 +503,7 @@ p {
 .yellow { color: var(--yellow) !important; }
 .blue { color: var(--blue-bright) !important; }
 .green { color: var(--green-bright) !important; }
+.cyan { color: var(--cyan) !important; }
 
 .section {
   padding-block: 86px;
@@ -687,7 +688,7 @@ p {
 .destination-grid {
   display: grid;
   gap: 0.8rem;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(3, minmax(0, 1fr));
 }
 
 .destination-card {
@@ -726,6 +727,12 @@ a.destination-card:hover {
   bottom: -15%;
   left: -20%;
   background: var(--green);
+}
+
+.destination-card--cologne::after {
+  top: -10%;
+  left: -20%;
+  background: var(--cyan);
 }
 
 .destination-card__top {
@@ -782,6 +789,10 @@ a.destination-card:hover {
   line-height: 1;
 }
 
+.destination-grid .destination-card__content h3 {
+  font-size: clamp(2rem, 3.5vw, 3.2rem);
+}
+
 .destination-card__content > p:last-child {
   max-width: 450px;
   color: var(--muted);
@@ -816,6 +827,7 @@ a.destination-card:hover {
 }
 
 .destination-card--lisbon .card-link { color: var(--green-bright); }
+.destination-card--cologne .card-link { color: var(--cyan); }
 
 .destination-card--empty {
   display: flex;
@@ -982,6 +994,7 @@ a.destination-card:hover {
 }
 
 .destination-score--green .score-line span { background: var(--green); }
+.destination-score--cologne .score-line span { background: var(--cyan); }
 
 .quick-strip {
   display: grid;
@@ -1026,6 +1039,12 @@ a.destination-card:hover {
     var(--surface);
 }
 
+.weather-card--cologne {
+  background:
+    radial-gradient(ellipse at 0% 0%, rgba(102, 204, 204, 0.1), transparent 48%),
+    var(--surface);
+}
+
 .weather-card__header {
   display: flex;
   align-items: center;
@@ -1039,6 +1058,7 @@ a.destination-card:hover {
 
 .weather-card--barcelona .section-kicker { color: var(--blue-bright); }
 .weather-card--lissabon .section-kicker { color: var(--green-bright); }
+.weather-card--cologne .section-kicker { color: var(--cyan); }
 
 .weather-badge {
   display: inline-flex;
@@ -1242,6 +1262,10 @@ a.destination-card:hover {
 
 .weather-card--lissabon .weather-card__footer a:hover {
   color: var(--green-bright);
+}
+
+.weather-card--cologne .weather-card__footer a:hover {
+  color: var(--cyan);
 }
 
 .weather-disclaimer {
@@ -1495,6 +1519,10 @@ a.destination-card:hover {
 
   .facts-grid {
     grid-template-columns: repeat(2, 1fr);
+  }
+
+  .destination-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
   .destination-hero__grid {

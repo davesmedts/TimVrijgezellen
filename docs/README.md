@@ -30,6 +30,7 @@ docs/
 │   └── styles.css                 # Gedeelde vormgeving
 └── bestemmingen/
     ├── barcelona.html             # Detailpagina Barcelona
+    ├── keulen.html                # Detailpagina Keulen
     └── lissabon.html              # Detailpagina Lissabon
 ```
 
@@ -37,7 +38,7 @@ docs/
 
 1. Kopieer een bestaande pagina in `docs/bestemmingen/`.
 2. Pas titel, inhoud, metadata en actieve navigatietab aan.
-3. Voeg de bestemming toe aan de navigatie van de drie HTML-pagina's.
+3. Voeg de bestemming toe aan de navigatie van `index.html` en alle bestemmingspagina's.
 4. Voeg op `docs/index.html` een bestemmingskaart toe.
 
 Dit kan volledig door een AI-agent worden uitgevoerd op basis van een nieuwe Markdown-fiche.
@@ -54,7 +55,8 @@ De website heeft geen servercode en kan ook via Netlify, Cloudflare Pages of een
 ## Bronnen
 
 - De overzichtspagina is gebaseerd op `vrijgezellen.md`.
-- De detailpagina's zijn samenvattingen van `Bestemmingen/Barcelona/barcelona.md` en `Bestemmingen/Lissabon/lissabon.md`.
+- De detailpagina's vatten bestemmingsfiches samen uit de map `Bestemmingen/`.
+- De Keulen-pagina is gebaseerd op `Bestemmingen/Keulen/keulen.md`.
 - De aftelklok loopt tot vrijdag 16 april 2027 om 17:00 Belgische zomertijd.
-- De Google Maps-kaarten gebruiken voorlopig Plaça de Catalunya en Rossio als indicatieve stadscentrum-markers; een exacte verblijfslocatie is nog niet bekend.
+- De Google Maps-kaarten gebruiken Plaça de Catalunya, Rossio en de Dom van Keulen als indicatieve stadscentrum-markers; exacte verblijfslocaties zijn nog niet bekend.
 - De visuele richting is geïnspireerd door het Ayaka-thema: een zwarte basis, subtiele glas-effecten, monospaced typografie en heldere kleuraccenten.
