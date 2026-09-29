@@ -98,13 +98,10 @@ Porto is sterk voor betaalbare restaurants, petiscos, francesinha, vis, portwijn
 | Verblijf - hostel | €50 | €90 | €140 |
 | Verblijf - budgethotel | €90 | €150 | €220 |
 | Activiteiten | €0 | €0 | €0 |
-| Eten en drinken | €0 | €0 | €0 |
-| Nachtleven | €0 | €0 | €0 |
-| Reserve | €0 | €0 | €0 |
 | **Totaal met hostel** | **€225** | **€345** | **€515** |
 | **Totaal met budgethotel** | **€265** | **€405** | **€595** |
 
-Activiteiten, eten en drinken, nachtleven en reserve staan voorlopig op €0 en worden later verder uitgewerkt.
+Activiteiten, eten en drinken en nachtleven zijn voorlopig niet opgenomen.
 
 ### Groepstotalen voor 13 personen
 

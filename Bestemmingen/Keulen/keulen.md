@@ -22,6 +22,7 @@ Het weekend sluit goed aan bij de must-haves: een echte citytrip, nachtleven en 
 - ’s Nachts: ongeveer **4–8 °C**.
 - Verwachting: wisselvallig voorjaarsweer; regen is mogelijk.
 - Praktisch: neem een lichte waterdichte jas mee. De VR-activiteit en brouwerijtour zijn goede indooropties.
+- Zon op zaterdag 17 april: opkomst ongeveer **06:32**, ondergang ongeveer **20:32** lokale tijd (CEST).
 
 Dit is een seizoensindicatie, geen weersvoorspelling voor april 2027.
 
@@ -110,15 +111,14 @@ Indicatieve raming met drie eigen auto’s en een centraal hotel met ontbijt. Et
 | Verblijf — hotel met ontbijt | €205–€250 | Planningsbudget voor 7 kamers/13 personen, 2 nachten, ontbijt en 5% belasting; offerte nodig |
 | Zaterdag — VR 7th Box | €34,90 | Huidige weekendprijs; tarief voor 2027 kan wijzigen |
 | Zondag — Phantasialand | €59–€78 | Voorzichtige raming op basis van huidige april-tarieven; exacte dagprijs/opening controleren |
-| Reserve | €20–€30 | Kleine prijs- en vervoersverschillen |
-| **Totaal kernprogramma** | **circa €355–€450** | **Binnen het plafond, als de hotelofferte binnen de raming blijft** |
+| **Totaal kernprogramma** | **circa €334–€418** | **Binnen het plafond, als de hotelofferte binnen de raming blijft** |
 
-Optionele Kölsche Brauhaustour: **+€27,50 p.p.**. Daarmee wordt de geraamde som ongeveer **€383–€478 p.p.**; aan de bovenkant komt de groep dus boven het plafond van €450. Eten, drinken en uitgaan blijven in alle gevallen uitgesloten.
+Optionele Kölsche Brauhaustour: **+€27,50 p.p.**. Daarmee wordt de geraamde som ongeveer **€361–€445 p.p.**; aan de bovenkant komt de groep dus bijna aan het plafond van €450. Eten, drinken en uitgaan blijven in alle gevallen uitgesloten.
 
 ### Groepstotaal voor 13
 
-- Kernprogramma: ongeveer **€4.615–€5.850**.
-- Met optionele brouwerijtour: ongeveer **€4.980–€6.215**.
+- Kernprogramma: ongeveer **€4.341–€5.433**.
+- Met optionele brouwerijtour: ongeveer **€4.698–€5.790**.
 
 Dit zijn planningsramingen, geen offertes. De grootste open prijsrisico’s zijn de hotelprijs voor zeven kamers, 2027-parkopening en het definitieve Phantasialand-ticket voor 18 april. Als het hotel duurder uitvalt dan gemiddeld €185 per kamer per nacht, kan het €450-plafond ook zonder brouwerijtour krap worden.
 
@@ -131,7 +131,7 @@ De Bundesliga-speelronde van 16–18 april 2027 vermeldt **RB Leipzig – 1. FC 
 - Korte autorit vanuit Antwerpen/Brecht en geen vlucht nodig.
 - Duidelijke verdeling: vrijdag reizen, zaterdag Keulen, zondag Phantasialand.
 - Sterke zaterdagcombinatie van citytrip, VR-groepsspel, typisch Keuls diner en nachtleven.
-- De kernactiviteiten passen volgens de huidige raming ruim binnen €450 p.p. voor vervoer, verblijf en geplande activiteiten.
+- De kernactiviteiten passen volgens de huidige raming binnen €450 p.p. voor vervoer, verblijf en geplande activiteiten.
 - Indoor zaterdagopties blijven bruikbaar bij regen.
 
 ## Aandachtspunten

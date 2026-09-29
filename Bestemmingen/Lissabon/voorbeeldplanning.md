@@ -189,7 +189,7 @@ Adventure Park vervangt de kajak- en snorkelactiviteit en wordt dus niet bij de 
 | Budgethotel + kajak, zonder voetbal | €4.823 | €8.086 | €9.386 |
 | Budgethotel + kajak, met voetbal | €5.083 | €8.541 | €10.036 |
 
-De groepstotalen zijn afgerond en bevatten vlucht, luchthavenparking voor drie auto's, retourtransfer tussen luchthaven en Lissabon, verblijf, kajak en eventueel een voordelig voetbalticket. Eten, drinken, lokaal vervoer tijdens het weekend, nachtleven en reserve zijn niet inbegrepen.
+De groepstotalen zijn afgerond en bevatten vlucht, luchthavenparking voor drie auto's, retourtransfer tussen luchthaven en Lissabon, verblijf, kajak en eventueel een voordelig voetbalticket. Eten, drinken, lokaal vervoer tijdens het weekend en nachtleven zijn niet inbegrepen.
 
 ## Beslissingsschema
 

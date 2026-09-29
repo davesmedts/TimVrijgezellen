@@ -82,13 +82,10 @@ Sofia is goedkoop voor eten, cocktails en taxi’s. Vitosha Boulevard, Studentsk
 | Verblijf - hostel | €35 | €70 | €110 |
 | Verblijf - budgethotel | €60 | €110 | €180 |
 | Activiteiten | €0 | €0 | €0 |
-| Eten en drinken | €0 | €0 | €0 |
-| Nachtleven | €0 | €0 | €0 |
-| Reserve | €0 | €0 | €0 |
 | **Totaal met hostel** | **€180** | **€305** | **€522** |
 | **Totaal met budgethotel** | **€205** | **€345** | **€592** |
 
-Activiteiten, eten en drinken, nachtleven en reserve staan voorlopig op €0 en worden later verder uitgewerkt.
+Activiteiten, eten en drinken en nachtleven zijn voorlopig niet opgenomen.
 
 ### Groepstotalen voor 13 personen
 

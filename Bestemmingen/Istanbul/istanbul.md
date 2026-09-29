@@ -102,13 +102,10 @@ Istanbul is zeer sterk voor groepsmaaltijden: meze, kebab, visrestaurants, ontbi
 | Verblijf - hostel | €50 | €90 | €140 |
 | Verblijf - budgethotel | €90 | €160 | €240 |
 | Activiteiten | €0 | €0 | €0 |
-| Eten en drinken | €0 | €0 | €0 |
-| Nachtleven | €0 | €0 | €0 |
-| Reserve | €0 | €0 | €0 |
 | **Totaal met hostel** | **€245** | **€415** | **€765** |
 | **Totaal met budgethotel** | **€285** | **€485** | **€865** |
 
-Activiteiten, eten en drinken, nachtleven en reserve staan voorlopig op €0 en worden later verder uitgewerkt.
+Activiteiten, eten en drinken en nachtleven zijn voorlopig niet opgenomen.
 
 ### Groepstotalen voor 13 personen
 
@@ -128,7 +125,7 @@ Activiteiten, eten en drinken, nachtleven en reserve staan voorlopig op €0 en 
 - Verkeer kan transfers sterk verlengen.
 - Vluchten zijn duurder dan Centraal-Europese alternatieven.
 - De actuele vluchtindicatie van €287 laat binnen het budget van €450 nog ongeveer €163 per persoon over voor verblijf, vervoer, voetbal en activiteiten.
-- Wisselkoers en lokale prijsstijgingen voorzien in budgetreserve.
+- Houd rekening met wisselkoers en lokale prijsstijgingen zodra het budget verder wordt ingevuld.
 
 ## Bronnen
 

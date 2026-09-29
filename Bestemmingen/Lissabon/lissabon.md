@@ -94,7 +94,7 @@ Een georganiseerde kajak- en snorkeltour naar de kust van Arrábida of Sesimbra 
 |---|---:|---:|---|
 | All-inclusive formule | €80 | €1.040 | Transfer, materiaal, gids en picknick; groepslimiet vooraf bevestigen |
 | Lisbon Kayak Tours | €85-€95 | €1.105-€1.235 | Transfer, kajak, snorkelmateriaal en picknick vermeld; website toont twee prijzen |
-| Premium/private formule | €120 | €1.560 | Reserve voor private vervoer, extra begeleiding of seizoentoeslag |
+| Premium/private formule | €120 | €1.560 | Mogelijk private vervoer, extra begeleiding of seizoentoeslag |
 
 Voor de planning wordt **€95 per persoon**, of **€1.235 voor 13 personen**, als realistische raming gebruikt.
 
@@ -132,13 +132,10 @@ Lissabon heeft een brede restaurant- en barscene. Bairro Alto is geschikt voor e
 | Verblijf - hostel | €60 | €110 | €180 |
 | Verblijf - budgethotel | €110 | €180 | €280 |
 | Kajak- en snorkeltour | €80 | €95 | €120 |
-| Eten en drinken | €0 | €0 | €0 |
-| Nachtleven | €0 | €0 | €0 |
-| Reserve | €0 | €0 | €0 |
 | **Totaal met hostel** | **€329** | **€490** | **€710** |
 | **Totaal met budgethotel** | **€379** | **€560** | **€810** |
 
-De totalen hierboven zijn berekend alsof de kajak- en snorkeltour wordt gekozen. Eten, drinken, nachtleven en reserve staan voorlopig nog op €0 en worden later verder uitgewerkt.
+De totalen hierboven zijn berekend alsof de kajak- en snorkeltour wordt gekozen. Eten, drinken en nachtleven zijn voorlopig niet opgenomen.
 
 ### Groepstotalen voor 13 personen
 

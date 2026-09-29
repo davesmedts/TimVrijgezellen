@@ -83,13 +83,10 @@ Budapest is sterk in betaalbare restaurants, streetfood, wijnbars en ruin bars. 
 | Verblijf - hostel | €50 | €90 | €140 |
 | Verblijf - budgethotel | €90 | €150 | €230 |
 | Activiteiten | €0 | €0 | €0 |
-| Eten en drinken | €0 | €0 | €0 |
-| Nachtleven | €0 | €0 | €0 |
-| Reserve | €0 | €0 | €0 |
 | **Totaal met hostel** | **€180** | **€300** | **€529** |
 | **Totaal met budgethotel** | **€220** | **€400** | **€619** |
 
-Activiteiten, eten en drinken, nachtleven en reserve staan voorlopig op €0 en worden later verder uitgewerkt.
+Activiteiten, eten en drinken en nachtleven zijn voorlopig niet opgenomen.
 
 ### Groepstotalen voor 13 personen
 

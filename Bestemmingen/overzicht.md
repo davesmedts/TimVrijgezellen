@@ -9,30 +9,29 @@
 - Terugkeer: **zondagavond thuis**.
 - Een voetbalwedstrijd is gewenst, maar het volledige mannenweekend blijft het hoofddoel.
 - Per bestemming staat de momenteel bekende wedstrijd vermeld. De exacte aftrapuren zijn voor alle wedstrijden onzeker en worden niet gebruikt om bestemmingen of vluchtopties te rangschikken.
-- Voor de meeste bestemmingen staan activiteiten, eten en drinken, nachtleven en reserve nog op **€0**. Keulen is apart verder geraamd met VR, Phantasialand en reserve; horeca en nachtleven blijven daar buiten het budget.
-- De vluchtprijzen hieronder zijn prijsindicaties uit concrete zoekopdrachten of, wanneer geen passende combinatie beschikbaar was, een planningraming.
+- Voor de meeste bestemmingen moeten activiteiten, eten en drinken en nachtleven nog verder worden ingevuld. Keulen is apart uitgewerkt met VR en Phantasialand; horeca en nachtleven blijven daar voorlopig buiten beeld.
+- De vluchtprijzen hieronder zijn prijsindicaties uit concrete zoekopdrachten.
 - De prijs voor 13 personen moet telkens nog worden bevestigd: prijszoekmachines tonen soms maximaal 8 reizigers en groepsprijzen kunnen afwijken.
 
 ## Snelle vergelijking
 
-| Bestemming | Vervoer | Concreet vlucht-/transporttarief p.p. | Tijdvoorwaarden | Voetbalstatus | Hostelbasis p.p. | Hotelbasis p.p. |
-|---|---|---:|---|---|---:|---:|
-| **Amsterdam** | Auto/minibus | Geen vlucht nodig | Auto/trein praktisch | Geen wedstrijd opgenomen | Nog te bepalen | Nog te bepalen |
-| **Keulen** | Eigen auto’s (3) | Auto €35–€55 p.p.; park en VR apart | **Goed haalbaar**; vrijdagspits kan vertragen | Köln uit; Leverkusen thuisoptie, datum nog niet vast | — | **€205–€250*** |
-| **Londen** | Eurostar | €120-€180 retour, raming | Goed haalbaar | West Ham, QPR of Millwall op zaterdag | €273-€550,50* | €343-€665,50* |
-| **München** | Vlucht BRU-MUC | **± €193 retour**, direct | **Geschikt** | Bayern - Hoffenheim, datum nog niet vast | €280-€915 | €330-€1.045 |
-| **Istanbul** | Vlucht BRU-IST | **± €297 retour**, direct | Geschikt volgens de huidige vluchtoptie | Beşiktaş - Konyaspor op zondag | €245-€765 | €285-€865 |
-| **Budapest** | Vlucht BRU-BUD | **± €263 retour**, direct | Geschikt | Wedstrijd nog onbekend | €180-€529 | €220-€619 |
-| **Krakow** | Vlucht CRL heen / BRU terug | **± €227 retour**, directe losse vluchten | Aankomst zondagavond; verschillende luchthavens | Twee thuiswedstrijden op zaterdag | €175-€452 | €205-€522 |
-| **Sofia** | Vlucht BRU-SOF | **± €302 retour**, direct | Aankomst zondagavond; vertrek vóór 18:00 | Wedstrijd nog onbekend | €180-€522 | €205-€592 |
-| **Madrid** | Vlucht BRU-MAD | **± €192 retour**, direct | Goed volgens de huidige vluchtoptie | Atlético thuis; Real uit bij Getafe | €260-€775 | €320-€895 |
-| **Barcelona** | Vlucht BRU-BCN | **± €130 retour**, direct | Geschikt; aftrap wedstrijd nog niet vast | FC Barcelona - Espanyol op zaterdag of zondag | €265-€625 | €325-€745 |
-| **Sevilla** | Vlucht | Geen geschikte avondcombinatie gevonden | Niet geschikt zonder flexibele uren | Betis thuis op zondag | €245-€690 | €295-€780 |
-| **Valencia** | Vlucht | Geen geschikte avondcombinatie gevonden | Niet geschikt zonder flexibele uren | Levante thuis op zondag | €210-€560 | €250-€650 |
-| **Porto** | Vlucht BRU-OPO via LIS | **± €171 retour**, 1 overstap | Geschikt volgens de huidige vluchtoptie | FC Porto - Santa Clara op zondag | €225-€515 | €265-€595 |
-| **Lissabon** | Vlucht BRU-LIS | **± €169 retour**, direct | Geschikt volgens de huidige vluchtoptie | Benfica - Nacional op zondag | €249-€590 | €299-€690 |
+| Bestemming | Vervoer | Concreet vlucht-/transporttarief p.p. | Tijdvoorwaarden | Voetbalstatus |
+|---|---|---:|---|---|
+| **Amsterdam** | Auto/minibus | Geen vlucht nodig | Auto/trein praktisch | Geen wedstrijd opgenomen |
+| **Keulen** | Eigen auto’s (3) | Auto €35–€55 p.p.; park en VR apart | **Goed haalbaar**; vrijdagspits kan vertragen | Köln uit; Leverkusen thuisoptie, datum nog niet vast |
+| **Londen** | Eurostar | €120-€180 retour, prijsindicatie | Goed haalbaar | West Ham, QPR of Millwall op zaterdag |
+| **München** | Vlucht BRU-MUC | **± €193 retour**, direct | **Geschikt** | Bayern - Hoffenheim, datum nog niet vast |
+| **Istanbul** | Vlucht BRU-IST | **± €297 retour**, direct | Geschikt volgens de huidige vluchtoptie | Beşiktaş - Konyaspor op zondag |
+| **Budapest** | Vlucht BRU-BUD | **± €263 retour**, direct | Geschikt | Wedstrijd nog onbekend |
+| **Krakow** | Vlucht CRL heen / BRU terug | **± €227 retour**, directe losse vluchten | Aankomst zondagavond; verschillende luchthavens | Twee thuiswedstrijden op zaterdag |
+| **Sofia** | Vlucht BRU-SOF | **± €302 retour**, direct | Aankomst zondagavond; vertrek vóór 18:00 | Wedstrijd nog onbekend |
+| **Madrid** | Vlucht BRU-MAD | **± €192 retour**, direct | Goed volgens de huidige vluchtoptie | Atlético thuis; Real uit bij Getafe |
+| **Barcelona** | Vlucht BRU-BCN | **± €130 retour**, direct | Geschikt; aftrap wedstrijd nog niet vast | FC Barcelona - Espanyol; tickets voor 13 personen onrealistisch |
+| **Sevilla** | Vlucht | Geen geschikte avondcombinatie gevonden | Niet geschikt zonder flexibele uren | Betis thuis op zondag |
+| **Valencia** | Vlucht | Geen geschikte avondcombinatie gevonden | Niet geschikt zonder flexibele uren | Levante thuis op zondag |
+| **Porto** | Vlucht BRU-OPO via LIS | **± €171 retour**, 1 overstap | Geschikt volgens de huidige vluchtoptie | FC Porto - Santa Clara op zondag |
+| **Lissabon** | Vlucht BRU-LIS | **± €169 retour**, direct | Geschikt volgens de huidige vluchtoptie | Benfica - Nacional op zondag |
 
-\* Voor Londen omvat de basisraming reispas/ETA. De documentenkost is ongeveer €23 p.p. met een bestaand geldig paspoort of ongeveer €100,50 p.p. als ook een nieuwe reispas nodig is. De overige opties vereisen voor Belgische reizigers geen ETA of visum voor dit korte verblijf. De Keulen-hotelbasis is een voorlopige raming voor 7 kamers, 2 nachten, ontbijt en 5% overnachtingsbelasting; Motel One moet de groepsprijs nog offreren.
 
 ## Vluchtprijzen en praktische haalbaarheid
 
@@ -96,21 +95,6 @@ Alle exacte aftrapuren moeten nog worden bevestigd. De vermelde wedstrijden zijn
 | Porto | Portwijn, petiscos en vis | Goed | Portwijn, Douro, foodtour | 16-19 °C, natter | Compact en betaalbaar |
 | Lissabon | Zeer goed | Zeer goed | Taag, Sintra, surf, foodtour | 19-22 °C | Sterke citytrip, maar heuvelachtig |
 
-## Budgetinterpretatie
-
-De meeste totalen zijn **geen volledige weekendbudgetten**. Activiteiten, eten en drinken, nachtleven en reserve staan voor de bestaande bestemmingen nog op €0. Keulen is apart geraamd met vervoer, twee nachten hostel, zaterdagse VR-game, Phantasialand op zondag en een kleine reserve.
-
-De Keulenraming is met hotel en ontbijt voorlopig **circa €355–€450 p.p.** voor vervoer, verblijf, VR-game, Phantasialand en reserve. Een optionele brouwerijtour voegt ongeveer €27,50 p.p. toe en kan het budgetplafond dus overschrijden. Eten, drinken en uitgaan blijven buiten de €450-budgetdefinitie. Groepsofferte en parkopening/ticket voor de exacte zondag moeten nog worden bevestigd.
-
-De huidige totalen van de andere opties vergelijken vooral:
-
-- vlucht of Eurostar;
-- lokaal vervoer;
-- voetbalticket;
-- hostel of budgethotel.
-
-Zodra de ontbrekende rubrieken worden ingevuld, zullen de eindbedragen vooral stijgen bij Londen, München en Madrid door duurdere horeca, drank en accommodatie. Krakow, Budapest, Sofia, Porto en Valencia hebben waarschijnlijk de beste lokale prijs-kwaliteit.
-
 ## Voorlopige aanbeveling
 
 ### Als vluchtprijs het zwaarst weegt
@@ -143,7 +127,7 @@ Zodra de ontbrekende rubrieken worden ingevuld, zullen de eindbedragen vooral st
 
 1. Voor elke bestemming de vluchtprijs voor **13 personen** opnieuw controleren via airline of groepsaanvraag.
 2. Voor elke bestemming de definitieve wedstrijd en ticketbeschikbaarheid opnieuw controleren zodra de officiële planning en verkoop beschikbaar zijn.
-3. Activiteiten, eten, nachtleven en reserve verder invullen.
+3. Activiteiten, eten, nachtleven en lokale kosten verder invullen.
 4. Annuleerbare accommodatie reserveren zodra een shortlist gekozen is.
 5. De ticketverkoop voor de meest haalbare wedstrijden controleren via de officiële clubs.
 6. Voor Keulen: Phantasialand-opening en datumticket, 13 bedden en de VR-groepsindeling bevestigen.

@@ -104,13 +104,10 @@ Madrid heeft een zeer ruime keuze aan tapasbars, traditionele tabernas, steakhou
 | Verblijf - hostel | €80 | €130 | €180 |
 | Verblijf - budgethotel | €140 | €220 | €300 |
 | Activiteiten | €0 | €0 | €0 |
-| Eten en drinken | €0 | €0 | €0 |
-| Nachtleven | €0 | €0 | €0 |
-| Reserve | €0 | €0 | €0 |
 | **Totaal met hostel** | **€260** | **€435** | **€775** |
 | **Totaal met budgethotel** | **€320** | **€525** | **€895** |
 
-Activiteiten, eten en drinken, nachtleven en reserve staan voorlopig op €0 en worden later verder uitgewerkt.
+Activiteiten, eten en drinken en nachtleven zijn voorlopig niet opgenomen.
 
 ### Groepstotalen voor 13 personen
 

@@ -88,13 +88,10 @@ Krakow is zeer geschikt voor een groep van 13. Kazimierz en de binnenstad bieden
 | Verblijf - hostel | €45 | €80 | €120 |
 | Verblijf - budgethotel | €75 | €130 | €200 |
 | Activiteiten | €0 | €0 | €0 |
-| Eten en drinken | €0 | €0 | €0 |
-| Nachtleven | €0 | €0 | €0 |
-| Reserve | €0 | €0 | €0 |
 | **Totaal met hostel** | **€175** | **€285** | **€452** |
 | **Totaal met budgethotel** | **€205** | **€335** | **€522** |
 
-Activiteiten, eten en drinken, nachtleven en reserve staan voorlopig op €0 en worden later verder uitgewerkt.
+Activiteiten, eten en drinken en nachtleven zijn voorlopig niet opgenomen.
 
 ### Groepstotalen voor 13 personen
 

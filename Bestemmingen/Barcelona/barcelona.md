@@ -22,7 +22,7 @@ De officiële kalender van FC Barcelona vermeldt voor La Liga-speeldag 32:
 - Aftrap: nog niet vastgelegd.
 - Ticketraming: **€40 - €200 per persoon**.
 
-Het is een stadsderby en daardoor een aantrekkelijke wedstrijdoptie, maar de ticketbeschikbaarheid voor 13 personen kan beperkt zijn. De aftrap moet vóór het boeken van de terugvlucht worden gecontroleerd.
+Het is een stadsderby en daardoor op papier een aantrekkelijke wedstrijdoptie. Voor 13 personen is het echter onrealistisch om erop te rekenen dat er reguliere tickets kunnen worden gekocht. Beschouw de wedstrijd daarom niet als een haalbaar onderdeel van het weekend; de aftrap moet bovendien vóór het boeken van de terugvlucht worden gecontroleerd.
 
 ## Vluchten
 
@@ -92,22 +92,18 @@ Barcelona heeft een zeer groot aanbod aan tapasbars, restaurants, cocktailbars e
 |---|---:|---:|---:|
 | Vlucht retour | €135 | €135 | €200 |
 | Airport en lokaal vervoer | €20 | €35 | €45 |
-| Voetbalticket | €40 | €80 | €200 |
 | Verblijf - hostel | €70 | €140 | €180 |
 | Verblijf - budgethotel | €130 | €210 | €300 |
 | Activiteiten | €0 | €0 | €0 |
-| Eten en drinken | €0 | €0 | €0 |
-| Nachtleven | €0 | €0 | €0 |
-| Reserve | €0 | €0 | €0 |
-| **Totaal met hostel** | **€265** | **€390** | **€625** |
-| **Totaal met budgethotel** | **€325** | **€510** | **€745** |
+| **Totaal met hostel, zonder voetbal** | **€225** | **€310** | **€425** |
+| **Totaal met budgethotel, zonder voetbal** | **€285** | **€380** | **€545** |
 
-Activiteiten, eten en drinken, nachtleven en reserve staan voorlopig op €0 en worden later verder uitgewerkt.
+Activiteiten, eten en drinken, nachtleven en voetbal zijn voorlopig niet opgenomen in het berekende totaal. Het theoretische ticketbedrag is niet bruikbaar zolang tickets voor 13 personen niet realistisch beschikbaar lijken.
 
 ### Groepstotalen voor 13 personen
 
-- Totaal met hostel: **€3.445 - €8.125**; realistische middenraming **€5.070**.
-- Totaal met budgethotel: **€4.225 - €9.685**; realistische middenraming **€6.630**.
+- Totaal met hostel, zonder voetbal: **€2.925 - €5.525**; realistische middenraming **€4.030**.
+- Totaal met budgethotel, zonder voetbal: **€3.705 - €7.085**; realistische middenraming **€4.940**.
 
 Belgische reizigers kunnen Spanje bezoeken met een geldige Belgische identiteitskaart. Er zijn geen ETA- of visumkosten voor dit korte verblijf.
 
@@ -123,7 +119,7 @@ Belgische reizigers kunnen Spanje bezoeken met een geldige Belgische identiteits
 
 - De aftrap van FC Barcelona - Espanyol is nog niet vastgelegd.
 - Een zondagse wedstrijd kan botsen met de terugvlucht om 17:30.
-- Tickets voor FC Barcelona - Espanyol kunnen moeilijk beschikbaar zijn voor 13 personen.
+- Het is onrealistisch om te rekenen op reguliere tickets voor FC Barcelona - Espanyol voor 13 personen.
 - Barcelona is duurder dan Krakau, Budapest en Sofia voor verblijf en nachtleven.
 - De weergegeven vluchtprijs is gebaseerd op maximaal 8 reizigers; een groepsboeking voor 13 personen moet afzonderlijk worden bevestigd.
 

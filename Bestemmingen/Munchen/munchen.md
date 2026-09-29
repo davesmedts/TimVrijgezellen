@@ -135,7 +135,7 @@ Munchen heeft meer nachtleven dan Gelsenkirchen, maar de prijzen liggen doorgaan
 - **Maxvorstadt:** cafés, studentenbars en informele avondlocaties.
 - **Isarvorstadt:** combinatie van restaurants, pubs en clubs.
 
-Een realistische raming voor twee avonden nachtleven is **€50 - €200 per persoon**, afhankelijk van inkom, drankverbruik en taxi's.
+De kosten van twee avonden nachtleven, drankverbruik en taxi's worden voorlopig niet opgenomen.
 
 ## Mogelijke groepsactiviteiten
 
@@ -181,13 +181,10 @@ Een wandeling door de Englischer Garten en langs de Eisbachgolf is gratis en kan
 | Verblijf - hostel | €80 | €120 | €170 |
 | Verblijf - budgethotel | €130 | €200 | €300 |
 | Activiteiten | €0 | €0 | €0 |
-| Eten en drinken | €0 | €0 | €0 |
-| Nachtleven | €0 | €0 | €0 |
-| Reserve | €0 | €0 | €0 |
 | **Totaal met hostel** | **€280** | **€500** | **€915** |
 | **Totaal met budgethotel** | **€330** | **€580** | **€1.045** |
 
-Activiteiten, eten en drinken, nachtleven en reserve staan voorlopig op €0 en worden later verder uitgewerkt.
+Activiteiten, eten en drinken en nachtleven zijn voorlopig niet opgenomen.
 
 De maximale ticketraming houdt rekening met hospitality of een duur officieel arrangement. Als gewone tickets beschikbaar zijn, ligt het totaal lager. Documenten- en ETA-kosten zijn niet nodig voor Belgische reizigers die met een geldige Belgische identiteitskaart naar Duitsland reizen.
 
@@ -196,7 +193,7 @@ De maximale ticketraming houdt rekening met hospitality of een duur officieel ar
 - Totaal met hostel: **€3.640 - €11.895**; realistische middenraming **€6.500**.
 - Totaal met budgethotel: **€4.290 - €13.585**; realistische middenraming **€7.540**.
 
-Deze totalen zijn inclusief vlucht, lokaal vervoer, verblijf, voetbal, activiteiten, eten en drinken, nachtleven en reserve. Het grote verschil tussen minimum en maximum komt vooral door het hoge risico op dure Bayern-tickets of hospitality.
+Deze totalen bevatten vlucht, lokaal vervoer, verblijf en voetbal. Het grote verschil tussen minimum en maximum komt vooral door het hoge risico op dure Bayern-tickets of hospitality.
 
 ## Pluspunten
 

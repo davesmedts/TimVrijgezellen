@@ -97,13 +97,10 @@ Sevilla is bijzonder sterk voor tapas, Andalusische gerechten, terrassen, sherry
 | Verblijf - hostel | €60 | €100 | €160 |
 | Verblijf - budgethotel | €110 | €170 | €250 |
 | Activiteiten | €0 | €0 | €0 |
-| Eten en drinken | €0 | €0 | €0 |
-| Nachtleven | €0 | €0 | €0 |
-| Reserve | €0 | €0 | €0 |
 | **Totaal met hostel** | **€245** | **€395** | **€690** |
 | **Totaal met budgethotel** | **€295** | **€465** | **€780** |
 
-Activiteiten, eten en drinken, nachtleven en reserve staan voorlopig op €0 en worden later verder uitgewerkt.
+Activiteiten, eten en drinken en nachtleven zijn voorlopig niet opgenomen.
 
 ### Groepstotalen voor 13 personen
 

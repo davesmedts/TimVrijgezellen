@@ -98,13 +98,10 @@ Valencia is de ideale bestemming voor paella, rijstgerechten, tapas, lokale wijn
 | Verblijf - hostel | €60 | €100 | €150 |
 | Verblijf - budgethotel | €100 | €160 | €240 |
 | Activiteiten | €0 | €0 | €0 |
-| Eten en drinken | €0 | €0 | €0 |
-| Nachtleven | €0 | €0 | €0 |
-| Reserve | €0 | €0 | €0 |
 | **Totaal met hostel** | **€210** | **€320** | **€560** |
 | **Totaal met budgethotel** | **€250** | **€380** | **€650** |
 
-Activiteiten, eten en drinken, nachtleven en reserve staan voorlopig op €0 en worden later verder uitgewerkt.
+Activiteiten, eten en drinken en nachtleven zijn voorlopig niet opgenomen.
 
 ### Groepstotalen voor 13 personen
 

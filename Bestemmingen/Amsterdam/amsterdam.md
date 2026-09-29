@@ -137,7 +137,7 @@ Voor 13 personen zijn reservaties nodig voor vrijdagavond, zaterdagavond en even
 - **Leidseplein:** veel bars en clubs, maar toeristisch en druk.
 - **Rembrandtplein:** groot aanbod aan bars en clubs.
 
-Reken indicatief op **€60-€180 per persoon** voor twee avonden nachtleven, exclusief het gewone avondeten. Voor de terugrit na het uitgaan is openbaar vervoer niet altijd de beste optie; spreek vooraf af of de groep samen blijft of reserveer taxi’s.
+De kosten van twee avonden nachtleven en het gewone avondeten worden voorlopig niet opgenomen. Voor de terugrit na het uitgaan is openbaar vervoer niet altijd de beste optie; spreek vooraf af of de groep samen blijft of reserveer taxi’s.
 
 ## Verblijf
 
@@ -174,20 +174,17 @@ Voor 13 personen moeten kamerindeling, bedcapaciteit, parking, toeristenbelastin
 | Verblijf - hostel | €100 | €160 | €220 |
 | Verblijf - budgethotel | €180 | €250 | €350 |
 | Activiteiten | €0 | €55 | €100 |
-| Eten en drinken | €120 | €200 | €300 |
-| Nachtleven | €60 | €120 | €180 |
-| Reserve | €25 | €50 | €75 |
-| **Totaal met hostel** | **€340** | **€655** | **€1.005** |
-| **Totaal met budgethotel** | **€420** | **€745** | **€1.135** |
+| **Totaal met hostel** | **€135** | **€285** | **€450** |
+| **Totaal met budgethotel** | **€215** | **€375** | **€580** |
 
 De brandstoframing is per persoon berekend op basis van drie auto’s met vier à vijf personen. De werkelijke kost hangt af van het aantal auto’s, verbruik, parkeerkeuze en de vraag of bestuurders een bijdrage ontvangen.
 
 ### Groepstotalen voor 13 personen
 
-- Totaal met hostel: **€4.420-€13.065**; realistische middenraming **€8.515**.
-- Totaal met budgethotel: **€5.460-€14.755**; realistische middenraming **€9.685**.
+- Totaal met hostel: **€1.755-€5.850**; realistische middenraming **€3.705**.
+- Totaal met budgethotel: **€2.795-€7.540**; realistische middenraming **€4.875**.
 
-Deze raming bevat vervoer, verblijf, activiteiten, eten en drinken, nachtleven en reserve. De activiteitenkost gaat uit van één of twee betaalde groepsactiviteiten.
+Deze raming bevat vervoer, verblijf en activiteiten. Eten, drinken en nachtleven zijn voorlopig niet opgenomen. De activiteitenkost gaat uit van één of twee betaalde groepsactiviteiten.
 
 ## Waarom Amsterdam een goede keuze is
 

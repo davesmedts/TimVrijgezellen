@@ -149,10 +149,7 @@ Er is een passende rechtstreekse vlucht vanaf Brussels Airport naar Londen Heath
 | Verblijf - hostel | €95 | €140 | €190 |
 | Verblijf - budgethotel | €165 | €230 | €305 |
 | Activiteiten | €0 | €0 | €0 |
-| Eten en drinken | €0 | €0 | €0 |
-| Nachtleven | €0 | €0 | €0 |
 | Reispas en ETA | €23* | €100,50** | €100,50** |
-| Reserve | €0 | €0 | €0 |
 | **Totaal ingevulde rubrieken - hostel** | **€273** | **€445,50** | **€550,50** |
 | **Totaal ingevulde rubrieken - budgethotel** | **€343** | **€535,50** | **€665,50** |
 
@@ -160,7 +157,7 @@ Er is een passende rechtstreekse vlucht vanaf Brussels Airport naar Londen Heath
 
 \*\* Ongeveer €100,50 voor deelnemers die zowel een nieuwe reispas als een ETA nodig hebben.
 
-De totalen bevatten alleen Eurostar, voetbalticket, verblijf en reispas/ETA. Eten en drinken, nachtleven, activiteiten, lokaal vervoer en reserve zijn nog niet opgenomen.
+De totalen bevatten alleen Eurostar, voetbalticket, verblijf en reispas/ETA. Eten en drinken, nachtleven, activiteiten en lokaal vervoer zijn nog niet opgenomen.
 
 ### Groepstotalen voor 13 personen
 
