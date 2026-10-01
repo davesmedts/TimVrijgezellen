@@ -28,7 +28,7 @@ if (countdown) {
     return true;
   };
 
-  if (updateCountdown()) {
+  if (Number.isFinite(target) && days && hours && minutes && seconds && intro && updateCountdown()) {
     const interval = window.setInterval(() => {
       if (!updateCountdown()) window.clearInterval(interval);
     }, 1000);

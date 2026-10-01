@@ -89,14 +89,14 @@ Krakow is zeer geschikt voor een groep van 13. Kazimierz en de binnenstad bieden
 | Verblijf - budgethotel | €75 | €130 | €200 |
 | Activiteiten | €0 | €0 | €0 |
 | **Totaal met hostel** | **€175** | **€285** | **€452** |
-| **Totaal met budgethotel** | **€205** | **€335** | **€522** |
+| **Totaal met budgethotel** | **€205** | **€335** | **€532** |
 
 Activiteiten, eten en drinken en nachtleven zijn voorlopig niet opgenomen.
 
 ### Groepstotalen voor 13 personen
 
 - Totaal met hostel: **€2.275 - €5.876**; realistische middenraming **€3.705**.
-- Totaal met budgethotel: **€2.665 - €6.786**; realistische middenraming **€4.355**.
+- Totaal met budgethotel: **€2.665 - €6.916**; realistische middenraming **€4.355**.
 
 Belgische reizigers kunnen Polen bezoeken met een geldige Belgische identiteitskaart. Er zijn geen ETA- of visumkosten voor dit korte verblijf.
 

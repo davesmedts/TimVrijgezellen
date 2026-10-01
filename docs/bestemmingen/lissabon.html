@@ -6,6 +6,7 @@
     <meta name="theme-color" content="#000000" />
     <meta name="description" content="Lissabon als mogelijke bestemming voor Tims vrijgezellenweekend in april 2027." />
     <title>Lissabon — Vrijgezellen Tim</title>
+    <script src="../assets/theme.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet" />
@@ -31,8 +32,18 @@
           <a class="tab is-active" href="./lissabon.html" aria-current="page">lissabon</a>
           <a class="tab" href="./keulen.html">keulen</a>
           <a class="tab" href="./willingen.html">willingen</a>
+          <a class="tab" href="./amsterdam.html">amsterdam</a>
           <span class="tab tab--muted">+ meer volgt</span>
         </nav>
+        <button class="theme-toggle" type="button" role="switch" aria-checked="false" aria-label="Lichte modus" data-theme-toggle hidden>
+          <svg class="theme-toggle__icon theme-toggle__icon--sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" aria-hidden="true">
+            <circle cx="12" cy="12" r="4"></circle>
+            <path d="M12 2v2m0 16v2M2 12h2m16 0h2M5 5l1.5 1.5m11 11L19 19M5 19l1.5-1.5m11-11L19 5"></path>
+          </svg>
+          <svg class="theme-toggle__icon theme-toggle__icon--moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <path d="M20.2 15.1A8.5 8.5 0 0 1 8.9 3.8 8.6 8.6 0 1 0 20.2 15.1Z"></path>
+          </svg>
+        </button>
       </div>
     </header>
 
@@ -47,23 +58,23 @@
             <h1>Lissa<span class="green">bon.</span></h1>
             <p class="hero-lede">
               Zachte temperaturen, sterke horeca, rooftops en een mogelijke dag op het water.
-              Meer avontuur, maar de huidige raming zit boven het budgetplafond.
+              De afzonderlijke vluchtinschatting met hostel en kajak komt rond het budgetplafond;
+              de gevonden TAP-groepsprijs maakt het programma duurder.
             </p>
           </div>
           <div class="destination-score destination-score--green" aria-label="Snelle beoordeling">
             <span class="country-code country-code--large">PT</span>
             <p>citytrip / water / nachtleven</p>
-            <div class="score-line"><span style="width: 86%"></span></div>
             <small>sterke beleving, budget bewaken</small>
           </div>
         </div>
       </section>
 
       <section class="container quick-strip" aria-label="Kerncijfers Lissabon">
-        <div><span>vlucht</span><strong>± €169—€200</strong></div>
-        <div><span>bekende kosten</span><strong>€329–710 p.p.</strong></div>
+        <div><span>vluchtindicatie</span><strong>€169 apart / €258 groep</strong></div>
+        <div><span>voorlopige kosten</span><strong><a href="#kosten">€321–622 p.p. ↘</a></strong></div>
         <div><span>weer</span><strong>19—22 °C</strong></div>
-        <div><span>wedstrijd</span><strong>Benfica — Nacional</strong></div>
+        <div><span>voetbal</span><strong>optioneel · timing onzeker</strong></div>
       </section>
 
       <section class="container weather-section" aria-labelledby="weather-title">
@@ -85,28 +96,21 @@
             <div class="weather-metric"><span>weerbeeld</span><strong>Vaak zon</strong><small>buien mogelijk</small></div>
             <div class="weather-metric"><span>zeewater Sesimbra</span><strong>16–17°C</strong><small>wetsuit aanbevolen</small></div>
           </div>
-          <table class="weather-sun-table">
-            <caption>
-              <span>Zonsopkomst &amp; zonsondergang</span>
-              <small>Lokale tijd · WEST (UTC+1)</small>
-            </caption>
-            <thead>
-              <tr><th scope="col">Dag</th><th scope="col">Op</th><th scope="col">Onder</th></tr>
-            </thead>
-            <tbody>
-              <tr><th scope="row"><time datetime="2027-04-16">vr 16 apr</time></th><td class="sunrise-time">07:58</td><td class="sunset-time">20:15</td></tr>
-              <tr><th scope="row"><time datetime="2027-04-17">za 17 apr</time></th><td class="sunrise-time">07:56</td><td class="sunset-time">20:16</td></tr>
-              <tr><th scope="row"><time datetime="2027-04-18">zo 18 apr</time></th><td class="sunrise-time">07:55</td><td class="sunset-time">20:17</td></tr>
-            </tbody>
-          </table>
+          <div class="sun-summary">
+            <dl>
+              <div><dt>Zonsopkomst</dt><dd class="sunrise-time">± 06:56</dd></div>
+              <div><dt>Zonsondergang</dt><dd class="sunset-time">± 20:16</dd></div>
+            </dl>
+            <p>Lokale tijd · WEST (UTC+1) · indicatie rond 17 april 2027</p>
+          </div>
           <div class="weather-card__footer">
             <p><strong>Inpakken:</strong> lichte kleding voor overdag, een jas voor de avond en een regenlaag.</p>
             <div class="weather-sources">
               <p class="weather-source">Bron klimaat: bestemmingsfiche Lissabon · indicatief.</p>
-              <a href="https://sunrise-sunset.org/api" target="_blank" rel="noopener noreferrer">Bron zonuren: Sunrise-Sunset.org ↗</a>
+              <a href="https://sunrise-sunset.org/api" target="_blank" rel="noopener noreferrer">Bron zontijden: Sunrise-Sunset.org ↗</a>
             </div>
           </div>
-          <p class="weather-disclaimer">Seizoensindicatie, geen weersvoorspelling voor 2027. Zonuren zijn lokale tijden voor Rossio, afgerond op de minuut.</p>
+          <p class="weather-disclaimer">Seizoensindicatie, geen weersvoorspelling voor 2027. Zontijden zijn indicaties voor Rossio rond 17 april, afgerond op de minuut.</p>
         </article>
       </section>
 
@@ -167,28 +171,41 @@
             <h2>Timing en budget vragen werk.</h2>
             <ul class="bullet-list">
               <li>Benfica — Nacional staat voorlopig op zondag 18 april.</li>
-              <li>De terugvlucht om 20:05 kan niet met een normale of late aftrap gecombineerd worden.</li>
-              <li>Met de kajakactiviteit komt de huidige bekende kost op ongeveer €490 p.p. vóór eten en uitgaan.</li>
+              <li>De aftrap moet vroeg genoeg liggen voor de luchthavenreis en boarding bij de terugvlucht om 20:05. Reken niet op een wedstrijdbezoek zolang dit niet is bevestigd.</li>
+              <li>Met hostel, kajak en luchthavenparking is de werkraming €452 p.p. zonder voetbal bij een vlucht van €200. De TAP-groepsprijs van €258 brengt dat op €510 p.p.</li>
               <li>De vluchtprijs voor dertien personen moet afzonderlijk bevestigd worden.</li>
+              <li>De gevonden retour landt zondag om 23:55 in Brussel. Dat is nog niet zondagavond thuis in Antwerpen/Brecht; zoek een vroegere retour of spreek die afwijking expliciet af.</li>
+            </ul>
+          </article>
+          <article class="panel content-panel">
+            <p class="section-kicker">04 / bronnen</p>
+            <h2>Controleer vóór het boeken.</h2>
+            <ul class="bullet-list source-list">
+              <li><a href="https://www.lisbonkayak.com/our-tour" target="_blank" rel="noopener noreferrer">Lisbon Kayak Tours — formule, transfer en inbegrepen materiaal ↗</a></li>
+              <li><a href="https://www.lisbonkayak.com/faqs" target="_blank" rel="noopener noreferrer">Kajaktour — groepscapaciteit en praktische vragen ↗</a></li>
+              <li><a href="https://www.slbenfica.pt/en-us/loja/bilhetes" target="_blank" rel="noopener noreferrer">Benfica — officiële ticketverkoop ↗</a></li>
+              <li><a href="https://www.skyscanner.net/transport/flights/bru/lis/270416/270418/?adultsv2=8&amp;currency=EUR&amp;cabinclass=economy&amp;rtn=1" target="_blank" rel="noopener noreferrer">Vluchten voor 16–18 april — zoekindicatie, geen groepsprijs ↗</a></li>
             </ul>
           </article>
         </div>
 
         <aside class="detail-aside">
-          <article class="panel budget-card budget-card--over">
-            <p class="panel-label">bekende kosten / persoon</p>
-            <h2>€329–710</h2>
-            <p>Hostelbasis met kajak- en snorkeltour</p>
+          <article class="panel budget-card budget-card--over" id="kosten" aria-labelledby="kosten-title">
+            <p class="panel-label">voorlopige berekening</p>
+            <h2 id="kosten-title">Kosten per persoon</h2>
+            <p class="budget-amount">€321–622</p>
+            <p>Hostel, kajak en snorkel · zonder voetbal</p>
             <dl class="budget-list">
-              <div><dt>vlucht</dt><dd>€149–260</dd></div>
-              <div><dt>lokaal vervoer</dt><dd>€20–50</dd></div>
-              <div><dt>voetbal</dt><dd>€20–100</dd></div>
-              <div><dt>hostel</dt><dd>€60–180</dd></div>
-              <div><dt>kajak & snorkel</dt><dd>€80–120</dd></div>
-              <div class="budget-total"><dt>totaal</dt><dd>€329–710</dd></div>
+              <div data-min="149" data-max="260"><dt>vlucht retour</dt><dd>€149–260</dd></div>
+              <div data-min="12" data-max="12"><dt>luchthavenparking</dt><dd>± €12</dd></div>
+              <div data-min="20" data-max="50"><dt>airport &amp; lokaal vervoer</dt><dd>€20–50</dd></div>
+              <div data-min="60" data-max="180"><dt>hostel · 2 nachten</dt><dd>€60–180</dd></div>
+              <div data-min="80" data-max="120"><dt>kajak &amp; snorkel</dt><dd>€80–120</dd></div>
+              <div class="budget-total" data-total-min="321" data-total-max="622"><dt>totaal</dt><dd>€321–622</dd></div>
             </dl>
-            <p class="over-budget">Realistische werkraming: ± €490 p.p.</p>
-            <p class="budget-note">Eten, drinken, nachtleven en eventuele extra activiteiten zijn niet opgenomen.</p>
+            <p class="over-budget">Werkraming €452 p.p. · met TAP-groepsprijs €510 p.p.</p>
+            <p class="budget-note">Parking: €153 voor 3 auto's, afgerond naar €12 p.p. De kajaktour bevat de excursietransfer; die wordt niet nogmaals gerekend. Voetbal is optioneel (+€20–100) en hangt af van timing en tickets.</p>
+            <p class="budget-note">Richtprijzen, geen bevestigde boekingen. Hostel en vlucht voor 13 personen, bagage en overige toeslagen nog bevestigen. Eten, drinken, nachtleven en extra activiteiten zijn niet opgenomen; de tourpicknick hoort wel bij de kajakformule.</p>
           </article>
           <article class="panel compact-card">
             <p class="panel-label">overnachten</p>

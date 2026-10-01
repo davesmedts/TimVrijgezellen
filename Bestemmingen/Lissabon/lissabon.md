@@ -40,7 +40,7 @@ Ticketraming: **€20 - €100 per persoon** voor gewone tickets; officiële hos
 - Concrete zoekopdracht op 25/09/2026: TAP Air Portugal, rechtstreeks, Brussel - Lissabon op vrijdag **20:55 - 22:50** en Lissabon - Brussel op zondag **20:05 - 23:55**.
 - Actuele richtprijs: **ongeveer €169 per persoon**.
 - Skyscanner toonde een totaal van ongeveer **€1.349 voor 8 reizigers**; voor 13 personen is dat indicatief ongeveer **€2.197** aan hetzelfde tarief. Bagage- en eventuele dossierkosten moeten bij boeking worden gecontroleerd.
-- De combinatie voldoet aan de gewenste vertrekuren, maar de terugvlucht van 20:05 kan botsen met het vermoedelijke einde van Benfica - Nacional als de wedstrijd zondagavond wordt gespeeld.
+- De heenreis is verenigbaar met vertrek na het werk. De retour landt zondag om 23:55 in Brussel: na bagage en de rit naar Antwerpen/Brecht is de groep niet zondagavond thuis. Een vroegere retour of een bewuste afwijking van die afspraak is nodig. De terugvlucht van 20:05 kan bovendien botsen met Benfica - Nacional bij een late zondagse aftrap.
 - Skyscanner toont bij deze zoekopdracht maximaal 8 reizigers. De prijs voor 13 personen moet daarom via een groepsaanvraag of meerdere controles worden bevestigd.
 - [Exacte zoekopdracht Brussel - Lissabon op Skyscanner](https://www.skyscanner.net/transport/flights/bru/lis/270416/270418/?adultsv2=13&currency=EUR&cabinclass=economy&rtn=1&locale=nl-NL)
 
@@ -128,19 +128,21 @@ Lissabon heeft een brede restaurant- en barscene. Bairro Alto is geschikt voor e
 |---|---:|---:|---:|
 | Vlucht retour | €149 | €200 | €260 |
 | Airport en lokaal vervoer | €20 | €35 | €50 |
-| Voetbalticket | €20 | €50 | €100 |
+| Luchthavenparking | €12 | €12 | €12 |
 | Verblijf - hostel | €60 | €110 | €180 |
 | Verblijf - budgethotel | €110 | €180 | €280 |
 | Kajak- en snorkeltour | €80 | €95 | €120 |
-| **Totaal met hostel** | **€329** | **€490** | **€710** |
-| **Totaal met budgethotel** | **€379** | **€560** | **€810** |
+| **Totaal met hostel, zonder voetbal** | **€321** | **€452** | **€622** |
+| **Totaal met budgethotel, zonder voetbal** | **€371** | **€522** | **€722** |
 
-De totalen hierboven zijn berekend alsof de kajak- en snorkeltour wordt gekozen. Eten, drinken en nachtleven zijn voorlopig niet opgenomen.
+De totalen hierboven zijn berekend met de kajak- en snorkeltour en zonder voetbal. Luchthavenparking is €153 voor drie auto's, afgerond naar €12 p.p. De excursietransfer zit in de kajakformule en wordt niet dubbel gerekend. Eten, drinken en nachtleven zijn niet opgenomen; de picknick hoort wel bij de tour.
+
+Voetbal is optioneel: **+€20–€100 p.p.**, alleen als aftrap en ticketbeschikbaarheid passen. De werkraming met een afzonderlijke vlucht van €200 is **€452 p.p. met hostel**; met de gevonden TAP-groepsprijs van €258 wordt dit **€510 p.p.** Alle prijzen en beschikbaarheid voor 13 personen moeten opnieuw worden bevestigd.
 
 ### Groepstotalen voor 13 personen
 
-- Totaal met hostel inclusief kajakoptie: **€4.277 - €9.230**; realistische middenraming **€6.370**.
-- Totaal met budgethotel inclusief kajakoptie: **€4.927 - €10.530**; realistische middenraming **€7.280**.
+- Totaal met hostel inclusief kajakoptie, zonder voetbal: **€4.173 - €8.086**; realistische middenraming **€5.876**.
+- Totaal met budgethotel inclusief kajakoptie, zonder voetbal: **€4.823 - €9.386**; realistische middenraming **€6.786**.
 
 Belgische reizigers kunnen Portugal bezoeken met een geldige Belgische identiteitskaart. Er zijn geen ETA- of visumkosten voor dit korte verblijf.
 

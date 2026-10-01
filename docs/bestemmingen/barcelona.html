@@ -6,6 +6,7 @@
     <meta name="theme-color" content="#000000" />
     <meta name="description" content="Barcelona als mogelijke bestemming voor Tims vrijgezellenweekend in april 2027." />
     <title>Barcelona — Vrijgezellen Tim</title>
+    <script src="../assets/theme.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet" />
@@ -31,8 +32,18 @@
           <a class="tab" href="./lissabon.html">lissabon</a>
           <a class="tab" href="./keulen.html">keulen</a>
           <a class="tab" href="./willingen.html">willingen</a>
+          <a class="tab" href="./amsterdam.html">amsterdam</a>
           <span class="tab tab--muted">+ meer volgt</span>
         </nav>
+        <button class="theme-toggle" type="button" role="switch" aria-checked="false" aria-label="Lichte modus" data-theme-toggle hidden>
+          <svg class="theme-toggle__icon theme-toggle__icon--sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" aria-hidden="true">
+            <circle cx="12" cy="12" r="4"></circle>
+            <path d="M12 2v2m0 16v2M2 12h2m16 0h2M5 5l1.5 1.5m11 11L19 19M5 19l1.5-1.5m11-11L19 5"></path>
+          </svg>
+          <svg class="theme-toggle__icon theme-toggle__icon--moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <path d="M20.2 15.1A8.5 8.5 0 0 1 8.9 3.8 8.6 8.6 0 1 0 20.2 15.1Z"></path>
+          </svg>
+        </button>
       </div>
     </header>
 
@@ -52,8 +63,7 @@
           </div>
           <div class="destination-score" aria-label="Snelle beoordeling">
             <span class="country-code country-code--large">ES</span>
-            <p>citytrip / kust / voetbal</p>
-            <div class="score-line"><span style="width: 82%"></span></div>
+            <p>citytrip / kust / nachtleven</p>
             <small>sterke allround optie</small>
           </div>
         </div>
@@ -61,9 +71,9 @@
 
       <section class="container quick-strip" aria-label="Kerncijfers Barcelona">
         <div><span>vlucht</span><strong>± €135 retour</strong></div>
-        <div><span>bekende kosten</span><strong>€225–425 p.p.</strong></div>
+        <div><span>voorlopige kosten</span><strong><a href="#kosten">€225–425 p.p. ↘</a></strong></div>
         <div><span>reistijd</span><strong>± 2u15</strong></div>
-        <div><span>wedstrijd</span><strong>Barça — Espanyol</strong></div>
+        <div><span>voetbal</span><strong>niet op rekenen</strong></div>
       </section>
 
       <section class="container weather-section" aria-labelledby="weather-title">
@@ -85,28 +95,21 @@
             <div class="weather-metric"><span>regen</span><strong>40 mm</strong><small>gemiddeld in april</small></div>
             <div class="weather-metric"><span>zon</span><strong>228 uur</strong><small>gemiddeld in april</small></div>
           </div>
-          <table class="weather-sun-table">
-            <caption>
-              <span>Zonsopkomst &amp; zonsondergang</span>
-              <small>Lokale tijd · CEST (UTC+2)</small>
-            </caption>
-            <thead>
-              <tr><th scope="col">Dag</th><th scope="col">Op</th><th scope="col">Onder</th></tr>
-            </thead>
-            <tbody>
-              <tr><th scope="row"><time datetime="2027-04-16">vr 16 apr</time></th><td class="sunrise-time">07:09</td><td class="sunset-time">20:33</td></tr>
-              <tr><th scope="row"><time datetime="2027-04-17">za 17 apr</time></th><td class="sunrise-time">07:07</td><td class="sunset-time">20:35</td></tr>
-              <tr><th scope="row"><time datetime="2027-04-18">zo 18 apr</time></th><td class="sunrise-time">07:06</td><td class="sunset-time">20:36</td></tr>
-            </tbody>
-          </table>
+          <div class="sun-summary">
+            <dl>
+              <div><dt>Zonsopkomst</dt><dd class="sunrise-time">± 07:07</dd></div>
+              <div><dt>Zonsondergang</dt><dd class="sunset-time">± 20:35</dd></div>
+            </dl>
+            <p>Lokale tijd · CEST (UTC+2) · indicatie rond 17 april 2027</p>
+          </div>
           <div class="weather-card__footer">
             <p><strong>Inpakken:</strong> laagjes, een lichte jas en voor de zekerheid een regenlaag.</p>
             <div class="weather-sources">
               <a href="https://www.aemet.es/es/serviciosclimaticos/datosclimatologicos/valoresclimatologicos?l=0076&amp;k=cat" target="_blank" rel="noopener noreferrer">Bron klimaat: AEMET · Barcelona Airport, 1981–2010 ↗</a>
-              <a href="https://sunrise-sunset.org/api" target="_blank" rel="noopener noreferrer">Bron zonuren: Sunrise-Sunset.org ↗</a>
+              <a href="https://sunrise-sunset.org/api" target="_blank" rel="noopener noreferrer">Bron zontijden: Sunrise-Sunset.org ↗</a>
             </div>
           </div>
-          <p class="weather-disclaimer">Aprilgemiddelden, geen weersvoorspelling voor 2027. Zonuren zijn lokale tijden voor Plaça de Catalunya, afgerond op de minuut.</p>
+          <p class="weather-disclaimer">Aprilgemiddelden, geen weersvoorspelling voor 2027. Zontijden zijn indicaties voor Plaça de Catalunya rond 17 april, afgerond op de minuut.</p>
         </article>
       </section>
 
@@ -118,14 +121,14 @@
             De marker staat bij Plaça de Catalunya als centraal referentiepunt. De exacte buurt
             en verblijfslocatie moeten nog gekozen worden.
           </p>
-          <a class="map-link" href="https://www.google.com/maps/search/?api=1&amp;query=41.3851%2C2.1734" target="_blank" rel="noopener noreferrer">
+          <a class="map-link" href="https://www.google.com/maps/search/?api=1&amp;query=41.3870%2C2.1700" target="_blank" rel="noopener noreferrer">
             Open in Google Maps <span>↗</span>
           </a>
         </div>
         <div class="map-frame">
           <iframe
             title="Google Maps-kaart van het centrum van Barcelona"
-            src="https://maps.google.com/maps?hl=nl&amp;q=41.3851%2C2.1734&amp;z=14&amp;output=embed"
+            src="https://maps.google.com/maps?hl=nl&amp;q=41.3870%2C2.1700&amp;z=14&amp;output=embed"
             loading="lazy"
             referrerpolicy="no-referrer-when-downgrade"
             allowfullscreen
@@ -140,8 +143,10 @@
             <h2>Compact, levendig en direct bereikbaar.</h2>
             <p>
               Barcelona combineert tapas, restaurants, clubs, strand en cultuur in één weekend.
-              De huidige vluchtoptie vertrekt vrijdag om 17:50 uit Brussel en landt zondag om
-              19:45 opnieuw in België.
+              De gevonden vlucht vertrekt vrijdag om 17:50 uit Brussel en landt zondag om
+              19:45 opnieuw in België. Die heenreis past niet bij vertrek uit Antwerpen/Brecht
+              na 17:00: reis naar de luchthaven, security en boarding moeten eerder gebeuren.
+              Een latere vlucht is nodig; de prijs kan daardoor wijzigen.
             </p>
             <div class="check-list check-list--columns">
               <p><span class="check check--green">+</span> Rechtstreekse vlucht</p>
@@ -153,11 +158,11 @@
 
           <article class="panel content-panel">
             <p class="section-kicker">02 / mogelijke invulling</p>
-            <h2>Van tapas tot aftrap.</h2>
+            <h2>Van tapas tot de kust.</h2>
             <div class="activity-list">
               <div><span>01</span><p><strong>Barri Gòtic & El Born</strong>Tapas, oude straten en de start van de avond.</p></div>
               <div><span>02</span><p><strong>Fietsen of varen</strong>Langs de kust of vanuit Port Vell.</p></div>
-              <div><span>03</span><p><strong>Derby of stadiontour</strong>FC Barcelona — Espanyol als de timing past.</p></div>
+              <div><span>03</span><p><strong>Museum of stadiontour</strong>Een mogelijk alternatief voor de derby; controleer beschikbaarheid en prijs apart.</p></div>
               <div><span>04</span><p><strong>Groepsactiviteit</strong>Escape room, kook- of cocktailworkshop.</p></div>
             </div>
           </article>
@@ -166,26 +171,38 @@
             <p class="section-kicker">03 / aandachtspunten</p>
             <h2>Eerst bevestigen, dan boeken.</h2>
             <ul class="bullet-list">
+              <li>Zoek een latere heenreis: de vlucht van 17:50 is niet haalbaar bij vertrek uit Antwerpen/Brecht na 17:00.</li>
               <li>De aftrap van FC Barcelona — Espanyol ligt nog niet vast.</li>
               <li>Een zondagse wedstrijd kan botsen met de terugvlucht om 17:30.</li>
               <li><strong>Voor 13 personen is het onrealistisch om erop te rekenen dat we reguliere tickets voor FC Barcelona — Espanyol kunnen kopen. De wedstrijd kan dus niet als haalbaar onderdeel van het weekend worden beschouwd.</strong></li>
               <li>De vluchtprijs moet voor de volledige groep opnieuw bevestigd worden.</li>
             </ul>
           </article>
+          <article class="panel content-panel">
+            <p class="section-kicker">04 / bronnen</p>
+            <h2>Controleer vóór het boeken.</h2>
+            <ul class="bullet-list source-list">
+              <li><a href="https://www.fcbarcelona.com/en/tickets" target="_blank" rel="noopener noreferrer">FC Barcelona — officiële tickets en tourinformatie ↗</a></li>
+              <li><a href="https://www.barcelonaturisme.com/wv3/en/" target="_blank" rel="noopener noreferrer">Barcelona Turisme — activiteiten en stad ↗</a></li>
+              <li><a href="https://www.skyscanner.net/transport/flights/bru/bcn/270416/270418/?adultsv2=8&amp;currency=EUR&amp;cabinclass=economy&amp;rtn=1" target="_blank" rel="noopener noreferrer">Vluchten voor 16–18 april — zoekindicatie, geen groepsprijs ↗</a></li>
+            </ul>
+          </article>
         </div>
 
         <aside class="detail-aside">
-          <article class="panel budget-card">
-            <p class="panel-label">bekende kosten / persoon</p>
-            <h2>€225–425</h2>
+          <article class="panel budget-card" id="kosten" aria-labelledby="kosten-title">
+            <p class="panel-label">voorlopige berekening</p>
+            <h2 id="kosten-title">Kosten per persoon</h2>
+            <p class="budget-amount">€225–425</p>
             <p>Hostelbasis, zonder voetbal</p>
             <dl class="budget-list">
-              <div><dt>vlucht</dt><dd>€135–200</dd></div>
-              <div><dt>lokaal vervoer</dt><dd>€20–45</dd></div>
-              <div><dt>hostel</dt><dd>€70–180</dd></div>
-              <div class="budget-total"><dt>totaal hostel</dt><dd>€225–425</dd></div>
-              <div><dt>totaal budgethotel</dt><dd>€285–545</dd></div>
+              <div data-min="135" data-max="200"><dt>vlucht retour</dt><dd>€135–200</dd></div>
+              <div data-min="20" data-max="45"><dt>airport &amp; lokaal vervoer</dt><dd>€20–45</dd></div>
+              <div data-min="70" data-max="180"><dt>hostel · 2 nachten</dt><dd>€70–180</dd></div>
+              <div class="budget-total" data-total-min="225" data-total-max="425"><dt>totaal hostel</dt><dd>€225–425</dd></div>
             </dl>
+            <p class="budget-note">Met een budgethotel (€130–300 voor 2 nachten) wordt het totaal €285–545 p.p. De hostelindicatie van circa €140 p.p. komt uit een offerte voor maart, niet voor dit aprilweekend.</p>
+            <p class="budget-note">Richtprijzen, geen bevestigde boekingen. Een latere heenreis moet opnieuw geprijsd worden; bagage, stoelen en groepsbeschikbaarheid nog controleren.</p>
             <p class="budget-note">Voetbal is niet opgenomen: ticketbeschikbaarheid voor 13 personen is niet realistisch om vooraf te veronderstellen. Eten, drinken, nachtleven en activiteiten zijn niet opgenomen.</p>
           </article>
           <article class="panel compact-card">

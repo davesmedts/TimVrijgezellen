@@ -30,7 +30,7 @@ Budget dient max 450€ geraamd te worden voor:
 
 ## Locatie
 
-Stad, [nog te bepalen](/Bestemmingen/)
+Stad, [nog te bepalen](Bestemmingen/overzicht.md)
 
 ### Activiteiten
 

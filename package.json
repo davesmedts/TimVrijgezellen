@@ -1,0 +1,14 @@
+{
+  "name": "tim-vrijgezellen",
+  "private": true,
+  "version": "0.1.0",
+  "description": "Static planning website for Tim's bachelor weekend",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "dev": "node scripts/serve.mjs",
+    "test": "node --test tests/*.test.mjs",
+    "review:browser": "node scripts/browser-review.mjs"
+  }
+}

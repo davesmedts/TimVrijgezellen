@@ -6,6 +6,7 @@
     <meta name="theme-color" content="#000000" />
     <meta name="description" content="Keulen met zaterdagse VR-game en stadswandeling, diner en nachtleven, plus Phantasialand op zondag voor Tims vrijgezellenweekend in april 2027." />
     <title>Keulen — Vrijgezellen Tim</title>
+    <script src="../assets/theme.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet" />
@@ -31,8 +32,18 @@
           <a class="tab" href="./lissabon.html">lissabon</a>
           <a class="tab is-active" href="./keulen.html" aria-current="page">keulen</a>
           <a class="tab" href="./willingen.html">willingen</a>
+          <a class="tab" href="./amsterdam.html">amsterdam</a>
           <span class="tab tab--muted">+ meer volgt</span>
         </nav>
+        <button class="theme-toggle" type="button" role="switch" aria-checked="false" aria-label="Lichte modus" data-theme-toggle hidden>
+          <svg class="theme-toggle__icon theme-toggle__icon--sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" aria-hidden="true">
+            <circle cx="12" cy="12" r="4"></circle>
+            <path d="M12 2v2m0 16v2M2 12h2m16 0h2M5 5l1.5 1.5m11 11L19 19M5 19l1.5-1.5m11-11L19 5"></path>
+          </svg>
+          <svg class="theme-toggle__icon theme-toggle__icon--moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <path d="M20.2 15.1A8.5 8.5 0 0 1 8.9 3.8 8.6 8.6 0 1 0 20.2 15.1Z"></path>
+          </svg>
+        </button>
       </div>
     </header>
 
@@ -43,7 +54,7 @@
         </nav>
         <div class="destination-hero__grid">
           <div>
-            <p class="eyebrow"><span class="status-dot"></span> aanvullende optie / in onderzoek</p>
+            <p class="eyebrow"><span class="status-dot"></span> optie 03 / in onderzoek</p>
             <h1>Keu<span class="cyan">len.</span></h1>
             <p class="hero-lede">
               Vrijdag aankomen en slapen, zaterdag Keulen ontdekken met een VR-teamgame, diner en
@@ -54,7 +65,6 @@
           <div class="destination-score destination-score--cologne" aria-label="Snelle beoordeling">
             <span class="country-code country-code--large">DE</span>
             <p>citytrip / VR / pretpark</p>
-            <div class="score-line"><span style="width: 88%"></span></div>
             <small>sterke groepscombinatie, parkdatum checken</small>
           </div>
         </div>
@@ -62,9 +72,9 @@
 
       <section class="container quick-strip" aria-label="Kerncijfers Keulen">
         <div><span>autoroute</span><strong>± 215–225 km</strong></div>
-        <div><span>bekende kosten</span><strong>€334–418 p.p.</strong></div>
+        <div><span>voorlopige kosten</span><strong><a href="#kosten">€334–418 p.p. ↘</a></strong></div>
         <div><span>groep</span><strong>13 personen</strong></div>
-        <div><span>zondag</span><strong>Phantasialand**</strong></div>
+        <div><span>zondag</span><strong>Phantasialand · te bevestigen</strong></div>
       </section>
 
       <section class="container weather-section" aria-labelledby="weather-title">
@@ -86,12 +96,18 @@
             <div class="weather-metric"><span>weerbeeld</span><strong>Wisselvallig</strong><small>buien mogelijk</small></div>
             <div class="weather-metric"><span>inpakken</span><strong>Jas</strong><small>liefst waterdicht</small></div>
           </div>
+          <div class="sun-summary">
+            <dl>
+              <div><dt>Zonsopkomst</dt><dd class="sunrise-time">± 06:32</dd></div>
+              <div><dt>Zonsondergang</dt><dd class="sunset-time">± 20:32</dd></div>
+            </dl>
+            <p>Lokale tijd · CEST (UTC+2) · indicatie rond 17 april 2027</p>
+          </div>
           <div class="weather-card__footer">
             <p><strong>Praktisch:</strong> neem een lichte jas en regenlaag mee; Phantasialand is grotendeels een buitendag.</p>
-            <p><strong>Zon:</strong> opkomst ongeveer 06:32 · ondergang ongeveer 20:32 op zaterdag 17 april (lokale tijd, CEST).</p>
             <div class="weather-sources">
               <p class="weather-source">Klimaatindicatie, geen voorspelling voor 2027.</p>
-              <a href="https://sunrise-sunset.org/api" target="_blank" rel="noopener noreferrer">Bron zonuren: Sunrise-Sunset.org ↗</a>
+              <a href="https://sunrise-sunset.org/api" target="_blank" rel="noopener noreferrer">Bron zontijden: Sunrise-Sunset.org ↗</a>
             </div>
           </div>
           <p class="weather-disclaimer">Gemiddelde voorjaarsomstandigheden voor de regio Keulen; exacte weersvoorspelling pas kort voor vertrek beschikbaar.</p>
@@ -146,7 +162,7 @@
             <div class="activity-list">
               <div><span>VR</span><p><strong>Zaterdagmiddag: 7th Space</strong>50 minuten VR Box met escape-, actie- en partygames. Reserveer een tijdslot voor dertien en laat de locatie bevestigen hoe teams parallel kunnen spelen.</p></div>
               <div><span>WALK</span><p><strong>Dom, Rijn en Altstadt</strong>Gratis route van de Dom via de Hohenzollernbrücke en Rijnpromenade naar Alter Markt. Plan circa twee uur inclusief fotostops.</p></div>
-              <div><span>OPTION</span><p><strong>Kölsche Brauhaustour</strong>Optioneel 2 uur, vanaf €27,50 p.p. inclusief 3 Kölsch of 2 frisdranken; boekbaar vanaf 10 personen. Kan als extra, of als alternatief voor de VR-game.</p></div>
+              <div><span>EXTRA</span><p><strong>Kölsche Brauhaustour</strong>Optioneel 2 uur, vanaf €27,50 p.p. inclusief 3 Kölsch of 2 frisdranken; boekbaar vanaf 10 personen. Kan als extra, of als alternatief voor de VR-game.</p></div>
               <div><span>DINER</span><p><strong>Brauhaus in de Altstadt</strong>Reserveer voor 13 personen bij bijvoorbeeld Sion of Früh am Dom; daarna bars in de Altstadt/het Belgisches Viertel of een club in Ehrenfeld.</p></div>
               <div><span>ZON</span><p><strong>Phantasialand in Brühl</strong>Vroeg ontbijten en vertrekken; de dagplanning hangt af van de bevestigde openingstijden op 18 april.</p></div>
             </div>
@@ -164,7 +180,7 @@
             </p>
             <div class="activity-list">
               <div><span>HOTEL</span><p><strong>Motel One Köln-Neumarkt</strong>Vraag een groepsprijs voor 7 kamers: 6 tweepersoonskamers en 1 kamer voor eenpersoonsbezetting. Motel One heeft een groepsaanvraagformulier waarin ontbijt kan worden geselecteerd.</p></div>
-              <div><span>ONTBIJT</span><p><strong>Urban Bio Breakfast</strong>De actuele prijs is €17,90 p.p. per ochtend; twee ontbijten voor 13 zijn samen €465,40. Laat ontbijt voor de volledige groep expliciet opnemen in de offerte.</p></div>
+              <div><span>ONTB</span><p><strong>Urban Bio Breakfast</strong>De actuele prijs is €17,90 p.p. per ochtend; twee ontbijten voor 13 zijn samen €465,40. Laat ontbijt voor de volledige groep expliciet opnemen in de offerte.</p></div>
               <div><span>TAX</span><p><strong>Keulse cultuurbelasting</strong>Reken op 5% over de overnachtingsprijs. Vraag ook de kosten en beschikbaarheid van hotelparking voor drie auto’s op.</p></div>
               <div><span>CAR</span><p><strong>Parkeren en milieuzone</strong>Vraag accommodatieparking vooraf aan. Controleer voor elke auto de groene Umweltplakette voordat je de Keulse milieuzone inrijdt.</p></div>
             </div>
@@ -201,18 +217,19 @@
         </div>
 
         <aside class="detail-aside">
-          <article class="panel budget-card">
-            <p class="panel-label">bekende kosten / persoon</p>
-            <h2>€334–418</h2>
+          <article class="panel budget-card" id="kosten" aria-labelledby="kosten-title">
+            <p class="panel-label">voorlopige berekening</p>
+            <h2 id="kosten-title">Kosten per persoon</h2>
+            <p class="budget-amount">€334–418</p>
             <p>Vervoer, hotel met ontbijt, VR en Phantasialand.</p>
             <dl class="budget-list">
-              <div><dt>vervoer & parking</dt><dd>€35–55</dd></div>
-              <div><dt>2 nachten hotel + ontbijt</dt><dd>€205–250</dd></div>
-              <div><dt>zaterdag VR</dt><dd>€34,90</dd></div>
-              <div><dt>zondag Phantasialand</dt><dd>€59–78</dd></div>
-              <div class="budget-total"><dt>totaal</dt><dd>€334–418</dd></div>
+              <div data-min="35" data-max="55"><dt>vervoer &amp; parking</dt><dd>€35–55</dd></div>
+              <div data-min="205" data-max="250"><dt>hotel · 2 nachten + ontbijt</dt><dd>€205–250</dd></div>
+              <div data-min="34.9" data-max="34.9"><dt>zaterdag VR</dt><dd>€34,90</dd></div>
+              <div data-min="59" data-max="78"><dt>zondag Phantasialand</dt><dd>€59–78</dd></div>
+              <div class="budget-total" data-total-min="334" data-total-max="418"><dt>totaal, afgerond</dt><dd>€334–418</dd></div>
             </dl>
-            <p class="budget-note">Hotelprijs is een planningsmarge, geen offerte. Optionele brouwerijtour: +€27,50 p.p. Diner, drank, uitgaan en taxi’s zijn niet inbegrepen.</p>
+            <p class="budget-note">Hotelprijs is een planningaanname, geen offerte; ontbijt en 5% overnachtingsbelasting zijn al inbegrepen. VR- en parktarieven voor de exacte datum nog controleren. Optionele brouwerijtour: +€27,50 p.p. Diner, drank, uitgaan en taxi’s zijn niet inbegrepen.</p>
           </article>
           <article class="panel compact-card">
             <p class="panel-label">overnachten</p>

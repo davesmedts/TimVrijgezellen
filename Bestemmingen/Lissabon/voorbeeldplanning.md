@@ -11,6 +11,8 @@
 
 De datum en het uur van een eventuele voetbalwedstrijd zijn nog niet bepaald. Daarom zijn er verschillende scenario's voorzien.
 
+**Retourafspraak:** de gevonden vlucht landt pas om 23:55 in Brussel. Met de verplaatsing naar Antwerpen/Brecht is de groep niet zondagavond thuis. Deze voorbeeldplanning vereist dus een vroegere retour of expliciete instemming met een late thuiskomst; vluchtprijs en zondagprogramma moeten dan opnieuw worden bekeken.
+
 ## Hoofdplanning
 
 ### Vrijdag 16 april - aankomst en inchecken
@@ -165,9 +167,9 @@ De onderstaande tabel bevat de belangrijkste reiskosten. De realistische kolom g
 | Transfer luchthaven-Lissabon retour | €20 | €35 | €50 |
 | Verblijf - budgethotel, 2 nachten | €110 | €180 | €280 |
 | Kajak en snorkelen | €80 | €95 | €120 |
-| **Totaal zonder voetbal** | **€371** | **€622** | **€722** |
+| **Totaal zonder voetbal** | **€371** | **€522** | **€722** |
 | Voetbal, indien van toepassing | €20 | €35 | €50 |
-| **Totaal met voetbal** | **€391** | **€657** | **€772** |
+| **Totaal met voetbal** | **€391** | **€557** | **€772** |
 
 ### Scenario met Adventure Park in plaats van kajak
 
@@ -184,10 +186,10 @@ Adventure Park vervangt de kajak- en snorkelactiviteit en wordt dus niet bij de 
 
 | Scenario | Minimum | Realistisch | Maximum |
 |---|---:|---:|---:|
-| Hostel + kajak, zonder voetbal | €4.170 | €5.876 | €8.086 |
-| Hostel + kajak, met voetbal | €4.430 | €6.331 | €8.736 |
-| Budgethotel + kajak, zonder voetbal | €4.823 | €8.086 | €9.386 |
-| Budgethotel + kajak, met voetbal | €5.083 | €8.541 | €10.036 |
+| Hostel + kajak, zonder voetbal | €4.173 | €5.876 | €8.086 |
+| Hostel + kajak, met voetbal | €4.433 | €6.331 | €8.736 |
+| Budgethotel + kajak, zonder voetbal | €4.823 | €6.786 | €9.386 |
+| Budgethotel + kajak, met voetbal | €5.083 | €7.241 | €10.036 |
 
 De groepstotalen zijn afgerond en bevatten vlucht, luchthavenparking voor drie auto's, retourtransfer tussen luchthaven en Lissabon, verblijf, kajak en eventueel een voordelig voetbalticket. Eten, drinken, lokaal vervoer tijdens het weekend en nachtleven zijn niet inbegrepen.
 

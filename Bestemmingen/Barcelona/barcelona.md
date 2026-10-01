@@ -36,7 +36,7 @@ Het is een stadsderby en daardoor op papier een aantrekkelijke wedstrijdoptie. V
 - Vluchtduur: ongeveer 2 uur en 10 tot 15 minuten
 - Bagage: handbagage- en stoelvoorwaarden vóór boeking controleren
 
-De vluchturen voldoen aan vertrek na 17:00 op vrijdag en aankomst in België op zondagavond. Als de wedstrijd op zondag wordt gespeeld, kan de terugvlucht om 17:30 botsen met de wedstrijd.
+De terugvlucht komt zondagavond aan in België. De heenreis van 17:50 past echter niet bij vertrek uit Antwerpen/Brecht na 17:00: verplaatsing naar de luchthaven, security en boarding moeten eerder gebeuren. Zoek daarom een latere heenreis en controleer de prijs opnieuw. Een zondagse wedstrijd kan bovendien botsen met de terugvlucht om 17:30.
 
 [Exacte zoekopdracht Brussel - Barcelona op Skyscanner](https://www.skyscanner.net/transport/flights/bru/bcn/270416/270418/?adultsv2=8&currency=EUR&cabinclass=economy&rtn=1&locale=nl-NL)
 
@@ -111,13 +111,14 @@ Belgische reizigers kunnen Spanje bezoeken met een geldige Belgische identiteits
 
 - Rechtstreekse avondvlucht vanuit Brussel.
 - Grote en gevarieerde keuze aan eten, drinken en nachtleven.
-- Aantrekkelijke voetbalderby als de wedstrijd op zaterdag wordt gespeeld.
+- Museum of stadiontour als mogelijk alternatief voor de derby; beschikbaarheid en prijs apart controleren.
 - Veel activiteiten bij goed en slecht weer.
 - Goede bereikbaarheid en openbaar vervoer.
 
 ## Aandachtspunten
 
 - De aftrap van FC Barcelona - Espanyol is nog niet vastgelegd.
+- De gevonden heenreis van 17:50 is niet haalbaar bij vertrek uit Antwerpen/Brecht na 17:00. Het vluchtbedrag is voorlopig totdat een passende latere vlucht gevonden is.
 - Een zondagse wedstrijd kan botsen met de terugvlucht om 17:30.
 - Het is onrealistisch om te rekenen op reguliere tickets voor FC Barcelona - Espanyol voor 13 personen.
 - Barcelona is duurder dan Krakau, Budapest en Sofia voor verblijf en nachtleven.

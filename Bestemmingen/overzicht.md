@@ -18,6 +18,7 @@
 | Bestemming | Vervoer | Concreet vlucht-/transporttarief p.p. | Tijdvoorwaarden | Voetbalstatus |
 |---|---|---:|---|---|
 | **Amsterdam** | Auto/minibus | Geen vlucht nodig | Auto/trein praktisch | Geen wedstrijd opgenomen |
+| **Willingen** | Eigen auto’s (3) | Geen vlucht nodig; zie bestemmingsfiche | Vrijdag late aankomst; auto praktisch | Geen wedstrijd opgenomen |
 | **Keulen** | Eigen auto’s (3) | Auto €35–€55 p.p.; park en VR apart | **Goed haalbaar**; vrijdagspits kan vertragen | Köln uit; Leverkusen thuisoptie, datum nog niet vast |
 | **Londen** | Eurostar | €120-€180 retour, prijsindicatie | Goed haalbaar | West Ham, QPR of Millwall op zaterdag |
 | **München** | Vlucht BRU-MUC | **± €193 retour**, direct | **Geschikt** | Bayern - Hoffenheim, datum nog niet vast |
@@ -26,11 +27,11 @@
 | **Krakow** | Vlucht CRL heen / BRU terug | **± €227 retour**, directe losse vluchten | Aankomst zondagavond; verschillende luchthavens | Twee thuiswedstrijden op zaterdag |
 | **Sofia** | Vlucht BRU-SOF | **± €302 retour**, direct | Aankomst zondagavond; vertrek vóór 18:00 | Wedstrijd nog onbekend |
 | **Madrid** | Vlucht BRU-MAD | **± €192 retour**, direct | Goed volgens de huidige vluchtoptie | Atlético thuis; Real uit bij Getafe |
-| **Barcelona** | Vlucht BRU-BCN | **± €130 retour**, direct | Geschikt; aftrap wedstrijd nog niet vast | FC Barcelona - Espanyol; tickets voor 13 personen onrealistisch |
+| **Barcelona** | Vlucht BRU-BCN | **± €130 retour**, direct | Heenreis 17:50 niet haalbaar bij vertrek uit Antwerpen na 17:00; latere vlucht nodig | FC Barcelona - Espanyol; tickets voor 13 personen onrealistisch |
 | **Sevilla** | Vlucht | Geen geschikte avondcombinatie gevonden | Niet geschikt zonder flexibele uren | Betis thuis op zondag |
 | **Valencia** | Vlucht | Geen geschikte avondcombinatie gevonden | Niet geschikt zonder flexibele uren | Levante thuis op zondag |
-| **Porto** | Vlucht BRU-OPO via LIS | **± €171 retour**, 1 overstap | Geschikt volgens de huidige vluchtoptie | FC Porto - Santa Clara op zondag |
-| **Lissabon** | Vlucht BRU-LIS | **± €169 retour**, direct | Geschikt volgens de huidige vluchtoptie | Benfica - Nacional op zondag |
+| **Porto** | Vlucht BRU-OPO via LIS | **± €171 retour**, 1 overstap | Aankomst 23:55 in Brussel; niet zondagavond thuis | FC Porto - Santa Clara op zondag |
+| **Lissabon** | Vlucht BRU-LIS | **± €169 retour**, direct | Retour landt 23:55 in Brussel; vroegere vlucht nodig voor zondagavond thuis | Benfica - Nacional op zondag |
 
 
 ## Vluchtprijzen en praktische haalbaarheid
@@ -39,9 +40,9 @@
 
 | Rang | Bestemming | Zoekresultaat | Beoordeling |
 |---:|---|---:|---|
-| 1 | **Barcelona** | ± €130, direct | Goedkoopste passende rechtstreekse optie; FC Barcelona - Espanyol staat op zaterdag of zondag. |
-| 2 | **Lissabon** | ± €169, direct | Goedkoop en direct; Benfica - Nacional is de momenteel bekende wedstrijdoptie. |
-| 3 | **Porto** | ± €171, via Lissabon | Goedkoop, maar geen rechtstreekse passende retourcombinatie gevonden; wedstrijd en overstap maken de planning kwetsbaar. |
+| 1 | **Barcelona** | ± €130, direct | Lage gevonden prijs, maar heenreis 17:50 niet haalbaar na vertrek uit Antwerpen om 17:00. Latere vlucht opnieuw prijzen; niet rekenen op derbytickets. |
+| 2 | **Lissabon** | ± €169, direct | Lage gevonden prijs; 23:55-aankomst in Brussel voldoet niet aan zondagavond thuis. Vroegere retour opnieuw controleren. |
+| 3 | **Porto** | ± €171, via Lissabon | Goedkoop, maar 23:55-aankomst voldoet niet aan zondagavond thuis; ook wedstrijd en overstap maken de planning kwetsbaar. |
 | 4 | **Madrid** | ± €192, direct | Sterke rechtstreekse combinatie volgens de huidige vluchtoptie. |
 | 5 | **München** | ± €193, direct | Zeer bruikbaar; vrijdag 18:10 heen en zondag 17:55 terug. |
 | 6 | **Krakow** | ± €227, direct maar CRL heen en BRU terug | Prijs is goed, maar twee verschillende luchthavens in België. |
@@ -54,7 +55,7 @@
 ### Vervoersconclusie
 
 - **Beste vliegbalans:** München en Madrid.
-- **Goedkoopste rechtstreekse vlucht met een bruikbaar tijdschema:** Lissabon, met Benfica - Nacional als momenteel bekende wedstrijdoptie.
+- **Lage rechtstreekse vluchtprijs, maar retour aanpassen:** Lissabon. De gevonden aankomst om 23:55 in Brussel voldoet niet aan zondagavond thuis.
 - **Beste goedkope alternatief met zaterdagvoetbal:** Krakow, ondanks de verschillende Brusselse luchthavens.
 - **Minst haalbaar bij vertrek na het werk en zondagavond terug:** Sevilla en Valencia.
 - **Beste vervoersalternatief zonder luchthavenstress:** Londen met Eurostar, indien de vrijdagavondtrein beschikbaar is.
@@ -64,6 +65,7 @@
 | Bestemming | Huidige wedstrijdinformatie | Dag | Ticketrisico |
 |---|---|---|---|
 | Keulen | 1. FC Köln uit bij Leipzig; Bayer 04 Leverkusen - Werder Bremen in de regio | Speeldag 30, exacte datum en aftrap nog niet vast | Gemiddeld; 13 plaatsen niet bevestigd |
+| Barcelona | FC Barcelona - Espanyol | Zaterdag 17 of zondag 18 april, aftrap onzeker | Onrealistisch om op 13 reguliere tickets te rekenen |
 | Londen | West Ham - Watford; QPR - Blackburn; Millwall - Southampton | Zaterdag 17 april | Gemiddeld; meerdere opties in Londen |
 | München | Bayern - Hoffenheim | Nog niet vast binnen weekend | Hoog voor 13 personen |
 | Istanbul | Beşiktaş - Konyaspor | Zondag 18 april | Gemiddeld tot hoog |
@@ -83,6 +85,9 @@ Alle exacte aftrapuren moeten nog worden bevestigd. De vermelde wedstrijden zijn
 | Bestemming | Eten en drinken | Nachtleven | Groepsactiviteiten | Weer midden april | Algemene indruk |
 |---|---:|---:|---:|---|---|
 | Keulen | Brauhaus en Kölsch | Goed, meerdere wijken | VR, stadswandeling, Phantasialand | 12-16 °C, wisselvallig | Sterke citytrip- en pretparkcombinatie |
+| Amsterdam | Veel restaurants en foodhallen | Zeer uitgebreid | Rondvaart, escape room, musea | Wisselvallig voorjaarsweer | Praktisch met de auto, dure accommodatie |
+| Barcelona | Tapas, restaurants en kust | Zeer uitgebreid | Fietsen, stad, museum/tour | Zachte aprildagen, frisse avonden | Sterke citytrip; latere vlucht nodig en geen derby als basis |
+| Willingen | Berghutten en Brauhaus | Party-bars | Skywalk, mountaincarts, rodelbaan, karting | 12-14 °C, wisselvallig | Avontuurlijk alternatief, geen volwaardige citytrip |
 | Londen | Zeer groot aanbod | Zeer groot aanbod | Zeer veel keuze | 13-16 °C, wisselvallig | Grootste keuze, maar duur |
 | München | Bierhallen en Beierse keuken | Goed | Brouwerijen, Arena, BMW, fietstours | 13-17 °C, fris | Kwalitatief maar duurder |
 | Istanbul | Zeer sterk en divers | Zeer uitgebreid | Bosphorus, hamam, foodtour | 15-19 °C, mild | Meest unieke ervaring |
@@ -135,6 +140,8 @@ Alle exacte aftrapuren moeten nog worden bevestigd. De vermelde wedstrijden zijn
 ## Links naar de bestemmingsfiches
 
 - [Keulen](Keulen/keulen.md)
+- [Amsterdam](Amsterdam/amsterdam.md)
+- [Willingen / Sauerland](Sauerland/sauerland.md)
 - [Londen](Londen/londen.md)
 - [München](Munchen/munchen.md)
 - [Istanbul](Istanbul/istanbul.md)

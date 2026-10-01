@@ -84,14 +84,14 @@ Budapest is sterk in betaalbare restaurants, streetfood, wijnbars en ruin bars. 
 | Verblijf - budgethotel | €90 | €150 | €230 |
 | Activiteiten | €0 | €0 | €0 |
 | **Totaal met hostel** | **€180** | **€300** | **€529** |
-| **Totaal met budgethotel** | **€220** | **€400** | **€619** |
+| **Totaal met budgethotel** | **€220** | **€360** | **€619** |
 
 Activiteiten, eten en drinken en nachtleven zijn voorlopig niet opgenomen.
 
 ### Groepstotalen voor 13 personen
 
 - Totaal met hostel: **€2.340 - €6.877**; realistische middenraming **€3.900**.
-- Totaal met budgethotel: **€2.860 - €8.047**; realistische middenraming **€5.200**.
+- Totaal met budgethotel: **€2.860 - €8.047**; realistische middenraming **€4.680**.
 
 Belgische reizigers kunnen Hongarije bezoeken met een geldige Belgische identiteitskaart. Er zijn geen ETA- of visumkosten voor dit korte verblijf.
 

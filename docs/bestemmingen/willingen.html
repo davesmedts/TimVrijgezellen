@@ -6,6 +6,7 @@
     <meta name="theme-color" content="#000000" />
     <meta name="description" content="Willingen in het Sauerland: Skywalk, mountaincarts, karting en nachtleven voor Tims vrijgezellenweekend van 16 tot 18 april 2027." />
     <title>Willingen — Vrijgezellen Tim</title>
+    <script src="../assets/theme.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet" />
@@ -31,8 +32,18 @@
           <a class="tab" href="./lissabon.html">lissabon</a>
           <a class="tab" href="./keulen.html">keulen</a>
           <a class="tab is-active" href="./willingen.html" aria-current="page">willingen</a>
+          <a class="tab" href="./amsterdam.html">amsterdam</a>
           <span class="tab tab--muted">+ meer volgt</span>
         </nav>
+        <button class="theme-toggle" type="button" role="switch" aria-checked="false" aria-label="Lichte modus" data-theme-toggle hidden>
+          <svg class="theme-toggle__icon theme-toggle__icon--sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" aria-hidden="true">
+            <circle cx="12" cy="12" r="4"></circle>
+            <path d="M12 2v2m0 16v2M2 12h2m16 0h2M5 5l1.5 1.5m11 11L19 19M5 19l1.5-1.5m11-11L19 5"></path>
+          </svg>
+          <svg class="theme-toggle__icon theme-toggle__icon--moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <path d="M20.2 15.1A8.5 8.5 0 0 1 8.9 3.8 8.6 8.6 0 1 0 20.2 15.1Z"></path>
+          </svg>
+        </button>
       </div>
     </header>
 
@@ -53,7 +64,6 @@
           <div class="destination-score destination-score--willingen" aria-label="Snelle beoordeling">
             <span class="country-code country-code--large">DE</span>
             <p>avontuur / nachtleven / Sauerland</p>
-            <div class="score-line"><span style="width: 82%"></span></div>
             <small>sterke activiteiten, beperkte citytrip</small>
           </div>
         </div>
@@ -61,7 +71,7 @@
 
       <section class="container quick-strip" aria-label="Kerncijfers Willingen">
         <div><span>autoroute</span><strong>± 330–350 km</strong></div>
-        <div><span>begrote kosten</span><strong>€355–432 p.p.</strong></div>
+        <div><span>voorlopige kosten</span><strong><a href="#kosten">€322–385 p.p. ↘</a></strong></div>
         <div><span>weer overdag</span><strong>12–14 °C</strong></div>
         <div><span>groep</span><strong>13 personen</strong></div>
       </section>
@@ -83,12 +93,20 @@
             <div class="weather-metric"><span>overdag</span><strong>12–14°C</strong><small>gemiddeld</small></div>
             <div class="weather-metric"><span>’s nachts</span><strong>3–6°C</strong><small>fris</small></div>
             <div class="weather-metric"><span>weerbeeld</span><strong>Wisselvallig</strong><small>buien mogelijk</small></div>
-            <div class="weather-metric"><span>reserve</span><strong>Karting</strong><small>indoor activiteit</small></div>
+            <div class="weather-metric"><span>binnenoptie</span><strong>Karting</strong><small>indoor activiteit</small></div>
+          </div>
+          <div class="sun-summary">
+            <dl>
+              <div><dt>Zonsopkomst</dt><dd class="sunrise-time">± 06:24</dd></div>
+              <div><dt>Zonsondergang</dt><dd class="sunset-time">± 20:26</dd></div>
+            </dl>
+            <p>Lokale tijd · CEST (UTC+2) · indicatie rond 17 april 2027</p>
           </div>
           <div class="weather-card__footer">
             <p><strong>Inpakken:</strong> waterdichte jas, warme laag en schoenen die tegen natte paden kunnen.</p>
             <div class="weather-sources">
               <a href="https://weather-and-climate.com/willingen-April-averages" target="_blank" rel="noopener noreferrer">Bron klimaatgemiddelden ↗</a>
+              <a href="https://sunrise-sunset.org/api" target="_blank" rel="noopener noreferrer">Bron zontijden: Sunrise-Sunset.org ↗</a>
             </div>
           </div>
           <p class="weather-disclaimer">Klimaatindicatie, geen weersvoorspelling voor april 2027. Controleer de weers- en openingsstatus vlak voor vertrek.</p>
@@ -144,7 +162,7 @@
               <div><span>SKY</span><p><strong>Zaterdagvoormiddag: Skywalk</strong>De hangbrug is 665 meter lang. Het huidige combiticket van €24 p.p. bevat Mühlenkopfliner-retour, Anlaufturm en Skywalk.</p></div>
               <div><span>RIDE</span><p><strong>Zaterdagmiddag: mountaincart + rodelbaan</strong>Drie mountaincart-afdalingen (€22) en zes zomerrodelritten (€22). Beide tarieven zijn huidige tarieven; opening op 17 april 2027 moet bevestigd worden.</p></div>
               <div><span>KART</span><p><strong>Indoor race als extra of regenoptie</strong>De huidige prijs voor een 30-minutenrace is €49,10 p.p. Vraag hoe 13 deelnemers worden ingedeeld en reserveer een tijdslot.</p></div>
-              <div><span>NIGHT</span><p><strong>Seilbar en Willinger Brauhaus</strong>Seilbar vermeldt een zaterdagse houseparty met gratis entree; het Brauhaus organiseert party-avonden op vrijdag en zaterdag. Check het programma voor april 2027.</p></div>
+              <div><span>AVOND</span><p><strong>Seilbar en Willinger Brauhaus</strong>Seilbar vermeldt een zaterdagse houseparty met gratis entree; het Brauhaus organiseert party-avonden op vrijdag en zaterdag. Check het programma voor april 2027.</p></div>
               <div><span>ZO</span><p><strong>Zondag: ontbijt, korte wandeling, terug</strong>Check uit, lunch in het dorp en vertrek bij voorkeur rond 15:00–16:00 om zondagavond thuis te zijn.</p></div>
             </div>
           </article>
@@ -193,18 +211,23 @@
         </div>
 
         <aside class="detail-aside">
-          <article class="panel budget-card">
-            <p class="panel-label">bekende kosten / persoon</p>
-            <h2>€355–432</h2>
-            <p>Vervoer, 2 nachten verblijf, geplande activiteiten en reserve.</p>
+          <article class="panel budget-card" id="kosten" aria-labelledby="kosten-title">
+            <p class="panel-label">voorlopige berekening</p>
+            <h2 id="kosten-title">Kosten per persoon</h2>
+            <p class="budget-amount">€322–385</p>
+            <p>Vervoer, hotel met ontbijt en dagactiviteiten.</p>
             <dl class="budget-list">
-              <div><dt>vervoer</dt><dd>€25–40</dd></div>
-              <div><dt>hotel + ontbijt</dt><dd>€180–225</dd></div>
-              <div><dt>activiteiten &amp; entree</dt><dd>€129–132</dd></div>
-              <div><dt>reserve</dt><dd>€20–35</dd></div>
-              <div class="budget-total"><dt>totaal</dt><dd>€355–432</dd></div>
+              <div data-min="25" data-max="40"><dt>vervoer</dt><dd>€25–40</dd></div>
+              <div data-min="180" data-max="225"><dt>hotel · 2 nachten + ontbijt</dt><dd>€180–225</dd></div>
+              <div data-min="24" data-max="24"><dt>Skywalk combiticket</dt><dd>€24</dd></div>
+              <div data-min="22" data-max="22"><dt>mountaincart · 3 ritten</dt><dd>€22</dd></div>
+              <div data-min="22" data-max="22"><dt>rodelbaan · 6 ritten</dt><dd>€22</dd></div>
+              <div data-min="49.1" data-max="49.1"><dt>kart-race</dt><dd>€49,10</dd></div>
+              <div data-min="0" data-max="3"><dt>helmkap indien nodig</dt><dd>€0–3</dd></div>
+              <div class="budget-total" data-total-min="322" data-total-max="385"><dt>totaal, afgerond</dt><dd>€322–385</dd></div>
             </dl>
-            <p class="budget-note">Binnen het plafond van €450 p.p. Eten, drinken, dinerbuffet en autohuur zijn niet inbegrepen. Tarieven zijn indicatief.</p>
+            <p class="budget-note">Hotelbedrag bevat ontbijt, toeristenbelasting en parking. Karting is hier als extra activiteit gerekend; als het een buitenactiviteit vervangt, moet die post eraf. Eten, drinken, nachtleven (waaronder party-entree), dinerbuffet en autohuur zijn niet inbegrepen.</p>
+            <p class="budget-note">Richtprijzen, geen bevestigde boekingen. Hotelofferte, capaciteit voor 13 en openingen in april nog bevestigen.</p>
           </article>
           <article class="panel compact-card">
             <p class="panel-label">overnachten</p>

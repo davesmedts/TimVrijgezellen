@@ -53,8 +53,8 @@ Er werd geen rechtstreekse retourcombinatie gevonden die tegelijk aan vertrek op
 - Retourprijs: **ongeveer €171 per persoon**.
 - Overstap: Lissabon (LIS), met een totale reistijd van ongeveer 4 uur en 45 minuten heen en 4 uur en 55 minuten terug.
 - Skyscanner toonde een totaal van ongeveer **€1.361 voor 8 reizigers**; voor 13 personen is dat indicatief ongeveer **€2.223** aan hetzelfde tarief.
-- De combinatie voldoet aan beide tijdsvoorwaarden, maar de zondagavondvlucht kan botsen met FC Porto - Santa Clara als de wedstrijd laat wordt gepland.
-- Een rechtstreekse vlucht vanaf Charleroi om 17:25 voldeed wel aan de heenreis, maar de terugvlucht vertrok al om 14:20. Vanuit Eindhoven waren de opties duurder en niet passend qua uren.
+- De heenreis is na het werk mogelijk, maar aankomst om 23:55 in Brussel betekent dat de groep niet zondagavond thuis is in Antwerpen/Brecht. Een vroegere retour of expliciete afspraak over late thuiskomst is nodig. De zondagvlucht kan ook botsen met FC Porto - Santa Clara bij een late aftrap.
+- Een rechtstreekse vlucht vanaf Charleroi om 17:25 is niet haalbaar bij vertrek uit Antwerpen/Brecht na 17:00; de terugvlucht vertrok bovendien al om 14:20. Vanuit Eindhoven waren de opties duurder en niet passend qua uren.
 - Skyscanner toont bij deze zoekopdracht maximaal 8 reizigers. De prijs voor 13 personen moet daarom via een groepsaanvraag of meerdere controles worden bevestigd.
 - [Exacte zoekopdracht Brussel - Porto op Skyscanner](https://www.skyscanner.net/transport/flights/bru/opo/270416/270418/?adultsv2=13&currency=EUR&cabinclass=economy&rtn=1&locale=nl-NL)
 

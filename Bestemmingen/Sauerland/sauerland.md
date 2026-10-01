@@ -14,7 +14,7 @@
 
 **Willingen** is een sterk alternatief voor Winterberg als het weekend vooral moet draaien om buitenactiviteiten, een compacte berghut-/après-ski-sfeer en uitgaan. De Skywalk, mountaincarts, zomerrodelbaan en indoor karting bieden een afwisselend programma. Willingen is echter een klein bergdorp en geen echte stedentripbestemming; dit onderdeel van de project-must-haves wordt dus maar gedeeltelijk ingevuld.
 
-Half april is er **geen betrouwbare sneeuw- of ski-activiteit** te plannen. De après-ski-sfeer komt in dit voorstel van de bars, de Seilbar en de Willinger Brauhaus-party. Een aantal buitenactiviteiten is seizoens- en weersafhankelijk. De indoor kart-race is daarom de beste reserveoptie.
+Half april is er **geen betrouwbare sneeuw- of ski-activiteit** te plannen. De après-ski-sfeer komt in dit voorstel van de bars, de Seilbar en de Willinger Brauhaus-party. Een aantal buitenactiviteiten is seizoens- en weersafhankelijk. De indoor kart-race is daarom de beste binnenoptie.
 
 ## Normaal weer midden april
 
@@ -23,6 +23,7 @@ Half april is er **geen betrouwbare sneeuw- of ski-activiteit** te plannen. De a
 - Verwachting: wisselvallig voorjaarsweer; regen, wind en koude avonden zijn mogelijk.
 - Praktisch: neem een waterdichte jas en warme laag mee. Dit is een klimaatsindicatie, geen weersvoorspelling voor april 2027.
 - Plan ten minste één indooroptie; voor deze groep is karting de geschiktste vervanger bij slecht weer.
+- Zonsopkomst ongeveer **06:24**, zonsondergang ongeveer **20:26** lokale tijd (CEST), als indicatie rond 17 april 2027.
 
 ## Vervoer
 
@@ -49,7 +50,7 @@ Een centraal hotel is geschikter dan een afgelegen groepshuis: de groep komt ver
 - Voor 13 volwassenen is de voorlopige indeling **7 kamers** (zes tweepersoonskamers en één kamer voor de resterende persoon); het hotel moet deze indeling en eventuele eenpersoonstoeslag bevestigen.
 - Rekenbasis verblijf: 7 kamers × 2 nachten × €159 = **€2.226 totaal**, circa **€171 p.p.** vóór toeristenbelasting en parking.
 - Toeristenbelasting: momenteel **€3 p.p. per nacht**, dus €6 p.p. voor twee nachten.
-- Hotelparking: momenteel €5 per auto per kalenderdag; bij drie auto's voor twee dagen ongeveer **€2,30 p.p.**
+- Hotelparking: momenteel €5 per auto per kalenderdag; vrijdag tot zondag zijn drie kalenderdagen. Bij drie auto's is dat **€45 totaal / circa €3,46 p.p.**; laat bevestigen welke dagen werkelijk worden aangerekend.
 - Begrotingspost verblijf: **€180–€225 p.p.**, inclusief ontbijt, toeristenbelasting en parking, met ruimte voor een hoger datumtarief of een toeslag voor de kamerindeling.
 - De vanafprijs is geen live offerte voor 16–18 april 2027. Vraag een schriftelijke, annuleerbare groepsofferte aan voor 13 personen en 7 kamers.
 
@@ -99,7 +100,7 @@ Onderstaande prijzen zijn de momenteel gepubliceerde tarieven en kunnen vóór a
 | Zomerrodelbaan, 6 ritten | **€22** | **€286** | De aanbieder vermeldt normaal een seizoen vanaf maart; exacte opening voor 2027 controleren. |
 | Indoor kart-race, 30 minuten | **€49,10** | **€638,30** | Inclusief warm-up/kwalificatie en 16 minuten racen; race-aanbod vanaf 7 deelnemers. Capaciteit voor 13 tegelijk navragen. |
 | Kart-helmkap, indien nodig | **€3** | **€39** | Alleen nodig als de deelnemers een huurhelm gebruiken zonder eigen helmkap. |
-| Partytoegang Brauhaus, indicatief | **circa €6 per avond** | **circa €78 voor twee avonden** | Entreeprijs kan wijzigen; vraag dit na voor april 2027. |
+| Partytoegang Brauhaus, indicatief | **circa €6 per avond** | **circa €156 voor twee avonden** | Nachtleven, niet opgenomen in de kostenberekening; entreeprijs voor april 2027 controleren. |
 
 ### Overige mogelijkheden
 
@@ -123,14 +124,13 @@ De projectgrens geldt voor **vervoer, verblijf en geplande activiteiten**. Eten,
 |---|---:|---:|---|
 | Vervoer | €25 | €40 | Drie eigen auto's; brandstof en beperkte lokale ritten. Autohuur niet inbegrepen. |
 | Verblijf, 2 nachten | €180 | €225 | 7 kamers, ontbijt, toeristenbelasting en hotelparking; datumtarief nog te bevestigen. |
-| Activiteiten en entree | €129,10 | €132,10 | Skywalk €24 + mountaincart €22 + rodelbaan €22 + kart-race €49,10 + twee party-entrees circa €12; bovengrens met €3 helmkap. |
-| Reserve voor prijswijzigingen | €20 | €35 | Voor tariefstijging, toeslagen of kleine lokale vervoerskosten. |
-| **Totaal** | **circa €355** | **circa €432** | **Binnen het plafond van €450 p.p.** |
+| Dagactiviteiten | €117,10 | €120,10 | Skywalk €24 + mountaincart €22 + rodelbaan €22 + kart-race €49,10; bovengrens met €3 helmkap. |
+| **Totaal** | **circa €322** | **circa €385** | **Binnen het plafond op basis van de huidige aannames; nog geen offertes** |
 
 ### Groepstotaal voor 13 personen
 
-- Begroot totaal: ongeveer **€4.615–€5.616**.
-- Niet inbegrepen: eten behalve het inbegrepen hotelontbijt, drank, dinerbuffet, autohuur en eventuele extra activiteiten.
+- Begroot totaal: ongeveer **€4.187–€5.006**, op basis van de onafgeronde bedragen per persoon.
+- Niet inbegrepen: eten behalve het inbegrepen hotelontbijt, drank, nachtleven (waaronder party-entree), dinerbuffet, autohuur en eventuele extra activiteiten.
 - Als de zomerrodelbaan of mountaincarts niet draaien, vervang die door karting/bowling of een andere indooractiviteit; herbereken de activiteitenpost met de definitieve 2027-tarieven.
 
 ## Aandachtspunten en openstaande acties
@@ -140,7 +140,7 @@ De projectgrens geldt voor **vervoer, verblijf en geplande activiteiten**. Eten,
 3. Vraag Sommerrodelbahn Willingen of de **Mountaincarts en zomerrodelbaan op zaterdag 17 april 2027** geopend zijn en of er groepsafspraken zijn.
 4. Reserveer bij het Kart- & Bowlingcenter een 30-minutenrace en laat bevestigen hoe 13 deelnemers worden verdeeld.
 5. Controleer de openingstijden, entree en leeftijdsvoorwaarden van Brauhaus en Seilbar dichter bij de datum.
-6. Bevestig bij harde wind of onweer de status van de Skywalk; plan karting als indoorreserve.
+6. Bevestig bij harde wind of onweer de status van de Skywalk; plan karting als binnenalternatief.
 7. Als een echte **citytrip** een harde must blijft, vergelijk Willingen nog met een stad: de bestemming scoort vooral op buitenactiviteiten en nachtleven, niet op stedelijke bezienswaardigheden.
 
 ## Bronnen
