@@ -24,7 +24,7 @@ npm run review:browser
 ```
 
 - `npm test` controleert interne links, navigatie, metadata, budgettotalen, Markdown-tabellen, inhoudelijke afspraken, de aftelklok en de themakeuze.
-- `npm run review:browser` gebruikt een lokaal geïnstalleerde Chrome/Edge-browser om alle zes pagina's in lichte en donkere modus te controleren op 320, 390, 768, 1024 en 1440 pixels breed. Het controleert overflow, tekstcontrast, toetsenbordfocus, de themaschakelaar en opgeslagen voorkeur, kosten en JavaScript-fouten.
+- `npm run review:browser` gebruikt een lokaal geïnstalleerde Chrome/Edge-browser om alle zeven pagina's in lichte en donkere modus te controleren op 320, 390, 768, 1024 en 1440 pixels breed. Het controleert overflow, tekstcontrast, toetsenbordfocus, de themaschakelaar en opgeslagen voorkeur, kosten en JavaScript-fouten.
 - Screenshots en resultaten staan in `.review-artifacts/`, buiten Git. Externe fonts en kaarten worden bij deze automatische controle geblokkeerd; de fallbacktypografie wordt dus ook getest.
 - Als de browser niet automatisch gevonden wordt, stel `BROWSER_PATH` in op het uitvoerbare bestand.
 - De browsercontrole is een praktische regressiecheck, geen volledige WCAG- of HTML-validator. Controleer ook handmatig met Tab, op een telefoon en met de echte externe fonts/kaarten.
@@ -40,8 +40,10 @@ python -m http.server 8000 --directory docs
 ```text
 docs/
 ├── index.html                     # Overzicht
+├── kosten.html                    # Vergelijking van kosten voor alle bestemmingen
 ├── assets/
 │   ├── countdown.js               # Aftelklok op de hoofdpagina
+│   ├── cost-comparison.js         # Selecties, totalen en activiteitinfo
 │   ├── theme.js                   # Licht/donker en opgeslagen voorkeur
 │   └── styles.css                 # Gedeelde vormgeving
 └── bestemmingen/
@@ -51,6 +53,8 @@ docs/
      ├── lissabon.html              # Detailpagina Lissabon
      └── willingen.html             # Detailpagina Willingen
 ```
+
+De kostenvergelijker toont bestemmingen naast elkaar. Selecties worden lokaal per browser bewaard; ze worden niet met andere bezoekers gedeeld. Een streepje betekent dat een post niet van toepassing is. `n.t.b.` betekent dat een prijs nog ontbreekt en telt niet mee in de totalen.
 
 ## Lichte en donkere modus
 

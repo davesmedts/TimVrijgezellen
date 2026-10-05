@@ -105,6 +105,48 @@ test("overview has no destination estimates and keeps all five destinations", as
   assert.doesNotMatch(overview, /Hostelbasis|Hotelbasis|Budgetinterpretatie/);
 });
 
+test("cost comparison starts with destination budgets matching the detail pages", async () => {
+  const html = await readFile(resolve(root, "docs/kosten.html"), "utf8");
+  const expected = {
+    barcelona: [225, 425],
+    lissabon: [321, 622],
+    keulen: [334, 418],
+    willingen: [322, 385],
+    amsterdam: [240, 455],
+  };
+  const sums = Object.fromEntries(Object.keys(expected).map((city) => [city, [0, 0]]));
+  const items = [...html.matchAll(/<input type="checkbox" data-cost-item="([^"]+)" data-city="([^"]+)"[^>]*data-min="([\d.]+)" data-max="([\d.]+)"([^>]*)>/g)];
+  assert.ok(items.length >= 20, "Expected the current transport, stay, and activity estimates");
+
+  for (const item of items) {
+    const [, , city, minimum, maximum, attributes] = item;
+    assert.ok(sums[city], `Unknown cost comparison destination: ${city}`);
+    assert.ok(Number(minimum) <= Number(maximum), `Invalid range in ${item[0]}`);
+    if (/\bchecked\b/.test(attributes)) {
+      sums[city][0] += Number(minimum);
+      sums[city][1] += Number(maximum);
+    }
+  }
+
+  for (const [city, range] of Object.entries(expected)) {
+    assert.deepEqual(sums[city].map(Math.round), range, `Default selection no longer matches ${city}`);
+    assert.match(html, new RegExp(`data-total-city="${city}"[\\s\\S]*?${range[0]}–${range[1]} p\\.p\\.`));
+    assert.match(html, new RegExp(`data-total-city="${city}"[\\s\\S]*?data-total-group`));
+  }
+
+  assert.match(html, /Activiteit 1[\s\S]*Activiteit 5/);
+  assert.match(html, /data-tooltip="A’DAM VR Level 2 Action/);
+  assert.match(html, /data-tooltip="Kajak en snorkel/);
+  assert.match(html, /class="cost-unknown"/);
+  assert.match(html, /data-cost-item="barcelona-budgethotel".*?data-exclusive-group="barcelona-stay"/);
+  assert.match(html, /data-cost-item="amsterdam-budgethotel".*?data-exclusive-group="amsterdam-stay"/);
+  assert.match(html, /data-reset-costs/);
+  assert.match(html, /aria-live="polite"/);
+  const comparisonTable = html.match(/<table class="cost-comparison"[\s\S]*?<\/table>/)?.[0] ?? "";
+  const rowLabels = [...comparisonTable.matchAll(/<th scope="row">([^<]+)/g)].map(([, label]) => label);
+  assert.doesNotMatch(rowLabels.join(" "), /reserve|nachtleven|eten|drank/i);
+});
+
 test("Markdown tables have consistent columns and three-scenario totals add up", async () => {
   for (const path of markdownFiles) {
     const markdown = await readFile(path, "utf8");

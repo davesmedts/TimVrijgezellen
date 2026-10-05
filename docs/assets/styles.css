@@ -1698,6 +1698,332 @@ a.destination-card:focus-visible {
 .next-card span { color: var(--muted-dark); font-size: 0.59rem; text-transform: uppercase; }
 .next-card strong { color: var(--green-bright); font-size: 1rem; font-weight: 500; }
 
+/* Cross-destination cost comparison */
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+.comparison-hero {
+  padding-block: 38px 30px;
+}
+
+.comparison-hero .breadcrumb {
+  margin-bottom: 2.6rem;
+}
+
+.comparison-hero h1 {
+  margin: 0;
+  font-size: clamp(3rem, 8vw, 6rem);
+  font-weight: 500;
+  letter-spacing: -0.075em;
+  line-height: 1.02;
+}
+
+.comparison-hero .hero-lede {
+  max-width: 780px;
+  margin-top: 1.5rem;
+}
+
+.comparison-section {
+  padding-bottom: 5rem;
+}
+
+.comparison-panel {
+  padding: clamp(1rem, 3vw, 2rem);
+  border: 1px solid var(--border);
+  background: var(--surface);
+  box-shadow: var(--shadow-soft);
+  backdrop-filter: blur(14px);
+}
+
+.comparison-heading {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 1.5rem;
+  margin-bottom: 1.4rem;
+}
+
+.comparison-heading .section-kicker {
+  margin-bottom: 0.55rem;
+}
+
+.comparison-heading h2 {
+  margin: 0;
+  font-size: clamp(1.35rem, 3vw, 2rem);
+  font-weight: 500;
+  letter-spacing: -0.05em;
+}
+
+.comparison-intro {
+  max-width: 760px;
+  margin: 0.5rem 0 0;
+  color: var(--muted);
+  font-size: 0.8rem;
+}
+
+.comparison-reset {
+  flex: 0 0 auto;
+  font-size: 0.72rem;
+}
+
+.comparison-scroll-hint {
+  margin: 0 0 0.55rem;
+  color: var(--muted-dark);
+  font-size: 0.68rem;
+}
+
+.comparison-table-scroll {
+  max-width: 100%;
+  overflow: auto;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-small);
+  background: var(--surface-solid);
+  scrollbar-color: var(--muted-dark) var(--surface-solid);
+}
+
+.cost-comparison {
+  width: 100%;
+  min-width: 1050px;
+  table-layout: fixed;
+  border-collapse: separate;
+  border-spacing: 0;
+  font-size: 0.76rem;
+  font-variant-numeric: tabular-nums;
+}
+
+.cost-comparison th,
+.cost-comparison td {
+  min-width: 145px;
+  padding: 0.75rem 0.8rem;
+  border-right: 1px solid var(--border);
+  border-bottom: 1px solid var(--border);
+  text-align: left;
+  vertical-align: middle;
+}
+
+.cost-comparison tr > :last-child {
+  border-right: 0;
+}
+
+.cost-comparison tbody tr:last-child > * {
+  border-bottom: 0;
+}
+
+.cost-comparison thead th {
+  position: sticky;
+  top: 0;
+  z-index: 3;
+  background: var(--surface-solid);
+  color: var(--foreground);
+  font-size: 0.82rem;
+  font-weight: 600;
+}
+
+.cost-comparison thead th a {
+  display: flex;
+  min-height: 32px;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.45rem;
+}
+
+.cost-comparison thead th a:hover {
+  color: var(--blue-bright);
+}
+
+.cost-comparison thead th a span {
+  color: var(--muted-dark);
+  font-size: 0.58rem;
+}
+
+.cost-comparison .comparison-row-heading,
+.cost-comparison tbody th[scope="row"],
+.cost-comparison tfoot th[scope="row"] {
+  position: sticky;
+  left: 0;
+  z-index: 2;
+  width: 205px;
+  min-width: 205px;
+  background: var(--surface-solid);
+}
+
+.cost-comparison thead .comparison-row-heading {
+  z-index: 5;
+  color: var(--muted);
+}
+
+.cost-comparison tbody th[scope="row"] {
+  color: var(--text-secondary);
+  font-size: 0.7rem;
+  font-weight: 500;
+}
+
+.cost-comparison .comparison-category th {
+  padding-block: 0.55rem;
+  background: var(--surface-raised);
+  color: var(--blue-bright);
+  font-size: 0.64rem;
+  font-weight: 600;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+}
+
+.cost-comparison .cost-cell {
+  white-space: nowrap;
+}
+
+.cost-choice {
+  display: inline-flex;
+  min-height: 32px;
+  align-items: center;
+  gap: 0.5rem;
+  color: var(--text-secondary);
+  cursor: pointer;
+}
+
+.cost-choice input {
+  width: 17px;
+  height: 17px;
+  margin: 0;
+  accent-color: var(--green-bright);
+  cursor: pointer;
+}
+
+.cost-choice input:focus-visible,
+.cost-info:focus-visible {
+  outline: 2px solid var(--yellow);
+  outline-offset: 3px;
+}
+
+.cost-choice input:not(:checked) + span {
+  color: var(--muted-dark);
+}
+
+.cost-info {
+  display: inline-grid;
+  width: 32px;
+  height: 32px;
+  margin-left: 0.3rem;
+  padding: 0;
+  border: 1px solid var(--border-strong);
+  border-radius: 50%;
+  place-items: center;
+  background: var(--control-background);
+  color: var(--blue-bright);
+  font: inherit;
+  font-size: 0.68rem;
+  font-weight: 700;
+  cursor: help;
+}
+
+.cost-info:hover,
+.cost-info[aria-expanded="true"] {
+  border-color: var(--blue-bright);
+  background: var(--control-hover);
+}
+
+.cost-empty {
+  color: var(--muted-dark);
+  text-align: center !important;
+}
+
+.cost-unknown {
+  color: var(--yellow);
+  white-space: nowrap;
+}
+
+.destination-total {
+  min-width: 160px !important;
+  background: var(--surface-raised);
+}
+
+.destination-total strong,
+.destination-total small {
+  display: block;
+}
+
+.destination-total strong {
+  color: var(--green-bright);
+  font-size: 0.78rem;
+  font-weight: 700;
+  white-space: nowrap;
+}
+
+.destination-total small {
+  margin-top: 0.3rem;
+  color: var(--muted);
+  font-size: 0.62rem;
+  overflow-wrap: anywhere;
+}
+
+.cost-comparison tfoot th,
+.cost-comparison tfoot td {
+  border-bottom: 0;
+  background: var(--surface-raised);
+}
+
+.cost-comparison tfoot th[scope="row"] {
+  z-index: 3;
+  color: var(--foreground);
+  font-size: 0.75rem;
+}
+
+.comparison-tooltip {
+  position: fixed;
+  z-index: 100;
+  width: max-content;
+  max-width: min(300px, calc(100vw - 24px));
+  padding: 0.75rem 0.85rem;
+  border: 1px solid var(--border-strong);
+  border-radius: 9px;
+  background: var(--surface-solid);
+  box-shadow: var(--shadow-card);
+  color: var(--foreground);
+  font-size: 0.72rem;
+  line-height: 1.55;
+  pointer-events: none;
+}
+
+.comparison-tooltip[hidden] {
+  display: none;
+}
+
+.comparison-live {
+  min-height: 1.2em;
+  margin: 0.8rem 0 0;
+  color: var(--green-bright);
+  font-size: 0.68rem;
+}
+
+.comparison-notes {
+  display: grid;
+  margin-top: 1.1rem;
+  padding-top: 1rem;
+  border-top: 1px solid var(--border);
+  gap: 0.35rem;
+}
+
+.comparison-notes p,
+.comparison-noscript {
+  margin: 0;
+  color: var(--muted-dark);
+  font-size: 0.69rem;
+}
+
+.comparison-notes strong {
+  color: var(--text-secondary);
+  font-weight: 600;
+}
+
 @media (max-width: 900px) {
   .header-inner { grid-template-columns: minmax(0, 1fr) auto; gap: 0.5rem 1rem; padding-block: 0.75rem; }
   .tabs { grid-column: 1 / -1; grid-row: 2; justify-content: flex-start; flex-wrap: wrap; }
@@ -1865,6 +2191,28 @@ a.destination-card:focus-visible {
     padding-block: 28px 36px;
   }
 
+  .comparison-hero {
+    padding-block: 28px 24px;
+  }
+
+  .comparison-hero .breadcrumb {
+    margin-bottom: 2rem;
+  }
+
+  .comparison-heading {
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 0.85rem;
+  }
+
+  .comparison-reset {
+    min-height: 42px;
+  }
+
+  .comparison-panel {
+    padding: 1rem;
+  }
+
   .breadcrumb {
     margin-bottom: 36px;
   }
@@ -1953,6 +2301,17 @@ a.destination-card:focus-visible {
   .panel, .fact-card, .destination-card, .weather-card, .quick-strip, .terminal-card { background: #fff; box-shadow: none; backdrop-filter: none; transform: none; break-inside: avoid; }
   .text-gradient { background: none; color: #111; }
   .budget-card .budget-amount, .sunrise-time, .sunset-time, .quick-strip a { color: #111; }
+  .comparison-panel { padding: 0; border: 0; box-shadow: none; backdrop-filter: none; }
+  .comparison-hero { padding-block: 1rem; }
+  .comparison-hero .breadcrumb, .comparison-scroll-hint, .comparison-reset, .comparison-tooltip, .cost-info, .comparison-live { display: none !important; }
+  .comparison-table-scroll { overflow: visible; border: 0; }
+  .cost-comparison { min-width: 0; font-size: 6.5pt; }
+  .cost-comparison th, .cost-comparison td { min-width: 0; padding: 0.3rem; }
+  .cost-comparison .comparison-row-heading, .cost-comparison tbody th[scope="row"], .cost-comparison tfoot th[scope="row"] { position: static; width: auto; min-width: 0; }
+  .cost-comparison thead th { position: static; }
+  .destination-total { min-width: 0 !important; }
+  .destination-total strong { font-size: 6.5pt; }
+  .destination-total small { font-size: 5.5pt; }
   main *, .site-footer * { color: #111 !important; }
   a { text-decoration: underline; }
 }

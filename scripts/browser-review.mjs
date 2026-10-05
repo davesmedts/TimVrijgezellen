@@ -49,7 +49,7 @@ const audit = () => {
   const report = (condition, message) => { if (!condition) issues.push(message); };
   report(document.documentElement.scrollWidth <= width + 1, `Page overflows: ${document.documentElement.scrollWidth}px > ${width}px`);
   if (document.documentElement.scrollWidth > width + 1) {
-    const overflowing = [...document.querySelectorAll("body *")].filter((element) => !element.closest('.ambient') && element.getBoundingClientRect().right > width + 1);
+    const overflowing = [...document.querySelectorAll("body *")].filter((element) => !element.closest('.ambient, .comparison-table-scroll') && element.getBoundingClientRect().right > width + 1);
     issues.push(`Overflowing elements: ${overflowing.slice(0, 6).map((element) => `${element.tagName}.${element.className}`).join(', ')}`);
   }
   report(document.querySelectorAll("h1").length === 1, "Expected one h1");
@@ -76,7 +76,7 @@ const audit = () => {
     .filter((element) => element.clientWidth > 0 && element.scrollWidth > element.clientWidth + 2)
     .map((element) => `${element.tagName}.${element.className}: ${element.textContent.trim().slice(0, 60)}`);
   report(clipped.length === 0, `Clipped content: ${clipped.join("; ")}`);
-  const focusTarget = document.querySelector(".hero-actions a, .quick-strip a");
+  const focusTarget = document.querySelector(".hero-actions a, .quick-strip a, .comparison-reset");
   focusTarget?.focus();
   if (focusTarget) report(getComputedStyle(focusTarget).outlineStyle !== "none", "Keyboard focus outline missing");
 
@@ -89,6 +89,41 @@ const audit = () => {
     report(!/reserve|party|nachtleven|eten|drank/i.test(budget.querySelector(".budget-list").textContent), "Excluded spending in cost table");
     report(document.querySelectorAll(".sun-summary dt").length === 2, "Missing sunrise/sunset summary");
     if (width <= 900) report(getComputedStyle(document.querySelector(".detail-aside")).order === "-1", "Mobile costs should precede detailed content");
+  }
+  const comparison = document.querySelector("[data-cost-comparison]");
+  if (comparison) {
+    const scroller = document.querySelector(".comparison-table-scroll");
+    report(Boolean(scroller), "Cost comparison scroll region missing");
+    if (width <= 900) report(scroller.scrollWidth > scroller.clientWidth, "Cost comparison should scroll horizontally on narrow screens");
+    if (width >= 1440) report(scroller.scrollWidth <= scroller.clientWidth + 1, "Cost comparison should show all destinations on wide screens");
+    const total = document.querySelector('[data-total-city="barcelona"] [data-total-per-person]');
+    const firstItem = comparison.querySelector('[data-cost-item="barcelona-flight"]');
+    if (total && firstItem) {
+      const baseline = total.textContent;
+      firstItem.checked = !firstItem.checked;
+      firstItem.dispatchEvent(new Event("change", { bubbles: true }));
+      report(total.textContent !== baseline, "Toggling a cost did not update its destination total");
+      firstItem.checked = !firstItem.checked;
+      firstItem.dispatchEvent(new Event("change", { bubbles: true }));
+      report(total.textContent === baseline, "Restoring a cost did not restore the destination total");
+    }
+    const hostel = comparison.querySelector('[data-cost-item="barcelona-hostel"]');
+    const hotel = comparison.querySelector('[data-cost-item="barcelona-budgethotel"]');
+    if (total && hostel && hotel) {
+      hotel.checked = true;
+      hotel.dispatchEvent(new Event("change", { bubbles: true }));
+      report(hotel.checked && !hostel.checked, "Selecting a hotel alternative should replace the hostel");
+      report(total.textContent.includes("€285–545"), "The hotel alternative did not update the Barcelona estimate");
+      hostel.checked = true;
+      hostel.dispatchEvent(new Event("change", { bubbles: true }));
+      report(hostel.checked && !hotel.checked && total.textContent.includes("€225–425"), "Restoring the hostel scenario failed");
+    }
+    const info = comparison.querySelector(".cost-info[data-tooltip]");
+    if (info) {
+      info.click();
+      report(!document.querySelector(".comparison-tooltip")?.hidden, "Activity information tooltip did not open");
+      info.click();
+    }
   }
   const countdown = document.querySelector("[data-countdown]");
   if (countdown) report(!/NaN|---/.test(countdown.querySelector(".countdown-grid").textContent), "Countdown did not initialize");
@@ -168,11 +203,11 @@ try {
   await send("Network.enable");
   // Offline third-party resources keep layout tests deterministic and avoid network/certificate failures.
   await send("Network.setBlockedURLs", { urls: ["*maps.google.com*", "*fonts.googleapis.com*", "*fonts.gstatic.com*"] });
-  const { identifier } = await send("Page.addScriptToEvaluateOnNewDocument", { source: 'window.localStorage.removeItem("tim-theme");' });
+  const { identifier } = await send("Page.addScriptToEvaluateOnNewDocument", { source: 'window.localStorage.removeItem("tim-theme"); window.localStorage.removeItem("tim-cost-comparison-v1");' });
 
   const results = [];
   let firstLoad = true;
-  for (const page of ["index.html", "bestemmingen/barcelona.html", "bestemmingen/lissabon.html", "bestemmingen/keulen.html", "bestemmingen/willingen.html", "bestemmingen/amsterdam.html"]) {
+  for (const page of ["index.html", "kosten.html", "bestemmingen/barcelona.html", "bestemmingen/lissabon.html", "bestemmingen/keulen.html", "bestemmingen/willingen.html", "bestemmingen/amsterdam.html"]) {
     for (const width of [320, 390, 768, 1024, 1440]) {
       await send("Emulation.setDeviceMetricsOverride", { width, height: 900, deviceScaleFactor: 1, mobile: false });
       await navigate(page);
@@ -206,7 +241,7 @@ try {
           await send("Runtime.evaluate", { expression: 'document.activeElement?.blur(); window.scrollTo({ top: 0, behavior: "instant" });' });
           const { data } = await send("Page.captureScreenshot", { format: "png", captureBeyondViewport: false });
           await writeFile(resolve(artifacts, `${page.replaceAll("/", "-")}-${width}${suffix}.png`), Buffer.from(data, "base64"));
-          await send("Runtime.evaluate", { expression: 'document.querySelector("#kosten, #bestemmingen").scrollIntoView({ behavior: "instant" });' });
+          await send("Runtime.evaluate", { expression: 'document.querySelector("#kosten, #bestemmingen, [data-cost-comparison]")?.scrollIntoView({ behavior: "instant" });' });
           const section = await send("Page.captureScreenshot", { format: "png", captureBeyondViewport: false });
           await writeFile(resolve(artifacts, `${page.replaceAll("/", "-")}-${width}${suffix}-details.png`), Buffer.from(section.data, "base64"));
         }
@@ -219,7 +254,7 @@ try {
   await send("Emulation.setEmulatedMedia", { media: "print" });
   for (const theme of ["light", "dark"]) {
     if (theme === "dark") await send("Runtime.evaluate", { expression: 'document.querySelector("[data-theme-toggle]").click();' });
-    const print = await send("Runtime.evaluate", { expression: '({ header: getComputedStyle(document.querySelector(".site-header")).display, amount: getComputedStyle(document.querySelector(".budget-amount")).color })', returnByValue: true });
+    const print = await send("Runtime.evaluate", { expression: '({ header: getComputedStyle(document.querySelector(".site-header")).display, amount: getComputedStyle(document.querySelector(".budget-amount, .destination-total strong")).color })', returnByValue: true });
     if (print.result.value.header !== "none" || print.result.value.amount !== "rgb(17, 17, 17)") exceptions.push(`Print layout failed (${theme}): header or cost text`);
   }
   await writeFile(resolve(artifacts, "browser-review.json"), JSON.stringify({ results, exceptions }, null, 2));
