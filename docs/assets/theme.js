@@ -5,11 +5,17 @@
   let toggle;
   let theme = "dark";
 
-  try {
-    if (window.localStorage.getItem(storageKey) === "light") theme = "light";
-  } catch {
-    // Storage can be unavailable when opening a local file or blocking site data.
-  }
+  const readStoredTheme = () => {
+    try {
+      return window.localStorage.getItem(storageKey) === "light" ? "light" : "dark";
+    } catch {
+      // Storage can be unavailable when opening a local file or blocking site data.
+      // Keep the theme this page is already showing.
+      return theme;
+    }
+  };
+
+  theme = readStoredTheme();
 
   const applyTheme = () => {
     const light = theme === "light";
@@ -20,6 +26,20 @@
 
   // Run in the head, before the stylesheet, to avoid flashing the wrong theme.
   applyTheme();
+
+  // Another browser tab can flip the preference after this document was parsed,
+  // and a page restored from the back/forward cache is not re-parsed at all.
+  // Re-read the stored choice so every open page shows the same theme.
+  const syncTheme = () => {
+    theme = readStoredTheme();
+    applyTheme();
+  };
+
+  window.addEventListener("storage", (event) => {
+    if (event.key !== null && event.key !== storageKey) return;
+    syncTheme();
+  });
+  window.addEventListener("pageshow", syncTheme);
 
   const initializeToggle = () => {
     toggle = document.querySelector("[data-theme-toggle]");

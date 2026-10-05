@@ -96,10 +96,10 @@ test("every page has a shared, accessible header theme switch with early initial
   }
 });
 
-test("overview has no destination estimates and keeps all five destinations", async () => {
+test("overview has no destination estimates and keeps all four destinations", async () => {
   const html = await readFile(resolve(root, "docs/index.html"), "utf8");
   const cards = [...html.matchAll(/<a class="destination-card[\s\S]*?<\/a>/g)];
-  assert.equal(cards.length, 5);
+  assert.equal(cards.length, 4);
   for (const [card] of cards) assert.doesNotMatch(card, /€|raming/i);
   const overview = await readFile(resolve(root, "Bestemmingen/overzicht.md"), "utf8");
   assert.doesNotMatch(overview, /Hostelbasis|Hotelbasis|Budgetinterpretatie/);
@@ -108,11 +108,10 @@ test("overview has no destination estimates and keeps all five destinations", as
 test("cost comparison starts with destination budgets matching the detail pages", async () => {
   const html = await readFile(resolve(root, "docs/kosten.html"), "utf8");
   const expected = {
-    barcelona: [225, 425],
+    barcelona: [237, 437],
     lissabon: [321, 622],
-    keulen: [334, 418],
-    willingen: [322, 385],
-    amsterdam: [240, 455],
+    keulen: [309, 383],
+    amsterdam: [215, 345],
   };
   const sums = Object.fromEntries(Object.keys(expected).map((city) => [city, [0, 0]]));
   const items = [...html.matchAll(/<input type="checkbox" data-cost-item="([^"]+)" data-city="([^"]+)"[^>]*data-min="([\d.]+)" data-max="([\d.]+)"([^>]*)>/g)];

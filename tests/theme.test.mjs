@@ -10,6 +10,7 @@ function render(options = {}) {
   const attributes = { "aria-checked": "false" };
   const meta = {};
   const events = {};
+  const windowEvents = {};
   const saved = new Map(options.saved === undefined ? [] : [["tim-theme", options.saved]]);
   let ready;
   const toggle = {
@@ -27,6 +28,7 @@ function render(options = {}) {
       addEventListener: (name, callback) => { if (name === "DOMContentLoaded") ready = callback; },
     },
     window: {
+      addEventListener: (name, callback) => { windowEvents[name] = callback; },
       get localStorage() {
         if (options.blocked) throw new Error("Storage blocked");
         return {
@@ -39,7 +41,16 @@ function render(options = {}) {
       },
     },
   });
-  return { root, toggle, attributes, meta, saved, ready: () => ready?.(), click: () => events.click?.() };
+  return {
+    root,
+    toggle,
+    attributes,
+    meta,
+    saved,
+    ready: () => ready?.(),
+    click: () => events.click?.(),
+    emit: (name, event = {}) => windowEvents[name]?.(event),
+  };
 }
 
 test("keeps the existing dark theme by default and initializes the accessible switch", () => {
@@ -76,6 +87,37 @@ test("switches both ways and remembers the choice on another page", () => {
   assert.equal(next.attributes["aria-checked"], "false");
   assert.equal(next.meta.content, "#000000");
   assert.equal(next.saved.get("tim-theme"), "dark");
+});
+
+test("follows a theme change made in another tab or on a restored page", () => {
+  const page = render({ ready: true });
+  assert.equal(page.root.dataset.theme, "dark");
+
+  // Een andere browser-tab schrijft een nieuwe voorkeur.
+  page.saved.set("tim-theme", "light");
+  page.emit("storage", { key: "tim-theme" });
+  assert.equal(page.root.dataset.theme, "light");
+  assert.equal(page.attributes["aria-checked"], "true");
+  assert.equal(page.meta.content, "#f5f7fb");
+
+  // Een andere sleutel mag de voorkeur niet overschrijven.
+  page.saved.set("tim-theme", "dark");
+  page.emit("storage", { key: "andere-sleutel" });
+  assert.equal(page.root.dataset.theme, "light");
+
+  // Een pagina uit de back/forward-cache wordt opnieuw toegepast.
+  page.emit("pageshow");
+  assert.equal(page.root.dataset.theme, "dark");
+  assert.equal(page.attributes["aria-checked"], "false");
+});
+
+test("sync keeps working when storage is blocked", () => {
+  const page = render({ blocked: true, ready: true });
+  assert.doesNotThrow(() => page.emit("storage", { key: "tim-theme" }));
+  assert.doesNotThrow(() => page.emit("pageshow"));
+  assert.equal(page.root.dataset.theme, "dark");
+  page.click();
+  assert.equal(page.root.dataset.theme, "light");
 });
 
 test("ignores invalid saved preferences", () => {

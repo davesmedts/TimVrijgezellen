@@ -50,8 +50,7 @@ docs/
      ├── amsterdam.html             # Detailpagina Amsterdam
      ├── barcelona.html             # Detailpagina Barcelona
      ├── keulen.html                # Detailpagina Keulen
-     ├── lissabon.html              # Detailpagina Lissabon
-     └── willingen.html             # Detailpagina Willingen
+     └── lissabon.html              # Detailpagina Lissabon
 ```
 
 De kostenvergelijker toont bestemmingen naast elkaar. Selecties worden lokaal per browser bewaard; ze worden niet met andere bezoekers gedeeld. Een streepje betekent dat een post niet van toepassing is. `n.t.b.` betekent dat een prijs nog ontbreekt en telt niet mee in de totalen.
@@ -88,7 +87,6 @@ De website heeft geen servercode en kan ook via Netlify, Cloudflare Pages of een
 - De overzichtspagina is gebaseerd op `vrijgezellen.md`.
 - De detailpagina's vatten bestemmingsfiches samen uit de map `Bestemmingen/`.
 - De Keulen-pagina is gebaseerd op `Bestemmingen/Keulen/keulen.md`.
-- De Willingen-pagina is gebaseerd op `Bestemmingen/Sauerland/sauerland.md`.
 - De aftelklok loopt tot vrijdag 16 april 2027 om 17:00 Belgische zomertijd.
 - De Google Maps-kaarten gebruiken Plaça de Catalunya, Rossio en de Dom van Keulen als indicatieve stadscentrum-markers; exacte verblijfslocaties zijn nog niet bekend.
 - De visuele richting is geïnspireerd door het Ayaka-thema: een zwarte of lichtgrijze basis, subtiele glas-effecten, monospaced typografie en kleuraccenten met aangepast contrast per modus.

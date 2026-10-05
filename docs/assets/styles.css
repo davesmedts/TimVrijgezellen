@@ -898,12 +898,6 @@ a.destination-card:focus-visible {
   background: var(--cyan);
 }
 
-.destination-card--willingen::after {
-  right: -25%;
-  bottom: -15%;
-  background: var(--purple);
-}
-
 .destination-card--amsterdam::after {
   bottom: -15%;
   left: -20%;
@@ -1006,7 +1000,6 @@ a.destination-card:focus-visible {
 
 .destination-card--lisbon .card-link { color: var(--green-bright); }
 .destination-card--cologne .card-link { color: var(--cyan); }
-.destination-card--willingen .card-link { color: var(--purple-bright); }
 .destination-card--amsterdam .card-link { color: var(--green-bright); }
 
 .destination-card--empty {
@@ -1216,12 +1209,6 @@ a.destination-card:focus-visible {
     var(--surface);
 }
 
-.weather-card--willingen {
-  background:
-    radial-gradient(ellipse at 0% 0%, rgba(204, 102, 204, 0.11), transparent 48%),
-    var(--surface);
-}
-
 .weather-card--amsterdam {
   background:
     radial-gradient(ellipse at 0% 0%, rgba(102, 204, 153, 0.11), transparent 48%),
@@ -1243,7 +1230,6 @@ a.destination-card:focus-visible {
 .weather-card--barcelona .section-kicker { color: var(--blue-bright); }
 .weather-card--lissabon .section-kicker { color: var(--green-bright); }
 .weather-card--cologne .section-kicker { color: var(--cyan); }
-.weather-card--willingen .section-kicker { color: var(--purple-bright); }
 .weather-card--amsterdam .section-kicker { color: var(--green-bright); }
 
 .weather-badge {

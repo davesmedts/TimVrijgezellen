@@ -92,18 +92,19 @@ Barcelona heeft een zeer groot aanbod aan tapasbars, restaurants, cocktailbars e
 |---|---:|---:|---:|
 | Vlucht retour | €135 | €135 | €200 |
 | Airport en lokaal vervoer | €20 | €35 | €45 |
+| Luchthavenparking | €12 | €12 | €12 |
 | Verblijf - hostel | €70 | €140 | €180 |
 | Verblijf - budgethotel | €130 | €210 | €300 |
 | Activiteiten | €0 | €0 | €0 |
-| **Totaal met hostel, zonder voetbal** | **€225** | **€310** | **€425** |
-| **Totaal met budgethotel, zonder voetbal** | **€285** | **€380** | **€545** |
+| **Totaal met hostel, zonder voetbal** | **€237** | **€322** | **€437** |
+| **Totaal met budgethotel, zonder voetbal** | **€297** | **€392** | **€557** |
 
-Activiteiten, eten en drinken, nachtleven en voetbal zijn voorlopig niet opgenomen in het berekende totaal. Het theoretische ticketbedrag is niet bruikbaar zolang tickets voor 13 personen niet realistisch beschikbaar lijken.
+Luchthavenparking is €153 voor drie auto’s, gedeeld door 13 personen en afgerond naar €12 p.p. Activiteiten, eten en drinken, nachtleven en voetbal zijn voorlopig niet opgenomen in het berekende totaal. Het theoretische ticketbedrag is niet bruikbaar zolang tickets voor 13 personen niet realistisch beschikbaar lijken.
 
 ### Groepstotalen voor 13 personen
 
-- Totaal met hostel, zonder voetbal: **€2.925 - €5.525**; realistische middenraming **€4.030**.
-- Totaal met budgethotel, zonder voetbal: **€3.705 - €7.085**; realistische middenraming **€4.940**.
+- Totaal met hostel, zonder voetbal: **€3.081 - €5.681**; realistische middenraming **€4.186**.
+- Totaal met budgethotel, zonder voetbal: **€3.861 - €7.241**; realistische middenraming **€5.096**.
 
 Belgische reizigers kunnen Spanje bezoeken met een geldige Belgische identiteitskaart. Er zijn geen ETA- of visumkosten voor dit korte verblijf.
 

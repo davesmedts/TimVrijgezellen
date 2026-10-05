@@ -107,20 +107,20 @@ Indicatieve raming met drie eigen auto’s en een centraal hotel met ontbijt. Et
 
 | Onderdeel | Raming p.p. | Opmerking |
 |---|---:|---|
-| Vervoer, parkeren en lokaal vervoer | €35–€55 | Brandstof, gedeelde parkeer- en lokale verplaatsingskosten; hotelparking nog te bevestigen |
+| Vervoer, parkeren en lokaal vervoer | €10–€20 | Brandstof en gedeelde parkeerkosten voor drie auto’s; hotelparking zit in de hotelraming |
 | Verblijf — hotel met ontbijt | €205–€250 | Planningsbudget voor 7 kamers/13 personen, 2 nachten, ontbijt en 5% belasting; offerte nodig |
 | Zaterdag — VR 7th Box | €34,90 | Huidige weekendprijs; tarief voor 2027 kan wijzigen |
 | Zondag — Phantasialand | €59–€78 | Voorzichtige raming op basis van huidige april-tarieven; exacte dagprijs/opening controleren |
-| **Totaal kernprogramma** | **circa €334–€418** | **Binnen het plafond, als de hotelofferte binnen de raming blijft** |
+| **Totaal kernprogramma** | **circa €309–€383** | **Binnen het plafond, als de hotelofferte binnen de raming blijft** |
 
-Optionele Kölsche Brauhaustour: **+€27,50 p.p.**. Daarmee wordt de geraamde som ongeveer **€361–€445 p.p.**; aan de bovenkant komt de groep dus bijna aan het plafond van €450. Eten, drinken en uitgaan blijven in alle gevallen uitgesloten.
+Optionele Kölsche Brauhaustour: **+€27,50 p.p.**. Daarmee wordt de geraamde som ongeveer **€336–€410 p.p.**; ook dan blijft de raming onder het plafond van €450. Eten, drinken en uitgaan blijven in alle gevallen uitgesloten.
 
 ### Groepstotaal voor 13
 
-- Kernprogramma: ongeveer **€4.341–€5.433**.
-- Met optionele brouwerijtour: ongeveer **€4.698–€5.790**.
+- Kernprogramma: ongeveer **€4.016–€4.978**.
+- Met optionele brouwerijtour: ongeveer **€4.373–€5.335**.
 
-Dit zijn planningsramingen, geen offertes. De grootste open prijsrisico’s zijn de hotelprijs voor zeven kamers, 2027-parkopening en het definitieve Phantasialand-ticket voor 18 april. Als het hotel duurder uitvalt dan gemiddeld €185 per kamer per nacht, kan het €450-plafond ook zonder brouwerijtour krap worden.
+Dit zijn planningsramingen, geen offertes. De grootste open prijsrisico’s zijn de hotelprijs voor zeven kamers, 2027-parkopening en het definitieve Phantasialand-ticket voor 18 april. Als het hotel duurder uitvalt dan gemiddeld circa €295 per kamer per nacht, kan het €450-plafond ook zonder brouwerijtour krap worden.
 
 ## Voetbal als bonus
 

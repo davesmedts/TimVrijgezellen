@@ -228,7 +228,6 @@ De gemeentelijke pagina vermeldt momenteel **12,5% toeristenbelasting op de over
 - Tram, metro en bus: geschikt voor de verbinding tussen verblijf, P+R en activiteiten.
 - Pont naar Amsterdam-Noord: gratis voor voetgangers; reken voor A’DAM Tower/THIS IS HOLLAND met ongeveer vijf minuten vaart vanaf Centraal Station.
 - Taxi: handig na het uitgaan, maar voor 13 personen zijn meerdere voertuigen nodig.
-- Realistische raming lokaal vervoer en parkeren: **€35-€90 per persoon**. De onderkant veronderstelt P+R en OV; de bovenkant houdt rekening met hotel- of centrumparking en meerdere taxiritten.
 
 ## Budget per persoon
 
@@ -242,20 +241,19 @@ Kernactiviteiten tegen de huidige gepubliceerde tarieven:
 
 | Onderdeel | Minimum | Realistisch | Maximum |
 |---|---:|---:|---:|
-| Brandstof auto retour | €15 | €25 | €40 |
-| Parking en lokaal vervoer | €20 | €45 | €90 |
+| Brandstof auto retour | €10 | €15 | €20 |
 | Verblijf - hostel | €100 | €160 | €220 |
 | Verblijf - budgethotel | €180 | €250 | €350 |
 | Activiteiten kernprogramma | €105 | €105 | €105 |
-| **Totaal met hostel** | **€240** | **€335** | **€455** |
-| **Totaal met budgethotel** | **€320** | **€425** | **€585** |
+| **Totaal met hostel** | **€215** | **€280** | **€345** |
+| **Totaal met budgethotel** | **€295** | **€370** | **€475** |
 
-De activiteitenraming is gebaseerd op de huidige tarieven voor de drie betaalde activiteiten in het programma; de zelfgeleide stadswandeling is gratis. THIS IS HOLLAND, paintball, schieten, karten en de privéboot zijn optionele alternatieven of extra’s en zitten niet in deze tabel. De boot heeft een gepubliceerd vanaftarief van €39,95 p.p., maar voor 13 personen is een offerte nodig. De brandstoframing is per persoon berekend op basis van drie auto’s met vier à vijf personen. De werkelijke kost hangt af van het aantal auto’s, verbruik, P+R/parking en de vraag of bestuurders een bijdrage ontvangen. Hotelbedragen zijn planningsramingen; vraag een offerte die toeristenbelasting, service- en schoonmaakkosten duidelijk vermeldt.
+De activiteitenraming is gebaseerd op de huidige tarieven voor de drie betaalde activiteiten in het programma; de zelfgeleide stadswandeling is gratis. THIS IS HOLLAND, paintball, schieten, karten en de privéboot zijn optionele alternatieven of extra’s en zitten niet in deze tabel. De boot heeft een gepubliceerd vanaftarief van €39,95 p.p., maar voor 13 personen is een offerte nodig. De brandstoframing is per persoon berekend op basis van drie auto’s met vier à vijf personen. De werkelijke kost hangt af van het aantal auto’s, verbruik, P+R/parking en de vraag of bestuurders een bijdrage ontvangen. Hotelbedragen zijn planningsramingen; vraag een offerte die toeristenbelasting, service- en schoonmaakkosten duidelijk vermeldt. Parkeren en lokaal vervoer in de stad zitten niet in deze raming; reken daar ter plaatse apart budget voor.
 
 ### Groepstotalen voor 13 personen
 
-- Totaal met hostel: **€3.120-€5.915**; realistische middenraming ongeveer **€4.355**.
-- Totaal met budgethotel: **€4.160-€7.605**; realistische middenraming ongeveer **€5.525**.
+- Totaal met hostel: **€2.795-€4.485**; realistische middenraming ongeveer **€3.640**.
+- Totaal met budgethotel: **€3.835-€6.175**; realistische middenraming ongeveer **€4.810**.
 
 Deze raming bevat vervoer, verblijf en de drie betaalde kernactiviteiten. Eten en drinken (ook drankjes die in een eventueel bootarrangement zitten), nachtleven en taxi’s zijn niet opgenomen; een privéboot of andere extra activiteit moet apart worden begroot.
 

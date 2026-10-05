@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="theme-color" content="#000000" />
-    <meta name="description" content="Vergelijk de kostenramingen voor Barcelona, Lissabon, Keulen, Willingen en Amsterdam." />
+    <meta name="description" content="Vergelijk de kostenramingen voor Barcelona, Lissabon, Keulen en Amsterdam." />
     <title>Kosten vergelijken — Vrijgezellen Tim</title>
     <script src="./assets/theme.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -32,7 +32,6 @@
           <a class="tab" href="./bestemmingen/barcelona.html">barcelona</a>
           <a class="tab" href="./bestemmingen/lissabon.html">lissabon</a>
           <a class="tab" href="./bestemmingen/keulen.html">keulen</a>
-          <a class="tab" href="./bestemmingen/willingen.html">willingen</a>
           <a class="tab" href="./bestemmingen/amsterdam.html">amsterdam</a>
           <a class="tab is-active" href="./kosten.html" aria-current="page">kosten</a>
           <span class="tab tab--muted" title="Er komen later nog bestemmingen bij">+ meer volgt</span>
@@ -54,7 +53,7 @@
         <nav class="breadcrumb" aria-label="Kruimelpad">
           <a href="./index.html">overzicht</a><span>/</span><span>kosten vergelijken</span>
         </nav>
-        <p class="eyebrow"><span class="status-dot"></span> vijf opties / één overzicht</p>
+        <p class="eyebrow"><span class="status-dot"></span> vier opties / één overzicht</p>
         <h1>Kosten <span class="blue">vergelijken.</span></h1>
         <p class="hero-lede">
           Zet bestemmingen naast elkaar en vink per bestemming aan wat je wilt meenemen.
@@ -76,19 +75,18 @@
           <p class="comparison-scroll-hint" id="table-hint">Op een smal scherm kun je de tabel horizontaal scrollen.</p>
           <div class="comparison-table-scroll" role="region" aria-label="Kostenvergelijking; scroll horizontaal voor alle bestemmingen" aria-describedby="table-hint" tabindex="0">
             <table class="cost-comparison" data-cost-comparison data-participants="13">
-              <caption class="visually-hidden">Kosten per persoon voor vijf bestemmingen. Vink kostenposten aan of uit om de totalen te wijzigen.</caption>
+              <caption class="visually-hidden">Kosten per persoon voor vier bestemmingen. Vink kostenposten aan of uit om de totalen te wijzigen.</caption>
               <thead>
                 <tr>
                   <th class="comparison-row-heading" scope="col">Kostenpost</th>
                   <th scope="col"><a href="./bestemmingen/barcelona.html">Barcelona <span>ES</span></a></th>
                   <th scope="col"><a href="./bestemmingen/lissabon.html">Lissabon <span>PT</span></a></th>
                   <th scope="col"><a href="./bestemmingen/keulen.html">Keulen <span>DE</span></a></th>
-                  <th scope="col"><a href="./bestemmingen/willingen.html">Willingen <span>DE</span></a></th>
                   <th scope="col"><a href="./bestemmingen/amsterdam.html">Amsterdam <span>NL</span></a></th>
                 </tr>
               </thead>
               <tbody>
-                <tr class="comparison-category"><th colspan="6" scope="colgroup">Vervoer</th></tr>
+                <tr class="comparison-category"><th colspan="5" scope="colgroup">Vervoer</th></tr>
                 <tr>
                   <th scope="row">Vlucht retour</th>
                   <td class="cost-cell">
@@ -101,33 +99,30 @@
                   </td>
                   <td class="cost-empty" aria-label="Geen vlucht; vervoer met de auto">—</td>
                   <td class="cost-empty" aria-label="Geen vlucht; vervoer met de auto">—</td>
-                  <td class="cost-empty" aria-label="Geen vlucht; vervoer met de auto">—</td>
                 </tr>
                 <tr>
                   <th scope="row">Auto / vervoer heen en terug</th>
                   <td class="cost-empty" aria-label="Niet van toepassing">—</td>
                   <td class="cost-empty" aria-label="Niet van toepassing">—</td>
                   <td class="cost-cell">
-                    <label class="cost-choice"><input type="checkbox" data-cost-item="keulen-transport" data-city="keulen" data-min="35" data-max="55" checked><span>€35–55</span></label>
-                    <button class="cost-info" type="button" data-tooltip="Vervoer en parking samen, geraamd per persoon op basis van drie auto’s." aria-label="Info over vervoer en parking in Keulen">i</button>
+                    <label class="cost-choice"><input type="checkbox" data-cost-item="keulen-transport" data-city="keulen" data-min="10" data-max="20" checked><span>€10–20</span></label>
+                    <button class="cost-info" type="button" data-tooltip="Vervoer en parking samen per persoon op basis van drie auto’s: brandstof en gedeelde parkeerkosten, zonder hotelparking (die zit in de hotelraming)." aria-label="Info over vervoer en parking in Keulen">i</button>
                   </td>
                   <td class="cost-cell">
-                    <label class="cost-choice"><input type="checkbox" data-cost-item="willingen-transport" data-city="willingen" data-min="25" data-max="40" checked><span>€25–40</span></label>
-                    <button class="cost-info" type="button" data-tooltip="Vervoersraming per persoon voor de autorit met drie auto’s. Het verblijf bevat de genoemde hotelparking." aria-label="Info over vervoer naar Willingen">i</button>
-                  </td>
-                  <td class="cost-cell">
-                    <label class="cost-choice"><input type="checkbox" data-cost-item="amsterdam-fuel" data-city="amsterdam" data-min="15" data-max="40" checked><span>€15–40</span></label>
-                    <button class="cost-info" type="button" data-tooltip="Brandstof retour per persoon, op basis van drie auto’s met vier à vijf deelnemers per auto." aria-label="Info over brandstof naar Amsterdam">i</button>
+                    <label class="cost-choice"><input type="checkbox" data-cost-item="amsterdam-fuel" data-city="amsterdam" data-min="10" data-max="20" checked><span>€10–20</span></label>
+                    <button class="cost-info" type="button" data-tooltip="Brandstof retour per persoon, gedeeld over drie auto’s met vier à vijf deelnemers per auto. Raming: €10–20 per persoon." aria-label="Info over brandstof naar Amsterdam">i</button>
                   </td>
                 </tr>
                 <tr>
                   <th scope="row">Luchthavenparking</th>
-                  <td class="cost-empty" aria-label="Niet van toepassing">—</td>
+                  <td class="cost-cell">
+                    <label class="cost-choice"><input type="checkbox" data-cost-item="barcelona-airport-parking" data-city="barcelona" data-min="11.7692307692" data-max="11.7692307692" checked><span>± €12</span></label>
+                    <button class="cost-info" type="button" data-tooltip="€153 voor drie auto’s op de luchthaven, gedeeld door 13 deelnemers en afgerond tot ± €12 p.p.; in de groepsraming telt het bedrag van €153 mee." aria-label="Info over luchthavenparking bij Barcelona">i</button>
+                  </td>
                   <td class="cost-cell">
                     <label class="cost-choice"><input type="checkbox" data-cost-item="lissabon-airport-parking" data-city="lissabon" data-min="11.7692307692" data-max="11.7692307692" checked><span>± €12</span></label>
                     <button class="cost-info" type="button" data-tooltip="€153 voor drie auto’s, gedeeld door 13 deelnemers. In het totaal wordt de groepskost van €153 gebruikt; de weergave per persoon is afgerond." aria-label="Info over luchthavenparking bij Lissabon">i</button>
                   </td>
-                  <td class="cost-empty" aria-label="Niet van toepassing">—</td>
                   <td class="cost-empty" aria-label="Niet van toepassing">—</td>
                   <td class="cost-empty" aria-label="Niet van toepassing">—</td>
                 </tr>
@@ -142,14 +137,10 @@
                     <button class="cost-info" type="button" data-tooltip="Indicatie per persoon voor luchthavenvervoer en lokaal vervoer. De kajaktourtransfer zit al in de activiteit en wordt niet opnieuw gerekend." aria-label="Info over vervoer in Lissabon">i</button>
                   </td>
                   <td class="cost-empty" aria-label="Inbegrepen in de vervoer- en parkingraming">—</td>
-                  <td class="cost-empty" aria-label="Inbegrepen in de hotelraming of vervoersraming">—</td>
-                  <td class="cost-cell">
-                    <label class="cost-choice"><input type="checkbox" data-cost-item="amsterdam-local" data-city="amsterdam" data-min="20" data-max="90" checked><span>€20–90</span></label>
-                    <button class="cost-info" type="button" data-tooltip="Parking en lokaal vervoer per persoon. De raming houdt rekening met P+R/OV en eventueel duurdere parking of taxi’s." aria-label="Info over parking en lokaal vervoer in Amsterdam">i</button>
-                  </td>
+                  <td class="cost-empty" aria-label="Niet opgenomen in deze raming">—</td>
                 </tr>
 
-                <tr class="comparison-category"><th colspan="6" scope="colgroup">Verblijf · 2 nachten</th></tr>
+                <tr class="comparison-category"><th colspan="5" scope="colgroup">Verblijf · 2 nachten</th></tr>
                 <tr>
                   <th scope="row">Hostel</th>
                   <td class="cost-cell">
@@ -160,7 +151,6 @@
                     <label class="cost-choice"><input type="checkbox" data-cost-item="lissabon-hostel" data-city="lissabon" data-min="60" data-max="180" checked><span>€60–180</span></label>
                     <button class="cost-info" type="button" data-tooltip="Hostel, twee nachten per persoon. Prijs en groepsbeschikbaarheid voor 13 reizigers nog bevestigen." aria-label="Info over verblijf in Lissabon">i</button>
                   </td>
-                  <td class="cost-empty" aria-label="De huidige raming gebruikt een hotel">—</td>
                   <td class="cost-empty" aria-label="De huidige raming gebruikt een hotel">—</td>
                   <td class="cost-cell">
                     <label class="cost-choice"><input type="checkbox" data-cost-item="amsterdam-hostel" data-city="amsterdam" data-exclusive-group="amsterdam-stay" data-min="100" data-max="220" checked><span>€100–220</span></label>
@@ -179,16 +169,12 @@
                     <button class="cost-info" type="button" data-tooltip="Hotel voor twee nachten per persoon, inclusief ontbijt en de Keulse overnachtingsbelasting. Hotelparking is opgenomen bij vervoer en parking." aria-label="Info over verblijf in Keulen">i</button>
                   </td>
                   <td class="cost-cell">
-                    <label class="cost-choice"><input type="checkbox" data-cost-item="willingen-hotel" data-city="willingen" data-min="180" data-max="225" checked><span>€180–225</span></label>
-                    <button class="cost-info" type="button" data-tooltip="Sauerland Stern Hotel, twee nachten per persoon, inclusief ontbijt, toeristenbelasting en parking." aria-label="Info over verblijf in Willingen">i</button>
-                  </td>
-                  <td class="cost-cell">
                     <label class="cost-choice"><input type="checkbox" data-cost-item="amsterdam-budgethotel" data-city="amsterdam" data-exclusive-group="amsterdam-stay" data-min="180" data-max="350"><span>€180–350</span></label>
-                    <button class="cost-info" type="button" data-tooltip="Budgethotel, twee nachten per persoon. Afgeleid uit de huidige werkraming van €320–585 p.p.; dit scenario vervangt het hostel." aria-label="Info over het hotelalternatief in Amsterdam">i</button>
+                    <button class="cost-info" type="button" data-tooltip="Budgethotel, twee nachten per persoon. Afgeleid uit de huidige werkraming van €295–475 p.p.; dit scenario vervangt het hostel." aria-label="Info over het hotelalternatief in Amsterdam">i</button>
                   </td>
                 </tr>
 
-                <tr class="comparison-category"><th colspan="6" scope="colgroup">Activiteiten · per bestemming</th></tr>
+                <tr class="comparison-category"><th colspan="5" scope="colgroup">Activiteiten · per bestemming</th></tr>
                 <tr>
                   <th scope="row">Activiteit 1</th>
                   <td class="cost-unknown"><span>n.t.b.</span><button class="cost-info" type="button" data-tooltip="Er is nog geen betaalde kernactiviteit met prijs opgenomen. Mogelijke ideeën op de bestemmingspagina zijn fietsen of varen, een museum/stadiontour of een groepsactiviteit." aria-label="Info over activiteit 1 in Barcelona">i</button></td>
@@ -199,10 +185,6 @@
                   <td class="cost-cell">
                     <label class="cost-choice"><input type="checkbox" data-cost-item="keulen-vr" data-city="keulen" data-min="34.9" data-max="34.9" checked><span>€34,90</span></label>
                     <button class="cost-info" type="button" data-tooltip="7th Space VR Box, zaterdag. Richtprijs per persoon; reserveer en bevestig de capaciteit voor 13." aria-label="Info over activiteit 1 in Keulen: VR-game">i</button>
-                  </td>
-                  <td class="cost-cell">
-                    <label class="cost-choice"><input type="checkbox" data-cost-item="willingen-skywalk" data-city="willingen" data-min="24" data-max="24" checked><span>€24</span></label>
-                    <button class="cost-info" type="button" data-tooltip="Skywalk-combiticket per persoon, inclusief Mühlenkopfliner-retour en Anlaufturm. Opening op 17 april 2027 nog bevestigen." aria-label="Info over activiteit 1 in Willingen: Skywalk">i</button>
                   </td>
                   <td class="cost-cell">
                     <label class="cost-choice"><input type="checkbox" data-cost-item="amsterdam-vr" data-city="amsterdam" data-min="49" data-max="49" checked><span>€49</span></label>
@@ -221,10 +203,6 @@
                     <button class="cost-info" type="button" data-tooltip="Dagkaart Phantasialand op zondag. De datumprijs is dynamisch; opening op 18 april 2027 en ticketprijs nog controleren." aria-label="Info over activiteit 2 in Keulen: Phantasialand">i</button>
                   </td>
                   <td class="cost-cell">
-                    <label class="cost-choice"><input type="checkbox" data-cost-item="willingen-mountaincart" data-city="willingen" data-min="22" data-max="22" checked><span>€22</span></label>
-                    <button class="cost-info" type="button" data-tooltip="Drie mountaincart-afdalingen per persoon. Opening op 17 april 2027 nog bevestigen." aria-label="Info over activiteit 2 in Willingen: mountaincart">i</button>
-                  </td>
-                  <td class="cost-cell">
                     <label class="cost-choice"><input type="checkbox" data-cost-item="amsterdam-prison-island" data-city="amsterdam" data-min="26.5" data-max="26.5" checked><span>€26,50</span></label>
                     <button class="cost-info" type="button" data-tooltip="Prison Island, 90 minuten. Richtprijs inclusief de momenteel getoonde boekingskosten." aria-label="Info over activiteit 2 in Amsterdam: Prison Island">i</button>
                   </td>
@@ -238,10 +216,6 @@
                     <button class="cost-info" type="button" data-tooltip="Optionele Kölsche Brauhaustour, circa twee uur. Inclusief drie Kölsch of twee frisdranken; standaard niet meegerekend." aria-label="Info over activiteit 3 in Keulen: brouwerijtour">i</button>
                   </td>
                   <td class="cost-cell">
-                    <label class="cost-choice"><input type="checkbox" data-cost-item="willingen-rodelbahn" data-city="willingen" data-min="22" data-max="22" checked><span>€22</span></label>
-                    <button class="cost-info" type="button" data-tooltip="Zes ritten op de zomerrodelbaan per persoon. Opening op 17 april 2027 nog bevestigen." aria-label="Info over activiteit 3 in Willingen: zomerrodelbaan">i</button>
-                  </td>
-                  <td class="cost-cell">
                     <label class="cost-choice"><input type="checkbox" data-cost-item="amsterdam-lookout" data-city="amsterdam" data-min="29.5" data-max="29.5" checked><span>€29,50</span></label>
                     <button class="cost-info" type="button" data-tooltip="A’DAM LOOKOUT + Thrill-combiticket per persoon. Tijdsloten voor 13 deelnemers vooraf controleren." aria-label="Info over activiteit 3 in Amsterdam: A’DAM LOOKOUT">i</button>
                   </td>
@@ -251,10 +225,6 @@
                   <td class="cost-empty" aria-label="Geen geprijsde activiteit">—</td>
                   <td class="cost-empty" aria-label="Geen geprijsde activiteit">—</td>
                   <td class="cost-empty" aria-label="Geen geprijsde activiteit">—</td>
-                  <td class="cost-cell">
-                    <label class="cost-choice"><input type="checkbox" data-cost-item="willingen-karting" data-city="willingen" data-min="49.1" data-max="49.1" checked><span>€49,10</span></label>
-                    <button class="cost-info" type="button" data-tooltip="Indoor kart-race van 30 minuten. In de huidige raming als extra activiteit inbegrepen; als deze een buitenactiviteit vervangt, moet die andere post uit blijven." aria-label="Info over activiteit 4 in Willingen: karting">i</button>
-                  </td>
                   <td class="cost-unknown"><span>n.t.b.</span><button class="cost-info" type="button" data-tooltip="Zondagvoormiddag is nog niet ingevuld. Er is daarom nog geen prijs en deze post telt niet mee." aria-label="Info over activiteit 4 in Amsterdam: zondagactiviteit">i</button></td>
                 </tr>
                 <tr>
@@ -262,21 +232,16 @@
                   <td class="cost-empty" aria-label="Geen geprijsde activiteit">—</td>
                   <td class="cost-empty" aria-label="Geen geprijsde activiteit">—</td>
                   <td class="cost-empty" aria-label="Geen geprijsde activiteit">—</td>
-                  <td class="cost-cell">
-                    <label class="cost-choice"><input type="checkbox" data-cost-item="willingen-helmet" data-city="willingen" data-min="0" data-max="3" checked><span>€0–3</span></label>
-                    <button class="cost-info" type="button" data-tooltip="Helmkap indien nodig. Kleine mogelijke toeslag, opgenomen zoals in de huidige Willingen-raming." aria-label="Info over activiteit 5 in Willingen: helmkap">i</button>
-                  </td>
                   <td class="cost-empty" aria-label="Geen geprijsde activiteit">—</td>
                 </tr>
               </tbody>
               <tfoot>
                 <tr>
                   <th scope="row">Totaal geselecteerd</th>
-                  <td class="destination-total" data-total-city="barcelona"><strong data-total-per-person>€225–425 p.p.</strong><small data-total-group>€2.925–5.525 voor 13 deelnemers</small></td>
+                  <td class="destination-total" data-total-city="barcelona"><strong data-total-per-person>€237–437 p.p.</strong><small data-total-group>€3.078–5.678 voor 13 deelnemers</small></td>
                   <td class="destination-total" data-total-city="lissabon"><strong data-total-per-person>€321–622 p.p.</strong><small data-total-group>€4.170–8.083 voor 13 deelnemers</small></td>
-                  <td class="destination-total" data-total-city="keulen"><strong data-total-per-person>€334–418 p.p.</strong><small data-total-group>€4.341–5.433 voor 13 deelnemers</small></td>
-                  <td class="destination-total" data-total-city="willingen"><strong data-total-per-person>€322–385 p.p.</strong><small data-total-group>€4.187–5.006 voor 13 deelnemers</small></td>
-                  <td class="destination-total" data-total-city="amsterdam"><strong data-total-per-person>€240–455 p.p.</strong><small data-total-group>€3.120–5.915 voor 13 deelnemers</small></td>
+                  <td class="destination-total" data-total-city="keulen"><strong data-total-per-person>€309–383 p.p.</strong><small data-total-group>€4.016–4.978 voor 13 deelnemers</small></td>
+                  <td class="destination-total" data-total-city="amsterdam"><strong data-total-per-person>€215–345 p.p.</strong><small data-total-group>€2.795–4.485 voor 13 deelnemers</small></td>
                 </tr>
               </tfoot>
             </table>

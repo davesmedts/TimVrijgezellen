@@ -113,10 +113,10 @@ const audit = () => {
       hotel.checked = true;
       hotel.dispatchEvent(new Event("change", { bubbles: true }));
       report(hotel.checked && !hostel.checked, "Selecting a hotel alternative should replace the hostel");
-      report(total.textContent.includes("€285–545"), "The hotel alternative did not update the Barcelona estimate");
+      report(total.textContent.includes("€297–557"), "The hotel alternative did not update the Barcelona estimate");
       hostel.checked = true;
       hostel.dispatchEvent(new Event("change", { bubbles: true }));
-      report(hostel.checked && !hotel.checked && total.textContent.includes("€225–425"), "Restoring the hostel scenario failed");
+      report(hostel.checked && !hotel.checked && total.textContent.includes("€237–437"), "Restoring the hostel scenario failed");
     }
     const info = comparison.querySelector(".cost-info[data-tooltip]");
     if (info) {
@@ -207,7 +207,7 @@ try {
 
   const results = [];
   let firstLoad = true;
-  for (const page of ["index.html", "kosten.html", "bestemmingen/barcelona.html", "bestemmingen/lissabon.html", "bestemmingen/keulen.html", "bestemmingen/willingen.html", "bestemmingen/amsterdam.html"]) {
+  for (const page of ["index.html", "kosten.html", "bestemmingen/barcelona.html", "bestemmingen/lissabon.html", "bestemmingen/keulen.html", "bestemmingen/amsterdam.html"]) {
     for (const width of [320, 390, 768, 1024, 1440]) {
       await send("Emulation.setDeviceMetricsOverride", { width, height: 900, deviceScaleFactor: 1, mobile: false });
       await navigate(page);
