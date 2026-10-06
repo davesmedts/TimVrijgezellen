@@ -59,7 +59,9 @@ test("destination cost cards add up and exclude spending/reserve", async () => {
     const values = (text) => [...text.matchAll(/\d+(?:,\d+)?/g)].map(([amount]) => Number(amount.replace(",", ".")));
     for (const row of rows) {
       const displayed = values(row[3]);
-      assert.deepEqual([displayed[0], displayed.at(-1)], [Number(row[1]), Number(row[2])], `Displayed cost differs from checked values in ${path}: ${row[3]}`);
+      assert.equal(displayed.length, 1 + (Number(row[1]) !== Number(row[2]) ? 1 : 0), `Unexpected displayed range in ${path}: ${row[3]}`);
+      assert.ok(Math.abs(displayed[0] - Number(row[1])) < 0.5, `Displayed minimum differs from checked value in ${path}: ${row[3]}`);
+      assert.ok(Math.abs(displayed.at(-1) - Number(row[2])) < 0.5, `Displayed maximum differs from checked value in ${path}: ${row[3]}`);
     }
     const total = budget.match(/data-total-min="([\d.]+)" data-total-max="([\d.]+)"/);
     assert.ok(total, path);
@@ -109,9 +111,9 @@ test("cost comparison starts with destination budgets matching the detail pages"
   const html = await readFile(resolve(root, "docs/kosten.html"), "utf8");
   const expected = {
     barcelona: [237, 437],
-    lissabon: [321, 622],
-    keulen: [309, 383],
-    amsterdam: [215, 345],
+    lissabon: [356, 537],
+    keulen: [230, 259],
+    amsterdam: [314, 324],
   };
   const sums = Object.fromEntries(Object.keys(expected).map((city) => [city, [0, 0]]));
   const items = [...html.matchAll(/<input type="checkbox" data-cost-item="([^"]+)" data-city="([^"]+)"[^>]*data-min="([\d.]+)" data-max="([\d.]+)"([^>]*)>/g)];
@@ -138,7 +140,9 @@ test("cost comparison starts with destination budgets matching the detail pages"
   assert.match(html, /data-tooltip="Kajak en snorkel/);
   assert.match(html, /class="cost-unknown"/);
   assert.match(html, /data-cost-item="barcelona-budgethotel".*?data-exclusive-group="barcelona-stay"/);
-  assert.match(html, /data-cost-item="amsterdam-budgethotel".*?data-exclusive-group="amsterdam-stay"/);
+  assert.match(html, /data-cost-item="amsterdam-bunk-hotel"/);
+  assert.match(html, /data-cost-item="amsterdam-bunk-parking"/);
+  assert.doesNotMatch(html, /data-cost-item="amsterdam-(?:hostel|budgethotel|bunk)"/);
   assert.match(html, /data-reset-costs/);
   assert.match(html, /aria-live="polite"/);
   const comparisonTable = html.match(/<table class="cost-comparison"[\s\S]*?<\/table>/)?.[0] ?? "";

@@ -53,8 +53,12 @@ Ticketraming: **€20 - €100 per persoon** voor gewone tickets; officiële hos
 - Bairro Alto: ideaal voor nachtleven, maar mogelijk lawaaierig.
 - Cais do Sodré: bars, restaurants en goede verbindingen.
 - Alfama: sfeervol, maar heuvelachtig en minder praktisch voor een groep.
-- Hostel: **€60 - €180 p.p.** voor twee nachten.
-- Budgethotel: **€110 - €280 p.p.** voor twee nachten.
+- **Gekozen optie om te vergelijken: City Stays Cais do Sodré Apartments**, Praça Duque da Terceira 11, bij Cais do Sodré.
+- De Booking.com-link bevat twee prijsblokken van **€587,36** en **€552,16**; opgeteld is dat indicatief **€1.139,52 voor 2 nachten**. Met de Lisbonse toeristenbelasting van €104 erbij is de verblijfspost **€1.243,52 / €95,66 p.p.** Controleer het checkouttotaal en voorkom dat de belasting dubbel wordt gerekend.
+- De verhuurder beschrijft een T3-appartement voor maximaal 8 personen en een T2-appartement voor maximaal 6. **Eén T3 + één T2** past dus voor 13 personen (capaciteit 14), als dit overeenkomt met de twee geselecteerde Booking-opties.
+- **Lisbonse toeristenbelasting opgenomen:** momenteel €4 per gast per nacht vanaf 13 jaar, maximaal 7 nachten. Voor 13 volwassenen en 2 nachten is dat **€104 totaal / €8 p.p.**; dit bedrag zit voorlopig in de verblijfspost. Controleer of Booking de belasting al in het checkouttotaal heeft verwerkt.
+- Het gaat om zelfvoorzieningsappartementen; ontbijt niet veronderstellen. Het gebouw heeft geen lift of airco; de T2 ligt op de 4e of 5e verdieping. Alleen bedlinnen en handdoeken zijn standaard inbegrepen.
+- Hostelalternatief: **€60–€180 p.p.** voor twee nachten. Budgethotelalternatief: **€110–€280 p.p.**
 
 ## Lokaal vervoer
 
@@ -128,21 +132,18 @@ Lissabon heeft een brede restaurant- en barscene. Bairro Alto is geschikt voor e
 |---|---:|---:|---:|
 | Vlucht retour | €149 | €200 | €260 |
 | Airport en lokaal vervoer | €20 | €35 | €50 |
-| Luchthavenparking | €12 | €12 | €12 |
-| Verblijf - hostel | €60 | €110 | €180 |
-| Verblijf - budgethotel | €110 | €180 | €280 |
+| Luchthavenparking | €11,77 | €11,77 | €11,77 |
+| Verblijf - City Stays appartement(en), incl. belasting | €95,66 | €95,66 | €95,66 |
 | Kajak- en snorkeltour | €80 | €95 | €120 |
-| **Totaal met hostel, zonder voetbal** | **€321** | **€452** | **€622** |
-| **Totaal met budgethotel, zonder voetbal** | **€371** | **€522** | **€722** |
+| **Totaal met City Stays, zonder voetbal** | **€356,43** | **€437,43** | **€537,43** |
 
-De totalen hierboven zijn berekend met de kajak- en snorkeltour en zonder voetbal. Luchthavenparking is €153 voor drie auto's, afgerond naar €12 p.p. De excursietransfer zit in de kajakformule en wordt niet dubbel gerekend. Eten, drinken en nachtleven zijn niet opgenomen; de picknick hoort wel bij de tour.
+De totalen hierboven zijn berekend met de kajak- en snorkeltour en zonder voetbal. De Lisbonse toeristenbelasting is nu in de City Stays-verblijfspost opgenomen; controleer of Booking die al in het checkouttotaal heeft verwerkt om dubbel tellen te voorkomen. Luchthavenparking is €153 voor drie auto's, oftewel circa €11,77 p.p. Hostel (€60–€180 p.p.) blijft een alternatief, maar is niet in deze som opgenomen. De excursietransfer zit in de kajakformule en wordt niet dubbel gerekend. Eten, drinken en nachtleven zijn niet opgenomen; de picknick hoort wel bij de tour.
 
-Voetbal is optioneel: **+€20–€100 p.p.**, alleen als aftrap en ticketbeschikbaarheid passen. De werkraming met een afzonderlijke vlucht van €200 is **€452 p.p. met hostel**; met de gevonden TAP-groepsprijs van €258 wordt dit **€510 p.p.** Alle prijzen en beschikbaarheid voor 13 personen moeten opnieuw worden bevestigd.
+Voetbal is optioneel: **+€20–€100 p.p.**, alleen als aftrap en ticketbeschikbaarheid passen. Met de City Stays-optie is de realistische raming **circa €437 p.p.** bij een afzonderlijke vlucht van €200, of **circa €495 p.p.** met de TAP-groepsprijs van €258. Alle prijzen en beschikbaarheid voor 13 personen moeten opnieuw worden bevestigd.
 
 ### Groepstotalen voor 13 personen
 
-- Totaal met hostel inclusief kajakoptie, zonder voetbal: **€4.173 - €8.086**; realistische middenraming **€5.876**.
-- Totaal met budgethotel inclusief kajakoptie, zonder voetbal: **€4.823 - €9.386**; realistische middenraming **€6.786**.
+- Totaal met City Stays inclusief toeristenbelasting en kajakoptie, zonder voetbal: **€4.634 - €6.987**; realistische middenraming **circa €5.687**.
 
 Belgische reizigers kunnen Portugal bezoeken met een geldige Belgische identiteitskaart. Er zijn geen ETA- of visumkosten voor dit korte verblijf.
 
@@ -160,6 +161,10 @@ Belgische reizigers kunnen Portugal bezoeken met een geldige Belgische identitei
 - [Portugal officiële toeristische website](https://www.visitportugal.com/en)
 - [Huidige kalenderfeed Primeira Liga](https://site.api.espn.com/apis/site/v2/sports/soccer/por.1/scoreboard?dates=20270418)
 - [Skyscanner, Brussel - Lissabon, 16-18 april 2027](https://www.skyscanner.net/transport/flights/bru/lis/270416/270418/?adultsv2=13&currency=EUR&cabinclass=economy&rtn=1&locale=nl-NL)
+- [Booking.com — City Stays Cais do Sodré Apartments, zoekselectie 16–18 april 2027](https://www.booking.com/hotel/pt/city-stays-cais-do-sodre-apartments.nl.html?checkin=2027-04-16&checkout=2027-04-18&group_adults=13&group_children=0)
+- [City Stays — Cais do Sodré T3, max. 8 gasten](https://www.city-stays.com/conteudo/our-apartments/cais-sodre-t3)
+- [City Stays — Cais do Sodré T2, max. 6 gasten](https://www.city-stays.com/conteudo/our-apartments/cais-sodre-t2)
+- [Câmara Municipal de Lisboa — toeristenbelasting](https://informacoeseservicos.lisboa.pt/servicos/detalhe/taxa-municipal-turistica)
 - [Lisbon Kayak Tours - kajak, snorkelen en picknick](https://www.lisbonkayak.com/)
 - [Lisbon Kayak Tours - tourinformatie en prijzen](https://www.lisbonkayak.com/our-tour)
 - [Lisbon Kayak Tours - FAQ en groepsgrootte](https://www.lisbonkayak.com/faqs)
