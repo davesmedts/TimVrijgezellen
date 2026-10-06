@@ -220,6 +220,19 @@ De kosten van het zaterdagdiner, drankjes en uitgaan worden niet opgenomen. Vrij
 
 Voor 13 personen moeten kamerindeling, bedcapaciteit, parking, toeristenbelasting, annuleringsvoorwaarden en eventuele groepsvoorwaarden rechtstreeks worden gecontroleerd.
 
+### Concrete optie: BUNK Hotel Amsterdam
+
+[Booking.com toont voor 16-18 april 2027 en 13 volwassenen](https://www.booking.com/hotel/nl/bunk.nl.html?checkin=2027-04-16&checkout=2027-04-18&group_adults=13&no_rooms=1) momenteel deze kamercombinatie:
+
+- **2 kamers voor 5 personen** (slaapzaalindeling, elk met eigen badkamer) plus **1 driepersoonskamer**: plaats voor precies 13 personen.
+- Verblijf voor twee nachten: **€2.392 totaal**, inclusief belastingen en toeslagen volgens Booking.com (**€184 per persoon**). De pagina toont een tijdelijke korting van 36% ten opzichte van €3.737.
+- De getoonde optie vermeldt gratis annuleren tot **14 april 2027** en geen vooruitbetaling; betaal bij de accommodatie.
+- Ontbijt is niet inbegrepen in deze prijs; Booking.com toont ontbijt als toeslag van **€16**. Controleer bij boeken of dit per persoon per ontbijt geldt.
+- Het hotel vermeldt privéparking op het terrein. Volgens de [officiële FAQ van BUNK](https://wearebunk.com/frequently-asked-questions/) kost dit **€22 per auto per dag**. Parkeren staat niet inbegrepen in de getoonde kamertotaalprijs; plaatsen zijn beperkt. Vraag BUNK vooraf om bevestiging en voeg parking bij de reservering toe of mail het hotel.
+- Begroting voor parkeren gedurende **drie betaalde dagen** (aankomst vrijdag, vertrek zondagmiddag): **€66 per auto**. Bij de huidige aanname van drie auto’s is dat **€198 totaal** (circa **€15,23 p.p.**). Verblijf plus parking komt daarmee op **€2.590 totaal**, circa **€199,23 p.p.**, exclusief brandstof, activiteiten, maaltijden en lokaal vervoer.
+
+Dit is een momentopname van **6 oktober 2026**, geen bindende groepsofferte; de prijs en beschikbaarheid kunnen wijzigen. De parkeerraming neemt op verzoek drie betaalde dagen aan; bevestig dit tarief voor jullie exacte aankomst- en vertrektijden en of er drie plaatsen beschikbaar zijn. Voor een minibus moet de geschiktheid van de parkeerplaats apart worden nagevraagd.
+
 De gemeentelijke pagina vermeldt momenteel **12,5% toeristenbelasting op de overnachtingsprijs exclusief btw**. In het coalitieplan voor 2027 staat een verhoging naar **16%**; behandel dat als een voornemen en controleer het formele tarief en de hotelprijs inclusief lokale belasting voordat je boekt.
 
 ## Lokaal vervoer
@@ -248,14 +261,27 @@ Kernactiviteiten tegen de huidige gepubliceerde tarieven:
 | **Totaal met hostel** | **€215** | **€280** | **€345** |
 | **Totaal met budgethotel** | **€295** | **€370** | **€475** |
 
-De activiteitenraming is gebaseerd op de huidige tarieven voor de drie betaalde activiteiten in het programma; de zelfgeleide stadswandeling is gratis. THIS IS HOLLAND, paintball, schieten, karten en de privéboot zijn optionele alternatieven of extra’s en zitten niet in deze tabel. De boot heeft een gepubliceerd vanaftarief van €39,95 p.p., maar voor 13 personen is een offerte nodig. De brandstoframing is per persoon berekend op basis van drie auto’s met vier à vijf personen. De werkelijke kost hangt af van het aantal auto’s, verbruik, P+R/parking en de vraag of bestuurders een bijdrage ontvangen. Hotelbedragen zijn planningsramingen; vraag een offerte die toeristenbelasting, service- en schoonmaakkosten duidelijk vermeldt. Parkeren en lokaal vervoer in de stad zitten niet in deze raming; reken daar ter plaatse apart budget voor.
+De activiteitenraming is gebaseerd op de huidige tarieven voor de drie betaalde activiteiten in het programma; de zelfgeleide stadswandeling is gratis. THIS IS HOLLAND, paintball, schieten, karten en de privéboot zijn optionele alternatieven of extra’s en zitten niet in deze tabel. De boot heeft een gepubliceerd vanaftarief van €39,95 p.p., maar voor 13 personen is een offerte nodig. De brandstoframing is per persoon berekend op basis van drie auto’s met vier à vijf personen. De werkelijke kost hangt af van het aantal auto’s, verbruik, P+R/parking en de vraag of bestuurders een bijdrage ontvangen. Hotelbedragen zijn planningsramingen; vraag een offerte die toeristenbelasting, service- en schoonmaakkosten duidelijk vermeldt. **Parkeren is niet in de totalen hieronder opgenomen**; zie de afzonderlijke parkeerkosten en BUNK-berekening.
 
 ### Groepstotalen voor 13 personen
 
 - Totaal met hostel: **€2.795-€4.485**; realistische middenraming ongeveer **€3.640**.
 - Totaal met budgethotel: **€3.835-€6.175**; realistische middenraming ongeveer **€4.810**.
 
-Deze raming bevat vervoer, verblijf en de drie betaalde kernactiviteiten. Eten en drinken (ook drankjes die in een eventueel bootarrangement zitten), nachtleven en taxi’s zijn niet opgenomen; een privéboot of andere extra activiteit moet apart worden begroot.
+Deze algemene raming bevat brandstof, verblijf en de drie betaalde kernactiviteiten, maar **geen parkeerkosten**. Voor drie auto’s gedurende twee P+R-dagen is de raming op basis van €6 per 24 uur ongeveer **€36 totaal**; bij BUNK is de raming voor drie betaalde parkeerdagen **€198 totaal**. Eten en drinken (ook drankjes die in een eventueel bootarrangement zitten), nachtleven, taxi’s en lokaal vervoer zijn niet opgenomen; een privéboot of andere extra activiteit moet apart worden begroot.
+
+### Totaalvoorbeeld met de getoonde BUNK-prijs
+
+| Onderdeel | Totaal voor 13 | Per persoon |
+|---|---:|---:|
+| BUNK Hotel, 2 nachten | €2.392 | €184,00 |
+| Hotelparking, 3 auto’s × 3 dagen × €22 | €198 | €15,23 |
+| **Verblijf + parking** | **€2.590** | **€199,23** |
+| Kernactiviteiten | €1.365 | €105,00 |
+| Brandstof voor 3 auto’s retour (raming) | €135-€210 | €10,38-€16,15 |
+| **Totaal vóór eten, drinken en lokaal vervoer** | **€4.090-€4.165** | **€314,62-€320,38** |
+
+Ontbijt is optioneel en niet in het kamertarief opgenomen. Parking moet apart worden bevestigd en is afhankelijk van beschikbaarheid.
 
 ## Waarom Amsterdam een goede keuze is
 
@@ -305,6 +331,8 @@ Deze raming bevat vervoer, verblijf en de drie betaalde kernactiviteiten. Eten e
 - [Gemeente Amsterdam — P+R-tarieven en voorwaarden](https://www.amsterdam.nl/en/parking/park-ride/)
 - [Gemeente Amsterdam — parkeertarieven en parkeerkaart](https://www.amsterdam.nl/parkeren/parkeertarieven-kaart)
 - [Gemeente Amsterdam — dieselauto’s en milieuzone](https://www.amsterdam.nl/en/traffic-transport/low-emission-zone/rules-exemptions/cars)
+- [BUNK Hotel Amsterdam — kamers en actuele beschikbaarheid voor 13](https://www.booking.com/hotel/nl/bunk.nl.html?checkin=2027-04-16&checkout=2027-04-18&group_adults=13&no_rooms=1)
+- [BUNK Amsterdam — officiële FAQ over parkeren (€22 per dag)](https://wearebunk.com/frequently-asked-questions/)
 - [Gemeente Amsterdam — toeristenbelasting](https://www.amsterdam.nl/en/municipal-taxes/tourist-tax/)
 - [NL Times — aangekondigd plan voor toeristenbelasting vanaf 2027](https://nltimes.nl/2026/08/23/amsterdam-tourist-tax-set-reach-nearly-highest-rate-world-2031)
 - [I amsterdam — groepsactiviteiten, boten en uitgaan](https://www.iamsterdam.com/en/see-and-do/amsterdam-for-groups)
