@@ -110,7 +110,7 @@ test("overview has no destination estimates and keeps the two remaining destinat
 test("cost comparison starts with destination budgets matching the detail pages", async () => {
   const html = await readFile(resolve(root, "docs/kosten.html"), "utf8");
   const expected = {
-    lissabon: [345, 486],
+    lissabon: [351, 395],
     amsterdam: [314, 324],
   };
   const sums = Object.fromEntries(Object.keys(expected).map((city) => [city, [0, 0]]));

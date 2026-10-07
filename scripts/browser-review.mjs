@@ -114,11 +114,11 @@ const audit = () => {
       lissabonKayak.checked = true;
       lissabonKayak.dispatchEvent(new Event("change", { bubbles: true }));
       report(!lissabonBoat.checked, "Selecting the Lisbon kayak should replace the Saturday boat party");
-      report(lissabonTotal.textContent.includes("€356–537"), "The Lisbon kayak should reprice the destination total");
+      report(lissabonTotal.textContent.includes("€362–446"), "The Lisbon kayak should reprice the destination total");
       lissabonBoat.checked = true;
       lissabonBoat.dispatchEvent(new Event("change", { bubbles: true }));
       report(!lissabonKayak.checked, "Restoring the boat party should deselect the Lisbon kayak");
-      report(lissabonTotal.textContent.includes("€345–486"), "Restoring the boat party should restore the Lisbon total");
+      report(lissabonTotal.textContent.includes("€351–395"), "Restoring the boat party should restore the Lisbon total");
     }
     const amsterdamHostel = comparison.querySelector('[data-cost-item="amsterdam-heart-hostel"]');
     const amsterdamHotel = comparison.querySelector('[data-cost-item="amsterdam-bunk-hotel"]');

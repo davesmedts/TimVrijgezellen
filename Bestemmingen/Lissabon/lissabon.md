@@ -36,7 +36,7 @@ Ticketraming: **€20 - €100 per persoon** voor gewone tickets; officiële hos
 - Vertrek: Brussels Airport of Charleroi
 - Rechtstreekse vlucht naar Lissabon
 - Vluchtduur: ongeveer 2 uur en 50 minuten
-- Vluchtraming retour: **€149 - €260 per persoon**
+- Vluchtraming retour: **€155 - €169 per persoon**
 - Concrete zoekopdracht op 25/09/2026: TAP Air Portugal, rechtstreeks, Brussel - Lissabon op vrijdag **20:55 - 22:50** en Lissabon - Brussel op zondag **20:05 - 23:55**.
 - Actuele richtprijs: **ongeveer €169 per persoon**.
 - Skyscanner toonde een totaal van ongeveer **€1.349 voor 8 reizigers**; voor 13 personen is dat indicatief ongeveer **€2.197** aan hetzelfde tarief. Bagage- en eventuele dossierkosten moeten bij boeking worden gecontroleerd.
@@ -44,8 +44,17 @@ Ticketraming: **€20 - €100 per persoon** voor gewone tickets; officiële hos
 - Skyscanner toont bij deze zoekopdracht maximaal 8 reizigers. De prijs voor 13 personen moet daarom via een groepsaanvraag of meerdere controles worden bevestigd.
 - [Exacte zoekopdracht Brussel - Lissabon op Skyscanner](https://www.skyscanner.net/transport/flights/bru/lis/270416/270418/?adultsv2=13&currency=EUR&cabinclass=economy&rtn=1&locale=nl-NL)
 
-- Simulatie bij TAP airlines als groepsboeking kost 258€ per persoon. Apart boeken, mogelijk over meerdere vluchten aangewezen.
+- Actuele TAP-prijs voor de groep: **€155 - €169 per persoon**, inclusief kleine tas en handbagage; apart boeken blijft mogelijk als de groep niet in één boeking past.
 - Parkeerkosten voor 1 weekend 51€ per auto, maximum 3 auto's is 153€ voor de groep
+
+### Bagage bij TAP
+
+- **Kleine tas (personal item):** 40 x 30 x 15 cm, max 2 kg, moet onder de stoel voor je passen. Het boekingsscherm toont soms 40 x 30 x 20 cm; de actuele TAP-website vermeldt 15 cm, reken daarop.
+- **Handbagage (cabinebagage):** 55 x 40 x 25 cm, max 10 kg, in het bagageruim boven.
+- Beide zijn **inbegrepen** in de Economy-vluchtprijs: ieder van de 13 reizigers mag een cabinekoffer plus een kleine tas meenemen.
+- **Ruimbagage is niet inbegrepen:** Economy Discount omvat 0 stuks, Classic/Plus 1 a 2 stuks van 23 kg; controleer het fare-tarief bij de groepsboeking. Voor een weekend van twee nachten volstaat handbagage.
+- Bij volle vluchten kan TAP compliant handbagage gratis aan de gate innemen; met 13 personen tegelijk is dat een realistisch scenario.
+- [TAP — reizen met handbagage](https://www.flytap.com/en-nl/information/baggage/hand-baggage)
 
 ## Verblijf
 
@@ -148,20 +157,20 @@ Lissabon heeft een brede restaurant- en barscene. Bairro Alto is geschikt voor e
 
 | Onderdeel | Minimum | Realistisch | Maximum |
 |---|---:|---:|---:|
-| Vlucht retour | €149 | €200 | €260 |
+| Vlucht retour | €155 | €162 | €169 |
 | Airport en lokaal vervoer | €20 | €35 | €50 |
 | Luchthavenparking | €11,77 | €11,77 | €11,77 |
 | Verblijf - City Stays appartement(en), incl. belasting | €95,66 | €95,66 | €95,66 |
 | Splash Boat Party, za 14:00-18:00 | €69 | €69 | €69 |
-| **Totaal met City Stays, zonder voetbal** | **€345,43** | **€411,43** | **€486,43** |
+| **Totaal met City Stays, zonder voetbal** | **€351,43** | **€373,43** | **€395,43** |
 
 De totalen hierboven zijn berekend met het Splash Boat Party en zonder voetbal. De Lisbonse toeristenbelasting is nu in de City Stays-verblijfspost opgenomen; controleer of Booking die al in het checkouttotaal heeft verwerkt om dubbel tellen te voorkomen. Luchthavenparking is €153 voor drie auto's, oftewel circa €11,77 p.p. Hostel (€60–€180 p.p.) blijft een alternatief, maar is niet in deze som opgenomen. De kajak- en snorkeltour (€80-€120) blijft het alternatief en zit niet in deze som; in de kajakformule zit de excursietransfer al. Eten, drinken en nachtleven zijn niet opgenomen; de BBQ en de open bar aan boord zitten wél in de €69 kaartprijs.
 
-Voetbal is optioneel: **+€20–€100 p.p.**, alleen als aftrap en ticketbeschikbaarheid passen. Met de City Stays-optie is de realistische raming **circa €411 p.p.** bij een afzonderlijke vlucht van €200, of **circa €469 p.p.** met de TAP-groepsprijs van €258. Alle prijzen en beschikbaarheid voor 13 personen moeten opnieuw worden bevestigd.
+Voetbal is optioneel: **+€20–€100 p.p.**, alleen als aftrap en ticketbeschikbaarheid passen. Met de City Stays-optie is de realistische raming **circa €373 p.p.** bij een vlucht van €162; de TAP-prijs van €155-€169 omvat kleine tas en handbagage. Alle prijzen en beschikbaarheid voor 13 personen moeten opnieuw worden bevestigd.
 
 ### Groepstotalen voor 13 personen
 
-- Totaal met City Stays inclusief toeristenbelasting en Splash Boat Party, zonder voetbal: **€4.491 - €6.324**; realistische middenraming **circa €5.349**.
+- Totaal met City Stays inclusief toeristenbelasting en Splash Boat Party, zonder voetbal: **€4.569 - €5.141**; realistische middenraming **circa €4.764**.
 
 Belgische reizigers kunnen Portugal bezoeken met een geldige Belgische identiteitskaart. Er zijn geen ETA- of visumkosten voor dit korte verblijf.
 
@@ -177,6 +186,7 @@ Belgische reizigers kunnen Portugal bezoeken met een geldige Belgische identitei
 - [Splash Boat Party Lisbon — evenement 17 april 2027, 14:00-18:00](https://www.splashboatpartylisbon.com/events/splash-boat-party-lisbon-2027-04-17-14-00)
 - [Splash Boat Party Lisbon — tickets en alle data](https://www.splashboatpartylisbon.com/tickets)
 - [Splash Boat Party Lisbon — FAQ](https://www.splashboatpartylisbon.com/faq)
+- [TAP — reizen met handbagage](https://www.flytap.com/en-nl/information/baggage/hand-baggage)
 - [SL Benfica officiële website](https://www.slbenfica.pt/en-us)
 - [Benfica tickets](https://www.slbenfica.pt/en-us/loja/bilhetes)
 - [Portugal officiële toeristische website](https://www.visitportugal.com/en)
