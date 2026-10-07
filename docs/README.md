@@ -48,8 +48,6 @@ docs/
 │   └── styles.css                 # Gedeelde vormgeving
 └── bestemmingen/
      ├── amsterdam.html             # Detailpagina Amsterdam
-     ├── barcelona.html             # Detailpagina Barcelona
-     ├── keulen.html                # Detailpagina Keulen
      └── lissabon.html              # Detailpagina Lissabon
 ```
 
@@ -86,8 +84,7 @@ De website heeft geen servercode en kan ook via Netlify, Cloudflare Pages of een
 
 - De overzichtspagina is gebaseerd op `vrijgezellen.md`.
 - De detailpagina's vatten bestemmingsfiches samen uit de map `Bestemmingen/`.
-- De Keulen-pagina is gebaseerd op `Bestemmingen/Keulen/keulen.md`.
 - De aftelklok loopt tot vrijdag 16 april 2027 om 17:00 Belgische zomertijd.
-- De Google Maps-kaarten gebruiken Plaça de Catalunya, Rossio en de Dom van Keulen als indicatieve stadscentrum-markers; exacte verblijfslocaties zijn nog niet bekend.
+- De Google Maps-kaarten gebruiken Rossio en Centraal Station als indicatieve stadscentrum-markers; exacte verblijfslocaties zijn nog niet bekend.
 - De visuele richting is geïnspireerd door het Ayaka-thema: een zwarte of lichtgrijze basis, subtiele glas-effecten, monospaced typografie en kleuraccenten met aangepast contrast per modus.
 - La Liga-HTML, JavaScriptbundels en JSON in de repositoryhoofdmap zijn bewaarde externe onderzoeksbronnen; ze zijn geen onderdeel van de gepubliceerde website of eigen applicatiecode.

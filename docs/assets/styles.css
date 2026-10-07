@@ -880,22 +880,10 @@ a.destination-card:focus-visible {
   pointer-events: none;
 }
 
-.destination-card--barcelona::after {
-  top: 5%;
-  right: -25%;
-  background: var(--blue);
-}
-
 .destination-card--lisbon::after {
   bottom: -15%;
   left: -20%;
   background: var(--green);
-}
-
-.destination-card--cologne::after {
-  top: -10%;
-  left: -20%;
-  background: var(--cyan);
 }
 
 .destination-card--amsterdam::after {
@@ -999,7 +987,6 @@ a.destination-card:focus-visible {
 }
 
 .destination-card--lisbon .card-link { color: var(--green-bright); }
-.destination-card--cologne .card-link { color: var(--cyan); }
 .destination-card--amsterdam .card-link { color: var(--green-bright); }
 
 .destination-card--empty {
@@ -1191,21 +1178,9 @@ a.destination-card:focus-visible {
   backdrop-filter: blur(14px);
 }
 
-.weather-card--barcelona {
-  background:
-    radial-gradient(ellipse at 0% 0%, rgba(102, 153, 255, 0.12), transparent 48%),
-    var(--surface);
-}
-
 .weather-card--lissabon {
   background:
     radial-gradient(ellipse at 0% 0%, rgba(102, 204, 102, 0.11), transparent 48%),
-    var(--surface);
-}
-
-.weather-card--cologne {
-  background:
-    radial-gradient(ellipse at 0% 0%, rgba(102, 204, 204, 0.1), transparent 48%),
     var(--surface);
 }
 
@@ -1227,9 +1202,7 @@ a.destination-card:focus-visible {
   margin: 0;
 }
 
-.weather-card--barcelona .section-kicker { color: var(--blue-bright); }
 .weather-card--lissabon .section-kicker { color: var(--green-bright); }
-.weather-card--cologne .section-kicker { color: var(--cyan); }
 .weather-card--amsterdam .section-kicker { color: var(--green-bright); }
 
 .weather-badge {
@@ -1410,10 +1383,6 @@ a.destination-card:focus-visible {
 
 .weather-card--lissabon .weather-card__footer a:hover {
   color: var(--green-bright);
-}
-
-.weather-card--cologne .weather-card__footer a:hover {
-  color: var(--cyan);
 }
 
 .weather-disclaimer {

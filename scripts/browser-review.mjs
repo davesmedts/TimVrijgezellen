@@ -96,8 +96,8 @@ const audit = () => {
     report(Boolean(scroller), "Cost comparison scroll region missing");
     if (width <= 900) report(scroller.scrollWidth > scroller.clientWidth, "Cost comparison should scroll horizontally on narrow screens");
     if (width >= 1440) report(scroller.scrollWidth <= scroller.clientWidth + 1, "Cost comparison should show all destinations on wide screens");
-    const total = document.querySelector('[data-total-city="barcelona"] [data-total-per-person]');
-    const firstItem = comparison.querySelector('[data-cost-item="barcelona-flight"]');
+    const total = document.querySelector('[data-total-city="lissabon"] [data-total-per-person]');
+    const firstItem = comparison.querySelector('[data-cost-item="lissabon-flight"]');
     if (total && firstItem) {
       const baseline = total.textContent;
       firstItem.checked = !firstItem.checked;
@@ -106,17 +106,6 @@ const audit = () => {
       firstItem.checked = !firstItem.checked;
       firstItem.dispatchEvent(new Event("change", { bubbles: true }));
       report(total.textContent === baseline, "Restoring a cost did not restore the destination total");
-    }
-    const hostel = comparison.querySelector('[data-cost-item="barcelona-hostel"]');
-    const hotel = comparison.querySelector('[data-cost-item="barcelona-budgethotel"]');
-    if (total && hostel && hotel) {
-      hotel.checked = true;
-      hotel.dispatchEvent(new Event("change", { bubbles: true }));
-      report(hotel.checked && !hostel.checked, "Selecting a hotel alternative should replace the hostel");
-      report(total.textContent.includes("€297–557"), "The hotel alternative did not update the Barcelona estimate");
-      hostel.checked = true;
-      hostel.dispatchEvent(new Event("change", { bubbles: true }));
-      report(hostel.checked && !hotel.checked && total.textContent.includes("€237–437"), "Restoring the hostel scenario failed");
     }
     const lissabonBoat = comparison.querySelector('[data-cost-item="lissabon-splash-boat"]');
     const lissabonKayak = comparison.querySelector('[data-cost-item="lissabon-kayak"]');
@@ -237,7 +226,7 @@ try {
 
   const results = [];
   let firstLoad = true;
-  for (const page of ["index.html", "kosten.html", "bestemmingen/barcelona.html", "bestemmingen/lissabon.html", "bestemmingen/keulen.html", "bestemmingen/amsterdam.html"]) {
+  for (const page of ["index.html", "kosten.html", "bestemmingen/lissabon.html", "bestemmingen/amsterdam.html"]) {
     for (const width of [320, 390, 768, 1024, 1440]) {
       await send("Emulation.setDeviceMetricsOverride", { width, height: 900, deviceScaleFactor: 1, mobile: false });
       await navigate(page);

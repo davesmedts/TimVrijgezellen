@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="theme-color" content="#000000" />
-    <meta name="description" content="Vergelijk de kostenramingen voor Barcelona, Lissabon, Keulen en Amsterdam." />
+    <meta name="description" content="Vergelijk de kostenramingen voor Lissabon en Amsterdam." />
     <title>Kosten vergelijken — Vrijgezellen Tim</title>
     <script src="./assets/theme.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -29,9 +29,7 @@
         </a>
         <nav class="tabs" aria-label="Hoofdnavigatie">
           <a class="tab" href="./index.html">Home</a>
-          <a class="tab" href="./bestemmingen/barcelona.html">barcelona</a>
           <a class="tab" href="./bestemmingen/lissabon.html">lissabon</a>
-          <a class="tab" href="./bestemmingen/keulen.html">keulen</a>
           <a class="tab" href="./bestemmingen/amsterdam.html">amsterdam</a>
           <a class="tab is-active" href="./kosten.html" aria-current="page">Kostenvergelijking</a>
           <span class="tab tab--muted" title="Er komen later nog bestemmingen bij">+ meer volgt</span>
@@ -53,7 +51,7 @@
         <nav class="breadcrumb" aria-label="Kruimelpad">
           <a href="./index.html">overzicht</a><span>/</span><span>kosten vergelijken</span>
         </nav>
-        <p class="eyebrow"><span class="status-dot"></span> vier opties / één overzicht</p>
+        <p class="eyebrow"><span class="status-dot"></span> twee opties / één overzicht</p>
         <h1>Kosten <span class="blue">vergelijken.</span></h1>
         <p class="hero-lede">
           Zet bestemmingen naast elkaar en vink per bestemming aan wat je wilt meenemen.
@@ -67,7 +65,7 @@
             <div>
               <p class="section-kicker">01 / raming per persoon</p>
               <h2 id="comparison-title">Bestemmingen naast elkaar.</h2>
-              <p class="comparison-intro">De basisselectie sluit aan op de huidige kostenramingen. Lissabon gebruikt City Stays Cais do Sodré inclusief de geraamde toeristenbelasting; Amsterdam heeft twee verblijfopties: BUNK-hotel (€184 p.p., geselecteerd) en Hostel Heart of Amsterdam (€120,83 p.p.) in de hostelrij. Verblijfsprijs en stadsparking staan los van elkaar; voor Keulen en Amsterdam zijn de parkeerkosten samengebracht in één rij.</p>
+              <p class="comparison-intro">De basisselectie sluit aan op de huidige kostenramingen. Lissabon gebruikt City Stays Cais do Sodré inclusief de geraamde toeristenbelasting; Amsterdam heeft twee verblijfopties: BUNK-hotel (€184 p.p., geselecteerd) en Hostel Heart of Amsterdam (€120,83 p.p.) in de hostelrij. Verblijfsprijs en stadsparking staan los van elkaar; voor Amsterdam staat de stadsparking als aparte post in de verblijfring.</p>
             </div>
             <button class="button button--ghost comparison-reset" type="button" data-reset-costs>Herstel basisselectie</button>
           </div>
@@ -75,39 +73,27 @@
           <p class="comparison-scroll-hint" id="table-hint">Op een smal scherm kun je de tabel horizontaal scrollen.</p>
           <div class="comparison-table-scroll" role="region" aria-label="Kostenvergelijking; scroll horizontaal voor alle bestemmingen" aria-describedby="table-hint" tabindex="0">
             <table class="cost-comparison" data-cost-comparison data-participants="13">
-              <caption class="visually-hidden">Kosten per persoon voor vier bestemmingen. Vink kostenposten aan of uit om de totalen te wijzigen.</caption>
+              <caption class="visually-hidden">Kosten per persoon voor twee bestemmingen. Vink kostenposten aan of uit om de totalen te wijzigen.</caption>
               <thead>
                 <tr>
                   <th class="comparison-row-heading" scope="col">Kostenpost</th>
-                  <th scope="col"><a href="./bestemmingen/barcelona.html">Barcelona <span>ES</span></a></th>
                   <th scope="col"><a href="./bestemmingen/lissabon.html">Lissabon <span>PT</span></a></th>
-                  <th scope="col"><a href="./bestemmingen/keulen.html">Keulen <span>DE</span></a></th>
                   <th scope="col"><a href="./bestemmingen/amsterdam.html">Amsterdam <span>NL</span></a></th>
                 </tr>
               </thead>
               <tbody>
-                <tr class="comparison-category"><th colspan="5" scope="colgroup">Vervoer</th></tr>
+                <tr class="comparison-category"><th colspan="3" scope="colgroup">Vervoer</th></tr>
                 <tr>
                   <th scope="row">Vlucht retour</th>
-                  <td class="cost-cell">
-                    <label class="cost-choice"><input type="checkbox" data-cost-item="barcelona-flight" data-city="barcelona" data-min="135" data-max="200" checked><span>€135–200</span></label>
-                    <button class="cost-info" type="button" data-tooltip="Retourvlucht. Dit is een richtprijs per persoon; de gevonden vlucht past niet bij vertrek na 17:00 en moet opnieuw geprijsd worden." aria-label="Info over de retourvlucht naar Barcelona">i</button>
-                  </td>
                   <td class="cost-cell">
                     <label class="cost-choice"><input type="checkbox" data-cost-item="lissabon-flight" data-city="lissabon" data-min="149" data-max="260" checked><span>€149–260</span></label>
                     <button class="cost-info" type="button" data-tooltip="Retourvlucht per persoon. De afzonderlijke vluchtindicatie en de gevonden TAP-groepsprijs verschillen; prijs en beschikbaarheid voor 13 reizigers bevestigen." aria-label="Info over de retourvlucht naar Lissabon">i</button>
                   </td>
                   <td class="cost-empty" aria-label="Geen vlucht; vervoer met de auto">—</td>
-                  <td class="cost-empty" aria-label="Geen vlucht; vervoer met de auto">—</td>
                 </tr>
                 <tr>
                   <th scope="row">Auto / vervoer heen en terug</th>
                   <td class="cost-empty" aria-label="Niet van toepassing">—</td>
-                  <td class="cost-empty" aria-label="Niet van toepassing">—</td>
-                  <td class="cost-cell">
-                    <label class="cost-choice"><input type="checkbox" data-cost-item="keulen-transport" data-city="keulen" data-min="10" data-max="20" checked><span>€10–20</span></label>
-                    <button class="cost-info" type="button" data-tooltip="Brandstof en overige vervoerskosten retour, gedeeld over drie auto’s. Parkeren staat apart onder verblijf." aria-label="Info over vervoer naar Keulen">i</button>
-                  </td>
                   <td class="cost-cell">
                     <label class="cost-choice"><input type="checkbox" data-cost-item="amsterdam-fuel" data-city="amsterdam" data-min="10" data-max="20" checked><span>€10–20</span></label>
                     <button class="cost-info" type="button" data-tooltip="Brandstof retour per persoon, gedeeld over drie auto’s met vier à vijf deelnemers per auto. Raming: €10–20 per persoon." aria-label="Info over brandstof naar Amsterdam">i</button>
@@ -116,49 +102,32 @@
                 <tr>
                   <th scope="row">Luchthavenparking</th>
                   <td class="cost-cell">
-                    <label class="cost-choice"><input type="checkbox" data-cost-item="barcelona-airport-parking" data-city="barcelona" data-min="11.7692307692" data-max="11.7692307692" checked><span>± €12</span></label>
-                    <button class="cost-info" type="button" data-tooltip="€153 voor drie auto’s op de luchthaven, gedeeld door 13 deelnemers en afgerond tot ± €12 p.p.; in de groepsraming telt het bedrag van €153 mee." aria-label="Info over luchthavenparking bij Barcelona">i</button>
-                  </td>
-                  <td class="cost-cell">
                     <label class="cost-choice"><input type="checkbox" data-cost-item="lissabon-airport-parking" data-city="lissabon" data-min="11.7692307692" data-max="11.7692307692" checked><span>± €12</span></label>
                     <button class="cost-info" type="button" data-tooltip="€153 voor drie auto’s, gedeeld door 13 deelnemers. In het totaal wordt de groepskost van €153 gebruikt; de weergave per persoon is afgerond." aria-label="Info over luchthavenparking bij Lissabon">i</button>
                   </td>
-                  <td class="cost-empty" aria-label="Niet van toepassing">—</td>
                   <td class="cost-empty" aria-label="Niet van toepassing">—</td>
                 </tr>
                 <tr>
                   <th scope="row">Transfers / lokaal vervoer</th>
                   <td class="cost-cell">
-                    <label class="cost-choice"><input type="checkbox" data-cost-item="barcelona-local" data-city="barcelona" data-min="20" data-max="45" checked><span>€20–45</span></label>
-                    <button class="cost-info" type="button" data-tooltip="Indicatie per persoon voor luchthavenvervoer en lokaal vervoer." aria-label="Info over vervoer in Barcelona">i</button>
-                  </td>
-                  <td class="cost-cell">
                     <label class="cost-choice"><input type="checkbox" data-cost-item="lissabon-local" data-city="lissabon" data-min="20" data-max="50" checked><span>€20–50</span></label>
                     <button class="cost-info" type="button" data-tooltip="Indicatie per persoon voor luchthavenvervoer en lokaal vervoer, inclusief de rit naar Doca do Espanhol voor het Splash Boat Party. De kajaktour (alternatief) bevat de excursietransfer zelf." aria-label="Info over vervoer in Lissabon">i</button>
                   </td>
-                  <td class="cost-empty" aria-label="Geen aanvullend lokaal vervoer opgenomen">—</td>
                   <td class="cost-empty" aria-label="BUNK-parking staat apart onder verblijf; P+R en lokaal vervoer niet opgenomen">—</td>
                 </tr>
 
-                <tr class="comparison-category"><th colspan="5" scope="colgroup">Verblijf · 2 nachten</th></tr>
+                <tr class="comparison-category"><th colspan="3" scope="colgroup">Verblijf · 2 nachten</th></tr>
                 <tr>
                   <th scope="row">Appartement · City Stays</th>
-                  <td class="cost-empty" aria-label="Niet van toepassing">—</td>
                   <td class="cost-cell">
                     <label class="cost-choice"><input type="checkbox" data-cost-item="lissabon-city-stays" data-city="lissabon" data-exclusive-group="lissabon-stay" data-min="95.6553846154" data-max="95.6553846154" checked><span>€95,66</span></label>
                     <button class="cost-info" type="button" data-tooltip="City Stays Cais do Sodré Apartments. De Booking-link bevat twee prijsblokken van €587,36 en €552,16: samen indicatief €1.139,52. We tellen daar €104 toeristenbelasting bij (13 gasten × 2 nachten × €4), dus €1.243,52 / €95,66 p.p. Controleer of Booking de belasting al heeft inbegrepen en voorkom dubbel tellen. Voorlopige indeling T3 (max. 8) + T2 (max. 6); bevestig de werkelijke appartementen en het checkouttotaal." aria-label="Info over City Stays-appartementen in Lissabon inclusief belasting">i</button>
                   </td>
                   <td class="cost-empty" aria-label="Niet van toepassing">—</td>
-                  <td class="cost-empty" aria-label="Niet van toepassing">—</td>
                 </tr>
                 <tr>
                   <th scope="row">Hostel</th>
-                  <td class="cost-cell">
-                    <label class="cost-choice"><input type="checkbox" data-cost-item="barcelona-hostel" data-city="barcelona" data-exclusive-group="barcelona-stay" data-min="70" data-max="180" checked><span>€70–180</span></label>
-                    <button class="cost-info" type="button" data-tooltip="Hostel, twee nachten per persoon. Het alternatief budgethotel kost naar huidige raming €130–300 p.p. en zit niet in dit totaal." aria-label="Info over verblijf in Barcelona">i</button>
-                  </td>
                   <td class="cost-empty" aria-label="Hostelalternatief momenteel niet geselecteerd voor Lissabon">—</td>
-                  <td class="cost-empty" aria-label="De huidige raming gebruikt een hotel">—</td>
                   <td class="cost-cell">
                     <label class="cost-choice"><input type="checkbox" data-cost-item="amsterdam-heart-hostel" data-city="amsterdam" data-exclusive-group="amsterdam-stay amsterdam-bunk-parking" data-min="120.83" data-max="120.83"><span>€120,83</span></label>
                     <button class="cost-info" type="button" data-tooltip="Hostel Heart of Amsterdam, twee nachten per persoon: €120,83. Deze post wisselt het BUNK-hotel én de bijbehorende BUNK-parking in de verblijfrij om; heb je later toch BUNK nodig, zet dan de parking er apart weer bij. Kamerverdeling, ontbijt, belastingen en parkeerregeling voor 13 personen nog bevestigen." aria-label="Info over Hostel Heart of Amsterdam">i</button>
@@ -166,15 +135,7 @@
                 </tr>
                 <tr>
                   <th scope="row">Hotel</th>
-                  <td class="cost-cell">
-                    <label class="cost-choice"><input type="checkbox" data-cost-item="barcelona-budgethotel" data-city="barcelona" data-exclusive-group="barcelona-stay" data-min="130" data-max="300"><span>€130–300</span></label>
-                    <button class="cost-info" type="button" data-tooltip="Budgethotel, twee nachten per persoon. Dit is een alternatief voor het hostel; vink dit aan om het hostelscenario te vervangen." aria-label="Info over het hotelalternatief in Barcelona">i</button>
-                  </td>
                   <td class="cost-empty" aria-label="De huidige raming gebruikt een hostel">—</td>
-                  <td class="cost-cell">
-                    <label class="cost-choice"><input type="checkbox" data-cost-item="keulen-hotel" data-city="keulen" data-min="121.6923076923" data-max="121.6923076923" checked><span>€121,69</span></label>
-                    <button class="cost-info" type="button" data-tooltip="Opera Hotel Köln, opgegeven Booking.com-totaal voor 16–18 april 2027: €1.582 voor 13 personen (1 driepersoonskamer + 5 tweepersoonskamers), gedeeld door 13 = €121,69 p.p. Controleer of ontbijt en de Keulse belasting van 5% zijn inbegrepen; als de belasting nog bijkomt is dat indicatief €79,10 voor de groep (€6,08 p.p.). Hotelparking wordt apart gerekend." aria-label="Info over verblijf in Opera Hotel Köln">i</button>
-                  </td>
                   <td class="cost-cell">
                     <label class="cost-choice"><input type="checkbox" data-cost-item="amsterdam-bunk-hotel" data-city="amsterdam" data-exclusive-group="amsterdam-stay" data-min="184" data-max="184" checked><span>€184</span></label>
                     <button class="cost-info" type="button" data-tooltip="Voorlopig gekozen hoteloptie: BUNK Hotel Amsterdam-Noord, €2.392 voor 13 personen / twee nachten volgens Booking.com (€184 p.p., inclusief belastingen en toeslagen volgens de boeking). Ontbijt en parking zijn niet inbegrepen in dit bedrag." aria-label="Info over het BUNK-hotelverblijf in Amsterdam">i</button>
@@ -183,30 +144,18 @@
                 <tr>
                   <th scope="row">Stadsparking · 3 auto’s</th>
                   <td class="cost-empty" aria-label="Niet van toepassing">—</td>
-                  <td class="cost-empty" aria-label="Niet van toepassing">—</td>
-                  <td class="cost-cell">
-                    <label class="cost-choice"><input type="checkbox" data-cost-item="keulen-qpark-parking" data-city="keulen" data-exclusive-group="keulen-city-parking" data-min="4.5692307692" data-max="4.5692307692" checked><span>€4,57</span></label>
-                    <button class="cost-info" type="button" data-tooltip="Q-Park Quincy/Breite Straße: vooraf online reserveren via de Opera Hotel-deal à €9,90 per 24 uur. Raming: 3 auto’s × 2 × 24 uur = €59,40 totaal / 13 = €4,57 p.p." aria-label="Info over Q-Park parkeren bij Opera Hotel Köln">i</button>
-                    <label class="cost-choice"><input type="checkbox" data-cost-item="keulen-brueckenstrasse-parking" data-city="keulen" data-exclusive-group="keulen-city-parking" data-min="11.5384615385" data-max="11.5384615385"><span>€11,54</span></label>
-                    <button class="cost-info" type="button" data-tooltip="Alternatief op circa 30 meter: Parkhaus Brückenstraße/Ludwigstraße 1. Na afstempelen bij het hotel €25 per auto voor 12–24 uur; voor circa twee dagen en drie auto’s is dat €150 totaal / 13 = €11,54 p.p." aria-label="Info over Parkhaus Brückenstraße bij Opera Hotel Köln">i</button>
-                  </td>
                   <td class="cost-cell">
                     <label class="cost-choice"><input type="checkbox" data-cost-item="amsterdam-bunk-parking" data-city="amsterdam" data-exclusive-group="amsterdam-bunk-parking" data-min="15.2307692308" data-max="15.2307692308" checked><span>€15,23</span></label>
                     <button class="cost-info" type="button" data-tooltip="BUNK-parking apart van het hotelbedrag: €22 per auto per dag. Raming voor 3 auto’s × 3 betaalde dagen = €198 totaal / 13 = €15,23 p.p. Hoort bij de BUNK-kamer en valt weg zodra je het Hostel Heart of Amsterdam kiest. Beperkte plaatsen; vooraf bij het hotel bevestigen." aria-label="Info over de parkeerkosten bij BUNK Amsterdam">i</button>
                   </td>
                 </tr>
 
-                <tr class="comparison-category"><th colspan="5" scope="colgroup">Activiteiten · per bestemming</th></tr>
+                <tr class="comparison-category"><th colspan="3" scope="colgroup">Activiteiten · per bestemming</th></tr>
                 <tr>
                   <th scope="row">Activiteit 1</th>
-                  <td class="cost-unknown"><span>n.t.b.</span><button class="cost-info" type="button" data-tooltip="Er is nog geen betaalde kernactiviteit met prijs opgenomen. Mogelijke ideeën op de bestemmingspagina zijn fietsen of varen, een museum/stadiontour of een groepsactiviteit." aria-label="Info over activiteit 1 in Barcelona">i</button></td>
                   <td class="cost-cell">
                     <label class="cost-choice"><input type="checkbox" data-cost-item="lissabon-splash-boat" data-city="lissabon" data-exclusive-group="lissabon-saturday" data-min="69" data-max="69" checked><span>€69</span></label>
                     <button class="cost-info" type="button" data-tooltip="Splash Boat Party Lisbon, zaterdag 17 april 2027 van 14:00 tot 18:00. Vier uur all-inclusive: open bar, verse BBQ aan boord en een zwempauze; vertrek aan Doca do Espanhol. Kom 20-30 minuten vroeger voor check-in; 18+ met identiteitskaart." aria-label="Info over activiteit 1 in Lissabon: Splash Boat Party">i</button>
-                  </td>
-                  <td class="cost-cell">
-                    <label class="cost-choice"><input type="checkbox" data-cost-item="keulen-vr" data-city="keulen" data-min="34.9" data-max="34.9" checked><span>€34,90</span></label>
-                    <button class="cost-info" type="button" data-tooltip="7th Space VR Box, zaterdag. Richtprijs per persoon; reserveer en bevestig de capaciteit voor 13." aria-label="Info over activiteit 1 in Keulen: VR-game">i</button>
                   </td>
                   <td class="cost-cell">
                     <label class="cost-choice"><input type="checkbox" data-cost-item="amsterdam-vr" data-city="amsterdam" data-min="49" data-max="49" checked><span>€49</span></label>
@@ -215,14 +164,9 @@
                 </tr>
                 <tr>
                   <th scope="row">Activiteit 2</th>
-                  <td class="cost-empty" aria-label="Geen geprijsde activiteit">—</td>
                   <td class="cost-cell">
                     <label class="cost-choice"><input type="checkbox" data-cost-item="lissabon-football" data-city="lissabon" data-min="20" data-max="100"><span>€20–100</span></label>
                     <button class="cost-info" type="button" data-tooltip="Optionele voetbalactiviteit. Prijs hangt af van wedstrijd of stadiontour; speeldag en beschikbaarheid zijn onzeker. Standaard niet meegerekend." aria-label="Info over activiteit 2 in Lissabon: voetbaloptie">i</button>
-                  </td>
-                  <td class="cost-cell">
-                    <label class="cost-choice"><input type="checkbox" data-cost-item="keulen-phantasialand" data-city="keulen" data-min="59" data-max="78" checked><span>€59–78</span></label>
-                    <button class="cost-info" type="button" data-tooltip="Dagkaart Phantasialand op zondag. De datumprijs is dynamisch; opening op 18 april 2027 en ticketprijs nog controleren." aria-label="Info over activiteit 2 in Keulen: Phantasialand">i</button>
                   </td>
                   <td class="cost-cell">
                     <label class="cost-choice"><input type="checkbox" data-cost-item="amsterdam-prison-island" data-city="amsterdam" data-min="26.5" data-max="26.5" checked><span>€26,50</span></label>
@@ -231,14 +175,9 @@
                 </tr>
                 <tr>
                   <th scope="row">Activiteit 3</th>
-                  <td class="cost-empty" aria-label="Geen geprijsde activiteit">—</td>
                   <td class="cost-cell">
                     <label class="cost-choice"><input type="checkbox" data-cost-item="lissabon-kayak" data-city="lissabon" data-exclusive-group="lissabon-saturday" data-min="80" data-max="120"><span>€80–120</span></label>
                     <button class="cost-info" type="button" data-tooltip="Kajak en snorkel bij Arrábida/Sesimbra. De excursietransfer zit in deze prijs; datum, groepscapaciteit en tarief nog bevestigen. Alternatief voor het Splash Boat Party: circa 6,5-7 uur, op zaterdag 17 april niet te combineren met het bootfeest van 14:00-18:00." aria-label="Info over activiteit 3 in Lissabon: kajak en snorkel">i</button>
-                  </td>
-                  <td class="cost-cell">
-                    <label class="cost-choice"><input type="checkbox" data-cost-item="keulen-brewery-tour" data-city="keulen" data-min="27.5" data-max="27.5"><span>€27,50</span></label>
-                    <button class="cost-info" type="button" data-tooltip="Optionele Kölsche Brauhaustour, circa twee uur. Inclusief drie Kölsch of twee frisdranken; standaard niet meegerekend." aria-label="Info over activiteit 3 in Keulen: brouwerijtour">i</button>
                   </td>
                   <td class="cost-cell">
                     <label class="cost-choice"><input type="checkbox" data-cost-item="amsterdam-lookout" data-city="amsterdam" data-min="29.5" data-max="29.5" checked><span>€29,50</span></label>
@@ -248,24 +187,13 @@
                 <tr>
                   <th scope="row">Activiteit 4</th>
                   <td class="cost-empty" aria-label="Geen geprijsde activiteit">—</td>
-                  <td class="cost-empty" aria-label="Geen geprijsde activiteit">—</td>
-                  <td class="cost-empty" aria-label="Geen geprijsde activiteit">—</td>
                   <td class="cost-unknown"><span>n.t.b.</span><button class="cost-info" type="button" data-tooltip="Zondagvoormiddag is nog niet ingevuld. Er is daarom nog geen prijs en deze post telt niet mee." aria-label="Info over activiteit 4 in Amsterdam: zondagactiviteit">i</button></td>
-                </tr>
-                <tr>
-                  <th scope="row">Activiteit 5</th>
-                  <td class="cost-empty" aria-label="Geen geprijsde activiteit">—</td>
-                  <td class="cost-empty" aria-label="Geen geprijsde activiteit">—</td>
-                  <td class="cost-empty" aria-label="Geen geprijsde activiteit">—</td>
-                  <td class="cost-empty" aria-label="Geen geprijsde activiteit">—</td>
                 </tr>
               </tbody>
               <tfoot>
                 <tr>
                   <th scope="row">Totaal geselecteerd</th>
-                  <td class="destination-total" data-total-city="barcelona"><strong data-total-per-person>€237–437 p.p.</strong><small data-total-group>€3.078–5.678 voor 13 deelnemers</small></td>
                   <td class="destination-total" data-total-city="lissabon"><strong data-total-per-person>€345–486 p.p.</strong><small data-total-group>€4.491–6.324 voor 13 deelnemers</small></td>
-                  <td class="destination-total" data-total-city="keulen"><strong data-total-per-person>€230–259 p.p.</strong><small data-total-group>€2.992–3.369 voor 13 deelnemers</small></td>
                   <td class="destination-total" data-total-city="amsterdam"><strong data-total-per-person>€314–324 p.p.</strong><small data-total-group>€4.085–4.215 voor 13 deelnemers</small></td>
                 </tr>
               </tfoot>
@@ -275,7 +203,7 @@
           <p class="comparison-live" data-cost-status role="status" aria-live="polite"></p>
           <div class="comparison-notes">
             <p><strong>Lezen van de tabel:</strong> een streepje betekent niet van toepassing; <em>n.t.b.</em> betekent dat er nog geen prijs is en telt dus niet mee. Klik, focus of hover op het info-icoon voor details.</p>
-            <p>Alle posten zijn per persoon voor de huidige groep van 13. Totalen worden afgerond op hele euro’s. De Lissabon-verblijfspost bevat nu €104 geraamde toeristenbelasting; controleer het Booking-eindtotaal om dubbel tellen uit te sluiten. De Opera Hotel-boeking en Q-Park-prijs voor Keulen zijn gebaseerd op de opgegeven boekingsselectie en huidige gepubliceerde parkeertarieven; controleer ontbijt, belasting, exacte parkeertijden en tarieven voor 2027. Als de 5% Keulse belasting niet in het hotelbedrag zit, komt er indicatief €6,08 p.p. bij. Voor Amsterdam staat BUNK geselecteerd: €184 p.p. voor de kamer en €15,23 p.p. voor parking, als aparte posten. Het hostel Heart of Amsterdam (€120,83 p.p.) staat in de hostelrij als alternatief; aanvinken vervangt het BUNK-hotel én de BUNK-parking. P+R, ander lokaal vervoer, eten, drinken, nachtleven en een reservepost zijn niet opgenomen. Je vinkjes worden alleen in deze browser bewaard.</p>
+            <p>Alle posten zijn per persoon voor de huidige groep van 13. Totalen worden afgerond op hele euro’s. De Lissabon-verblijfspost bevat nu €104 geraamde toeristenbelasting; controleer het Booking-eindtotaal om dubbel tellen uit te sluiten. Voor Amsterdam staat BUNK geselecteerd: €184 p.p. voor de kamer en €15,23 p.p. voor parking, als aparte posten. Het hostel Heart of Amsterdam (€120,83 p.p.) staat in de hostelrij als alternatief; aanvinken vervangt het BUNK-hotel én de BUNK-parking. P+R, ander lokaal vervoer, eten, drinken, nachtleven en een reservepost zijn niet opgenomen. Je vinkjes worden alleen in deze browser bewaard.</p>
           </div>
           <noscript><p class="comparison-noscript">De tabel blijft leesbaar zonder JavaScript, maar aanvinken en herberekenen vereist JavaScript.</p></noscript>
         </div>

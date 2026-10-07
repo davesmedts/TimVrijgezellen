@@ -98,10 +98,10 @@ test("every page has a shared, accessible header theme switch with early initial
   }
 });
 
-test("overview has no destination estimates and keeps all four destinations", async () => {
+test("overview has no destination estimates and keeps the two remaining destinations", async () => {
   const html = await readFile(resolve(root, "docs/index.html"), "utf8");
   const cards = [...html.matchAll(/<a class="destination-card[\s\S]*?<\/a>/g)];
-  assert.equal(cards.length, 4);
+  assert.equal(cards.length, 2);
   for (const [card] of cards) assert.doesNotMatch(card, /€|raming/i);
   const overview = await readFile(resolve(root, "Bestemmingen/overzicht.md"), "utf8");
   assert.doesNotMatch(overview, /Hostelbasis|Hotelbasis|Budgetinterpretatie/);
@@ -110,14 +110,12 @@ test("overview has no destination estimates and keeps all four destinations", as
 test("cost comparison starts with destination budgets matching the detail pages", async () => {
   const html = await readFile(resolve(root, "docs/kosten.html"), "utf8");
   const expected = {
-    barcelona: [237, 437],
     lissabon: [345, 486],
-    keulen: [230, 259],
     amsterdam: [314, 324],
   };
   const sums = Object.fromEntries(Object.keys(expected).map((city) => [city, [0, 0]]));
   const items = [...html.matchAll(/<input type="checkbox" data-cost-item="([^"]+)" data-city="([^"]+)"[^>]*data-min="([\d.]+)" data-max="([\d.]+)"([^>]*)>/g)];
-  assert.ok(items.length >= 20, "Expected the current transport, stay, and activity estimates");
+  assert.ok(items.length >= 14, "Expected the current transport, stay, and activity estimates");
 
   for (const item of items) {
     const [, , city, minimum, maximum, attributes] = item;
@@ -135,11 +133,11 @@ test("cost comparison starts with destination budgets matching the detail pages"
     assert.match(html, new RegExp(`data-total-city="${city}"[\\s\\S]*?data-total-group`));
   }
 
-  assert.match(html, /Activiteit 1[\s\S]*Activiteit 5/);
+  assert.match(html, /Activiteit 1[\s\S]*Activiteit 4/);
   assert.match(html, /data-tooltip="A’DAM VR Level 2 Action/);
   assert.match(html, /data-tooltip="Kajak en snorkel/);
   assert.match(html, /class="cost-unknown"/);
-  assert.match(html, /data-cost-item="barcelona-budgethotel".*?data-exclusive-group="barcelona-stay"/);
+  assert.match(html, /data-cost-item="lissabon-splash-boat".*?data-exclusive-group="lissabon-saturday"/);
   assert.match(html, /data-cost-item="amsterdam-bunk-hotel"/);
   assert.match(html, /data-cost-item="amsterdam-bunk-parking"/);
   assert.doesNotMatch(html, /data-cost-item="amsterdam-(?:hostel|budgethotel|bunk)"/);
@@ -207,10 +205,6 @@ test("Markdown local links and archived research JSON remain valid", async () =>
 });
 
 test("key content regressions stay fixed", async () => {
-  const barcelona = await readFile(resolve(root, "docs/bestemmingen/barcelona.html"), "utf8");
-  assert.match(barcelona, /onrealistisch/);
-  assert.match(barcelona, /17:50.*niet haalbaar/);
-  assert.doesNotMatch(barcelona, /Derby of stadiontour|als de timing past/);
   const lisbon = await readFile(resolve(root, "docs/bestemmingen/lissabon.html"), "utf8");
   assert.match(lisbon, /06:56/);
   assert.doesNotMatch(lisbon, /07:56/);
