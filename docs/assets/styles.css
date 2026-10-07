@@ -1161,6 +1161,10 @@ a.destination-card:focus-visible {
 }
 
 .quick-strip div:last-child { border-right: 0; }
+
+.quick-strip--six { grid-template-columns: repeat(3, 1fr); }
+.quick-strip--six div:nth-child(-n + 3) { border-bottom: 1px solid var(--border); }
+.quick-strip--six div:nth-child(3n) { border-right: 0; }
 .quick-strip span { display: block; color: var(--muted-dark); font-size: 0.75rem; text-transform: uppercase; }
 .quick-strip strong { display: block; margin-top: 0.2rem; font-size: 0.85rem; font-weight: 500; }
 .quick-strip a { display: inline-flex; min-height: 28px; align-items: center; color: var(--blue-bright); text-decoration: underline; text-underline-offset: 0.2em; }
@@ -2015,6 +2019,8 @@ a.destination-card:focus-visible {
 
   .quick-strip div:nth-child(2) { border-right: 0; }
   .quick-strip div:nth-child(-n + 2) { border-bottom: 1px solid var(--border); }
+  .quick-strip--six div:nth-child(2n) { border-right: 0; }
+  .quick-strip--six div:nth-child(-n + 4) { border-bottom: 1px solid var(--border); }
 
   .weather-metrics {
     grid-template-columns: repeat(2, minmax(0, 1fr));

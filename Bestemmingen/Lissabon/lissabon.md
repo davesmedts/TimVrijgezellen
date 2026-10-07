@@ -35,9 +35,16 @@ Ticketraming: **€20 - €100 per persoon** voor gewone tickets; officiële hos
 
 - Vertrek: Brussels Airport of Charleroi
 - Rechtstreekse vlucht naar Lissabon
-- Vluchtduur: ongeveer 2 uur en 50 minuten
+- Rechtstreekse vluchten; alle getoonde tijden zijn lokale tijden.
+
+### Vluchtschema
+
+| | Vlucht | Datum | Route | Vertrek | Aankomst | Duur |
+|---|---|---|---|---:|---:|---:|
+| Heen | TP645 | vr 16 april 2027 | Brussel (BRU) → Lissabon (LIS) | 20:55 | 22:50 | 2u55 |
+| Terug | TP646 | zo 18 april 2027 | Lissabon (LIS) → Brussel (BRU) | 20:05 | 23:55 | 2u50 |
 - Vluchtraming retour: **€155 - €169 per persoon**
-- Concrete zoekopdracht op 25/09/2026: TAP Air Portugal, rechtstreeks, Brussel - Lissabon op vrijdag **20:55 - 22:50** en Lissabon - Brussel op zondag **20:05 - 23:55**.
+- Actuele selectie op 07/10/2026: TAP Air Portugal, rechtstreeks, met de vluchtnummers en tijden uit het schema hierboven.
 - Actuele richtprijs: **ongeveer €169 per persoon**.
 - Skyscanner toonde een totaal van ongeveer **€1.349 voor 8 reizigers**; voor 13 personen is dat indicatief ongeveer **€2.197** aan hetzelfde tarief. Bagage- en eventuele dossierkosten moeten bij boeking worden gecontroleerd.
 - De heenreis is verenigbaar met vertrek na het werk. De retour landt zondag om 23:55 in Brussel: na bagage en de rit naar Antwerpen/Brecht is de groep niet zondagavond thuis. Een vroegere retour of een bewuste afwijking van die afspraak is nodig. De terugvlucht van 20:05 kan bovendien botsen met Benfica - Nacional bij een late zondagse aftrap.
