@@ -233,6 +233,24 @@ Voor 13 personen moeten kamerindeling, bedcapaciteit, parking, toeristenbelastin
 
 Dit is een momentopname van **6 oktober 2026**, geen bindende groepsofferte; de prijs en beschikbaarheid kunnen wijzigen. De parkeerraming neemt op verzoek drie betaalde dagen aan; bevestig dit tarief voor jullie exacte aankomst- en vertrektijden en of er drie plaatsen beschikbaar zijn. Voor een minibus moet de geschiktheid van de parkeerplaats apart worden nagevraagd.
 
+### Concrete optie: Hostel Heart of Amsterdam
+
+De groep heeft naast BUNK een tweede concrete verblijfoptie:
+
+- Verblijf voor twee nachten: **€120,83 per persoon**, ongeveer **€1.570,79** voor 13 personen.
+- Dat valt binnen de hostelraming van €100-€220 p.p. In de kostenvergelijking staat dit hostel in de hostelrij en wisselt het de BUNK-post én de BUNK-parking van €15,23 p.p. om; de twee zijn alternatieven, geen optelsom.
+- Kamerindeling voor 13 personen, ontbijt, toeristenbelasting en annuleringsvoorwaarden nog opvragen.
+- De parkeerregeling van dit hostel nakijken: de BUNK-parking van €22 per auto per dag hoort hier niet bij. P+R (€6 per 24 uur) blijft het alternatief.
+
+| Onderdeel | Totaal voor 13 | Per persoon |
+|---|---:|---:|
+| Hostel Heart of Amsterdam, 2 nachten | €1.570,79 | €120,83 |
+| Kernactiviteiten | €1.365 | €105,00 |
+| Brandstof voor 3 auto’s retour (raming) | €135-€210 | €10,38-€16,15 |
+| **Totaal vóór eten, drinken en lokaal vervoer** | **€3.071-€3.146** | **€236,21-€241,98** |
+
+Bij deze raming zijn parking, ontbijt en toeristenbelasting niet inbegrepen. Bevestig prijs en beschikbaarheid voor 13 personen voordat je boekt; dit is een richtprijs, geen offerte.
+
 De gemeentelijke pagina vermeldt momenteel **12,5% toeristenbelasting op de overnachtingsprijs exclusief btw**. In het coalitieplan voor 2027 staat een verhoging naar **16%**; behandel dat als een voornemen en controleer het formele tarief en de hotelprijs inclusief lokale belasting voordat je boekt.
 
 ## Lokaal vervoer

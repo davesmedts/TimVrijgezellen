@@ -111,7 +111,7 @@ test("cost comparison starts with destination budgets matching the detail pages"
   const html = await readFile(resolve(root, "docs/kosten.html"), "utf8");
   const expected = {
     barcelona: [237, 437],
-    lissabon: [356, 537],
+    lissabon: [345, 486],
     keulen: [230, 259],
     amsterdam: [314, 324],
   };
@@ -164,6 +164,14 @@ test("Markdown tables have consistent columns and three-scenario totals add up",
         assert.ok(amount, `Missing amount in ${path}: ${row}`);
         return Number(amount.replaceAll(".", "").replace(",", "."));
       });
+      // Optellen in drijvende komma levert soms een ulp verschil op; reken af op een cent.
+      const addsUp = (row, expected) => {
+        const actual = amounts(row);
+        assert.equal(actual.length, expected.length, `Wrong number of amounts in ${path}: ${row[0]}`);
+        for (const [index, value] of actual.entries()) {
+          assert.ok(Math.abs(value - expected[index]) < 0.01, `Incorrect budget in ${path}: ${row[0]}: ${value} versus ${expected[index]}`);
+        }
+      };
       const components = rows.slice(2).filter((row) => !row[0].includes("Totaal"));
       for (const row of rows.filter((item) => item[0].includes("Totaal"))) {
         const hostel = row[0].includes("hostel");
@@ -172,12 +180,12 @@ test("Markdown tables have consistent columns and three-scenario totals add up",
           const before = rows.slice(2, rows.indexOf(row));
           const included = before.filter((item) => !item[0].includes("Totaal"));
           const expected = included.reduce((sum, item) => amounts(item).map((value, index) => value + sum[index]), [0, 0, 0]);
-          assert.deepEqual(amounts(row), expected, `Incorrect scenario budget in ${path}: ${row[0]}`);
+          addsUp(row, expected);
           continue;
         }
         const included = components.filter((item) => !(hostel && item[0].includes("budgethotel")) && !(hotel && item[0].includes("hostel")));
         const expected = included.reduce((sum, item) => amounts(item).map((value, index) => value + sum[index]), [0, 0, 0]);
-        assert.deepEqual(amounts(row), expected, `Incorrect budget in ${path}: ${row[0]}`);
+        addsUp(row, expected);
       }
     }
   }

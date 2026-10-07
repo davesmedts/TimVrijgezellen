@@ -67,7 +67,7 @@
             <div>
               <p class="section-kicker">01 / raming per persoon</p>
               <h2 id="comparison-title">Bestemmingen naast elkaar.</h2>
-              <p class="comparison-intro">De basisselectie sluit aan op de huidige kostenramingen. Lissabon gebruikt City Stays Cais do Sodré inclusief de geraamde toeristenbelasting; Amsterdam gebruikt voorlopig alleen de BUNK-hoteloptie. Verblijfsprijs en stadsparking staan los van elkaar; voor Keulen en Amsterdam zijn de parkeerkosten samengebracht in één rij.</p>
+              <p class="comparison-intro">De basisselectie sluit aan op de huidige kostenramingen. Lissabon gebruikt City Stays Cais do Sodré inclusief de geraamde toeristenbelasting; Amsterdam heeft twee verblijfopties: BUNK-hotel (€184 p.p., geselecteerd) en Hostel Heart of Amsterdam (€120,83 p.p.) in de hostelrij. Verblijfsprijs en stadsparking staan los van elkaar; voor Keulen en Amsterdam zijn de parkeerkosten samengebracht in één rij.</p>
             </div>
             <button class="button button--ghost comparison-reset" type="button" data-reset-costs>Herstel basisselectie</button>
           </div>
@@ -134,7 +134,7 @@
                   </td>
                   <td class="cost-cell">
                     <label class="cost-choice"><input type="checkbox" data-cost-item="lissabon-local" data-city="lissabon" data-min="20" data-max="50" checked><span>€20–50</span></label>
-                    <button class="cost-info" type="button" data-tooltip="Indicatie per persoon voor luchthavenvervoer en lokaal vervoer. De kajaktourtransfer zit al in de activiteit en wordt niet opnieuw gerekend." aria-label="Info over vervoer in Lissabon">i</button>
+                    <button class="cost-info" type="button" data-tooltip="Indicatie per persoon voor luchthavenvervoer en lokaal vervoer, inclusief de rit naar Doca do Espanhol voor het Splash Boat Party. De kajaktour (alternatief) bevat de excursietransfer zelf." aria-label="Info over vervoer in Lissabon">i</button>
                   </td>
                   <td class="cost-empty" aria-label="Geen aanvullend lokaal vervoer opgenomen">—</td>
                   <td class="cost-empty" aria-label="BUNK-parking staat apart onder verblijf; P+R en lokaal vervoer niet opgenomen">—</td>
@@ -159,7 +159,10 @@
                   </td>
                   <td class="cost-empty" aria-label="Hostelalternatief momenteel niet geselecteerd voor Lissabon">—</td>
                   <td class="cost-empty" aria-label="De huidige raming gebruikt een hotel">—</td>
-                  <td class="cost-empty" aria-label="Hostelalternatief niet geselecteerd voor Amsterdam">—</td>
+                  <td class="cost-cell">
+                    <label class="cost-choice"><input type="checkbox" data-cost-item="amsterdam-heart-hostel" data-city="amsterdam" data-exclusive-group="amsterdam-stay amsterdam-bunk-parking" data-min="120.83" data-max="120.83"><span>€120,83</span></label>
+                    <button class="cost-info" type="button" data-tooltip="Hostel Heart of Amsterdam, twee nachten per persoon: €120,83. Deze post wisselt het BUNK-hotel én de bijbehorende BUNK-parking in de verblijfrij om; heb je later toch BUNK nodig, zet dan de parking er apart weer bij. Kamerverdeling, ontbijt, belastingen en parkeerregeling voor 13 personen nog bevestigen." aria-label="Info over Hostel Heart of Amsterdam">i</button>
+                  </td>
                 </tr>
                 <tr>
                   <th scope="row">Hotel</th>
@@ -173,7 +176,7 @@
                     <button class="cost-info" type="button" data-tooltip="Opera Hotel Köln, opgegeven Booking.com-totaal voor 16–18 april 2027: €1.582 voor 13 personen (1 driepersoonskamer + 5 tweepersoonskamers), gedeeld door 13 = €121,69 p.p. Controleer of ontbijt en de Keulse belasting van 5% zijn inbegrepen; als de belasting nog bijkomt is dat indicatief €79,10 voor de groep (€6,08 p.p.). Hotelparking wordt apart gerekend." aria-label="Info over verblijf in Opera Hotel Köln">i</button>
                   </td>
                   <td class="cost-cell">
-                    <label class="cost-choice"><input type="checkbox" data-cost-item="amsterdam-bunk-hotel" data-city="amsterdam" data-min="184" data-max="184" checked><span>€184</span></label>
+                    <label class="cost-choice"><input type="checkbox" data-cost-item="amsterdam-bunk-hotel" data-city="amsterdam" data-exclusive-group="amsterdam-stay" data-min="184" data-max="184" checked><span>€184</span></label>
                     <button class="cost-info" type="button" data-tooltip="Voorlopig gekozen hoteloptie: BUNK Hotel Amsterdam-Noord, €2.392 voor 13 personen / twee nachten volgens Booking.com (€184 p.p., inclusief belastingen en toeslagen volgens de boeking). Ontbijt en parking zijn niet inbegrepen in dit bedrag." aria-label="Info over het BUNK-hotelverblijf in Amsterdam">i</button>
                   </td>
                 </tr>
@@ -188,8 +191,8 @@
                     <button class="cost-info" type="button" data-tooltip="Alternatief op circa 30 meter: Parkhaus Brückenstraße/Ludwigstraße 1. Na afstempelen bij het hotel €25 per auto voor 12–24 uur; voor circa twee dagen en drie auto’s is dat €150 totaal / 13 = €11,54 p.p." aria-label="Info over Parkhaus Brückenstraße bij Opera Hotel Köln">i</button>
                   </td>
                   <td class="cost-cell">
-                    <label class="cost-choice"><input type="checkbox" data-cost-item="amsterdam-bunk-parking" data-city="amsterdam" data-min="15.2307692308" data-max="15.2307692308" checked><span>€15,23</span></label>
-                    <button class="cost-info" type="button" data-tooltip="BUNK-parking apart van het hotelbedrag: €22 per auto per dag. Raming voor 3 auto’s × 3 betaalde dagen = €198 totaal / 13 = €15,23 p.p. Beperkte plaatsen; vooraf bij het hotel bevestigen." aria-label="Info over de parkeerkosten bij BUNK Amsterdam">i</button>
+                    <label class="cost-choice"><input type="checkbox" data-cost-item="amsterdam-bunk-parking" data-city="amsterdam" data-exclusive-group="amsterdam-bunk-parking" data-min="15.2307692308" data-max="15.2307692308" checked><span>€15,23</span></label>
+                    <button class="cost-info" type="button" data-tooltip="BUNK-parking apart van het hotelbedrag: €22 per auto per dag. Raming voor 3 auto’s × 3 betaalde dagen = €198 totaal / 13 = €15,23 p.p. Hoort bij de BUNK-kamer en valt weg zodra je het Hostel Heart of Amsterdam kiest. Beperkte plaatsen; vooraf bij het hotel bevestigen." aria-label="Info over de parkeerkosten bij BUNK Amsterdam">i</button>
                   </td>
                 </tr>
 
@@ -198,8 +201,8 @@
                   <th scope="row">Activiteit 1</th>
                   <td class="cost-unknown"><span>n.t.b.</span><button class="cost-info" type="button" data-tooltip="Er is nog geen betaalde kernactiviteit met prijs opgenomen. Mogelijke ideeën op de bestemmingspagina zijn fietsen of varen, een museum/stadiontour of een groepsactiviteit." aria-label="Info over activiteit 1 in Barcelona">i</button></td>
                   <td class="cost-cell">
-                    <label class="cost-choice"><input type="checkbox" data-cost-item="lissabon-kayak" data-city="lissabon" data-min="80" data-max="120" checked><span>€80–120</span></label>
-                    <button class="cost-info" type="button" data-tooltip="Kajak en snorkel bij Arrábida/Sesimbra. De excursietransfer zit in deze prijs; datum, groepscapaciteit en tarief nog bevestigen." aria-label="Info over activiteit 1 in Lissabon: kajak en snorkel">i</button>
+                    <label class="cost-choice"><input type="checkbox" data-cost-item="lissabon-splash-boat" data-city="lissabon" data-exclusive-group="lissabon-saturday" data-min="69" data-max="69" checked><span>€69</span></label>
+                    <button class="cost-info" type="button" data-tooltip="Splash Boat Party Lisbon, zaterdag 17 april 2027 van 14:00 tot 18:00. Vier uur all-inclusive: open bar, verse BBQ aan boord en een zwempauze; vertrek aan Doca do Espanhol. Kom 20-30 minuten vroeger voor check-in; 18+ met identiteitskaart." aria-label="Info over activiteit 1 in Lissabon: Splash Boat Party">i</button>
                   </td>
                   <td class="cost-cell">
                     <label class="cost-choice"><input type="checkbox" data-cost-item="keulen-vr" data-city="keulen" data-min="34.9" data-max="34.9" checked><span>€34,90</span></label>
@@ -229,7 +232,10 @@
                 <tr>
                   <th scope="row">Activiteit 3</th>
                   <td class="cost-empty" aria-label="Geen geprijsde activiteit">—</td>
-                  <td class="cost-empty" aria-label="Geen geprijsde activiteit">—</td>
+                  <td class="cost-cell">
+                    <label class="cost-choice"><input type="checkbox" data-cost-item="lissabon-kayak" data-city="lissabon" data-exclusive-group="lissabon-saturday" data-min="80" data-max="120"><span>€80–120</span></label>
+                    <button class="cost-info" type="button" data-tooltip="Kajak en snorkel bij Arrábida/Sesimbra. De excursietransfer zit in deze prijs; datum, groepscapaciteit en tarief nog bevestigen. Alternatief voor het Splash Boat Party: circa 6,5-7 uur, op zaterdag 17 april niet te combineren met het bootfeest van 14:00-18:00." aria-label="Info over activiteit 3 in Lissabon: kajak en snorkel">i</button>
+                  </td>
                   <td class="cost-cell">
                     <label class="cost-choice"><input type="checkbox" data-cost-item="keulen-brewery-tour" data-city="keulen" data-min="27.5" data-max="27.5"><span>€27,50</span></label>
                     <button class="cost-info" type="button" data-tooltip="Optionele Kölsche Brauhaustour, circa twee uur. Inclusief drie Kölsch of twee frisdranken; standaard niet meegerekend." aria-label="Info over activiteit 3 in Keulen: brouwerijtour">i</button>
@@ -258,7 +264,7 @@
                 <tr>
                   <th scope="row">Totaal geselecteerd</th>
                   <td class="destination-total" data-total-city="barcelona"><strong data-total-per-person>€237–437 p.p.</strong><small data-total-group>€3.078–5.678 voor 13 deelnemers</small></td>
-                  <td class="destination-total" data-total-city="lissabon"><strong data-total-per-person>€356–537 p.p.</strong><small data-total-group>€4.634–6.987 voor 13 deelnemers</small></td>
+                  <td class="destination-total" data-total-city="lissabon"><strong data-total-per-person>€345–486 p.p.</strong><small data-total-group>€4.491–6.324 voor 13 deelnemers</small></td>
                   <td class="destination-total" data-total-city="keulen"><strong data-total-per-person>€230–259 p.p.</strong><small data-total-group>€2.992–3.369 voor 13 deelnemers</small></td>
                   <td class="destination-total" data-total-city="amsterdam"><strong data-total-per-person>€314–324 p.p.</strong><small data-total-group>€4.085–4.215 voor 13 deelnemers</small></td>
                 </tr>
@@ -269,7 +275,7 @@
           <p class="comparison-live" data-cost-status role="status" aria-live="polite"></p>
           <div class="comparison-notes">
             <p><strong>Lezen van de tabel:</strong> een streepje betekent niet van toepassing; <em>n.t.b.</em> betekent dat er nog geen prijs is en telt dus niet mee. Klik, focus of hover op het info-icoon voor details.</p>
-            <p>Alle posten zijn per persoon voor de huidige groep van 13. Totalen worden afgerond op hele euro’s. De Lissabon-verblijfspost bevat nu €104 geraamde toeristenbelasting; controleer het Booking-eindtotaal om dubbel tellen uit te sluiten. De Opera Hotel-boeking en Q-Park-prijs voor Keulen zijn gebaseerd op de opgegeven boekingsselectie en huidige gepubliceerde parkeertarieven; controleer ontbijt, belasting, exacte parkeertijden en tarieven voor 2027. Als de 5% Keulse belasting niet in het hotelbedrag zit, komt er indicatief €6,08 p.p. bij. Voor Amsterdam staat alleen BUNK geselecteerd: €184 p.p. voor de kamer en €15,23 p.p. voor parking, als aparte posten. P+R, ander lokaal vervoer, eten, drinken, nachtleven en een reservepost zijn niet opgenomen. Je vinkjes worden alleen in deze browser bewaard.</p>
+            <p>Alle posten zijn per persoon voor de huidige groep van 13. Totalen worden afgerond op hele euro’s. De Lissabon-verblijfspost bevat nu €104 geraamde toeristenbelasting; controleer het Booking-eindtotaal om dubbel tellen uit te sluiten. De Opera Hotel-boeking en Q-Park-prijs voor Keulen zijn gebaseerd op de opgegeven boekingsselectie en huidige gepubliceerde parkeertarieven; controleer ontbijt, belasting, exacte parkeertijden en tarieven voor 2027. Als de 5% Keulse belasting niet in het hotelbedrag zit, komt er indicatief €6,08 p.p. bij. Voor Amsterdam staat BUNK geselecteerd: €184 p.p. voor de kamer en €15,23 p.p. voor parking, als aparte posten. Het hostel Heart of Amsterdam (€120,83 p.p.) staat in de hostelrij als alternatief; aanvinken vervangt het BUNK-hotel én de BUNK-parking. P+R, ander lokaal vervoer, eten, drinken, nachtleven en een reservepost zijn niet opgenomen. Je vinkjes worden alleen in deze browser bewaard.</p>
           </div>
           <noscript><p class="comparison-noscript">De tabel blijft leesbaar zonder JavaScript, maar aanvinken en herberekenen vereist JavaScript.</p></noscript>
         </div>

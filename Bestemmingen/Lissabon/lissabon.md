@@ -71,6 +71,7 @@ Lissabon heeft metro, trams, bussen, taxi’s en ritdiensten. De luchthaven ligt
 ## Mogelijke activiteiten
 
 - Foodtour met petiscos, bacalhau en lokale wijn.
+- Splash Boat Party op de Taag, zaterdag 14:00-18:00.
 - Boottocht op de Taag bij zonsondergang.
 - Benfica Museum en stadiontour.
 - Bezoek aan Belém, Torre de Belém en het Jerónimosklooster.
@@ -80,9 +81,26 @@ Lissabon heeft metro, trams, bussen, taxi’s en ritdiensten. De luchthaven ligt
 - Daguitstap naar Sintra.
 - Escape room, kookworkshop of cocktailworkshop.
 
+### Splash Boat Party Lisbon · zaterdag 14:00-18:00
+
+Het **Splash Boat Party** is de hoofdactiviteit van zaterdag 17 april 2027. De [evenementpagina](https://www.splashboatpartylisbon.com/events/splash-boat-party-lisbon-2027-04-17-14-00) toont die dag een afvaart van **14:00 tot 18:00 WEST**, vier uur all-inclusive.
+
+- Prijs: **€69 p.p.** (**€897 voor 13 personen**).
+- Inbegrepen: open bar (bier, sangria, witte wijn en fris), verse BBQ aan boord (kipburger of veggie burger met friet per persoon), zwempauze met springplank, internationale DJ's en de volledige route langs de 25 de Abril-brug, de Toren van Belém en Praça do Comércio.
+- Vertrek: **Doca do Espanhol**, Av. Brasília, 1350-352 Lissabon; kom **20-30 minuten vroeger** voor check-in.
+- Voorwaarden: **18+** met identiteitskaart; neem badkledij en een handdoek mee voor de zwempauze.
+- Boeken: [tickets en alle data](https://www.splashboatpartylisbon.com/tickets).
+
+Aandachtspunten:
+
+- Nog niet geboekt; €69 is de kaartprijs voor het evenement van 17 april 2027 en kan wijzigen. Controleer voor 13 personen de beschikbaarheid, want populaire afvaarten raken volzet.
+- Het feest eindigt om 18:00; plan het avondmaaltijd daarna. De BBQ aan boord vervangt de lunch.
+- Doca do Espanhol ligt in Belém, westelijk van Cais do Sodré: reken op reistijd naar de vertrekplaats en terug.
+- Bij extreem weer kan de organisatie de afvaart verplaatsen of terugbetalen.
+
 ### Kajak- en snorkeltour Arrábida/Sesimbra
 
-Een georganiseerde kajak- en snorkeltour naar de kust van Arrábida of Sesimbra is een sterke optie voor de zaterdag. De activiteit vindt niet in de stad zelf plaats, maar de meeste volledige formules voorzien transfer vanuit Lissabon.
+Een georganiseerde kajak- en snorkeltour naar de kust van Arrábida of Sesimbra is het alternatief voor het Splash Boat Party. De activiteit vindt niet in de stad zelf plaats, maar de meeste volledige formules voorzien transfer vanuit Lissabon. **Let op:** op zaterdag 17 april 2027 loopt de tour van 09:30 tot 15:30 en is ze niet te combineren met het bootfeest van 14:00-18:00; kies één van de twee.
 
 - Vertrek: bij voorkeur zaterdag **17 april 2027**; vrijdagavond aankomen om 22:50 is te laat voor deze activiteit.
 - Duur: ongeveer **6,5-7 uur inclusief transfer**.
@@ -102,7 +120,7 @@ Een georganiseerde kajak- en snorkeltour naar de kust van Arrábida of Sesimbra 
 
 Voor de planning wordt **€95 per persoon**, of **€1.235 voor 13 personen**, als realistische raming gebruikt.
 
-#### Aanbevolen dagindeling
+#### Dagindeling als je voor de kajak kiest
 
 - 07:00: ontbijt.
 - 08:00-08:30: pickup in het centrum van Lissabon.
@@ -112,7 +130,7 @@ Voor de planning wordt **€95 per persoon**, of **€1.235 voor 13 personen**, 
 - 14:00-15:30: transfer terug naar Lissabon.
 - Vanaf 16:00: rusten, drankje en voorbereiden op het diner.
 
-De kajak- en snorkeltour wordt best als **hoofdactiviteit van zaterdag** gepland. Combineer ze niet met Adventure Park Jamor of een andere volledige excursie op dezelfde dag.
+Kies je voor de kajak, dan is de tour de **hoofdactiviteit van zaterdag**. Combineer ze niet met Adventure Park Jamor, het Splash Boat Party of een andere volledige excursie op dezelfde dag.
 
 #### Aandachtspunten voor april
 
@@ -134,16 +152,16 @@ Lissabon heeft een brede restaurant- en barscene. Bairro Alto is geschikt voor e
 | Airport en lokaal vervoer | €20 | €35 | €50 |
 | Luchthavenparking | €11,77 | €11,77 | €11,77 |
 | Verblijf - City Stays appartement(en), incl. belasting | €95,66 | €95,66 | €95,66 |
-| Kajak- en snorkeltour | €80 | €95 | €120 |
-| **Totaal met City Stays, zonder voetbal** | **€356,43** | **€437,43** | **€537,43** |
+| Splash Boat Party, za 14:00-18:00 | €69 | €69 | €69 |
+| **Totaal met City Stays, zonder voetbal** | **€345,43** | **€411,43** | **€486,43** |
 
-De totalen hierboven zijn berekend met de kajak- en snorkeltour en zonder voetbal. De Lisbonse toeristenbelasting is nu in de City Stays-verblijfspost opgenomen; controleer of Booking die al in het checkouttotaal heeft verwerkt om dubbel tellen te voorkomen. Luchthavenparking is €153 voor drie auto's, oftewel circa €11,77 p.p. Hostel (€60–€180 p.p.) blijft een alternatief, maar is niet in deze som opgenomen. De excursietransfer zit in de kajakformule en wordt niet dubbel gerekend. Eten, drinken en nachtleven zijn niet opgenomen; de picknick hoort wel bij de tour.
+De totalen hierboven zijn berekend met het Splash Boat Party en zonder voetbal. De Lisbonse toeristenbelasting is nu in de City Stays-verblijfspost opgenomen; controleer of Booking die al in het checkouttotaal heeft verwerkt om dubbel tellen te voorkomen. Luchthavenparking is €153 voor drie auto's, oftewel circa €11,77 p.p. Hostel (€60–€180 p.p.) blijft een alternatief, maar is niet in deze som opgenomen. De kajak- en snorkeltour (€80-€120) blijft het alternatief en zit niet in deze som; in de kajakformule zit de excursietransfer al. Eten, drinken en nachtleven zijn niet opgenomen; de BBQ en de open bar aan boord zitten wél in de €69 kaartprijs.
 
-Voetbal is optioneel: **+€20–€100 p.p.**, alleen als aftrap en ticketbeschikbaarheid passen. Met de City Stays-optie is de realistische raming **circa €437 p.p.** bij een afzonderlijke vlucht van €200, of **circa €495 p.p.** met de TAP-groepsprijs van €258. Alle prijzen en beschikbaarheid voor 13 personen moeten opnieuw worden bevestigd.
+Voetbal is optioneel: **+€20–€100 p.p.**, alleen als aftrap en ticketbeschikbaarheid passen. Met de City Stays-optie is de realistische raming **circa €411 p.p.** bij een afzonderlijke vlucht van €200, of **circa €469 p.p.** met de TAP-groepsprijs van €258. Alle prijzen en beschikbaarheid voor 13 personen moeten opnieuw worden bevestigd.
 
 ### Groepstotalen voor 13 personen
 
-- Totaal met City Stays inclusief toeristenbelasting en kajakoptie, zonder voetbal: **€4.634 - €6.987**; realistische middenraming **circa €5.687**.
+- Totaal met City Stays inclusief toeristenbelasting en Splash Boat Party, zonder voetbal: **€4.491 - €6.324**; realistische middenraming **circa €5.349**.
 
 Belgische reizigers kunnen Portugal bezoeken met een geldige Belgische identiteitskaart. Er zijn geen ETA- of visumkosten voor dit korte verblijf.
 
@@ -156,6 +174,9 @@ Belgische reizigers kunnen Portugal bezoeken met een geldige Belgische identitei
 
 ## Bronnen
 
+- [Splash Boat Party Lisbon — evenement 17 april 2027, 14:00-18:00](https://www.splashboatpartylisbon.com/events/splash-boat-party-lisbon-2027-04-17-14-00)
+- [Splash Boat Party Lisbon — tickets en alle data](https://www.splashboatpartylisbon.com/tickets)
+- [Splash Boat Party Lisbon — FAQ](https://www.splashboatpartylisbon.com/faq)
 - [SL Benfica officiële website](https://www.slbenfica.pt/en-us)
 - [Benfica tickets](https://www.slbenfica.pt/en-us/loja/bilhetes)
 - [Portugal officiële toeristische website](https://www.visitportugal.com/en)

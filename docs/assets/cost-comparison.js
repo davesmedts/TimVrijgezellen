@@ -23,12 +23,15 @@
     }
   }
 
+  // Een post kan meerdere wisselgroepen krijgen (spatie-gescheiden). Aanvinken
+  // vervangt dan elke optie die minstens één van die groepen deelt.
+  const groupsOf = (item) => (item.dataset.exclusiveGroup ?? "").split(/\s+/).filter(Boolean);
   const selectedAlternatives = new Set();
   for (const item of items) {
-    const group = item.dataset.exclusiveGroup;
-    if (!item.checked || !group) continue;
-    if (selectedAlternatives.has(group)) item.checked = false;
-    else selectedAlternatives.add(group);
+    const groups = groupsOf(item);
+    if (!item.checked || groups.length === 0) continue;
+    if (groups.some((group) => selectedAlternatives.has(group))) item.checked = false;
+    else groups.forEach((group) => selectedAlternatives.add(group));
   }
 
   const formatAmount = (amount) => formatter.format(Math.round(amount));
@@ -69,10 +72,13 @@
 
   for (const item of items) {
     item.addEventListener("change", () => {
-      if (item.checked && item.dataset.exclusiveGroup) {
-        for (const alternative of items) {
-          if (alternative !== item && alternative.dataset.exclusiveGroup === item.dataset.exclusiveGroup) {
-            alternative.checked = false;
+      if (item.checked) {
+        const active = new Set(groupsOf(item));
+        if (active.size > 0) {
+          for (const alternative of items) {
+            if (alternative !== item && groupsOf(alternative).some((group) => active.has(group))) {
+              alternative.checked = false;
+            }
           }
         }
       }
