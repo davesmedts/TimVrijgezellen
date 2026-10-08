@@ -29,7 +29,7 @@ De huidige kalenderfeed vermeldt op **zondag 18 april 2027**:
 
 Benfica is de concrete voetbaloptie in de huidige kalender. Sporting CP is eveneens een bekende club in Lissabon, maar een thuiswedstrijd van Sporting voor dit weekend moet afzonderlijk worden bevestigd.
 
-Ticketraming: **€20 - €100 per persoon** voor gewone tickets; officiële hospitality kan duurder zijn.
+Ticketrichtprijs: **€45 per persoon** voor een regulier ticket; hospitality en topschakeringen kunnen duurder uitvallen. De €45 staat in de kostenvergelijking als bonuspost, **standaard uitgevinkt**; hij zit niet in de totalen hieronder.
 
 ## Vluchten
 
@@ -184,7 +184,7 @@ Lissabon heeft een brede restaurant- en barscene. Bairro Alto is geschikt voor e
 
 De totalen hierboven zijn berekend met het Splash Boat Party en zonder voetbal. De Lisbonse toeristenbelasting is nu in de City Stays-verblijfspost opgenomen; controleer of Booking die al in het checkouttotaal heeft verwerkt om dubbel tellen te voorkomen. Luchthavenparking is €153 voor drie auto's, oftewel circa €11,77 p.p. Hostel (€60–€180 p.p.) blijft een alternatief, maar is niet in deze som opgenomen. De kajak- en snorkeltour (€80-€120) blijft het alternatief en zit niet in deze som; in de kajakformule zit de excursietransfer al. Eten, drinken en nachtleven zijn niet opgenomen; de BBQ en de open bar aan boord zitten wél in de €69 kaartprijs.
 
-Voetbal is optioneel: **+€20–€100 p.p.**, alleen als aftrap en ticketbeschikbaarheid passen. Met de City Stays-optie is de realistische raming **circa €373 p.p.** bij een vlucht van €162; de TAP-prijs van €155-€169 omvat kleine tas en handbagage. Alle prijzen en beschikbaarheid voor 13 personen moeten opnieuw worden bevestigd.
+Voetbal is optioneel: **+€45 p.p.** (richtprijs Benfica-ticket), alleen als aftrap en ticketbeschikbaarheid passen; de post staat standaard uitgevinkt in de kostenvergelijking. Met de City Stays-optie is de realistische raming **circa €373 p.p.** bij een vlucht van €162; de TAP-prijs van €155-€169 omvat kleine tas en handbagage. Alle prijzen en beschikbaarheid voor 13 personen moeten opnieuw worden bevestigd.
 
 ### Groepstotalen voor 13 personen
 
