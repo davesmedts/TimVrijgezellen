@@ -84,6 +84,17 @@ Lissabon heeft metro, trams, bussen, taxi’s en ritdiensten. De luchthaven ligt
 - Het Estádio da Luz is met metro en taxi bereikbaar.
 - De heuvels maken wandelen soms zwaarder, vooral na een avond uit.
 
+## Voorbeeldplanning
+
+- **Vrijdag 16 april - vertrek en aankomst:** TAP TP645 vertrekt om **20:55** vanaf Brussels Internationaal en landt om **22:50** in Lissabon; daarna inchecken bij City Stays in Cais do Sodré. Verder staat er niets gepland.
+- **Zaterdagvoormiddag - ontbijt en stadswandeling:** rustig ontbijt in de buurt en daarna een zelfgeleide verkenning van Baixa, Chiado en Alfama. Rond **13:30** naar de Doca voor de boot.
+- **Zaterdagnamiddag - Splash Boat Party:** check-in vanaf circa 13:30 aan de Doca do Espanhol; van **14:00 tot 18:00** all-inclusive op de Taag (open bar, BBQ, DJ's, zwempauze).
+- **Zaterdagavond - Bairro Alto en nachtleven:** diner op reservatie en daarna bars in Bairro Alto, rond Cais do Sodré of op Pink Street. De BBQ aan boord is de lunch; het diner is eigen kosten.
+- **Zondag overdag - nog te bepalen:** mogelijkheden zijn een kajaktocht op de Taag, de stadiontour van Sporting CP in het Estádio José Alvalade, of iets anders zoals Sintra of Belém; stem de keuze af op uitchecken en bagage.
+- **Zondagavond - terugkeer naar huis:** TAP TP646 vertrekt om **20:05** vanaf Lissabon en landt om **23:55** in Brussel; daarna de rit naar Antwerpen/Brecht. De groep is daarmee **nog niet zondagavond thuis**; dat is een bewuste afweging, of er moet een vroegere retour worden gezocht.
+
+De volledige kajak- en snorkeltour naar Arrábida/Sesimbra (09:30-15:30) kan in dit schema alleen op zondag, mits de transfer en de rust nadien meegerekend worden; op zaterdag botst ze met het bootfeest.
+
 ## Mogelijke activiteiten
 
 - Foodtour met petiscos, bacalhau en lokale wijn.
