@@ -43,15 +43,15 @@ Ticketrichtprijs: **€45 per persoon** voor een regulier ticket; hospitality en
 |---|---|---|---|---:|---:|---:|
 | Heen | TP645 | vr 16 april 2027 | Brussel (BRU) → Lissabon (LIS) | 20:55 | 22:50 | 2u55 |
 | Terug | TP646 | zo 18 april 2027 | Lissabon (LIS) → Brussel (BRU) | 20:05 | 23:55 | 2u50 |
-- Vluchtraming retour: **€155 - €169 per persoon**
+- Vluchtraming retour: **€155 - €169 per deelnemer**
 - Actuele selectie op 07/10/2026: TAP Air Portugal, rechtstreeks, met de vluchtnummers en tijden uit het schema hierboven.
-- Actuele richtprijs: **ongeveer €169 per persoon**.
+- Actuele richtprijs: **ongeveer €169 per deelnemer**.
 - Skyscanner toonde een totaal van ongeveer **€1.349 voor 8 reizigers**; voor 13 personen is dat indicatief ongeveer **€2.197** aan hetzelfde tarief. Bagage- en eventuele dossierkosten moeten bij boeking worden gecontroleerd.
 - De heenreis is verenigbaar met vertrek na het werk. De retour landt zondag om 23:55 in Brussel: na bagage en de rit naar Antwerpen/Brecht is de groep niet zondagavond thuis. Een vroegere retour of een bewuste afwijking van die afspraak is nodig. De terugvlucht van 20:05 kan bovendien botsen met Benfica - Nacional bij een late zondagse aftrap.
 - Skyscanner toont bij deze zoekopdracht maximaal 8 reizigers. De prijs voor 13 personen moet daarom via een groepsaanvraag of meerdere controles worden bevestigd.
 - [Exacte zoekopdracht Brussel - Lissabon op Skyscanner](https://www.skyscanner.net/transport/flights/bru/lis/270416/270418/?adultsv2=13&currency=EUR&cabinclass=economy&rtn=1&locale=nl-NL)
 
-- Actuele TAP-prijs voor de groep: **€155 - €169 per persoon**, inclusief kleine tas en handbagage; apart boeken blijft mogelijk als de groep niet in één boeking past.
+- Actuele TAP-prijs voor de groep: **€155 - €169 per deelnemer**, inclusief kleine tas en handbagage; apart boeken blijft mogelijk als de groep niet in één boeking past.
 - Parkeerkosten voor 1 weekend 51€ per auto, maximum 3 auto's is 153€ voor de groep
 
 ### Bagage bij TAP
@@ -70,17 +70,17 @@ Ticketrichtprijs: **€45 per persoon** voor een regulier ticket; hospitality en
 - Cais do Sodré: bars, restaurants en goede verbindingen.
 - Alfama: sfeervol, maar heuvelachtig en minder praktisch voor een groep.
 - **Gekozen optie om te vergelijken: City Stays Cais do Sodré Apartments**, Praça Duque da Terceira 11, bij Cais do Sodré.
-- De Booking.com-link bevat twee prijsblokken van **€587,36** en **€552,16**; opgeteld is dat indicatief **€1.139,52 voor 2 nachten**. Met de Lisbonse toeristenbelasting van €104 erbij is de verblijfspost **€1.243,52 / €95,66 p.p.** Controleer het checkouttotaal en voorkom dat de belasting dubbel wordt gerekend.
+- De Booking.com-link bevat twee prijsblokken van **€587,36** en **€552,16**; opgeteld is dat indicatief **€1.139,52 voor 2 nachten**. Met de Lisbonse toeristenbelasting van €104 erbij is de verblijfspost **€1.243,52**, oftewel €95,66 per deelnemer of circa **€103,63 per betalende gast** (groepssom ÷12). Controleer het checkouttotaal en voorkom dat de belasting dubbel wordt gerekend.
 - De verhuurder beschrijft een T3-appartement voor maximaal 8 personen en een T2-appartement voor maximaal 6. **Eén T3 + één T2** past dus voor 13 personen (capaciteit 14), als dit overeenkomt met de twee geselecteerde Booking-opties.
-- **Lisbonse toeristenbelasting opgenomen:** momenteel €4 per gast per nacht vanaf 13 jaar, maximaal 7 nachten. Voor 13 volwassenen en 2 nachten is dat **€104 totaal / €8 p.p.**; dit bedrag zit voorlopig in de verblijfspost. Controleer of Booking de belasting al in het checkouttotaal heeft verwerkt.
+- **Lisbonse toeristenbelasting opgenomen:** momenteel €4 per deelnemer per nacht vanaf 13 jaar, maximaal 7 nachten. Voor 13 volwassenen en 2 nachten is dat **€104 totaal / €8 per deelnemer**; dit bedrag zit voorlopig in de verblijfspost. Controleer of Booking de belasting al in het checkouttotaal heeft verwerkt.
 - Het gaat om zelfvoorzieningsappartementen; ontbijt niet veronderstellen. Het gebouw heeft geen lift of airco; de T2 ligt op de 4e of 5e verdieping. Alleen bedlinnen en handdoeken zijn standaard inbegrepen.
-- Hostelalternatief: **€60–€180 p.p.** voor twee nachten. Budgethotelalternatief: **€110–€280 p.p.**
+- Hostelalternatief: **€60–€180 per deelnemer** voor twee nachten. Budgethotelalternatief: **€110–€280 per deelnemer**.
 
 ## Lokaal vervoer
 
 Lissabon heeft metro, trams, bussen, taxi’s en ritdiensten. De luchthaven ligt relatief dicht bij het centrum. Voor een groep van 13 zijn vooraf geboekte transfers of meerdere taxi’s praktisch.
 
-- Raming luchthaven en lokaal vervoer: **€20 - €50 per persoon**.
+- Raming luchthaven en lokaal vervoer: **€20 - €50 per deelnemer**.
 - Het Estádio da Luz is met metro en taxi bereikbaar.
 - De heuvels maken wandelen soms zwaarder, vooral na een avond uit.
 
@@ -112,7 +112,7 @@ De volledige kajak- en snorkeltour naar Arrábida/Sesimbra (09:30-15:30) kan in 
 
 Het **Splash Boat Party** is de hoofdactiviteit van zaterdag 17 april 2027. De [evenementpagina](https://www.splashboatpartylisbon.com/events/splash-boat-party-lisbon-2027-04-17-14-00) toont die dag een afvaart van **14:00 tot 18:00 WEST**, vier uur all-inclusive.
 
-- Prijs: **€69 p.p.** (**€897 voor 13 personen**).
+- Prijs: **€69 per deelnemer** (**€897 voor 13 personen**).
 - Inbegrepen: open bar (bier, sangria, witte wijn en fris), verse BBQ aan boord (kipburger of veggie burger met friet per persoon), zwempauze met springplank, internationale DJ's en de volledige route langs de 25 de Abril-brug, de Toren van Belém en Praça do Comércio.
 - Vertrek: **Doca do Espanhol**, Av. Brasília, 1350-352 Lissabon; kom **20-30 minuten vroeger** voor check-in.
 - Voorwaarden: **18+** met identiteitskaart; neem badkledij en een handdoek mee voor de zwempauze.
@@ -139,13 +139,13 @@ Een georganiseerde kajak- en snorkeltour naar de kust van Arrábida of Sesimbra 
 
 #### Kostprijsraming
 
-| Formule | Richtprijs p.p. | Richtprijs voor 13 personen | Opmerking |
+| Formule | Richtprijs per deelnemer | Richtprijs voor 13 personen | Opmerking |
 |---|---:|---:|---|
 | All-inclusive formule | €80 | €1.040 | Transfer, materiaal, gids en picknick; groepslimiet vooraf bevestigen |
 | Lisbon Kayak Tours | €85-€95 | €1.105-€1.235 | Transfer, kajak, snorkelmateriaal en picknick vermeld; website toont twee prijzen |
 | Premium/private formule | €120 | €1.560 | Mogelijk private vervoer, extra begeleiding of seizoentoeslag |
 
-Voor de planning wordt **€95 per persoon**, of **€1.235 voor 13 personen**, als realistische raming gebruikt.
+Voor de planning wordt **€95 per deelnemer**, of **€1.235 voor 13 personen**, als realistische raming gebruikt.
 
 #### Dagindeling als je voor de kajak kiest
 
@@ -171,24 +171,24 @@ Kies je voor de kajak, dan is de tour de **hoofdactiviteit van zaterdag**. Combi
 
 Lissabon heeft een brede restaurant- en barscene. Bairro Alto is geschikt voor een barcrawl, Cais do Sodré voor restaurants en bars, en Pink Street voor een meer toeristische uitgaansavond. Voor een groep van 13 zijn reservaties voor het diner en eventuele rooftops noodzakelijk.
 
-## Budget per persoon
+## Budget per betalende gast
 
 | Onderdeel | Minimum | Realistisch | Maximum |
 |---|---:|---:|---:|
-| Vlucht retour | €155 | €162 | €169 |
-| Airport en lokaal vervoer | €20 | €35 | €50 |
-| Luchthavenparking | €11,77 | €11,77 | €11,77 |
-| Verblijf - City Stays appartement(en), incl. belasting | €95,66 | €95,66 | €95,66 |
-| Splash Boat Party, za 14:00-18:00 | €69 | €69 | €69 |
-| **Totaal met City Stays, zonder voetbal** | **€351,43** | **€373,43** | **€395,43** |
+| Vlucht retour | €167,92 | €175,50 | €183,08 |
+| Airport en lokaal vervoer | €21,67 | €37,92 | €54,17 |
+| Luchthavenparking | €12,75 | €12,75 | €12,75 |
+| Verblijf - City Stays appartement(en), incl. belasting | €103,63 | €103,63 | €103,63 |
+| Splash Boat Party, za 14:00-18:00 | €74,75 | €74,75 | €74,75 |
+| **Totaal per betalende gast, zonder voetbal** | **€380,71** | **€404,54** | **€428,38** |
 
-De totalen hierboven zijn berekend met het Splash Boat Party en zonder voetbal. De Lisbonse toeristenbelasting is nu in de City Stays-verblijfspost opgenomen; controleer of Booking die al in het checkouttotaal heeft verwerkt om dubbel tellen te voorkomen. Luchthavenparking is €153 voor drie auto's, oftewel circa €11,77 p.p. Hostel (€60–€180 p.p.) blijft een alternatief, maar is niet in deze som opgenomen. De kajak- en snorkeltour (€80-€120) blijft het alternatief en zit niet in deze som; in de kajakformule zit de excursietransfer al. Eten, drinken en nachtleven zijn niet opgenomen; de BBQ en de open bar aan boord zitten wél in de €69 kaartprijs.
+De volledige groepskosten voor 13 deelnemers (Tim inbegrepen) zijn door 12 betalende gasten gedeeld; de bedragen in de tabel zijn dus inclusief 1/12 van Tims aandeel. Groepstotalen zijn **€4.568,52** minimum, **€4.854,52** realistisch en **€5.140,52** maximum. De tabelbedragen zijn op centen afgerond; de totaalbijdrage is berekend met de ongeronde groepskosten, waardoor afgeronde onderdelen samen één cent kunnen afwijken. De Lisbonse toeristenbelasting is opgenomen in de City Stays-verblijfspost; controleer of Booking die al in het checkouttotaal heeft verwerkt. Hostel (€60–€180 per deelnemer) blijft een alternatief, maar is niet in deze som opgenomen. De kajak- en snorkeltour (€80-€120 per deelnemer) blijft het alternatief en zit niet in deze som; in de kajakformule zit de excursietransfer al. Eten, drinken en nachtleven zijn niet opgenomen; de BBQ en de open bar aan boord zitten wél in de €69-kaartprijs per deelnemer.
 
-Voetbal is optioneel: **+€45 p.p.** (richtprijs Benfica-ticket), alleen als aftrap en ticketbeschikbaarheid passen; de post staat standaard uitgevinkt in de kostenvergelijking. Met de City Stays-optie is de realistische raming **circa €373 p.p.** bij een vlucht van €162; de TAP-prijs van €155-€169 omvat kleine tas en handbagage. Alle prijzen en beschikbaarheid voor 13 personen moeten opnieuw worden bevestigd.
+Voetbal is optioneel: **+€45 per deelnemer** (richtprijs Benfica-ticket), alleen als aftrap en ticketbeschikbaarheid passen; de post staat standaard uitgevinkt in de kostenvergelijking. Met de City Stays-optie is de realistische raming **circa €404,54 per betalende gast** bij een vlucht van €162 en gemiddeld lokaal vervoer; de TAP-prijs van €155-€169 is eerst per deelnemer geprijsd en omvat kleine tas en handbagage. Alle prijzen en beschikbaarheid voor 13 personen moeten opnieuw worden bevestigd.
 
 ### Groepstotalen voor 13 personen
 
-- Totaal met City Stays inclusief toeristenbelasting en Splash Boat Party, zonder voetbal: **€4.569 - €5.141**; realistische middenraming **circa €4.764**.
+- Totaal met City Stays inclusief toeristenbelasting en Splash Boat Party, zonder voetbal: **€4.568,52-€5.140,52 voor 13 deelnemers**; realistische middenraming **€4.854,52**. Dat is **€380,71-€428,38 per betalende gast**, realistisch **€404,54** (groepssom ÷12).
 
 Belgische reizigers kunnen Portugal bezoeken met een geldige Belgische identiteitskaart. Er zijn geen ETA- of visumkosten voor dit korte verblijf.
 

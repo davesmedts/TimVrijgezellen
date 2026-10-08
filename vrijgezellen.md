@@ -23,10 +23,12 @@ Retour zondagavond
 
 ## Budgetplanning
 
-Budget dient max 450€ geraamd te worden voor:
+Budget dient max 450€ per betalende gast geraamd te worden voor:
 * vervoer
 * slapen
 * geplande activiteiten
+
+De groepskosten zijn voor 13 deelnemers inclusief Tim. De 12 gasten delen die kosten onderling; Tims aandeel zit dus in ieders bijdrage en Tim betaalt zelf niet mee.
 
 ## Locatie
 

@@ -35,7 +35,6 @@ Het **Bloemencorso Bollenstreek** vindt plaats van 14 tot 18 april 2027. De grot
 - Rijtijd zonder files: ongeveer **2 uur tot 2 uur 30 minuten**.
 - Waarschijnlijke route: E19/A16, daarna via A27/A2 en de A10; vertraging is mogelijk rond Antwerpen, Utrecht en Amsterdam.
 - Tol: voor gewone personenwagens is geen algemene snelwegtol voorzien op deze route.
-- Brandstoframing: **€45-€70 per auto retour**.
 
 Voor 13 personen zijn drie auto’s met vier à vijf personen mogelijk. Een minibus is eenvoudiger voor de groep, maar moet tijdig worden gereserveerd en kan specifieke parkeerbeperkingen hebben.
 
@@ -59,11 +58,10 @@ Voor dieselpersonenwagens geldt binnen de A10-milieuzone momenteel: **Euro 4 of 
 ### Zaterdag 17 april
 
 - **Stadswandeling (circa 2 uur):** Centraal Station → Dam → Jordaan → Negen Straatjes → terug richting centrum. Dit is een zelfgeleide wandeling; reken geen gidskosten in.
-- Lunch en verplaatsing naar Sloterdijk; eten en drinken vallen buiten de raming.
-- **Prison Island:** 90 minuten spelen in teams.
+- Lunch en verplaatsing naar Amsterdam-Noord; eten en drinken vallen buiten de raming.
 - Reis naar Amsterdam-Noord voor de **A’DAM VR**.
 - **A’DAM VR Level 2 Action:** 60 minuten, met 30 minuten racen en 30 minuten free-roam VR.
-- Optioneel: een privé-grachtenboot voor 13 personen; kies een boot met minimaal 13 plaatsen (sommige populaire salonboten zijn maar voor 12 personen).
+- **Borrelboot:** circa één uur privé door de grachten met open bar; vertrek nabij Amsterdam Centraal. Vraag een offerte voor 13 personen.
 - Avondeten met reservatie en daarna uitgaan in De Pijp, Jordaan, Oud-West of rond Leidseplein. Eten en drinken zijn niet in de raming opgenomen.
 
 #### Voorbeeldtijdschema zaterdag
@@ -71,21 +69,18 @@ Voor dieselpersonenwagens geldt binnen de A10-milieuzone momenteel: **Euro 4 of 
 | Tijd | Programma |
 |---|---|
 | 09:30-11:30 | Zelfgeleide stadswandeling: Centraal Station, Dam, Jordaan en Negen Straatjes |
-| 11:30-12:30 | Lunch (eigen kosten) en vertrek richting Sloterdijk |
-| 13:00-14:30 | Prison Island |
-| 14:30-15:15 | Verplaatsing naar Amsterdam-Noord |
-| 15:15-16:30 | A’DAM VR Level 2 Action; meld je vooraf volgens de boekingsinstructies |
+| 11:30-12:30 | Lunch (eigen kosten) en vertrek richting Amsterdam-Noord |
+| 13:00-14:00 | A’DAM VR Level 2 Action; meld je vooraf volgens de boekingsinstructies |
+| 14:30-15:30 | Borrelboot vanaf Amsterdam Centraal (tijdslot en vaart vooraf bevestigen) |
 | Vanaf 18:00 | Diner op reservatie en daarna uitgaan; eigen kosten |
 
 Dit is een voorlopige volgorde, geen bevestigde boeking. Stem de tijden af op de beschikbare slots en plan extra buffer voor OV en inchecken.
 
 ### Zondag 18 april
 
-- Ontbijt of brunch.
-- **Borrelboot (Eco Boats):** circa één uur privé grachtenvaart met kapitein en open bar (onbeperkt bier, wijn en frisdrank inbegrepen); vertrek nabij Amsterdam Centraal Station. Boek vooraf en vraag een offerte voor 13 personen; kies open of overdekt naar het weer.
-- Uitchecken en bagage ophalen; spreek af of de bagage in de auto kan of bij het hotel kan blijven.
-- Optioneel: rijd op de terugweg via Haarlem en bekijk de praalwagens van het Bloemencorso; ze staan daar volgens de huidige evenementinformatie tot ongeveer 17:00. Dit vraagt een extra omweg en kan druk zijn.
-- Terugrit naar Antwerpen/Brecht.
+- Ontbijt, uitchecken en bagage meenemen in de auto.
+- **Prison Island:** 90 minuten in Amsterdam-Sloterdijk; speel in teams en vergelijk de scores.
+- Lunch en daarna de terugrit naar Antwerpen/Brecht.
 
 ## Mogelijke groepsactiviteiten
 
@@ -96,16 +91,16 @@ De gepubliceerde tarieven hieronder zijn actuele richtprijzen, geen offerte of p
 Dit groepspakket combineert een race tegen elkaar op de autosimulators met een free-roam VR-game waarin je samen de arena ingaat. De aanbieder vermeldt plaats voor **14 racers tegelijk**; jullie 13 kunnen dus in één race starten. De locatie ligt in de A’DAM Tower, op ongeveer vijf minuten met de gratis pont vanaf Centraal Station.
 
 - Duur: **60 minuten** — 30 minuten racen + 30 minuten free-roam VR.
-- Huidige prijs van Level 2 Action: **€49 p.p.**
+- Huidige prijs van Level 2 Action: **€49 per deelnemer**
 - Voor 13 personen: **€637**.
 - Sterk bij: samen racen, competitie en daarna een coöperatieve VR-arena spelen.
 - Aandachtspunt: reserveer vooraf. Alle 13 kunnen volgens de simulatorcapaciteit tegelijk racen, maar bij free-roam VR kunnen teams rouleren. Laat A’DAM VR bevestigen hoe Level 2 voor 13 personen wordt ingedeeld en of iedereen de volledige VR-speeltijd krijgt.
 
 ### 2. A’DAM LOOKOUT — 100 meter hoge schommel
 
-**Niet opgenomen in de voorlopige planning:** de zondagsactiviteit is de borrelboot en zaterdag is al vol. De LOOKOUT blijft een mogelijke extra als de groep hem alsnog wil.
+**Niet opgenomen in de voorlopige planning:** zaterdag is gevuld met A’DAM VR en de borrelboot; zondag staat Prison Island gepland. De LOOKOUT blijft een mogelijke extra als de groep hem alsnog wil.
 
-De Over the Edge-schommel hangt op ongeveer **100 meter** hoogte aan de toren. Het reguliere online ticket voor LOOKOUT kost momenteel €16,50; de schommel kost €7,50 extra. De online combinatie **LOOKOUT + Thrill** (uitzicht, schommel en VR-achtbaanrit) kost **€29,50 p.p.**
+De Over the Edge-schommel hangt op ongeveer **100 meter** hoogte aan de toren. Het reguliere online ticket voor LOOKOUT kost momenteel €16,50; de schommel kost €7,50 extra. De online combinatie **LOOKOUT + Thrill** (uitzicht, schommel en VR-achtbaanrit) kost **€29,50 per deelnemer**.
 
 - Voor 13 personen: momenteel **€383,50** voor het Thrill-ticket.
 - De rit zelf duurt ongeveer een minuut; reserveer een tijdslot van 20 minuten. Per rit kunnen twee personen mee.
@@ -116,25 +111,26 @@ De Over the Edge-schommel hangt op ongeveer **100 meter** hoogte aan de toren. H
 
 Een indoorvluchtervaring met bewegende stoelen, wind en andere effecten. Tijdens de vlucht van ongeveer **9 minuten** zie je Nederland vanuit de lucht; het volledige bezoek duurt ongeveer een uur. Dit is een simulatorervaring, geen echte vlucht.
 
-- Groepstarief vanaf **€19 p.p.** voor groepen vanaf 10 personen; vraag de aanbieder om een tijdslot en bevestiging van het tarief voor 13.
+- Groepstarief vanaf **€19 per deelnemer** voor groepen vanaf 10 personen; vraag de aanbieder om een tijdslot en bevestiging van het tarief voor 13.
 - Voor 13 personen: vanaf **€247**.
 - Sterk bij: een spectaculaire, weerbestendige activiteit die vlak bij A’DAM LOOKOUT en A’DAM VR ligt.
 - Beperkingen: niet geschikt bij zwangerschap, voor kinderen onder 4 jaar of kleiner dan 1 m, of bij bepaalde hart- en bloeddrukproblemen.
 
-### 4. Prison Island — fysieke en tactische teamcompetitie
+### 4. Prison Island — fysieke en tactische teamcompetitie (zondag)
 
 Indoor actiegame met **28 cellen** vol fysieke, technische en mentale opdrachten. Speel 90 minuten en vergelijk de teamscores. Voor 13 personen is een indeling in vier teams van 3, 3, 3 en 4 praktisch.
 
 De locatie is Teleportboulevard 84 in Amsterdam-Sloterdijk.
 
 - Duur: **90 minuten**.
-- Ticketprijs die momenteel via Fever wordt getoond: **€25,90 p.p. + €0,60 boekingskosten**; totaal voor 13 ongeveer **€344,50**.
+- Ticketprijs die momenteel via Fever wordt getoond: **€25,90 per deelnemer + €0,60 boekingskosten**; totaal voor 13 ongeveer **€344,50**.
+- De groepsprijs wordt door 12 gasten gedeeld: circa **€28,71 per betalende gast** voor Prison Island, inclusief Tims aandeel.
 - De locatie kan volgens de aanbieder 22 teams van maximaal vijf personen tegelijk ontvangen; reserveer vooraf.
 - Sterk bij: regen, competitie en een activiteit waarbij niet iedereen even sportief hoeft te zijn.
 
 ### 5. Race Planet Amsterdam — echte indoor-karts
 
-Een alternatief voor de simulator als de groep liever zelf in een kart stapt. Een standaardheat duurt **10 minuten** en kost momenteel **€21,50 p.p.**; in de avonduren zijn er op zaterdag ook langere baan-/heatopties. De baan ligt in Amsterdam-West en heeft gratis parking.
+Een alternatief voor de simulator als de groep liever zelf in een kart stapt. Een standaardheat duurt **10 minuten** en kost momenteel **€21,50 per deelnemer**; in de avonduren zijn er op zaterdag ook langere baan-/heatopties. De baan ligt in Amsterdam-West en heeft gratis parking.
 
 - Voor 13 personen: één standaardheat vanaf **€279,50**.
 - Minimumleeftijd: **14 jaar** en minimumlengte **1,60 m**; een kartheat is kort, dus vraag naar een groepsarrangement voor meer rijtijd.
@@ -142,44 +138,44 @@ Een alternatief voor de simulator als de groep liever zelf in een kart stapt. Ee
 
 ### 6. Schietbaan — pistoolschieten onder begeleiding (optioneel)
 
-Voor wie een meer uitgesproken activiteit zoekt: Amsterdam Shooting Range vermeldt een pistoolpakket met twee .22-pistolen en **25 patronen per persoon**, inclusief Engelstalige instructeur. De aanbieder zegt groepen tot 35 personen te ontvangen en ligt volgens de site op ongeveer 20 minuten rijden van het centrum.
+Voor wie een meer uitgesproken activiteit zoekt: Amsterdam Shooting Range vermeldt een pistoolpakket met twee .22-pistolen en **25 patronen per deelnemer**, inclusief Engelstalige instructeur. De aanbieder zegt groepen tot 35 personen te ontvangen en ligt volgens de site op ongeveer 20 minuten rijden van het centrum.
 
-- Huidig gepubliceerd groepstarief vanaf 10 personen: **€65 p.p.**; voor 13 is dat **€845**.
+- Huidig gepubliceerd groepstarief vanaf 10 personen: **€65 per deelnemer**; voor 13 is dat **€845**.
 - De huidige openingstijden zijn zaterdag 10:00-13:00 en zondag gesloten; bevestig uitdrukkelijk dat zaterdag 17 april 2027 beschikbaar is.
 - **Geen alcohol of drugs vóór of tijdens** de activiteit. De locatie wordt na boekingsaanvraag meegedeeld; fotograferen op de baan is niet toegestaan.
 
 ### 7. Paintball — outdoor gevechtsspel net buiten Amsterdam
 
-Unlocked Amsterdam biedt een buitensessie van twee uur met meerdere thematische arena’s, materiaal, veiligheidsbriefing en 200 biologisch afbreekbare paintballs per persoon. De groep speelt in teams; vervoer vanaf de stad kan volgens de aanbieder tegen betaling worden geregeld.
+Unlocked Amsterdam biedt een buitensessie van twee uur met meerdere thematische arena’s, materiaal, veiligheidsbriefing en 200 biologisch afbreekbare paintballs per deelnemer. De groep speelt in teams; vervoer vanaf de stad kan volgens de aanbieder tegen betaling worden geregeld.
 
 - Minimumgroep: **8 personen**; groep van 13 past dus.
-- Huidige vanafprijs: **€48 p.p.**; voor 13 vanaf **€624**.
+- Huidige vanafprijs: **€48 per deelnemer**; voor 13 vanaf **€624**.
 - Aandachtspunt: locatie ligt buiten de stad en het is een buitenactiviteit. Bevestig vervoer, extra paintballs en weers-/annuleringsvoorwaarden bij de offerte.
 
 ### 8. Laser tag — buitenarena voor de hele groep
 
 UP Events heeft twee velden van 450 m² die voor groepen vanaf 12 deelnemers kunnen worden samengevoegd tot één arena van 900 m². Er kunnen maximaal 24 deelnemers tegelijk spelen.
 
-- 30 minuten vanaf **€19,50 p.p.**; 60 minuten vanaf **€29,50 p.p.**, inclusief btw en begeleiding.
+- 30 minuten vanaf **€19,50 per deelnemer**; 60 minuten vanaf **€29,50 per deelnemer**, inclusief btw en begeleiding.
 - Voor 13 personen: vanaf **€253,50** voor 30 minuten.
 - Aandachtspunt: buitenactiviteit; bij slecht of extreem weer vraagt de aanbieder de situatie vooraf te controleren.
 
-### 9. Borrelboot — privé grachtenboot met open bar (zondagactiviteit)
+### 9. Borrelboot — privé grachtenboot met open bar (zaterdagactiviteit)
 
-Deze privéboot met drankjes is de gekozen zondagactiviteit in de voorlopige planning. Eco Boats vaart met volledig elektrische boten voor groepen tot **35 personen** (minimum 10), met ervaren schipper en een open bar; de boot is open of (half)overdekt naargelang het weer. Vertrek nabij **Amsterdam Centraal Station (Stationsplein 18)**.
+Deze privéboot met drankjes is de gekozen zaterdagactiviteit in de voorlopige planning. Eco Boats vaart met volledig elektrische boten voor groepen tot **35 personen** (minimum 10), met ervaren schipper en een open bar; de boot is open of (half)overdekt naargelang het weer. Vertrek nabij **Amsterdam Centraal Station (Stationsplein 18)**.
 
-- Tarieven per persoon: **1 uur vanaf €39,95**; 1,5 uur vanaf €46,95; 2 uur vanaf €54,95. De prijs is gebaseerd op volledige bootcapaciteit; btw en toeristenbelasting (€2,70) zijn inbegrepen, servicekosten niet.
-- **Drankjes inbegrepen:** onbeperkt bier, wijn en frisdrank; een Hollands borrelplankje, een silent disco (€7 p.p.) of een grachtenquiz (€3 p.p.) zijn tegen bijbetaling mogelijk.
-- Rekenkundig is 1 uur **€519,35 voor 13**, maar vraag een **offerte voor precies 13 personen**: de werkelijke prijs per persoon kan hoger uitvallen.
+- Tarieven per deelnemer: **1 uur vanaf €39,95**; 1,5 uur vanaf €46,95; 2 uur vanaf €54,95. De prijs is gebaseerd op volledige bootcapaciteit; btw en toeristenbelasting (€2,70) zijn inbegrepen, servicekosten niet.
+- **Drankjes inbegrepen:** onbeperkt bier, wijn en frisdrank; een Hollands borrelplankje, een silent disco (€7 per deelnemer) of een grachtenquiz (€3 per deelnemer) zijn tegen bijbetaling mogelijk.
+- Rekenkundig is 1 uur **€519,35 voor 13**; gedeeld door 12 is dat circa **€43,28 per betalende gast**. Vraag een **offerte voor precies 13 personen**: de werkelijke groepsprijs kan hoger uitvallen.
 - Bevestig bij de offerte de drankformule, het vertrekpunt en de annuleringsvoorwaarden.
 
 ### Aanbevolen combinatie
 
-- **Aanbevolen zaterdagprogramma:** stadswandeling (zelfgeleid) + Prison Island (90 min) + A’DAM VR Level 2 Action (60 min).
-- **Aanbevolen zondagprogramma:** ontbijt of brunch, borrelboot (circa 1 uur, open bar) en de terugrit; eventueel met een tussenstop bij het Bloemencorso in Haarlem.
-- Actuele richtprijs voor de drie betaalde activiteiten: **€115,45 p.p. / €1.500,85 voor 13**. De borrelboot is een vanaftarief op volledige bootcapaciteit; vraag een offerte voor precies 13 personen. De stadswandeling is gratis wanneer jullie zelf de route volgen.
-- Plan voor het zaterdagprogramma, inclusief lunchpauze en reistijd, een groot deel van de dag. De exacte tijdsloten moeten nog worden bevestigd.
-- **THIS IS HOLLAND** blijft een mogelijke extra indooractiviteit vanaf €19 p.p.; laat die weg als de dag anders te vol wordt.
+- **Aanbevolen zaterdagprogramma:** stadswandeling (zelfgeleid) + A’DAM VR Level 2 Action (60 min) + borrelboot (circa 1 uur, open bar).
+- **Aanbevolen zondagprogramma:** uitchecken, Prison Island (90 min) in Sloterdijk, lunch en de terugrit.
+- Richtprijs voor de drie betaalde activiteiten is **€115,45 per deelnemer / €1.500,85 voor 13**. De groepssom wordt verdeeld over 12 betalende gasten: circa **€125,07 per gast**, inclusief Tims aandeel. Voor de boot geldt een vanaftarief op volledige bootcapaciteit; vraag een offerte voor precies 13. De stadswandeling is gratis wanneer jullie zelf de route volgen.
+- Bevestig de tijdsloten voor A’DAM VR en de borrelboot op zaterdag en Prison Island op zondag.
+- **THIS IS HOLLAND** blijft een mogelijke extra indooractiviteit vanaf €19 per deelnemer; laat die weg als de dag anders te vol wordt.
 
 
 ## Eten, drinken en nachtleven
@@ -216,9 +212,9 @@ De kosten van het zaterdagdiner, drankjes en uitgaan worden niet opgenomen. Vrij
 
 ### Verblijfsscenario’s
 
-- Hostel of eenvoudige groepsaccommodatie: ongeveer **€100-€220 per persoon** voor twee nachten.
-- Budgethotel: ongeveer **€180-€350 per persoon** voor twee nachten.
-- Appartement of aparthotel: ongeveer **€150-€300 per persoon** voor twee nachten, exclusief schoonmaak- en servicekosten.
+- Hostel of eenvoudige groepsaccommodatie: ongeveer **€100-€220 per deelnemer** voor twee nachten.
+- Budgethotel: ongeveer **€180-€350 per deelnemer** voor twee nachten.
+- Appartement of aparthotel: ongeveer **€150-€300 per deelnemer** voor twee nachten, exclusief schoonmaak- en servicekosten.
 
 Voor 13 personen moeten kamerindeling, bedcapaciteit, parking, toeristenbelasting, annuleringsvoorwaarden en eventuele groepsvoorwaarden rechtstreeks worden gecontroleerd.
 
@@ -227,11 +223,11 @@ Voor 13 personen moeten kamerindeling, bedcapaciteit, parking, toeristenbelastin
 [Booking.com toont voor 16-18 april 2027 en 13 volwassenen](https://www.booking.com/hotel/nl/bunk.nl.html?checkin=2027-04-16&checkout=2027-04-18&group_adults=13&no_rooms=1) momenteel deze kamercombinatie:
 
 - **2 kamers voor 5 personen** (slaapzaalindeling, elk met eigen badkamer) plus **1 driepersoonskamer**: plaats voor precies 13 personen.
-- Verblijf voor twee nachten: **€2.392 totaal**, inclusief belastingen en toeslagen volgens Booking.com (**€184 per persoon**). De pagina toont een tijdelijke korting van 36% ten opzichte van €3.737.
+- Verblijf voor twee nachten: **€2.392 totaal**, inclusief belastingen en toeslagen volgens Booking.com (**€184 per deelnemer**). De pagina toont een tijdelijke korting van 36% ten opzichte van €3.737.
 - De getoonde optie vermeldt gratis annuleren tot **14 april 2027** en geen vooruitbetaling; betaal bij de accommodatie.
-- Ontbijt is niet inbegrepen in deze prijs; Booking.com toont ontbijt als toeslag van **€16**. Controleer bij boeken of dit per persoon per ontbijt geldt.
+- Ontbijt is niet inbegrepen in deze prijs; Booking.com toont ontbijt als toeslag van **€16**. Controleer bij boeken of dit per deelnemer per ontbijt geldt.
 - Het hotel vermeldt privéparking op het terrein. Volgens de [officiële FAQ van BUNK](https://wearebunk.com/frequently-asked-questions/) kost dit **€22 per auto per dag**. Parkeren staat niet inbegrepen in de getoonde kamertotaalprijs; plaatsen zijn beperkt. Vraag BUNK vooraf om bevestiging en voeg parking bij de reservering toe of mail het hotel.
-- Begroting voor parkeren gedurende **drie betaalde dagen** (aankomst vrijdag, vertrek zondagmiddag): **€66 per auto**. Bij de huidige aanname van drie auto’s is dat **€198 totaal** (circa **€15,23 p.p.**). Verblijf plus parking komt daarmee op **€2.590 totaal**, circa **€199,23 p.p.**, exclusief brandstof, activiteiten, maaltijden en lokaal vervoer.
+- Begroting voor parkeren gedurende **drie betaalde dagen** (aankomst vrijdag, vertrek zondagmiddag): **€66 per auto**. Bij de huidige aanname van drie auto’s is dat **€198 totaal** (circa **€15,23 per deelnemer**). Verblijf plus parking komt op **€2.590 voor 13**; gedeeld door 12 betalende gasten is dat **€215,83 per gast**, exclusief activiteiten, maaltijden en lokaal vervoer.
 
 Dit is een momentopname van **6 oktober 2026**, geen bindende groepsofferte; de prijs en beschikbaarheid kunnen wijzigen. De parkeerraming neemt op verzoek drie betaalde dagen aan; bevestig dit tarief voor jullie exacte aankomst- en vertrektijden en of er drie plaatsen beschikbaar zijn. Voor een minibus moet de geschiktheid van de parkeerplaats apart worden nagevraagd.
 
@@ -239,17 +235,16 @@ Dit is een momentopname van **6 oktober 2026**, geen bindende groepsofferte; de 
 
 De groep heeft naast BUNK een tweede concrete verblijfoptie:
 
-- Verblijf voor twee nachten: **€120,83 per persoon**, ongeveer **€1.570,79** voor 13 personen.
-- Dat valt binnen de hostelraming van €100-€220 p.p. In de kostenvergelijking staat dit hostel in de hostelrij en wisselt het de BUNK-post én de BUNK-parking van €15,23 p.p. om; de twee zijn alternatieven, geen optelsom.
+- Verblijf voor twee nachten: **€120,83 per deelnemer**, ongeveer **€1.570,79** voor 13 personen.
+- Dat valt binnen de hostelraming van €100-€220 per deelnemer. In de kostenvergelijking staat dit hostel in de hostelrij en wisselt het de BUNK-post én de BUNK-parking van €15,23 per deelnemer om; de twee zijn alternatieven, geen optelsom.
 - Kamerindeling voor 13 personen, ontbijt, toeristenbelasting en annuleringsvoorwaarden nog opvragen.
 - De parkeerregeling van dit hostel nakijken: de BUNK-parking van €22 per auto per dag hoort hier niet bij. P+R (€6 per 24 uur) blijft het alternatief.
 
-| Onderdeel | Totaal voor 13 | Per persoon |
+| Onderdeel | Totaal voor 13 | Per betalende gast (12) |
 |---|---:|---:|
-| Hostel Heart of Amsterdam, 2 nachten | €1.570,79 | €120,83 |
-| Kernactiviteiten | €1.500,85 | €115,45 |
-| Brandstof voor 3 auto’s retour (raming) | €135-€210 | €10,38-€16,15 |
-| **Totaal vóór eten, drinken en lokaal vervoer** | **€3.207-€3.282** | **€246,66-€252,43** |
+| Hostel Heart of Amsterdam, 2 nachten | €1.570,79 | €130,90 |
+| Kernactiviteiten | €1.500,85 | €125,07 |
+| **Totaal vóór eten, drinken en lokaal vervoer** | **€3.071,64** | **€255,97** |
 
 Bij deze raming zijn parking, ontbijt en toeristenbelasting niet inbegrepen. Bevestig prijs en beschikbaarheid voor 13 personen voordat je boekt; dit is een richtprijs, geen offerte.
 
@@ -262,44 +257,42 @@ De gemeentelijke pagina vermeldt momenteel **12,5% toeristenbelasting op de over
 - Pont naar Amsterdam-Noord: gratis voor voetgangers; reken voor A’DAM Tower/THIS IS HOLLAND met ongeveer vijf minuten vaart vanaf Centraal Station.
 - Taxi: handig na het uitgaan, maar voor 13 personen zijn meerdere voertuigen nodig.
 
-## Budget per persoon
+## Budget per betalende gast
 
 Kernactiviteiten tegen de huidige gepubliceerde tarieven:
 
 - Zelfgeleide stadswandeling: **€0**.
-- A’DAM VR Level 2 Action: **€49 p.p.**.
-- Prison Island: **€26,50 p.p.** inclusief de momenteel getoonde boekingskosten.
-- Borrelboot (Eco Boats, 1 uur): **€39,95 p.p.** als vanaftarief; vraag een offerte voor precies 13 personen.
-- **Totaal: €115,45 p.p. / €1.500,85 voor 13 personen.**
+- A’DAM VR Level 2 Action: **€49 per deelnemer**.
+- Prison Island: **€26,50 per deelnemer** inclusief de momenteel getoonde boekingskosten.
+- Borrelboot (Eco Boats, 1 uur): **€39,95 per deelnemer** als vanaftarief; vraag een offerte voor precies 13 personen.
+- **Totaal: €115,45 per deelnemer / €1.500,85 voor 13 personen. Gedeeld door 12 gasten is dat €125,07 per betalende gast**, inclusief Tims aandeel.
 
 | Onderdeel | Minimum | Realistisch | Maximum |
 |---|---:|---:|---:|
-| Brandstof auto retour | €10 | €15 | €20 |
-| Verblijf - hostel | €100 | €160 | €220 |
-| Verblijf - budgethotel | €180 | €250 | €350 |
-| Activiteiten kernprogramma | €115,45 | €115,45 | €115,45 |
-| **Totaal met hostel** | **€225,45** | **€290,45** | **€355,45** |
-| **Totaal met budgethotel** | **€305,45** | **€380,45** | **€485,45** |
+| Verblijf - hostel | €108,33 | €173,33 | €238,33 |
+| Verblijf - budgethotel | €195,00 | €270,83 | €379,17 |
+| Activiteiten kernprogramma | €125,07 | €125,07 | €125,07 |
+| **Totaal met hostel · per betalende gast** | **€233,40** | **€298,40** | **€363,40** |
+| **Totaal met budgethotel · per betalende gast** | **€320,07** | **€395,90** | **€504,24** |
 
-De activiteitenraming is gebaseerd op de huidige tarieven voor de drie betaalde activiteiten in het programma (A’DAM VR, Prison Island en de borrelboot); de zelfgeleide stadswandeling is gratis. THIS IS HOLLAND, paintball, schieten, karten en de A’DAM LOOKOUT zijn optionele alternatieven of extra’s en zitten niet in deze tabel. De borrelboot is een vanaftarief van €39,95 p.p. voor 1 uur op volledige bootcapaciteit; vraag een offerte voor precies 13 personen. De brandstoframing is per persoon berekend op basis van drie auto’s met vier à vijf personen. De werkelijke kost hangt af van het aantal auto’s, verbruik, P+R/parking en de vraag of bestuurders een bijdrage ontvangen. Hotelbedragen zijn planningsramingen; vraag een offerte die toeristenbelasting, service- en schoonmaakkosten duidelijk vermeldt. **Parkeren is niet in de totalen hieronder opgenomen**; zie de afzonderlijke parkeerkosten en BUNK-berekening.
+De tabel toont wat één van de **12 betalende gasten** bij benadering bijdraagt: alle 13 deelnemers, Tim inbegrepen, tellen mee in de groepskosten. De verblijfsramingen van €100-€220 (hostel) en €180-€350 (budgethotel) zijn oorspronkelijk per deelnemer; hiervoor is de groepssom ×13 ÷12 berekend. De activiteitenraming is gebaseerd op A’DAM VR, Prison Island en de borrelboot; de zelfgeleide stadswandeling is gratis. THIS IS HOLLAND, paintball, schieten en karten zijn alternatieven/extra’s en niet opgenomen. De borrelboot is een vanaftarief van €39,95 per deelnemer; vraag een offerte voor precies 13. Brandstof wordt niet meegerekend. Hotelbedragen zijn planningsramingen; vraag een offerte met belastingen en toeslagen. **Parkeren is niet opgenomen in de algemene scenario’s**; zie de afzonderlijke parkeerkosten en BUNK-berekening.
 
-### Groepstotalen voor 13 personen
+### Groepstotalen voor 13 personen en bijdrage per gast
 
-- Totaal met hostel: **€2.931-€4.621**; realistische middenraming ongeveer **€3.776**.
-- Totaal met budgethotel: **€3.971-€6.311**; realistische middenraming ongeveer **€4.946**.
+- Hostel: groepssom **€2.800,85-€4.360,85**, realistisch **€3.580,85**; gedeeld door 12 is dat **€233,40-€363,40**, realistisch **€298,40 per gast**.
+- Budgethotel: groepssom **€3.840,85-€6.050,85**, realistisch **€4.750,85**; gedeeld door 12 is dat **€320,07-€504,24**, realistisch **€395,90 per gast**.
 
-Deze algemene raming bevat brandstof, verblijf en de drie betaalde kernactiviteiten, maar **geen parkeerkosten**. Voor drie auto’s gedurende twee P+R-dagen is de raming op basis van €6 per 24 uur ongeveer **€36 totaal**; bij BUNK is de raming voor drie betaalde parkeerdagen **€198 totaal**. Eten en drinken (ook drankjes die in een eventueel bootarrangement zitten), nachtleven, taxi’s en lokaal vervoer zijn niet opgenomen; een privéboot of andere extra activiteit moet apart worden begroot.
+Deze algemene raming bevat verblijf en de drie betaalde kernactiviteiten, maar geen brandstof of parkeerkosten. Voor drie auto’s gedurende twee P+R-dagen is de raming op basis van €6 per 24 uur ongeveer **€36 totaal**; bij BUNK is de raming voor drie betaalde parkeerdagen **€198 totaal**. Eten en drinken, nachtleven, taxi’s en lokaal vervoer zijn niet opgenomen.
 
 ### Totaalvoorbeeld met de getoonde BUNK-prijs
 
-| Onderdeel | Totaal voor 13 | Per persoon |
+| Onderdeel | Totaal voor 13 | Per betalende gast (12) |
 |---|---:|---:|
-| BUNK Hotel, 2 nachten | €2.392 | €184,00 |
-| Hotelparking, 3 auto’s × 3 dagen × €22 | €198 | €15,23 |
-| **Verblijf + parking** | **€2.590** | **€199,23** |
-| Kernactiviteiten | €1.500,85 | €115,45 |
-| Brandstof voor 3 auto’s retour (raming) | €135-€210 | €10,38-€16,15 |
-| **Totaal vóór eten, drinken en lokaal vervoer** | **€4.226-€4.301** | **€325,07-€330,83** |
+| BUNK Hotel, 2 nachten | €2.392,00 | €199,33 |
+| Hotelparking, 3 auto’s × 3 dagen × €22 | €198,00 | €16,50 |
+| **Verblijf + parking** | **€2.590,00** | **€215,83** |
+| Kernactiviteiten | €1.500,85 | €125,07 |
+| **Totaal vóór eten, drinken en lokaal vervoer** | **€4.090,85** | **€340,90** |
 
 Ontbijt is optioneel en niet in het kamertarief opgenomen. Parking moet apart worden bevestigd en is afhankelijk van beschikbaarheid.
 
@@ -325,9 +318,9 @@ Ontbijt is optioneel en niet in het kamertarief opgenomen. Parking moet apart wo
 - Met hoeveel auto’s rijden we, of huren we één minibus?
 - Kiezen we voor P+R of accommodatie met eigen parking?
 - Welke tijdsloten zijn beschikbaar voor de drie betaalde activiteiten, en hoe wordt de free-roam VR-ronde van Level 2 voor 13 deelnemers ingedeeld?
-- Willen we THIS IS HOLLAND of een privéboot als extra toevoegen?
+- Willen we THIS IS HOLLAND als extra toevoegen? De borrelboot is al onderdeel van zaterdag; vraag daarvoor een offerte.
 - Willen we het Bloemencorso in Haarlem als extra uitstap opnemen, of blijven we het weekend in Amsterdam?
-- Wat is het maximale budget per persoon?
+- Wat is het maximale budget per betalende gast?
 
 ## Bronnen
 

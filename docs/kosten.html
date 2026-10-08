@@ -24,7 +24,6 @@
     <header class="site-header">
       <div class="container header-inner">
         <a class="brand" href="./index.html" aria-label="Vrijgezellen Tim — overzicht">
-          <span class="brand-mark" aria-hidden="true"><i></i><i></i><i></i><i></i></span>
           <span>tim<span class="muted">//</span>2027</span>
         </a>
         <nav class="tabs" aria-label="Hoofdnavigatie">
@@ -32,7 +31,6 @@
           <a class="tab" href="./bestemmingen/lissabon.html">lissabon</a>
           <a class="tab" href="./bestemmingen/amsterdam.html">amsterdam</a>
           <a class="tab is-active" href="./kosten.html" aria-current="page">Kostenvergelijking</a>
-          <span class="tab tab--muted" title="Er komen later nog bestemmingen bij">+ meer volgt</span>
         </nav>
         <button class="theme-toggle" type="button" role="switch" aria-checked="false" aria-label="Lichte modus" data-theme-toggle hidden>
           <svg class="theme-toggle__icon theme-toggle__icon--sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" aria-hidden="true">
@@ -55,7 +53,7 @@
         <h1>Kosten <span class="blue">vergelijken.</span></h1>
         <p class="hero-lede">
           Zet bestemmingen naast elkaar en vink per bestemming aan wat je wilt meenemen.
-          Activiteiten hebben een eigen nummer per bestemming; open het info-icoon voor de naam en toelichting.
+          De posten zijn geprijsd per deelnemer; de groepssom voor 13 (inclusief Tim) wordt verdeeld over 12 betalende gasten.
         </p>
       </section>
 
@@ -63,20 +61,20 @@
         <div class="panel comparison-panel">
           <div class="comparison-heading">
             <div>
-              <p class="section-kicker">01 / raming per persoon</p>
+              <p class="section-kicker">01 / bijdrage per betalende gast</p>
               <h2 id="comparison-title">Bestemmingen naast elkaar.</h2>
-              <p class="comparison-intro">De basisselectie sluit aan op de huidige kostenramingen. Lissabon gebruikt City Stays Cais do Sodré inclusief de geraamde toeristenbelasting; Amsterdam heeft twee verblijfopties: BUNK-hotel (€184 p.p., geselecteerd) en Hostel Heart of Amsterdam (€120,83 p.p.) in de hostelrij. Verblijfsprijs en stadsparking staan los van elkaar; voor Amsterdam staat de stadsparking als aparte post in de verblijfring.</p>
+              <p class="comparison-intro">De basisselectie sluit aan op de huidige kostenramingen. Elke kostenpost is eerst berekend voor 13 deelnemers, Tim inbegrepen; daarna wordt de volledige groepssom door 12 betalende gasten gedeeld. Tim betaalt dus niet zelf. Lissabon gebruikt City Stays Cais do Sodré inclusief geraamde toeristenbelasting. Amsterdam heeft twee verblijfopties: BUNK-hotel (€184 per deelnemer, geselecteerd) en Hostel Heart of Amsterdam (€120,83 per deelnemer). Verblijfsprijs en stadsparking staan los van elkaar.</p>
             </div>
             <button class="button button--ghost comparison-reset" type="button" data-reset-costs>Herstel basisselectie</button>
           </div>
 
           <p class="comparison-scroll-hint" id="table-hint">Op een smal scherm kun je de tabel horizontaal scrollen.</p>
           <div class="comparison-table-scroll" role="region" aria-label="Kostenvergelijking; scroll horizontaal voor alle bestemmingen" aria-describedby="table-hint" tabindex="0">
-            <table class="cost-comparison" data-cost-comparison data-participants="13">
-              <caption class="visually-hidden">Kosten per persoon voor twee bestemmingen. Vink kostenposten aan of uit om de totalen te wijzigen.</caption>
+            <table class="cost-comparison" data-cost-comparison data-participants="13" data-payers="12">
+              <caption class="visually-hidden">Kosten voor 13 deelnemers, gedeeld over 12 betalende gasten. Vink kostenposten aan of uit om de totalen te wijzigen.</caption>
               <thead>
                 <tr>
-                  <th class="comparison-row-heading" scope="col">Kostenpost</th>
+                  <th class="comparison-row-heading" scope="col">Kostenpost · prijs per deelnemer</th>
                   <th scope="col"><a href="./bestemmingen/lissabon.html">Lissabon <span>PT</span></a></th>
                   <th scope="col"><a href="./bestemmingen/amsterdam.html">Amsterdam <span>NL</span></a></th>
                 </tr>
@@ -90,14 +88,6 @@
                     <button class="cost-info" type="button" data-tooltip="Retourvlucht per persoon. Kleine tas (40×30×15 cm) en handbagage (55×40×25 cm, 10 kg) zijn inbegrepen; ruimbagage niet. Prijs en beschikbaarheid voor 13 reizigers bevestigen." aria-label="Info over de retourvlucht naar Lissabon">i</button>
                   </td>
                   <td class="cost-empty" aria-label="Geen vlucht; vervoer met de auto">—</td>
-                </tr>
-                <tr>
-                  <th scope="row">Auto / vervoer heen en terug</th>
-                  <td class="cost-empty" aria-label="Niet van toepassing">—</td>
-                  <td class="cost-cell">
-                    <label class="cost-choice"><input type="checkbox" data-cost-item="amsterdam-fuel" data-city="amsterdam" data-min="10" data-max="20" checked><span>€10–20</span></label>
-                    <button class="cost-info" type="button" data-tooltip="Brandstof retour per persoon, gedeeld over drie auto’s met vier à vijf deelnemers per auto. Raming: €10–20 per persoon." aria-label="Info over brandstof naar Amsterdam">i</button>
-                  </td>
                 </tr>
                 <tr>
                   <th scope="row">Luchthavenparking</th>
@@ -121,7 +111,7 @@
                   <th scope="row">Appartement · City Stays</th>
                   <td class="cost-cell">
                     <label class="cost-choice"><input type="checkbox" data-cost-item="lissabon-city-stays" data-city="lissabon" data-exclusive-group="lissabon-stay" data-min="95.6553846154" data-max="95.6553846154" checked><span>€95,66</span></label>
-                    <button class="cost-info" type="button" data-tooltip="City Stays Cais do Sodré Apartments. De Booking-link bevat twee prijsblokken van €587,36 en €552,16: samen indicatief €1.139,52. We tellen daar €104 toeristenbelasting bij (13 gasten × 2 nachten × €4), dus €1.243,52 / €95,66 p.p. Controleer of Booking de belasting al heeft inbegrepen en voorkom dubbel tellen. Voorlopige indeling T3 (max. 8) + T2 (max. 6); bevestig de werkelijke appartementen en het checkouttotaal." aria-label="Info over City Stays-appartementen in Lissabon inclusief belasting">i</button>
+                    <button class="cost-info" type="button" data-tooltip="City Stays Cais do Sodré Apartments. De Booking-link bevat twee prijsblokken van €587,36 en €552,16: samen indicatief €1.139,52. We tellen daar €104 toeristenbelasting bij (13 deelnemers × 2 nachten × €4), dus €1.243,52 totaal / €95,66 per deelnemer. In de berekening wordt de groepskost van €1.243,52 gedeeld door 12 betalende gasten (€103,63 per gast). Controleer of Booking de belasting al heeft inbegrepen en voorkom dubbel tellen. Voorlopige indeling T3 (max. 8) + T2 (max. 6); bevestig de werkelijke appartementen en het checkouttotaal." aria-label="Info over City Stays-appartementen in Lissabon inclusief belasting">i</button>
                   </td>
                   <td class="cost-empty" aria-label="Niet van toepassing">—</td>
                 </tr>
@@ -130,7 +120,7 @@
                   <td class="cost-empty" aria-label="Hostelalternatief momenteel niet geselecteerd voor Lissabon">—</td>
                   <td class="cost-cell">
                     <label class="cost-choice"><input type="checkbox" data-cost-item="amsterdam-heart-hostel" data-city="amsterdam" data-exclusive-group="amsterdam-stay amsterdam-bunk-parking" data-min="120.83" data-max="120.83"><span>€120,83</span></label>
-                    <button class="cost-info" type="button" data-tooltip="Hostel Heart of Amsterdam, twee nachten per persoon: €120,83. Deze post wisselt het BUNK-hotel én de bijbehorende BUNK-parking in de verblijfrij om; heb je later toch BUNK nodig, zet dan de parking er apart weer bij. Kamerverdeling, ontbijt, belastingen en parkeerregeling voor 13 personen nog bevestigen." aria-label="Info over Hostel Heart of Amsterdam">i</button>
+                    <button class="cost-info" type="button" data-tooltip="Hostel Heart of Amsterdam, twee nachten: €120,83 per deelnemer. Deze post wisselt het BUNK-hotel én de bijbehorende BUNK-parking in de verblijfrij om; heb je later toch BUNK nodig, zet dan de parking er apart weer bij. Kamerverdeling, ontbijt, belastingen en parkeerregeling voor 13 personen nog bevestigen." aria-label="Info over Hostel Heart of Amsterdam">i</button>
                   </td>
                 </tr>
                 <tr>
@@ -138,7 +128,7 @@
                   <td class="cost-empty" aria-label="De huidige raming gebruikt een hostel">—</td>
                   <td class="cost-cell">
                     <label class="cost-choice"><input type="checkbox" data-cost-item="amsterdam-bunk-hotel" data-city="amsterdam" data-exclusive-group="amsterdam-stay" data-min="184" data-max="184" checked><span>€184</span></label>
-                    <button class="cost-info" type="button" data-tooltip="Voorlopig gekozen hoteloptie: BUNK Hotel Amsterdam-Noord, €2.392 voor 13 personen / twee nachten volgens Booking.com (€184 p.p., inclusief belastingen en toeslagen volgens de boeking). Ontbijt en parking zijn niet inbegrepen in dit bedrag." aria-label="Info over het BUNK-hotelverblijf in Amsterdam">i</button>
+                    <button class="cost-info" type="button" data-tooltip="Voorlopig gekozen hoteloptie: BUNK Hotel Amsterdam-Noord, €2.392 voor 13 deelnemers / twee nachten volgens Booking.com (€184 per deelnemer, inclusief belastingen en toeslagen volgens de boeking). Ontbijt en parking zijn niet inbegrepen in dit bedrag." aria-label="Info over het BUNK-hotelverblijf in Amsterdam">i</button>
                   </td>
                 </tr>
                 <tr>
@@ -146,7 +136,7 @@
                   <td class="cost-empty" aria-label="Niet van toepassing">—</td>
                   <td class="cost-cell">
                     <label class="cost-choice"><input type="checkbox" data-cost-item="amsterdam-bunk-parking" data-city="amsterdam" data-exclusive-group="amsterdam-bunk-parking" data-min="15.2307692308" data-max="15.2307692308" checked><span>€15,23</span></label>
-                    <button class="cost-info" type="button" data-tooltip="BUNK-parking apart van het hotelbedrag: €22 per auto per dag. Raming voor 3 auto’s × 3 betaalde dagen = €198 totaal / 13 = €15,23 p.p. Hoort bij de BUNK-kamer en valt weg zodra je het Hostel Heart of Amsterdam kiest. Beperkte plaatsen; vooraf bij het hotel bevestigen." aria-label="Info over de parkeerkosten bij BUNK Amsterdam">i</button>
+                    <button class="cost-info" type="button" data-tooltip="BUNK-parking apart van het hotelbedrag: €22 per auto per dag. Raming voor 3 auto’s × 3 betaalde dagen = €198 totaal / 13 = €15,23 per deelnemer. De groepskost van €198 wordt gedeeld door 12 betalende gasten (€16,50 per gast). Hoort bij de BUNK-kamer en valt weg zodra je het Hostel Heart of Amsterdam kiest. Beperkte plaatsen; vooraf bij het hotel bevestigen." aria-label="Info over de parkeerkosten bij BUNK Amsterdam">i</button>
                   </td>
                 </tr>
 
@@ -179,23 +169,22 @@
                     <label class="cost-choice"><input type="checkbox" data-cost-item="lissabon-kayak" data-city="lissabon" data-exclusive-group="lissabon-saturday" data-min="80" data-max="120"><span>€80–120</span></label>
                     <button class="cost-info" type="button" data-tooltip="Kajak en snorkel bij Arrábida/Sesimbra. De excursietransfer zit in deze prijs; datum, groepscapaciteit en tarief nog bevestigen. Alternatief voor het Splash Boat Party: circa 6,5-7 uur, op zaterdag 17 april niet te combineren met het bootfeest van 14:00-18:00." aria-label="Info over activiteit 3 in Lissabon: kajak en snorkel">i</button>
                   </td>
-                  <td class="cost-empty" aria-label="Niet opgenomen in deze raming">—</td>
-                    <button class="cost-info" type="button" data-tooltip="A’DAM LOOKOUT + Thrill-combiticket per persoon. Tijdsloten voor 13 deelnemers vooraf controleren." aria-label="Info over activiteit 3 in Amsterdam: A’DAM LOOKOUT">i</button>
-                  </td>
+                    <td class="cost-cell">
+                      <label class="cost-choice"><input type="checkbox" data-cost-item="amsterdam-borrelboot" data-city="amsterdam" data-min="39.95" data-max="39.95" checked><span>€39,95</span></label>
+                      <button class="cost-info" type="button" data-tooltip="Zaterdag: privé borrelboot van Eco Boats door de grachten, circa 1 uur met open bar en skipper. Vanaftarief €39,95 per deelnemer bij volledige bootcapaciteit; vraag een offerte voor precies 13. Deel de groepskosten daarna over 12 gasten." aria-label="Info over activiteit 3 in Amsterdam: borrelboot">i</button>
+                    </td>
                 </tr>
                 <tr>
                   <th scope="row">Activiteit 4</th>
                   <td class="cost-empty" aria-label="Geen geprijsde activiteit">—</td>
-                  <td class="cost-cell">
-                    <label class="cost-choice"><input type="checkbox" data-cost-item="amsterdam-borrelboot" data-city="amsterdam" data-min="39.95" data-max="39.95" checked><span>€39,95</span></label>
-                    <button class="cost-info" type="button" data-tooltip="Zondag: privé borrelboot van Eco Boats door de grachten, circa 1 uur met open bar (onbeperkt bier, wijn en frisdrank) en skipper. Vanaftarief €39,95 p.p. bij volledige bootcapaciteit; vraag een offerte voor precies 13. Vertrek nabij Amsterdam Centraal." aria-label="Info over activiteit 4 in Amsterdam: borrelboot">i</button></td>
+                  <td class="cost-empty" aria-label="Geen opgenomen activiteit">—</td>
                 </tr>
               </tbody>
               <tfoot>
                 <tr>
                   <th scope="row">Totaal geselecteerd</th>
-                  <td class="destination-total" data-total-city="lissabon"><strong data-total-per-person>€351–395 p.p.</strong><small data-total-group>€4.569–5.141 voor 13 deelnemers</small></td>
-                  <td class="destination-total" data-total-city="amsterdam"><strong data-total-per-person>€325–335 p.p.</strong><small data-total-group>€4.221–4.351 voor 13 deelnemers</small></td>
+                    <td class="destination-total" data-total-city="lissabon"><strong data-total-per-person>€380,71–428,38 per betalende gast</strong><small data-total-group>€4.568,52–5.140,52 groepskosten voor 13 deelnemers ÷ 12 gasten</small></td>
+                    <td class="destination-total" data-total-city="amsterdam"><strong data-total-per-person>€340,90 per betalende gast</strong><small data-total-group>€4.090,85 groepskosten voor 13 deelnemers ÷ 12 gasten</small></td>
                 </tr>
               </tfoot>
             </table>
@@ -204,7 +193,7 @@
           <p class="comparison-live" data-cost-status role="status" aria-live="polite"></p>
           <div class="comparison-notes">
             <p><strong>Lezen van de tabel:</strong> een streepje betekent niet van toepassing of niet opgenomen. Klik, focus of hover op het info-icoon voor details.</p>
-            <p>Alle posten zijn per persoon voor de huidige groep van 13. Totalen worden afgerond op hele euro’s. De Lissabon-verblijfspost bevat nu €104 geraamde toeristenbelasting; controleer het Booking-eindtotaal om dubbel tellen uit te sluiten. Voor Amsterdam staat BUNK geselecteerd: €184 p.p. voor de kamer en €15,23 p.p. voor parking, als aparte posten. Het hostel Heart of Amsterdam (€120,83 p.p.) staat in de hostelrij als alternatief; aanvinken vervangt het BUNK-hotel én de BUNK-parking. P+R, ander lokaal vervoer, eten, drinken, nachtleven en een reservepost zijn niet opgenomen. Je vinkjes worden alleen in deze browser bewaard.</p>
+            <p>De bedragen in de kostenrijen zijn per deelnemer voor 13 personen. De groepssom (13 × de posten) wordt door 12 gasten gedeeld; de getoonde bijdrage per betalende gast bevat dus ook 1/12 van Tims aandeel. Totalen en bijdragen worden op centen afgerond; verdeel een eventueel afrondingsverschil bij het innen. De Lissabon-verblijfspost bevat €104 geraamde toeristenbelasting; controleer het Booking-eindtotaal om dubbel tellen uit te sluiten. Voor Amsterdam staat BUNK geselecteerd: €184 per deelnemer voor de kamer en €15,23 voor parking, als aparte posten. Het hostel Heart of Amsterdam (€120,83 per deelnemer) is een alternatief; aanvinken vervangt BUNK én de BUNK-parking. Brandstof, P+R, ander lokaal vervoer, eten, drinken, nachtleven en een reservepost zijn niet opgenomen. Je vinkjes worden alleen in deze browser bewaard.</p>
           </div>
           <noscript><p class="comparison-noscript">De tabel blijft leesbaar zonder JavaScript, maar aanvinken en herberekenen vereist JavaScript.</p></noscript>
         </div>

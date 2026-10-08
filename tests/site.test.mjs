@@ -67,10 +67,13 @@ test("destination cost cards add up and exclude spending/reserve", async () => {
     assert.ok(total, path);
     for (const index of [1, 2]) {
       const sum = rows.reduce((value, row) => value + Number(row[index]), 0);
-      assert.equal(Math.round(sum), Number(total[index]), `Wrong total in ${path}`);
+      assert.ok(Math.abs(sum - Number(total[index])) < 0.01, `Wrong total in ${path}`);
     }
     const displayedTotal = budget.match(/class="budget-total"[^>]*><dt>[^<]*<\/dt><dd>([^<]+)<\/dd>/)?.[1];
-    assert.deepEqual(values(displayedTotal), [Number(total[1]), Number(total[2])], `Displayed total differs from checked values in ${path}`);
+    const displayedAmounts = values(displayedTotal);
+    assert.equal(displayedAmounts.length, 1 + (Number(total[1]) !== Number(total[2]) ? 1 : 0), path);
+    assert.ok(Math.abs(displayedAmounts[0] - Number(total[1])) < 0.01, `Displayed minimum differs from checked values in ${path}`);
+    assert.ok(Math.abs(displayedAmounts.at(-1) - Number(total[2])) < 0.01, `Displayed maximum differs from checked values in ${path}`);
     assert.match(html, /Richtprijzen|geen offerte|geen bevestigde boekingen/, path);
     assert.match(html, /class="sun-summary"/, path);
     assert.doesNotMatch(html, /weather-sun-table/, path);
@@ -103,6 +106,10 @@ test("overview has no destination estimates and keeps the two remaining destinat
   const cards = [...html.matchAll(/<a class="destination-card[\s\S]*?<\/a>/g)];
   assert.equal(cards.length, 2);
   for (const [card] of cards) assert.doesNotMatch(card, /€|raming/i);
+  const intro = html.indexOf("<h1>Vrijgezellen");
+  const group = html.indexOf('<section class="section container group-section">');
+  const fixed = html.indexOf('<section class="section container" id="opzet">');
+  assert.ok(intro < group && group < fixed, "The participant list belongs between the intro and fixed agreements");
   const overview = await readFile(resolve(root, "Bestemmingen/overzicht.md"), "utf8");
   assert.doesNotMatch(overview, /Hostelbasis|Hotelbasis|Budgetinterpretatie/);
 });
@@ -110,12 +117,12 @@ test("overview has no destination estimates and keeps the two remaining destinat
 test("cost comparison starts with destination budgets matching the detail pages", async () => {
   const html = await readFile(resolve(root, "docs/kosten.html"), "utf8");
   const expected = {
-    lissabon: [351, 395],
-    amsterdam: [325, 335],
+    lissabon: { group: [4568.52, 5140.52], payer: [380.71, 428.3766666667] },
+    amsterdam: { group: [4090.85, 4090.85], payer: [340.9041666667, 340.9041666667] },
   };
   const sums = Object.fromEntries(Object.keys(expected).map((city) => [city, [0, 0]]));
   const items = [...html.matchAll(/<input type="checkbox" data-cost-item="([^"]+)" data-city="([^"]+)"[^>]*data-min="([\d.]+)" data-max="([\d.]+)"([^>]*)>/g)];
-  assert.ok(items.length >= 14, "Expected the current transport, stay, and activity estimates");
+  assert.ok(items.length >= 13, "Expected the current transport, stay, and activity estimates");
 
   for (const item of items) {
     const [, , city, minimum, maximum, attributes] = item;
@@ -127,9 +134,18 @@ test("cost comparison starts with destination budgets matching the detail pages"
     }
   }
 
-  for (const [city, range] of Object.entries(expected)) {
-    assert.deepEqual(sums[city].map(Math.round), range, `Default selection no longer matches ${city}`);
-    assert.match(html, new RegExp(`data-total-city="${city}"[\\s\\S]*?${range[0]}–${range[1]} p\\.p\\.`));
+  for (const [city, amounts] of Object.entries(expected)) {
+    const group = sums[city].map((amount) => amount * 13);
+    const payer = group.map((amount) => amount / 12);
+    for (const [index, expectedAmount] of amounts.group.entries()) {
+      assert.ok(Math.abs(group[index] - expectedAmount) < 0.01, `Wrong 13-person group total for ${city}`);
+    }
+    for (const [index, expectedAmount] of amounts.payer.entries()) {
+      assert.ok(Math.abs(payer[index] - expectedAmount) < 0.01, `Wrong 12-payer share for ${city}`);
+    }
+    const displayed = amounts.payer.map((amount) => new Intl.NumberFormat("nl-BE", { minimumFractionDigits: 2, maximumFractionDigits: 2 }).format(amount));
+    const range = displayed[0] === displayed[1] ? `€${displayed[0]} per betalende gast` : `€${displayed[0]}–${displayed[1]} per betalende gast`;
+    assert.ok(html.includes(range), `Missing displayed payer total for ${city}: ${range}`);
     assert.match(html, new RegExp(`data-total-city="${city}"[\\s\\S]*?data-total-group`));
   }
 
@@ -140,6 +156,9 @@ test("cost comparison starts with destination budgets matching the detail pages"
   assert.match(html, /data-cost-item="lissabon-splash-boat".*?data-exclusive-group="lissabon-saturday"/);
   assert.match(html, /data-cost-item="amsterdam-bunk-hotel"/);
   assert.match(html, /data-cost-item="amsterdam-bunk-parking"/);
+  assert.match(html, /data-cost-item="amsterdam-borrelboot"[\s\S]*?aria-label="Info over activiteit 3 in Amsterdam: borrelboot"/);
+  assert.match(html, /data-participants="13" data-payers="12"/);
+  assert.doesNotMatch(html, /data-cost-item="amsterdam-fuel"/);
   assert.doesNotMatch(html, /data-cost-item="amsterdam-(?:hostel|budgethotel|bunk)"/);
   assert.match(html, /data-reset-costs/);
   assert.match(html, /aria-live="polite"/);
@@ -167,7 +186,7 @@ test("Markdown tables have consistent columns and three-scenario totals add up",
         const actual = amounts(row);
         assert.equal(actual.length, expected.length, `Wrong number of amounts in ${path}: ${row[0]}`);
         for (const [index, value] of actual.entries()) {
-          assert.ok(Math.abs(value - expected[index]) < 0.01, `Incorrect budget in ${path}: ${row[0]}: ${value} versus ${expected[index]}`);
+          assert.ok(Math.abs(value - expected[index]) < 0.02, `Incorrect budget in ${path}: ${row[0]}: ${value} versus ${expected[index]}`);
         }
       };
       const components = rows.slice(2).filter((row) => !row[0].includes("Totaal"));
@@ -212,9 +231,11 @@ test("key content regressions stay fixed", async () => {
   assert.match(lisbon, /nog niet zondagavond thuis/);
   const amsterdam = await readFile(resolve(root, "docs/bestemmingen/amsterdam.html"), "utf8");
   assert.match(amsterdam, /A’DAM VR Level 2 Action/);
-  assert.match(amsterdam, /Prison Island/);
-  assert.match(amsterdam, /borrelboot/i);
-  assert.doesNotMatch(amsterdam, /LOOKOUT/i);
+  assert.match(amsterdam, /Prison Island op zondag/i);
+  assert.match(amsterdam, /borrelboot op zaterdag/i);
+  assert.doesNotMatch(amsterdam, /LOOKOUT|bonus/i);
+  assert.match(amsterdam, /12 betalende gasten/);
+  assert.match(lisbon, /12 betalende gasten/);
   const css = await readFile(resolve(root, "docs/assets/styles.css"), "utf8");
   assert.match(css, /a:focus-visible/);
   assert.match(css, /prefers-reduced-motion/);

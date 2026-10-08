@@ -5,9 +5,10 @@
   const storageKey = "tim-cost-comparison-v1";
   const items = [...table.querySelectorAll("input[data-cost-item]")];
   const participantCount = Number(table.dataset.participants) || 13;
+  const payerCount = Number(table.dataset.payers) || 12;
   const totals = [...table.querySelectorAll("[data-total-city]")];
   const status = document.querySelector("[data-cost-status]");
-  const formatter = new Intl.NumberFormat("nl-BE", { maximumFractionDigits: 0 });
+  const formatter = new Intl.NumberFormat("nl-BE", { minimumFractionDigits: 2, maximumFractionDigits: 2 });
   let selection = {};
 
   try {
@@ -34,7 +35,7 @@
     else groups.forEach((group) => selectedAlternatives.add(group));
   }
 
-  const formatAmount = (amount) => formatter.format(Math.round(amount));
+  const formatAmount = (amount) => formatter.format(amount);
   const formatRange = (minimum, maximum) => {
     const low = formatAmount(minimum);
     const high = formatAmount(maximum);
@@ -54,8 +55,10 @@
     for (const total of totals) {
       const sum = sums.get(total.dataset.totalCity);
       if (!sum) continue;
-      total.querySelector("[data-total-per-person]").textContent = `${formatRange(sum.minimum, sum.maximum)} p.p.`;
-      total.querySelector("[data-total-group]").textContent = `${formatRange(sum.minimum * participantCount, sum.maximum * participantCount)} voor ${participantCount} deelnemers`;
+      const groupMinimum = sum.minimum * participantCount;
+      const groupMaximum = sum.maximum * participantCount;
+      total.querySelector("[data-total-per-person]").textContent = `${formatRange(groupMinimum / payerCount, groupMaximum / payerCount)} per betalende gast`;
+      total.querySelector("[data-total-group]").textContent = `${formatRange(groupMinimum, groupMaximum)} groepskosten voor ${participantCount} deelnemers ÷ ${payerCount} gasten`;
     }
 
     if (announce && status) status.textContent = "De geselecteerde ramingen zijn bijgewerkt.";

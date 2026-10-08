@@ -84,8 +84,8 @@ const audit = () => {
   if (budget) {
     const rows = [...budget.querySelectorAll("[data-min]")];
     const total = budget.querySelector("[data-total-min]");
-    report(Math.round(rows.reduce((sum, row) => sum + Number(row.dataset.min), 0)) === Number(total.dataset.totalMin), "Minimum budget does not add up");
-    report(Math.round(rows.reduce((sum, row) => sum + Number(row.dataset.max), 0)) === Number(total.dataset.totalMax), "Maximum budget does not add up");
+    report(Math.abs(rows.reduce((sum, row) => sum + Number(row.dataset.min), 0) - Number(total.dataset.totalMin)) < 0.01, "Minimum budget does not add up");
+    report(Math.abs(rows.reduce((sum, row) => sum + Number(row.dataset.max), 0) - Number(total.dataset.totalMax)) < 0.01, "Maximum budget does not add up");
     report(!/reserve|party|nachtleven|eten|drank/i.test(budget.querySelector(".budget-list").textContent), "Excluded spending in cost table");
     report(document.querySelectorAll(".sun-summary dt").length === 2, "Missing sunrise/sunset summary");
     if (width <= 900) report(getComputedStyle(document.querySelector(".detail-aside")).order === "-1", "Mobile costs should precede detailed content");
@@ -114,11 +114,11 @@ const audit = () => {
       lissabonKayak.checked = true;
       lissabonKayak.dispatchEvent(new Event("change", { bubbles: true }));
       report(!lissabonBoat.checked, "Selecting the Lisbon kayak should replace the Saturday boat party");
-      report(lissabonTotal.textContent.includes("€362–446"), "The Lisbon kayak should reprice the destination total");
+      report(lissabonTotal.textContent.includes("€392,63–483,63"), "The Lisbon kayak should reprice the destination total");
       lissabonBoat.checked = true;
       lissabonBoat.dispatchEvent(new Event("change", { bubbles: true }));
       report(!lissabonKayak.checked, "Restoring the boat party should deselect the Lisbon kayak");
-      report(lissabonTotal.textContent.includes("€351–395"), "Restoring the boat party should restore the Lisbon total");
+      report(lissabonTotal.textContent.includes("€380,71–428,38"), "Restoring the boat party should restore the Lisbon total");
     }
     const amsterdamHostel = comparison.querySelector('[data-cost-item="amsterdam-heart-hostel"]');
     const amsterdamHotel = comparison.querySelector('[data-cost-item="amsterdam-bunk-hotel"]');
@@ -128,14 +128,14 @@ const audit = () => {
       amsterdamHostel.checked = true;
       amsterdamHostel.dispatchEvent(new Event("change", { bubbles: true }));
       report(!amsterdamHotel.checked && !amsterdamParking.checked, "Selecting the Amsterdam hostel should replace the BUNK stay and its parking");
-      report(amsterdamTotal.textContent.includes("€246–256"), "The Amsterdam hostel should reprice the destination total");
+      report(amsterdamTotal.textContent.includes("€255,97"), "The Amsterdam hostel should reprice the destination total");
       amsterdamHotel.checked = true;
       amsterdamHotel.dispatchEvent(new Event("change", { bubbles: true }));
       report(!amsterdamHostel.checked, "Restoring the BUNK hotel should deselect the Amsterdam hostel");
       amsterdamParking.checked = true;
       amsterdamParking.dispatchEvent(new Event("change", { bubbles: true }));
       report(amsterdamHotel.checked && amsterdamParking.checked, "Restoring the BUNK parking should keep the BUNK hotel selected");
-      report(amsterdamTotal.textContent.includes("€325–335"), "Restoring the BUNK stay should restore the Amsterdam total");
+      report(amsterdamTotal.textContent.includes("€340,90"), "Restoring the BUNK stay should restore the Amsterdam total");
     }
     const info = comparison.querySelector(".cost-info[data-tooltip]");
     if (info) {
