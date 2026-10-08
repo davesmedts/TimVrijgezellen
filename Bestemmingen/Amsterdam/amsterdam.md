@@ -226,27 +226,28 @@ Voor 13 personen moeten kamerindeling, bedcapaciteit, parking, toeristenbelastin
 - Verblijf voor twee nachten: **€2.392 totaal**, inclusief belastingen en toeslagen volgens Booking.com (**€184 per deelnemer**). De pagina toont een tijdelijke korting van 36% ten opzichte van €3.737.
 - De getoonde optie vermeldt gratis annuleren tot **14 april 2027** en geen vooruitbetaling; betaal bij de accommodatie.
 - Ontbijt is niet inbegrepen in deze prijs; Booking.com toont ontbijt als toeslag van **€16**. Controleer bij boeken of dit per deelnemer per ontbijt geldt.
-- Het hotel vermeldt privéparking op het terrein. Volgens de [officiële FAQ van BUNK](https://wearebunk.com/frequently-asked-questions/) kost dit **€22 per auto per dag**. Parkeren staat niet inbegrepen in de getoonde kamertotaalprijs; plaatsen zijn beperkt. Vraag BUNK vooraf om bevestiging en voeg parking bij de reservering toe of mail het hotel.
-- Begroting voor parkeren gedurende **drie betaalde dagen** (aankomst vrijdag, vertrek zondagmiddag): **€66 per auto**. Bij de huidige aanname van drie auto’s is dat **€198 totaal** (circa **€15,23 per deelnemer**). Verblijf plus parking komt op **€2.590 voor 13**; gedeeld door 12 betalende gasten is dat **€215,83 per gast**, exclusief activiteiten, maaltijden en lokaal vervoer.
+- Het hotel vermeldt privéparking op het terrein. Volgens de [officiële FAQ van BUNK](https://wearebunk.com/frequently-asked-questions/) kost dit **€22 per auto per dag**; plaatsen zijn beperkt en moeten vooraf bevestigd worden. Dit werkelijke tarief kan afwijken van de ruime parkeeraming in onze begroting.
+- Voor de begroting nemen we één vaste ruime raming van **€15 per deelnemer**, los van de gekozen accommodatie: **€195 voor 13 deelnemers**, of **€16,25 per betalende gast**. BUNK-kamer plus deze parkeeraming komt op **€2.587 voor 13**; gedeeld door 12 is dat **€215,58 per gast**, exclusief activiteiten, maaltijden en lokaal vervoer.
 
-Dit is een momentopname van **6 oktober 2026**, geen bindende groepsofferte; de prijs en beschikbaarheid kunnen wijzigen. De parkeerraming neemt op verzoek drie betaalde dagen aan; bevestig dit tarief voor jullie exacte aankomst- en vertrektijden en of er drie plaatsen beschikbaar zijn. Voor een minibus moet de geschiktheid van de parkeerplaats apart worden nagevraagd.
+Dit is een momentopname van **6 oktober 2026**, geen bindende groepsofferte; de prijs en beschikbaarheid kunnen wijzigen. Bevestig voor de gekozen parkeerlocatie de beschikbaarheid, werkelijke prijs en exacte aankomst- en vertrektijden. Voor een minibus moet de geschiktheid van de parkeerplaats apart worden nagevraagd.
 
 ### Concrete optie: Hostel Heart of Amsterdam
 
 De groep heeft naast BUNK een tweede concrete verblijfoptie:
 
 - Verblijf voor twee nachten: **€120,83 per deelnemer**, ongeveer **€1.570,79** voor 13 personen.
-- Dat valt binnen de hostelraming van €100-€220 per deelnemer. In de kostenvergelijking staat dit hostel in de hostelrij en wisselt het de BUNK-post én de BUNK-parking van €15,23 per deelnemer om; de twee zijn alternatieven, geen optelsom.
+- Dat valt binnen de hostelraming van €100-€220 per deelnemer. In de kostenvergelijking vervangt dit hostel alleen de BUNK-verblijfspost; de ene parkeeraming van €15 per deelnemer blijft gelijk, ongeacht het verblijf.
 - Kamerindeling voor 13 personen, ontbijt, toeristenbelasting en annuleringsvoorwaarden nog opvragen.
-- De parkeerregeling van dit hostel nakijken: de BUNK-parking van €22 per auto per dag hoort hier niet bij. P+R (€6 per 24 uur) blijft het alternatief.
+- De parkeerregeling van dit hostel nakijken. De begroting gebruikt dezelfde ruime raming van €15 per deelnemer als bij BUNK; het werkelijke tarief hangt af van de gekozen parkeerlocatie.
 
 | Onderdeel | Totaal voor 13 | Per betalende gast (12) |
 |---|---:|---:|
 | Hostel Heart of Amsterdam, 2 nachten | €1.570,79 | €130,90 |
+| Parkeren · ruime raming (€15 × 13) | €195,00 | €16,25 |
 | Kernactiviteiten | €1.500,85 | €125,07 |
-| **Totaal vóór eten, drinken en lokaal vervoer** | **€3.071,64** | **€255,97** |
+| **Totaal vóór eten, drinken en lokaal vervoer** | **€3.266,64** | **€272,22** |
 
-Bij deze raming zijn parking, ontbijt en toeristenbelasting niet inbegrepen. Bevestig prijs en beschikbaarheid voor 13 personen voordat je boekt; dit is een richtprijs, geen offerte.
+De ruime parkeeraming staat los van het hostel, maar het werkelijke tarief moet bij de gekozen locatie worden gecontroleerd. Ontbijt en toeristenbelasting zijn niet inbegrepen. Bevestig hostelprijs en beschikbaarheid voor 13 personen voordat je boekt; dit is een richtprijs, geen offerte.
 
 De gemeentelijke pagina vermeldt momenteel **12,5% toeristenbelasting op de overnachtingsprijs exclusief btw**. In het coalitieplan voor 2027 staat een verhoging naar **16%**; behandel dat als een voornemen en controleer het formele tarief en de hotelprijs inclusief lokale belasting voordat je boekt.
 
@@ -271,30 +272,31 @@ Kernactiviteiten tegen de huidige gepubliceerde tarieven:
 |---|---:|---:|---:|
 | Verblijf - hostel | €108,33 | €173,33 | €238,33 |
 | Verblijf - budgethotel | €195,00 | €270,83 | €379,17 |
+| Parkeren · ruime raming, alle verblijven | €16,25 | €16,25 | €16,25 |
 | Activiteiten kernprogramma | €125,07 | €125,07 | €125,07 |
-| **Totaal met hostel · per betalende gast** | **€233,40** | **€298,40** | **€363,40** |
-| **Totaal met budgethotel · per betalende gast** | **€320,07** | **€395,90** | **€504,24** |
+| **Totaal met hostel · per betalende gast** | **€249,65** | **€314,65** | **€379,65** |
+| **Totaal met budgethotel · per betalende gast** | **€336,32** | **€412,15** | **€520,49** |
 
-De tabel toont wat één van de **12 betalende gasten** bij benadering bijdraagt: alle 13 deelnemers, Tim inbegrepen, tellen mee in de groepskosten. De verblijfsramingen van €100-€220 (hostel) en €180-€350 (budgethotel) zijn oorspronkelijk per deelnemer; hiervoor is de groepssom ×13 ÷12 berekend. De activiteitenraming is gebaseerd op A’DAM VR, Prison Island en de borrelboot; de zelfgeleide stadswandeling is gratis. THIS IS HOLLAND, paintball, schieten en karten zijn alternatieven/extra’s en niet opgenomen. De borrelboot is een vanaftarief van €39,95 per deelnemer; vraag een offerte voor precies 13. Brandstof wordt niet meegerekend. Hotelbedragen zijn planningsramingen; vraag een offerte met belastingen en toeslagen. **Parkeren is niet opgenomen in de algemene scenario’s**; zie de afzonderlijke parkeerkosten en BUNK-berekening.
+De tabel toont wat één van de **12 betalende gasten** bij benadering bijdraagt: alle 13 deelnemers, Tim inbegrepen, tellen mee in de groepskosten. De verblijfsramingen van €100-€220 (hostel) en €180-€350 (budgethotel) zijn oorspronkelijk per deelnemer; hiervoor is de groepssom ×13 ÷12 berekend. Parkeren is in alle scenario’s meegenomen als ruime vaste raming van €15 per deelnemer (€195 voor 13, of €16,25 per betalende gast), los van de verblijfkeuze. De activiteitenraming is gebaseerd op A’DAM VR, Prison Island en de borrelboot; de zelfgeleide stadswandeling is gratis. THIS IS HOLLAND, paintball, schieten en karten zijn alternatieven/extra’s en niet opgenomen. De borrelboot is een vanaftarief van €39,95 per deelnemer; vraag een offerte voor precies 13. Brandstof wordt niet meegerekend. Hotelbedragen zijn planningsramingen; vraag een offerte met belastingen en toeslagen.
 
 ### Groepstotalen voor 13 personen en bijdrage per gast
 
-- Hostel: groepssom **€2.800,85-€4.360,85**, realistisch **€3.580,85**; gedeeld door 12 is dat **€233,40-€363,40**, realistisch **€298,40 per gast**.
-- Budgethotel: groepssom **€3.840,85-€6.050,85**, realistisch **€4.750,85**; gedeeld door 12 is dat **€320,07-€504,24**, realistisch **€395,90 per gast**.
+- Hostel, inclusief parkeeraming: groepssom **€2.995,85-€4.555,85**, realistisch **€3.775,85**; gedeeld door 12 is dat **€249,65-€379,65**, realistisch **€314,65 per gast**.
+- Budgethotel, inclusief parkeeraming: groepssom **€4.035,85-€6.245,85**, realistisch **€4.945,85**; gedeeld door 12 is dat **€336,32-€520,49**, realistisch **€412,15 per gast**.
 
-Deze algemene raming bevat verblijf en de drie betaalde kernactiviteiten, maar geen brandstof of parkeerkosten. Voor drie auto’s gedurende twee P+R-dagen is de raming op basis van €6 per 24 uur ongeveer **€36 totaal**; bij BUNK is de raming voor drie betaalde parkeerdagen **€198 totaal**. Eten en drinken, nachtleven, taxi’s en lokaal vervoer zijn niet opgenomen.
+Deze algemene raming bevat verblijf, parkeren en de drie betaalde kernactiviteiten, maar geen brandstof. De parkeeraming is €15 per deelnemer, oftewel **€195 voor 13**; het werkelijke tarief hangt af van de locatie en kan verschillen. Eten en drinken, nachtleven, taxi’s en lokaal vervoer zijn niet opgenomen.
 
 ### Totaalvoorbeeld met de getoonde BUNK-prijs
 
 | Onderdeel | Totaal voor 13 | Per betalende gast (12) |
 |---|---:|---:|
 | BUNK Hotel, 2 nachten | €2.392,00 | €199,33 |
-| Hotelparking, 3 auto’s × 3 dagen × €22 | €198,00 | €16,50 |
-| **Verblijf + parking** | **€2.590,00** | **€215,83** |
+| Parkeren · ruime raming (€15 × 13) | €195,00 | €16,25 |
+| **Verblijf + parking** | **€2.587,00** | **€215,58** |
 | Kernactiviteiten | €1.500,85 | €125,07 |
-| **Totaal vóór eten, drinken en lokaal vervoer** | **€4.090,85** | **€340,90** |
+| **Totaal vóór eten, drinken en lokaal vervoer** | **€4.087,85** | **€340,65** |
 
-Ontbijt is optioneel en niet in het kamertarief opgenomen. Parking moet apart worden bevestigd en is afhankelijk van beschikbaarheid.
+Ontbijt is optioneel en niet in het kamertarief opgenomen. De parkeeraming is indicatief; controleer de werkelijke prijs en beschikbaarheid bij de gekozen locatie.
 
 ## Waarom Amsterdam een goede keuze is
 

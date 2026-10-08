@@ -27,9 +27,9 @@ De huidige kalenderfeed vermeldt op **zondag 18 april 2027**:
 - Stadion: Estádio da Luz
 - Exacte aftrap: nog niet definitief bevestigd
 
-Benfica is de concrete voetbaloptie in de huidige kalender. Sporting CP is eveneens een bekende club in Lissabon, maar een thuiswedstrijd van Sporting voor dit weekend moet afzonderlijk worden bevestigd.
+Benfica is de concrete voetbaloptie in de huidige kalender. Het Benfica Museum is de alternatieve zondagactiviteit; het museumbezoek en het wedstrijdticket zijn wederzijds uitsluitend.
 
-Ticketrichtprijs: **€45 per persoon** voor een regulier ticket; hospitality en topschakeringen kunnen duurder uitvallen. De €45 staat in de kostenvergelijking als bonuspost, **standaard uitgevinkt**; hij zit niet in de totalen hieronder.
+Ticketrichtprijs: **€45 per deelnemer** voor een regulier ticket; hospitality en topschakeringen kunnen duurder uitvallen. In de kostenvergelijking kan óf het wedstrijdticket óf het Benfica Museum worden aangevinkt, nooit allebei. Beide staan standaard uit en zijn niet in de basistotalen opgenomen.
 
 ## Vluchten
 
@@ -80,7 +80,7 @@ Ticketrichtprijs: **€45 per persoon** voor een regulier ticket; hospitality en
 
 Lissabon heeft metro, trams, bussen, taxi’s en ritdiensten. De luchthaven ligt relatief dicht bij het centrum. Voor een groep van 13 zijn vooraf geboekte transfers of meerdere taxi’s praktisch.
 
-- Raming luchthaven en lokaal vervoer: **€20 - €50 per deelnemer**.
+- Raming luchthaven en lokaal vervoer: **€30 per deelnemer**.
 - Het Estádio da Luz is met metro en taxi bereikbaar.
 - De heuvels maken wandelen soms zwaarder, vooral na een avond uit.
 
@@ -90,7 +90,7 @@ Lissabon heeft metro, trams, bussen, taxi’s en ritdiensten. De luchthaven ligt
 - **Zaterdagvoormiddag - ontbijt en stadswandeling:** rustig ontbijt in de buurt en daarna een zelfgeleide verkenning van Baixa, Chiado en Alfama. Rond **13:30** naar de Doca voor de boot.
 - **Zaterdagnamiddag - Splash Boat Party:** check-in vanaf circa 13:30 aan de Doca do Espanhol; van **14:00 tot 18:00** all-inclusive op de Taag (open bar, BBQ, DJ's, zwempauze).
 - **Zaterdagavond - Bairro Alto en nachtleven:** diner op reservatie en daarna bars in Bairro Alto, rond Cais do Sodré of op Pink Street. De BBQ aan boord is de lunch; het diner is eigen kosten.
-- **Zondag overdag - nog te bepalen:** mogelijkheden zijn een kajaktocht op de Taag, de stadiontour van Sporting CP in het Estádio José Alvalade, of iets anders zoals Sintra of Belém; stem de keuze af op uitchecken en bagage.
+- **Zondag overdag - nog te bepalen:** mogelijkheden zijn het Benfica Museum bij het Estádio da Luz (€24 per deelnemer), Sintra of Belém; stem de keuze af op uitchecken en bagage. Voor het museum is dat €312 voor 13 deelnemers, of €26 per betalende gast (groepssom ÷12); controleer openingstijden en beschikbaarheid. Kies het museum óf het Benfica-wedstrijdticket.
 - **Zondagavond - terugkeer naar huis:** TAP TP646 vertrekt om **20:05** vanaf Lissabon en landt om **23:55** in Brussel; daarna de rit naar Antwerpen/Brecht. De groep is daarmee **nog niet zondagavond thuis**; dat is een bewuste afweging, of er moet een vroegere retour worden gezocht.
 
 De volledige kajak- en snorkeltour naar Arrábida/Sesimbra (09:30-15:30) kan in dit schema alleen op zondag, mits de transfer en de rust nadien meegerekend worden; op zaterdag botst ze met het bootfeest.
@@ -100,7 +100,7 @@ De volledige kajak- en snorkeltour naar Arrábida/Sesimbra (09:30-15:30) kan in 
 - Foodtour met petiscos, bacalhau en lokale wijn.
 - Splash Boat Party op de Taag, zaterdag 14:00-18:00.
 - Boottocht op de Taag bij zonsondergang.
-- Benfica Museum en stadiontour.
+- **Benfica Museum** bij het Estádio da Luz: richtprijs **€24 per deelnemer**; €312 voor 13 of **€26 per betalende gast**. Dit is een alternatief voor het Benfica-wedstrijdticket; vink er maar één aan.
 - Bezoek aan Belém, Torre de Belém en het Jerónimosklooster.
 - Surfles of strandactiviteit in Cascais of Carcavelos.
 - Tuk-tuk- of street-arttour.
@@ -176,19 +176,19 @@ Lissabon heeft een brede restaurant- en barscene. Bairro Alto is geschikt voor e
 | Onderdeel | Minimum | Realistisch | Maximum |
 |---|---:|---:|---:|
 | Vlucht retour | €167,92 | €175,50 | €183,08 |
-| Airport en lokaal vervoer | €21,67 | €37,92 | €54,17 |
+| Airport en lokaal vervoer | €32,50 | €32,50 | €32,50 |
 | Luchthavenparking | €12,75 | €12,75 | €12,75 |
 | Verblijf - City Stays appartement(en), incl. belasting | €103,63 | €103,63 | €103,63 |
 | Splash Boat Party, za 14:00-18:00 | €74,75 | €74,75 | €74,75 |
-| **Totaal per betalende gast, zonder voetbal** | **€380,71** | **€404,54** | **€428,38** |
+| **Totaal per betalende gast, zonder Benfica-optie** | **€391,54** | **€399,13** | **€406,71** |
 
-De volledige groepskosten voor 13 deelnemers (Tim inbegrepen) zijn door 12 betalende gasten gedeeld; de bedragen in de tabel zijn dus inclusief 1/12 van Tims aandeel. Groepstotalen zijn **€4.568,52** minimum, **€4.854,52** realistisch en **€5.140,52** maximum. De tabelbedragen zijn op centen afgerond; de totaalbijdrage is berekend met de ongeronde groepskosten, waardoor afgeronde onderdelen samen één cent kunnen afwijken. De Lisbonse toeristenbelasting is opgenomen in de City Stays-verblijfspost; controleer of Booking die al in het checkouttotaal heeft verwerkt. Hostel (€60–€180 per deelnemer) blijft een alternatief, maar is niet in deze som opgenomen. De kajak- en snorkeltour (€80-€120 per deelnemer) blijft het alternatief en zit niet in deze som; in de kajakformule zit de excursietransfer al. Eten, drinken en nachtleven zijn niet opgenomen; de BBQ en de open bar aan boord zitten wél in de €69-kaartprijs per deelnemer.
+De volledige groepskosten voor 13 deelnemers (Tim inbegrepen) zijn door 12 betalende gasten gedeeld; de bedragen in de tabel zijn dus inclusief 1/12 van Tims aandeel. Groepstotalen zijn **€4.698,52** minimum, **€4.789,52** realistisch en **€4.880,52** maximum. De tabelbedragen zijn op centen afgerond; de totaalbijdrage is berekend met de ongeronde groepskosten, waardoor afgeronde onderdelen samen één cent kunnen afwijken. De €30 voor transfers en lokaal vervoer is een vaste raming per deelnemer; controleer de werkelijke vervoerskosten wanneer het programma en de transferopties vaststaan. De Lisbonse toeristenbelasting is opgenomen in de City Stays-verblijfspost; controleer of Booking die al in het checkouttotaal heeft verwerkt. Hostel (€60–€180 per deelnemer) blijft een alternatief, maar is niet in deze som opgenomen. Het Benfica Museum kost €24 per deelnemer en het wedstrijdticket naar schatting €45 per deelnemer. Beide staan niet in het basistotaal en zijn alternatieven: vink er in de kostenvergelijking maximaal één aan. De lange kajak- en snorkeltour (€80-€120 per deelnemer) blijft in deze Markdown-fiche als alternatief; in de tourprijs zit de excursietransfer. Eten, drinken en nachtleven zijn niet opgenomen; de BBQ en de open bar aan boord zitten wél in de €69-kaartprijs per deelnemer.
 
-Voetbal is optioneel: **+€45 per deelnemer** (richtprijs Benfica-ticket), alleen als aftrap en ticketbeschikbaarheid passen; de post staat standaard uitgevinkt in de kostenvergelijking. Met de City Stays-optie is de realistische raming **circa €404,54 per betalende gast** bij een vlucht van €162 en gemiddeld lokaal vervoer; de TAP-prijs van €155-€169 is eerst per deelnemer geprijsd en omvat kleine tas en handbagage. Alle prijzen en beschikbaarheid voor 13 personen moeten opnieuw worden bevestigd.
+De Benfica-optie is óf het museumbezoek (€24 per deelnemer; €26 per betalende gast) óf een wedstrijdticket (richtprijs €45 per deelnemer; €48,75 per betalende gast), niet beide tegelijk. De wedstrijd kan alleen worden gekozen als aftrap en ticketbeschikbaarheid passen. Met de City Stays-optie is de realistische basisraming **circa €399,13 per betalende gast** bij een vlucht van €162 en €30 per deelnemer voor transfers en lokaal vervoer; de TAP-prijs van €155-€169 is eerst per deelnemer geprijsd en omvat kleine tas en handbagage. Alle prijzen en beschikbaarheid voor 13 personen moeten opnieuw worden bevestigd.
 
 ### Groepstotalen voor 13 personen
 
-- Totaal met City Stays inclusief toeristenbelasting en Splash Boat Party, zonder voetbal: **€4.568,52-€5.140,52 voor 13 deelnemers**; realistische middenraming **€4.854,52**. Dat is **€380,71-€428,38 per betalende gast**, realistisch **€404,54** (groepssom ÷12).
+- Totaal met City Stays inclusief toeristenbelasting en Splash Boat Party, zonder Benfica-optie: **€4.698,52-€4.880,52 voor 13 deelnemers**; realistische middenraming **€4.789,52**. Dat is **€391,54-€406,71 per betalende gast**, realistisch **€399,13** (groepssom ÷12).
 
 Belgische reizigers kunnen Portugal bezoeken met een geldige Belgische identiteitskaart. Er zijn geen ETA- of visumkosten voor dit korte verblijf.
 

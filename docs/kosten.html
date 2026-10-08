@@ -63,7 +63,7 @@
             <div>
               <p class="section-kicker">01 / bijdrage per betalende gast</p>
               <h2 id="comparison-title">Bestemmingen naast elkaar.</h2>
-              <p class="comparison-intro">De basisselectie sluit aan op de huidige kostenramingen. Elke kostenpost is eerst berekend voor 13 deelnemers, Tim inbegrepen; daarna wordt de volledige groepssom door 12 betalende gasten gedeeld. Tim betaalt dus niet zelf. Lissabon gebruikt City Stays Cais do Sodré inclusief geraamde toeristenbelasting. Amsterdam heeft twee verblijfopties: BUNK-hotel (€184 per deelnemer, geselecteerd) en Hostel Heart of Amsterdam (€120,83 per deelnemer). Verblijfsprijs en stadsparking staan los van elkaar.</p>
+              <p class="comparison-intro">De basisselectie sluit aan op de huidige kostenramingen. Elke kostenpost is eerst berekend voor 13 deelnemers, Tim inbegrepen; daarna wordt de volledige groepssom door 12 betalende gasten gedeeld. Tim betaalt dus niet zelf. Lissabon gebruikt City Stays Cais do Sodré inclusief geraamde toeristenbelasting. Amsterdam heeft twee verblijfopties: BUNK-hotel (€184 per deelnemer, geselecteerd) en Hostel Heart of Amsterdam (€120,83 per deelnemer). Parkeren is één ruime raming van €15 per deelnemer, los van de verblijfkeuze.</p>
             </div>
             <button class="button button--ghost comparison-reset" type="button" data-reset-costs>Herstel basisselectie</button>
           </div>
@@ -100,10 +100,10 @@
                 <tr>
                   <th scope="row">Transfers / lokaal vervoer</th>
                   <td class="cost-cell">
-                    <label class="cost-choice"><input type="checkbox" data-cost-item="lissabon-local" data-city="lissabon" data-min="20" data-max="50" checked><span>€20–50</span></label>
-                    <button class="cost-info" type="button" data-tooltip="Indicatie per persoon voor luchthavenvervoer en lokaal vervoer, inclusief de rit naar Doca do Espanhol voor het Splash Boat Party. De kajaktour (alternatief) bevat de excursietransfer zelf." aria-label="Info over vervoer in Lissabon">i</button>
+                    <label class="cost-choice"><input type="checkbox" data-cost-item="lissabon-local" data-city="lissabon" data-min="30" data-max="30" checked><span>€30</span></label>
+                    <button class="cost-info" type="button" data-tooltip="Vaste ruime raming van €30 per deelnemer voor luchthaven- en lokaal vervoer, inclusief de rit naar Doca do Espanhol voor het Splash Boat Party. Voor 13 deelnemers is dat €390 groepskosten, of €32,50 per betalende gast." aria-label="Info over vervoer in Lissabon">i</button>
                   </td>
-                  <td class="cost-empty" aria-label="BUNK-parking staat apart onder verblijf; P+R en lokaal vervoer niet opgenomen">—</td>
+                  <td class="cost-empty" aria-label="Amsterdam-parkeeraming staat los van verblijf; lokaal vervoer niet opgenomen">—</td>
                 </tr>
 
                 <tr class="comparison-category"><th colspan="3" scope="colgroup">Verblijf · 2 nachten</th></tr>
@@ -119,8 +119,8 @@
                   <th scope="row">Hostel</th>
                   <td class="cost-empty" aria-label="Hostelalternatief momenteel niet geselecteerd voor Lissabon">—</td>
                   <td class="cost-cell">
-                    <label class="cost-choice"><input type="checkbox" data-cost-item="amsterdam-heart-hostel" data-city="amsterdam" data-exclusive-group="amsterdam-stay amsterdam-bunk-parking" data-min="120.83" data-max="120.83"><span>€120,83</span></label>
-                    <button class="cost-info" type="button" data-tooltip="Hostel Heart of Amsterdam, twee nachten: €120,83 per deelnemer. Deze post wisselt het BUNK-hotel én de bijbehorende BUNK-parking in de verblijfrij om; heb je later toch BUNK nodig, zet dan de parking er apart weer bij. Kamerverdeling, ontbijt, belastingen en parkeerregeling voor 13 personen nog bevestigen." aria-label="Info over Hostel Heart of Amsterdam">i</button>
+                    <label class="cost-choice"><input type="checkbox" data-cost-item="amsterdam-heart-hostel" data-city="amsterdam" data-exclusive-group="amsterdam-stay" data-min="120.83" data-max="120.83"><span>€120,83</span></label>
+                    <button class="cost-info" type="button" data-tooltip="Hostel Heart of Amsterdam, twee nachten: €120,83 per deelnemer. Deze post vervangt alleen het BUNK-hotel. De aparte parkeerpost van €15 per deelnemer blijft hetzelfde, ongeacht het gekozen verblijf. Kamerverdeling, ontbijt, belastingen en parkeerregeling voor 13 personen nog bevestigen." aria-label="Info over Hostel Heart of Amsterdam">i</button>
                   </td>
                 </tr>
                 <tr>
@@ -132,11 +132,11 @@
                   </td>
                 </tr>
                 <tr>
-                  <th scope="row">Stadsparking · 3 auto’s</th>
+                  <th scope="row">Parkeren · ruime raming</th>
                   <td class="cost-empty" aria-label="Niet van toepassing">—</td>
                   <td class="cost-cell">
-                    <label class="cost-choice"><input type="checkbox" data-cost-item="amsterdam-bunk-parking" data-city="amsterdam" data-exclusive-group="amsterdam-bunk-parking" data-min="15.2307692308" data-max="15.2307692308" checked><span>€15,23</span></label>
-                    <button class="cost-info" type="button" data-tooltip="BUNK-parking apart van het hotelbedrag: €22 per auto per dag. Raming voor 3 auto’s × 3 betaalde dagen = €198 totaal / 13 = €15,23 per deelnemer. De groepskost van €198 wordt gedeeld door 12 betalende gasten (€16,50 per gast). Hoort bij de BUNK-kamer en valt weg zodra je het Hostel Heart of Amsterdam kiest. Beperkte plaatsen; vooraf bij het hotel bevestigen." aria-label="Info over de parkeerkosten bij BUNK Amsterdam">i</button>
+                    <label class="cost-choice"><input type="checkbox" data-cost-item="amsterdam-parking" data-city="amsterdam" data-min="15" data-max="15" checked><span>€15</span></label>
+                    <button class="cost-info" type="button" data-tooltip="Ruime parkeeraming: €15 per deelnemer, onafhankelijk van het gekozen hotel of hostel. Voor 13 deelnemers is dat €195 groepskosten; gedeeld door 12 betalende gasten is de bijdrage €16,25 per gast. De uiteindelijke kosten hangen af van de gekozen parkeerlocatie." aria-label="Info over de parkeeraming in Amsterdam">i</button>
                   </td>
                 </tr>
 
@@ -144,7 +144,7 @@
                 <tr>
                   <th scope="row">Activiteit 1</th>
                   <td class="cost-cell">
-                    <label class="cost-choice"><input type="checkbox" data-cost-item="lissabon-splash-boat" data-city="lissabon" data-exclusive-group="lissabon-saturday" data-min="69" data-max="69" checked><span>€69</span></label>
+                    <label class="cost-choice"><input type="checkbox" data-cost-item="lissabon-splash-boat" data-city="lissabon" data-min="69" data-max="69" checked><span>€69</span></label>
                     <button class="cost-info" type="button" data-tooltip="Splash Boat Party Lisbon, zaterdag 17 april 2027 van 14:00 tot 18:00. Vier uur all-inclusive: open bar, verse BBQ aan boord en een zwempauze; vertrek aan Doca do Espanhol. Kom 20-30 minuten vroeger voor check-in; 18+ met identiteitskaart." aria-label="Info over activiteit 1 in Lissabon: Splash Boat Party">i</button>
                   </td>
                   <td class="cost-cell">
@@ -155,8 +155,8 @@
                 <tr>
                   <th scope="row">Activiteit 2</th>
                   <td class="cost-cell">
-                    <label class="cost-choice"><input type="checkbox" data-cost-item="lissabon-benfica" data-city="lissabon" data-min="45" data-max="45"><span>€45</span></label>
-                    <button class="cost-info" type="button" data-tooltip="Bonus: SL Benfica - CD Nacional op zondag 18 april 2027 in het Estádio da Luz. Richtprijs €45 voor een regulier ticket; aftrap en verkoop nog bevestigen. Bij een late avondaftrap past de retourvlucht van 20:05 niet. Standaard uitgevinkt." aria-label="Info over activiteit 2 in Lissabon: Benfica-ticket">i</button>
+                    <label class="cost-choice"><input type="checkbox" data-cost-item="lissabon-benfica" data-city="lissabon" data-exclusive-group="lissabon-benfica-option" data-min="45" data-max="45"><span>€45</span></label>
+                    <button class="cost-info" type="button" data-tooltip="Wedstrijd: SL Benfica - CD Nacional op zondag 18 april 2027 in het Estádio da Luz. Richtprijs €45 per deelnemer; circa €585 voor 13, of €48,75 per betalende gast. Aftrap en ticketverkoop nog bevestigen. Deze optie kan niet tegelijk met het Benfica Museum worden geselecteerd." aria-label="Info over activiteit 2 in Lissabon: Benfica-wedstrijd">i</button>
                   </td>
                   <td class="cost-cell">
                     <label class="cost-choice"><input type="checkbox" data-cost-item="amsterdam-prison-island" data-city="amsterdam" data-min="26.5" data-max="26.5" checked><span>€26,50</span></label>
@@ -166,8 +166,8 @@
                 <tr>
                   <th scope="row">Activiteit 3</th>
                   <td class="cost-cell">
-                    <label class="cost-choice"><input type="checkbox" data-cost-item="lissabon-kayak" data-city="lissabon" data-exclusive-group="lissabon-saturday" data-min="80" data-max="120"><span>€80–120</span></label>
-                    <button class="cost-info" type="button" data-tooltip="Kajak en snorkel bij Arrábida/Sesimbra. De excursietransfer zit in deze prijs; datum, groepscapaciteit en tarief nog bevestigen. Alternatief voor het Splash Boat Party: circa 6,5-7 uur, op zaterdag 17 april niet te combineren met het bootfeest van 14:00-18:00." aria-label="Info over activiteit 3 in Lissabon: kajak en snorkel">i</button>
+                    <label class="cost-choice"><input type="checkbox" data-cost-item="lissabon-benfica-museum" data-city="lissabon" data-exclusive-group="lissabon-benfica-option" data-min="24" data-max="24"><span>€24</span></label>
+                    <button class="cost-info" type="button" data-tooltip="Benfica Museum bij het Estádio da Luz, eventueel gecombineerd met de stadiontour. Richtprijs €24 per deelnemer; voor 13 deelnemers €312 groepskosten, of €26 per betalende gast (gedeeld door 12). Controleer openingstijden en beschikbaarheid, zeker op een wedstrijddag. Deze optie kan niet tegelijk met het Benfica-wedstrijdticket worden geselecteerd." aria-label="Info over activiteit 3 in Lissabon: Benfica Museum">i</button>
                   </td>
                     <td class="cost-cell">
                       <label class="cost-choice"><input type="checkbox" data-cost-item="amsterdam-borrelboot" data-city="amsterdam" data-min="39.95" data-max="39.95" checked><span>€39,95</span></label>
@@ -183,8 +183,8 @@
               <tfoot>
                 <tr>
                   <th scope="row">Totaal geselecteerd</th>
-                    <td class="destination-total" data-total-city="lissabon"><strong data-total-per-person>€380,71–428,38 per betalende gast</strong><small data-total-group>€4.568,52–5.140,52 groepskosten voor 13 deelnemers ÷ 12 gasten</small></td>
-                    <td class="destination-total" data-total-city="amsterdam"><strong data-total-per-person>€340,90 per betalende gast</strong><small data-total-group>€4.090,85 groepskosten voor 13 deelnemers ÷ 12 gasten</small></td>
+                    <td class="destination-total" data-total-city="lissabon"><strong data-total-per-person>€391,54–406,71 per betalende gast</strong><small data-total-group>€4.698,52–4.880,52 groepskosten voor 13 deelnemers ÷ 12 gasten</small></td>
+                    <td class="destination-total" data-total-city="amsterdam"><strong data-total-per-person>€340,65 per betalende gast</strong><small data-total-group>€4.087,85 groepskosten voor 13 deelnemers ÷ 12 gasten</small></td>
                 </tr>
               </tfoot>
             </table>
@@ -193,7 +193,7 @@
           <p class="comparison-live" data-cost-status role="status" aria-live="polite"></p>
           <div class="comparison-notes">
             <p><strong>Lezen van de tabel:</strong> een streepje betekent niet van toepassing of niet opgenomen. Klik, focus of hover op het info-icoon voor details.</p>
-            <p>De bedragen in de kostenrijen zijn per deelnemer voor 13 personen. De groepssom (13 × de posten) wordt door 12 gasten gedeeld; de getoonde bijdrage per betalende gast bevat dus ook 1/12 van Tims aandeel. Totalen en bijdragen worden op centen afgerond; verdeel een eventueel afrondingsverschil bij het innen. De Lissabon-verblijfspost bevat €104 geraamde toeristenbelasting; controleer het Booking-eindtotaal om dubbel tellen uit te sluiten. Voor Amsterdam staat BUNK geselecteerd: €184 per deelnemer voor de kamer en €15,23 voor parking, als aparte posten. Het hostel Heart of Amsterdam (€120,83 per deelnemer) is een alternatief; aanvinken vervangt BUNK én de BUNK-parking. Brandstof, P+R, ander lokaal vervoer, eten, drinken, nachtleven en een reservepost zijn niet opgenomen. Je vinkjes worden alleen in deze browser bewaard.</p>
+            <p>De bedragen in de kostenrijen zijn per deelnemer voor 13 personen. De groepssom (13 × de posten) wordt door 12 gasten gedeeld; de getoonde bijdrage per betalende gast bevat dus ook 1/12 van Tims aandeel. Totalen en bijdragen worden op centen afgerond; verdeel een eventueel afrondingsverschil bij het innen. De Lissabon-verblijfspost bevat €104 geraamde toeristenbelasting; controleer het Booking-eindtotaal om dubbel tellen uit te sluiten. Voor Amsterdam staat BUNK geselecteerd: €184 per deelnemer voor de kamer. De parkeerpost is een ruime raming van €15 per deelnemer en blijft gelijk wanneer je tussen BUNK en Hostel Heart of Amsterdam (€120,83 per deelnemer) wisselt. Brandstof, ander lokaal vervoer, eten, drinken, nachtleven en een reservepost zijn niet opgenomen. Je vinkjes worden alleen in deze browser bewaard.</p>
           </div>
           <noscript><p class="comparison-noscript">De tabel blijft leesbaar zonder JavaScript, maar aanvinken en herberekenen vereist JavaScript.</p></noscript>
         </div>

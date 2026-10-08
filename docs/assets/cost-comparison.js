@@ -34,7 +34,6 @@
     if (groups.some((group) => selectedAlternatives.has(group))) item.checked = false;
     else groups.forEach((group) => selectedAlternatives.add(group));
   }
-
   const formatAmount = (amount) => formatter.format(amount);
   const formatRange = (minimum, maximum) => {
     const low = formatAmount(minimum);

@@ -108,34 +108,43 @@ const audit = () => {
       report(total.textContent === baseline, "Restoring a cost did not restore the destination total");
     }
     const lissabonBoat = comparison.querySelector('[data-cost-item="lissabon-splash-boat"]');
-    const lissabonKayak = comparison.querySelector('[data-cost-item="lissabon-kayak"]');
+    const lissabonMuseum = comparison.querySelector('[data-cost-item="lissabon-benfica-museum"]');
+    const lissabonMatch = comparison.querySelector('[data-cost-item="lissabon-benfica"]');
     const lissabonTotal = comparison.querySelector('[data-total-city="lissabon"] [data-total-per-person]');
-    if (lissabonBoat && lissabonKayak && lissabonTotal) {
-      lissabonKayak.checked = true;
-      lissabonKayak.dispatchEvent(new Event("change", { bubbles: true }));
-      report(!lissabonBoat.checked, "Selecting the Lisbon kayak should replace the Saturday boat party");
-      report(lissabonTotal.textContent.includes("€392,63–483,63"), "The Lisbon kayak should reprice the destination total");
-      lissabonBoat.checked = true;
-      lissabonBoat.dispatchEvent(new Event("change", { bubbles: true }));
-      report(!lissabonKayak.checked, "Restoring the boat party should deselect the Lisbon kayak");
-      report(lissabonTotal.textContent.includes("€380,71–428,38"), "Restoring the boat party should restore the Lisbon total");
+    if (lissabonBoat && lissabonMuseum && lissabonMatch && lissabonTotal) {
+      lissabonMuseum.checked = true;
+      lissabonMuseum.dispatchEvent(new Event("change", { bubbles: true }));
+      report(lissabonBoat.checked, "The Sunday Benfica Museum should not replace the Saturday boat party");
+      report(!lissabonMatch.checked, "Selecting the Benfica Museum should deselect the match ticket");
+      report(lissabonTotal.textContent.includes("€417,54–432,71"), "Selecting the Benfica Museum should add its share to the Lisbon total");
+      lissabonMatch.checked = true;
+      lissabonMatch.dispatchEvent(new Event("change", { bubbles: true }));
+      report(!lissabonMuseum.checked, "Selecting the Benfica match should deselect the museum");
+      report(lissabonTotal.textContent.includes("€440,29–455,46"), "Selecting the Benfica match should add its share to the Lisbon total");
+      lissabonMatch.checked = false;
+      lissabonMatch.dispatchEvent(new Event("change", { bubbles: true }));
+      report(lissabonTotal.textContent.includes("€391,54–406,71"), "Clearing the Benfica option should restore the Lisbon base total");
     }
     const amsterdamHostel = comparison.querySelector('[data-cost-item="amsterdam-heart-hostel"]');
     const amsterdamHotel = comparison.querySelector('[data-cost-item="amsterdam-bunk-hotel"]');
-    const amsterdamParking = comparison.querySelector('[data-cost-item="amsterdam-bunk-parking"]');
+    const amsterdamParking = comparison.querySelector('[data-cost-item="amsterdam-parking"]');
     const amsterdamTotal = comparison.querySelector('[data-total-city="amsterdam"] [data-total-per-person]');
     if (amsterdamHostel && amsterdamHotel && amsterdamParking && amsterdamTotal) {
       amsterdamHostel.checked = true;
       amsterdamHostel.dispatchEvent(new Event("change", { bubbles: true }));
-      report(!amsterdamHotel.checked && !amsterdamParking.checked, "Selecting the Amsterdam hostel should replace the BUNK stay and its parking");
-      report(amsterdamTotal.textContent.includes("€255,97"), "The Amsterdam hostel should reprice the destination total");
+      report(!amsterdamHotel.checked && amsterdamParking.checked && !amsterdamParking.disabled, "Selecting the Amsterdam hostel should keep the shared parking estimate selected");
+      report(amsterdamTotal.textContent.includes("€272,22"), "The Amsterdam hostel total should include shared parking");
+      amsterdamParking.checked = false;
+      amsterdamParking.dispatchEvent(new Event("change", { bubbles: true }));
+      report(amsterdamHostel.checked && !amsterdamParking.checked, "Parking should be independently toggleable with the hostel");
+      report(amsterdamTotal.textContent.includes("€255,97"), "Unchecking parking should remove its share from the hostel total");
+      amsterdamParking.checked = true;
+      amsterdamParking.dispatchEvent(new Event("change", { bubbles: true }));
       amsterdamHotel.checked = true;
       amsterdamHotel.dispatchEvent(new Event("change", { bubbles: true }));
       report(!amsterdamHostel.checked, "Restoring the BUNK hotel should deselect the Amsterdam hostel");
-      amsterdamParking.checked = true;
-      amsterdamParking.dispatchEvent(new Event("change", { bubbles: true }));
-      report(amsterdamHotel.checked && amsterdamParking.checked, "Restoring the BUNK parking should keep the BUNK hotel selected");
-      report(amsterdamTotal.textContent.includes("€340,90"), "Restoring the BUNK stay should restore the Amsterdam total");
+      report(amsterdamHotel.checked && amsterdamParking.checked, "The shared parking estimate should remain selected with BUNK");
+      report(amsterdamTotal.textContent.includes("€340,65"), "Restoring the BUNK stay should restore the Amsterdam total");
     }
     const info = comparison.querySelector(".cost-info[data-tooltip]");
     if (info) {

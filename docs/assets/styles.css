@@ -1868,6 +1868,7 @@ a.destination-card:focus-visible {
   color: var(--muted-dark);
 }
 
+
 .cost-info {
   display: inline-grid;
   width: 32px;
