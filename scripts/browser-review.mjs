@@ -128,14 +128,14 @@ const audit = () => {
       amsterdamHostel.checked = true;
       amsterdamHostel.dispatchEvent(new Event("change", { bubbles: true }));
       report(!amsterdamHotel.checked && !amsterdamParking.checked, "Selecting the Amsterdam hostel should replace the BUNK stay and its parking");
-      report(amsterdamTotal.textContent.includes("€236–246"), "The Amsterdam hostel should reprice the destination total");
+      report(amsterdamTotal.textContent.includes("€246–256"), "The Amsterdam hostel should reprice the destination total");
       amsterdamHotel.checked = true;
       amsterdamHotel.dispatchEvent(new Event("change", { bubbles: true }));
       report(!amsterdamHostel.checked, "Restoring the BUNK hotel should deselect the Amsterdam hostel");
       amsterdamParking.checked = true;
       amsterdamParking.dispatchEvent(new Event("change", { bubbles: true }));
       report(amsterdamHotel.checked && amsterdamParking.checked, "Restoring the BUNK parking should keep the BUNK hotel selected");
-      report(amsterdamTotal.textContent.includes("€314–324"), "Restoring the BUNK stay should restore the Amsterdam total");
+      report(amsterdamTotal.textContent.includes("€325–335"), "Restoring the BUNK stay should restore the Amsterdam total");
     }
     const info = comparison.querySelector(".cost-info[data-tooltip]");
     if (info) {

@@ -111,7 +111,7 @@ test("cost comparison starts with destination budgets matching the detail pages"
   const html = await readFile(resolve(root, "docs/kosten.html"), "utf8");
   const expected = {
     lissabon: [351, 395],
-    amsterdam: [314, 324],
+    amsterdam: [325, 335],
   };
   const sums = Object.fromEntries(Object.keys(expected).map((city) => [city, [0, 0]]));
   const items = [...html.matchAll(/<input type="checkbox" data-cost-item="([^"]+)" data-city="([^"]+)"[^>]*data-min="([\d.]+)" data-max="([\d.]+)"([^>]*)>/g)];
@@ -136,7 +136,7 @@ test("cost comparison starts with destination budgets matching the detail pages"
   assert.match(html, /Activiteit 1[\s\S]*Activiteit 4/);
   assert.match(html, /data-tooltip="A’DAM VR Level 2 Action/);
   assert.match(html, /data-tooltip="Kajak en snorkel/);
-  assert.match(html, /class="cost-unknown"/);
+  assert.match(html, /data-cost-item="lissabon-splash-boat".*?data-exclusive-group="lissabon-saturday"/);
   assert.match(html, /data-cost-item="lissabon-splash-boat".*?data-exclusive-group="lissabon-saturday"/);
   assert.match(html, /data-cost-item="amsterdam-bunk-hotel"/);
   assert.match(html, /data-cost-item="amsterdam-bunk-parking"/);
@@ -213,8 +213,8 @@ test("key content regressions stay fixed", async () => {
   const amsterdam = await readFile(resolve(root, "docs/bestemmingen/amsterdam.html"), "utf8");
   assert.match(amsterdam, /A’DAM VR Level 2 Action/);
   assert.match(amsterdam, /Prison Island/);
-  assert.match(amsterdam, /zondagvoormiddag is nog niet ingevuld/i);
-  assert.match(amsterdam, /naar zondag worden verplaatst/);
+  assert.match(amsterdam, /borrelboot/i);
+  assert.doesNotMatch(amsterdam, /LOOKOUT/i);
   const css = await readFile(resolve(root, "docs/assets/styles.css"), "utf8");
   assert.match(css, /a:focus-visible/);
   assert.match(css, /prefers-reduced-motion/);
