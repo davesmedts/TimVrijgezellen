@@ -12,6 +12,8 @@ function render(options = {}) {
   const events = {};
   const windowEvents = {};
   const saved = new Map(options.saved === undefined ? [] : [["tim-theme", options.saved]]);
+  const session = options.sessionStorage ?? new Map();
+  let cookie = options.cookie ?? "";
   let ready;
   const toggle = {
     hidden: true,
@@ -22,6 +24,8 @@ function render(options = {}) {
     document: {
       documentElement: root,
       readyState: options.ready ? "complete" : "loading",
+      get cookie() { return cookie; },
+      set cookie(value) { cookie = value; },
       querySelector: (selector) => selector === "[data-theme-toggle]"
         ? options.noToggle ? null : toggle
         : options.noMeta ? null : { setAttribute: (name, value) => { meta[name] = value; } },
@@ -39,6 +43,13 @@ function render(options = {}) {
           },
         };
       },
+      get sessionStorage() {
+        if (options.noSession) throw new Error("Session storage unavailable");
+        return {
+          getItem: (key) => session.get(key) ?? null,
+          setItem: (key, value) => session.set(key, value),
+        };
+      },
     },
   });
   return {
@@ -47,6 +58,8 @@ function render(options = {}) {
     attributes,
     meta,
     saved,
+    session,
+    get cookie() { return cookie; },
     ready: () => ready?.(),
     click: () => events.click?.(),
     emit: (name, event = {}) => windowEvents[name]?.(event),
@@ -118,6 +131,21 @@ test("sync keeps working when storage is blocked", () => {
   assert.equal(page.root.dataset.theme, "dark");
   page.click();
   assert.equal(page.root.dataset.theme, "light");
+});
+
+test("carries the choice via session storage and a cookie when local storage is blocked", () => {
+  const page = render({ blocked: true, ready: true });
+  page.click();
+  assert.equal(page.root.dataset.theme, "light");
+  assert.equal(page.session.get("tim-theme"), "light");
+  assert.match(page.cookie, /tim-theme=light/);
+
+  const next = render({ blocked: true, ready: true, sessionStorage: page.session, cookie: page.cookie });
+  assert.equal(next.root.dataset.theme, "light");
+  next.click();
+  assert.equal(next.root.dataset.theme, "dark");
+  assert.equal(next.session.get("tim-theme"), "dark");
+  assert.match(next.cookie, /tim-theme=dark/);
 });
 
 test("ignores invalid saved preferences", () => {

@@ -81,7 +81,7 @@ test("every page has a shared, accessible header theme switch with early initial
   for (const path of htmlFiles) {
     const html = await readFile(path, "utf8");
     const head = html.match(/<head>([\s\S]*?)<\/head>/)?.[1];
-    const script = head.match(/<script src="[^\"]*assets\/theme\.js"><\/script>/)?.[0];
+    const script = head.match(/<script src="[^\"]*assets\/theme\.js(?:\?v=\d+)?"><\/script>/)?.[0];
     assert.ok(script, `Theme must initialize before rendering in ${path}`);
     assert.ok(head.indexOf(script) < head.indexOf('<link rel="stylesheet"'), path);
     assert.equal((html.match(/data-theme-toggle/g) ?? []).length, 1, path);

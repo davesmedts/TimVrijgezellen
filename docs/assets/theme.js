@@ -5,15 +5,60 @@
   let toggle;
   let theme = "dark";
 
-  const readStoredTheme = () => {
+  const readCookie = () => {
     try {
-      return window.localStorage.getItem(storageKey) === "light" ? "light" : "dark";
+      return document.cookie.match(/(?:^|;\s*)tim-theme=(light|dark)(?:;|$)/)?.[1] ?? null;
     } catch {
-      // Storage can be unavailable when opening a local file or blocking site data.
-      // Keep the theme this page is already showing.
-      return theme;
+      return null;
     }
   };
+
+  const writeCookie = (value) => {
+    try {
+      document.cookie = `tim-theme=${value}; max-age=31536000; path=/; SameSite=Lax`;
+    } catch {
+      // Cookies can be blocked as well; the in-memory theme keeps working.
+    }
+  };
+
+  const readStore = (store) => {
+    try {
+      const value = store.getItem(storageKey);
+      return value === "light" || value === "dark" ? value : null;
+    } catch {
+      return null;
+    }
+  };
+
+  const writeStore = (store, value) => {
+    try {
+      store.setItem(storageKey, value);
+    } catch {
+      // This store can be unavailable or full; the other stores still get the value.
+    }
+  };
+
+  // Local storage is the source of truth. Session storage and a cookie carry the
+  // choice when the browser blocks, clears or partitions local storage.
+  const readStoredTheme = () => {
+    for (const store of availableStores()) {
+      const value = readStore(store);
+      if (value) return value;
+    }
+    return readCookie() ?? theme;
+  };
+
+  const writeStoredTheme = (value) => {
+    for (const store of availableStores()) writeStore(store, value);
+    writeCookie(value);
+  };
+
+  function availableStores() {
+    const stores = [];
+    try { stores.push(window.localStorage); } catch { /* storage blocked */ }
+    try { stores.push(window.sessionStorage); } catch { /* storage blocked */ }
+    return stores;
+  }
 
   theme = readStoredTheme();
 
@@ -50,11 +95,7 @@
     toggle.addEventListener("click", () => {
       theme = theme === "light" ? "dark" : "light";
       applyTheme();
-      try {
-        window.localStorage.setItem(storageKey, theme);
-      } catch {
-        // Switching still works for this page when the preference cannot be saved.
-      }
+      writeStoredTheme(theme);
     });
   };
 
