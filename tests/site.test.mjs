@@ -81,7 +81,7 @@ test("destination cost cards add up and exclude spending/reserve", async () => {
     assert.equal(displayedAmounts.length, 1 + (Number(total[1]) !== Number(total[2]) ? 1 : 0), path);
     assert.ok(Math.abs(displayedAmounts[0] - Number(total[1])) < 0.01, `Displayed minimum differs from checked values in ${path}`);
     assert.ok(Math.abs(displayedAmounts.at(-1) - Number(total[2])) < 0.01, `Displayed maximum differs from checked values in ${path}`);
-    assert.match(html, /Richtprijzen|geen offerte|geen bevestigde boekingen/, path);
+    assert.match(html, /class="panel-label">voorlopige berekening<\/p>/, path);
     assert.match(html, /class="sun-summary"/, path);
     assert.doesNotMatch(html, /weather-sun-table/, path);
   }

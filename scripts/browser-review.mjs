@@ -122,24 +122,24 @@ const audit = () => {
       lissabonMuseum.dispatchEvent(new Event("change", { bubbles: true }));
       report(lissabonBoat.checked, "The Sunday Benfica Museum should not replace the Saturday boat party");
       report(!lissabonMatch.checked, "Selecting the Benfica Museum should deselect the match ticket");
-      report(lissabonTotal.textContent.includes("€417,54–432,71"), "Selecting the Benfica Museum should add its share to the Lisbon total");
+      report(lissabonTotal.textContent.includes("€450,04–476,04"), "Selecting the Benfica Museum should add its share to the Lisbon total");
       lissabonMatch.checked = true;
       lissabonMatch.dispatchEvent(new Event("change", { bubbles: true }));
       report(!lissabonMuseum.checked, "Selecting the Benfica match should deselect the museum");
-      report(lissabonTotal.textContent.includes("€440,29–455,46"), "Selecting the Benfica match should add its share to the Lisbon total");
+      report(lissabonTotal.textContent.includes("€472,79–498,79"), "Selecting the Benfica match should add its share to the Lisbon total");
       lissabonMatch.checked = false;
       lissabonMatch.dispatchEvent(new Event("change", { bubbles: true }));
-      report(lissabonTotal.textContent.includes("€391,54–406,71"), "Clearing the Benfica option should restore the Lisbon base total");
+      report(lissabonTotal.textContent.includes("€424,04–450,04"), "Clearing the Benfica option should restore the Lisbon total including the Oeiras kayak");
     }
     const lissabonOeirasKayak = comparison.querySelector('[data-cost-item="lissabon-oeiras-kayak"]');
     if (lissabonBoat && lissabonMuseum && lissabonMatch && lissabonOeirasKayak && lissabonTotal) {
+      lissabonOeirasKayak.checked = false;
+      lissabonOeirasKayak.dispatchEvent(new Event("change", { bubbles: true }));
+      report(lissabonTotal.textContent.includes("€391,54–406,71"), "Unchecking the Oeiras kayak should show the Lisbon base total");
       lissabonOeirasKayak.checked = true;
       lissabonOeirasKayak.dispatchEvent(new Event("change", { bubbles: true }));
       report(lissabonBoat.checked && !lissabonMuseum.checked && !lissabonMatch.checked, "The Oeiras kayak should be an independent Sunday activity option");
-      report(lissabonTotal.textContent.includes("€424,04–450,04"), "The Oeiras kayak should add its price range to the Lisbon total");
-      lissabonOeirasKayak.checked = false;
-      lissabonOeirasKayak.dispatchEvent(new Event("change", { bubbles: true }));
-      report(lissabonTotal.textContent.includes("€391,54–406,71"), "Removing the Oeiras kayak should restore the Lisbon base total");
+      report(lissabonTotal.textContent.includes("€424,04–450,04"), "The Oeiras kayak should be included in the preliminary Lisbon total");
     }
     const amsterdamHostel = comparison.querySelector('[data-cost-item="amsterdam-heart-hostel"]');
     const amsterdamHotel = comparison.querySelector('[data-cost-item="amsterdam-bunk-hotel"]');
