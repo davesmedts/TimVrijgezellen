@@ -2052,11 +2052,26 @@ a.destination-card:focus-visible {
     width: min(100% - 28px, 1160px);
   }
 
+  .cost-comparison {
+    min-width: 640px;
+  }
+
+  .cost-comparison th,
+  .cost-comparison td {
+    min-width: 0;
+    padding: 0.55rem 0.5rem;
+  }
+
   .cost-comparison .comparison-row-heading,
   .cost-comparison tbody th[scope="row"],
   .cost-comparison tfoot th[scope="row"] {
-    width: min(45vw, 205px);
-    min-width: min(45vw, 205px);
+    width: min(38vw, 150px);
+    min-width: min(38vw, 150px);
+  }
+
+  .destination-total strong {
+    white-space: normal;
+    overflow-wrap: anywhere;
   }
 
   .site-header {
