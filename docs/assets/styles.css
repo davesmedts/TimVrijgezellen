@@ -2052,6 +2052,13 @@ a.destination-card:focus-visible {
     width: min(100% - 28px, 1160px);
   }
 
+  .cost-comparison .comparison-row-heading,
+  .cost-comparison tbody th[scope="row"],
+  .cost-comparison tfoot th[scope="row"] {
+    width: min(45vw, 205px);
+    min-width: min(45vw, 205px);
+  }
+
   .site-header {
     position: relative;
   }

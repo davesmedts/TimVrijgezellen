@@ -95,6 +95,8 @@ const audit = () => {
     const scroller = document.querySelector(".comparison-table-scroll");
     report(Boolean(scroller), "Cost comparison scroll region missing");
     if (width <= 900) report(scroller.scrollWidth > scroller.clientWidth, "Cost comparison should scroll horizontally on narrow screens");
+    const rowHeading = comparison.querySelector(".comparison-row-heading");
+    if (width <= 720 && rowHeading) report(rowHeading.getBoundingClientRect().width <= width * 0.5 + 1, "The cost table's first column should stay within half the screen on mobile");
     if (width >= 1440) report(scroller.scrollWidth <= scroller.clientWidth + 1, "Cost comparison should show all destinations on wide screens");
     const total = document.querySelector('[data-total-city="lissabon"] [data-total-per-person]');
     const firstItem = comparison.querySelector('[data-cost-item="lissabon-flight"]');
