@@ -23,6 +23,9 @@ test("website links, fragment targets, landmarks, and navigation", async () => {
     assert.match(html, /<!doctype html>/i, path);
     assert.match(html, /<html lang="nl">/, path);
     assert.equal((html.match(/<h1[\s>]/g) ?? []).length, 1, path);
+    assert.match(html, /<h1 class="green">/, `Main title should use a single green color in ${path}`);
+    const mainTitle = html.match(/<h1\b[^>]*>[\s\S]*?<\/h1>/)?.[0] ?? "";
+    assert.doesNotMatch(mainTitle, /class="(?:blue|text-gradient)"/, `Main title should not mix accent colors in ${path}`);
     assert.equal((html.match(/<main[\s>]/g) ?? []).length, 1, path);
     assert.equal((html.match(/aria-current="page"/g) ?? []).length, 1, path);
     assert.match(html, /<meta name="viewport"/, path);
