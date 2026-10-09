@@ -90,7 +90,7 @@ Lissabon heeft metro, trams, bussen, taxi’s en ritdiensten. De luchthaven ligt
 - **Zaterdagvoormiddag - ontbijt en stadswandeling:** rustig ontbijt in de buurt en daarna een zelfgeleide verkenning van Baixa, Chiado en Alfama. Rond **13:30** naar de Doca voor de boot.
 - **Zaterdagnamiddag - Splash Boat Party:** check-in vanaf circa 13:30 aan de Doca do Espanhol; van **14:00 tot 18:00** all-inclusive op de Taag (open bar, BBQ, DJ's, zwempauze).
 - **Zaterdagavond - Bairro Alto en nachtleven:** diner op reservatie en daarna bars in Bairro Alto, rond Cais do Sodré of op Pink Street. De BBQ aan boord is de lunch; het diner is eigen kosten.
-- **Zondag overdag - nog te bepalen:** mogelijkheden zijn het Benfica Museum bij het Estádio da Luz (€24 per deelnemer), Sintra of Belém; stem de keuze af op uitchecken en bagage. Voor het museum is dat €312 voor 13 deelnemers, of €26 per betalende gast (groepssom ÷12); controleer openingstijden en beschikbaarheid. Kies het museum óf het Benfica-wedstrijdticket.
+- **Zondag overdag - nog te bepalen:** mogelijkheden zijn een kajaktour in Oeiras (€30–€40 per deelnemer), het Benfica Museum bij het Estádio da Luz (€24 per deelnemer), Sintra of Belém; stem de keuze af op uitchecken en bagage. Voor het museum is dat €312 voor 13 deelnemers, of €26 per betalende gast (groepssom ÷12); controleer openingstijden en beschikbaarheid. Kies het museum óf het Benfica-wedstrijdticket.
 - **Zondagavond - terugkeer naar huis:** TAP TP646 vertrekt om **20:05** vanaf Lissabon en landt om **23:55** in Brussel; daarna de rit naar Antwerpen/Brecht. De groep is daarmee **nog niet zondagavond thuis**; dat is een bewuste afweging, of er moet een vroegere retour worden gezocht.
 
 De volledige kajak- en snorkeltour naar Arrábida/Sesimbra (09:30-15:30) kan in dit schema alleen op zondag, mits de transfer en de rust nadien meegerekend worden; op zaterdag botst ze met het bootfeest.
@@ -101,6 +101,7 @@ De volledige kajak- en snorkeltour naar Arrábida/Sesimbra (09:30-15:30) kan in 
 - Splash Boat Party op de Taag, zaterdag 14:00-18:00.
 - Boottocht op de Taag bij zonsondergang.
 - **Benfica Museum** bij het Estádio da Luz: richtprijs **€24 per deelnemer**; €312 voor 13 of **€26 per betalende gast**. Dit is een alternatief voor het Benfica-wedstrijdticket; vink er maar één aan.
+- Kajaktour in Oeiras op zondag: **€30–€40 per deelnemer**. Voor 13 deelnemers kost de tour €390–€520, of **€32,50–€43,33 per betalende gast**.
 - Bezoek aan Belém, Torre de Belém en het Jerónimosklooster.
 - Surfles of strandactiviteit in Cascais of Carcavelos.
 - Tuk-tuk- of street-arttour.

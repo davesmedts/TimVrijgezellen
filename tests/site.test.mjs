@@ -161,7 +161,9 @@ test("cost comparison starts with destination budgets matching the detail pages"
   assert.match(html, /data-cost-item="lissabon-benfica-museum"[^>]*data-exclusive-group="lissabon-benfica-option"[^>]*data-min="24" data-max="24"/);
   assert.match(html, /data-cost-item="lissabon-benfica"[^>]*data-exclusive-group="lissabon-benfica-option"/);
   assert.match(html, /aria-label="Info over activiteit 3 in Lissabon: Benfica Museum"/);
-  assert.doesNotMatch(html, /kajak|kayak/i);
+  assert.match(html, /data-cost-item="lissabon-oeiras-kayak"[^>]*data-min="30" data-max="40"/);
+  assert.match(html, /aria-label="Info over activiteit 4 in Lissabon: kajaktour in Oeiras"/);
+  assert.doesNotMatch(html, /Arrábida|€80–120|6,5-7 uur/i);
   assert.match(html, /data-cost-item="lissabon-splash-boat"/);
   assert.match(html, /data-cost-item="amsterdam-bunk-hotel"/);
   assert.match(html, /data-cost-item="amsterdam-parking"[^>]*data-min="15" data-max="15" checked/);
@@ -248,10 +250,12 @@ test("key content regressions stay fixed", async () => {
   assert.match(amsterdam, /12 betalende gasten/);
   assert.match(lisbon, /12 betalende gasten/);
   assert.match(lisbon, /Benfica Museum/);
-  assert.doesNotMatch(lisbon, /kajak|kayak/i);
+  assert.match(lisbon, /kajaktour in Oeiras/i);
+  assert.doesNotMatch(lisbon, /Arrábida|€80–120|6,5-7 uur/i);
   const lisbonResearch = await readFile(resolve(root, "Bestemmingen/Lissabon/lissabon.md"), "utf8");
   assert.match(lisbonResearch, /kajak- en snorkeltour/i);
   assert.match(lisbonResearch, /Benfica Museum[\s\S]*?€24 per deelnemer/i);
+  assert.match(lisbonResearch, /kajaktour in Oeiras[\s\S]*?€30–€40 per deelnemer/i);
   const css = await readFile(resolve(root, "docs/assets/styles.css"), "utf8");
   assert.match(css, /a:focus-visible/);
   assert.match(css, /prefers-reduced-motion/);

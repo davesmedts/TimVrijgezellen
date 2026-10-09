@@ -131,6 +131,16 @@ const audit = () => {
       lissabonMatch.dispatchEvent(new Event("change", { bubbles: true }));
       report(lissabonTotal.textContent.includes("€391,54–406,71"), "Clearing the Benfica option should restore the Lisbon base total");
     }
+    const lissabonOeirasKayak = comparison.querySelector('[data-cost-item="lissabon-oeiras-kayak"]');
+    if (lissabonBoat && lissabonMuseum && lissabonMatch && lissabonOeirasKayak && lissabonTotal) {
+      lissabonOeirasKayak.checked = true;
+      lissabonOeirasKayak.dispatchEvent(new Event("change", { bubbles: true }));
+      report(lissabonBoat.checked && !lissabonMuseum.checked && !lissabonMatch.checked, "The Oeiras kayak should be an independent Sunday activity option");
+      report(lissabonTotal.textContent.includes("€424,04–450,04"), "The Oeiras kayak should add its price range to the Lisbon total");
+      lissabonOeirasKayak.checked = false;
+      lissabonOeirasKayak.dispatchEvent(new Event("change", { bubbles: true }));
+      report(lissabonTotal.textContent.includes("€391,54–406,71"), "Removing the Oeiras kayak should restore the Lisbon base total");
+    }
     const amsterdamHostel = comparison.querySelector('[data-cost-item="amsterdam-heart-hostel"]');
     const amsterdamHotel = comparison.querySelector('[data-cost-item="amsterdam-bunk-hotel"]');
     const amsterdamParking = comparison.querySelector('[data-cost-item="amsterdam-parking"]');
