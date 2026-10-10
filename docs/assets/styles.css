@@ -364,12 +364,14 @@ a {
 }
 
 .hero {
-  display: grid;
-  min-height: 570px;
+  display: flex;
+  min-height: 500px;
   padding-block: 84px 72px;
   align-items: center;
-  gap: clamp(3rem, 8vw, 8rem);
-  grid-template-columns: minmax(0, 1.15fr) minmax(340px, 0.85fr);
+}
+
+.hero-copy {
+  max-width: 800px;
 }
 
 .hero > *,
@@ -571,7 +573,6 @@ a {
   background: var(--control-hover);
 }
 
-.terminal-card,
 .panel,
 .fact-card,
 .destination-card,
@@ -580,82 +581,6 @@ a {
   background: var(--surface);
   box-shadow: var(--shadow-card);
   backdrop-filter: blur(14px);
-}
-
-.terminal-card {
-  border-radius: var(--radius);
-  overflow: hidden;
-  transform: rotate(0.7deg);
-}
-
-.window-bar {
-  display: flex;
-  min-height: 42px;
-  padding: 0 1rem;
-  border-bottom: 1px solid var(--border);
-  align-items: center;
-  gap: 0.45rem;
-  background: var(--surface-tint);
-}
-
-.window-dot {
-  width: 8px;
-  height: 8px;
-  border-radius: 50%;
-  opacity: 0.8;
-}
-
-.window-dot--red { background: var(--red); }
-.window-dot--yellow { background: var(--yellow); }
-.window-dot--green { background: var(--green); }
-
-.window-title {
-  margin-left: 0.5rem;
-  color: var(--muted-dark);
-  font-size: 0.62rem;
-}
-
-.terminal-body {
-  padding: 1.7rem;
-  font-size: 0.75rem;
-}
-
-.terminal-body > p {
-  margin: 0 0 1.5rem;
-}
-
-.prompt {
-  margin-right: 0.6rem;
-  color: var(--green);
-}
-
-.terminal-list {
-  display: grid;
-  margin: 0;
-  gap: 0.75rem;
-}
-
-.terminal-list div {
-  display: grid;
-  grid-template-columns: 88px 1fr;
-}
-
-.terminal-list dt {
-  color: var(--muted-dark);
-}
-
-.terminal-list dt::before {
-  color: var(--tree-color);
-  content: "├─ ";
-}
-
-.terminal-list div:last-child dt::before {
-  content: "└─ ";
-}
-
-.terminal-list dd {
-  margin: 0;
-  color: var(--text-secondary);
 }
 
 .yellow { color: var(--yellow) !important; }
@@ -894,7 +819,7 @@ a.destination-card:focus-visible {
 .destination-card__top {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: flex-end;
   flex-wrap: wrap;
   gap: 0.75rem;
 }
@@ -942,6 +867,13 @@ a.destination-card:focus-visible {
   margin: 0 0 0.25rem;
   color: var(--muted-dark);
   font-size: 0.65rem;
+}
+
+.destination-card__title {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0.8rem;
 }
 
 .destination-card__content h3 {
@@ -1126,6 +1058,13 @@ a.destination-card:focus-visible {
   font-size: clamp(3.4rem, 10vw, 8.5rem);
 }
 
+.destination-hero__title-row {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0.85rem;
+}
+
 .destination-score {
   padding-bottom: 0.8rem;
 }
@@ -1133,7 +1072,7 @@ a.destination-card:focus-visible {
 .country-flag--large {
   width: 56px;
   height: 43px;
-  margin-bottom: 1.5rem;
+  flex: 0 0 auto;
 }
 
 .country-flag--large img {
@@ -2038,11 +1977,6 @@ a.destination-card:focus-visible {
 
   .hero {
     min-height: auto;
-    grid-template-columns: 1fr;
-  }
-
-  .terminal-card {
-    max-width: 560px;
   }
 
   .facts-grid {
@@ -2180,10 +2114,6 @@ a.destination-card:focus-visible {
     font-size: 0.85rem;
   }
 
-  .terminal-card {
-    transform: none;
-  }
-
   .section {
     padding-block: 64px;
   }
@@ -2256,7 +2186,6 @@ a.destination-card:focus-visible {
   }
 
   .destination-hero__grid { gap: 1.5rem; }
-  .destination-score .country-flag--large { display: none; }
   .destination-score p { margin-block: 0 0.5rem; }
 
   .quick-strip { grid-template-columns: repeat(2, minmax(0, 1fr)); }
@@ -2320,13 +2249,6 @@ a.destination-card:focus-visible {
     justify-content: center;
   }
 
-  .terminal-body {
-    padding: 1.15rem;
-  }
-
-  .terminal-list div {
-    grid-template-columns: 78px 1fr;
-  }
 }
 
 @media print {
@@ -2336,7 +2258,7 @@ a.destination-card:focus-visible {
   .container { width: 100%; }
   .hero, .destination-hero, .section { min-height: 0; padding-block: 1rem; }
   .detail-layout, .detail-aside { display: block; }
-  .panel, .fact-card, .destination-card, .weather-card, .quick-strip, .terminal-card { background: #fff; box-shadow: none; backdrop-filter: none; transform: none; break-inside: avoid; }
+  .panel, .fact-card, .destination-card, .weather-card, .quick-strip { background: #fff; box-shadow: none; backdrop-filter: none; transform: none; break-inside: avoid; }
   .text-gradient { background: none; color: #111; }
   .budget-card .budget-amount, .sunrise-time, .sunset-time, .quick-strip a { color: #111; }
   .comparison-panel { padding: 0; border: 0; box-shadow: none; backdrop-filter: none; }
