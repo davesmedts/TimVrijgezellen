@@ -57,7 +57,10 @@
       const groupMinimum = sum.minimum * participantCount;
       const groupMaximum = sum.maximum * participantCount;
       total.querySelector("[data-total-per-person]").textContent = `${formatRange(groupMinimum / payerCount, groupMaximum / payerCount)} per betalende gast`;
-      total.querySelector("[data-total-group]").textContent = `${formatRange(groupMinimum, groupMaximum)} groepskosten voor ${participantCount} deelnemers ÷ ${payerCount} gasten`;
+      const groupTotal = total.querySelector("[data-total-group]");
+      if (groupTotal) {
+        groupTotal.textContent = `${formatRange(groupMinimum, groupMaximum)} groepskosten voor ${participantCount} deelnemers ÷ ${payerCount} gasten`;
+      }
     }
 
     if (announce && status) status.textContent = "De geselecteerde ramingen zijn bijgewerkt.";
@@ -119,7 +122,21 @@
       activeInfo.setAttribute("aria-expanded", "false");
     }
     activeInfo = button;
-    tooltip.textContent = text;
+    tooltip.replaceChildren();
+    tooltip.classList.toggle("comparison-tooltip--with-image", Boolean(button.dataset.tooltipImage));
+    const copy = document.createElement("p");
+    copy.className = "comparison-tooltip__copy";
+    copy.textContent = text;
+    tooltip.append(copy);
+    if (button.dataset.tooltipImage) {
+      const image = document.createElement("img");
+      image.className = "comparison-tooltip__image";
+      image.src = button.dataset.tooltipImage;
+      image.alt = button.dataset.tooltipImageAlt ?? "";
+      image.width = Number(button.dataset.tooltipImageWidth) || 529;
+      image.height = Number(button.dataset.tooltipImageHeight) || 152;
+      tooltip.append(image);
+    }
     tooltip.hidden = false;
     button.setAttribute("aria-describedby", tooltip.id);
 
@@ -142,7 +159,7 @@
     activeInfo = null;
   }
 
-  const infoButtons = [...table.querySelectorAll(".cost-info[data-tooltip]")];
+  const infoButtons = [...document.querySelectorAll(".cost-info[data-tooltip]")];
   for (const button of infoButtons) {
     button.setAttribute("aria-expanded", "false");
     button.addEventListener("pointerenter", (event) => {

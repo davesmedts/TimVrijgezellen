@@ -899,7 +899,7 @@ a.destination-card:focus-visible {
   gap: 0.75rem;
 }
 
-.country-code {
+.country-flag {
   display: inline-flex;
   width: 39px;
   height: 31px;
@@ -907,9 +907,13 @@ a.destination-card:focus-visible {
   border-radius: 7px;
   align-items: center;
   justify-content: center;
-  color: var(--text-soft);
-  font-size: 0.67rem;
-  font-weight: 700;
+}
+
+.country-flag img {
+  display: block;
+  width: 22px;
+  height: 15px;
+  border-radius: 1px;
 }
 
 .status-badge {
@@ -1126,11 +1130,15 @@ a.destination-card:focus-visible {
   padding-bottom: 0.8rem;
 }
 
-.country-code--large {
+.country-flag--large {
   width: 56px;
   height: 43px;
   margin-bottom: 1.5rem;
-  font-size: 0.8rem;
+}
+
+.country-flag--large img {
+  width: 30px;
+  height: 20px;
 }
 
 .destination-score p,
@@ -1723,11 +1731,19 @@ a.destination-card:focus-visible {
   letter-spacing: -0.05em;
 }
 
-.comparison-intro {
-  max-width: 760px;
-  margin: 0.5rem 0 0;
-  color: var(--muted);
-  font-size: 0.8rem;
+.comparison-title-row {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0.45rem 0.7rem;
+}
+
+.comparison-title-row h2 {
+  min-width: 0;
+}
+
+.comparison-title-row .cost-info {
+  margin-left: 0;
 }
 
 .comparison-reset {
@@ -1752,7 +1768,7 @@ a.destination-card:focus-visible {
 
 .cost-comparison {
   width: 100%;
-  min-width: 1050px;
+  min-width: 0;
   table-layout: fixed;
   border-collapse: separate;
   border-spacing: 0;
@@ -1760,9 +1776,13 @@ a.destination-card:focus-visible {
   font-variant-numeric: tabular-nums;
 }
 
+.cost-comparison .cost-column-label {
+  width: clamp(5.5rem, 31%, 17.5rem);
+}
+
 .cost-comparison th,
 .cost-comparison td {
-  min-width: 145px;
+  min-width: 0;
   padding: 0.75rem 0.8rem;
   border-right: 1px solid var(--border);
   border-bottom: 1px solid var(--border);
@@ -1800,9 +1820,20 @@ a.destination-card:focus-visible {
   color: var(--blue-bright);
 }
 
-.cost-comparison thead th a span {
-  color: var(--muted-dark);
-  font-size: 0.58rem;
+.cost-comparison thead th a .country-flag-inline {
+  display: inline-flex;
+  width: 20px;
+  height: 14px;
+  flex: 0 0 auto;
+  align-items: center;
+  justify-content: center;
+}
+
+.cost-comparison thead th a .country-flag-inline img {
+  display: block;
+  width: 20px;
+  height: 14px;
+  border-radius: 1px;
 }
 
 .cost-comparison .comparison-row-heading,
@@ -1811,8 +1842,6 @@ a.destination-card:focus-visible {
   position: sticky;
   left: 0;
   z-index: 2;
-  width: 205px;
-  min-width: 205px;
   background: var(--surface-solid);
 }
 
@@ -1838,7 +1867,7 @@ a.destination-card:focus-visible {
 }
 
 .cost-comparison .cost-cell {
-  white-space: nowrap;
+  white-space: normal;
 }
 
 .cost-choice {
@@ -1903,7 +1932,7 @@ a.destination-card:focus-visible {
 }
 
 .destination-total {
-  min-width: 160px !important;
+  min-width: 0 !important;
   background: var(--surface-raised);
 }
 
@@ -1916,7 +1945,7 @@ a.destination-card:focus-visible {
   color: var(--green-bright);
   font-size: 0.78rem;
   font-weight: 700;
-  white-space: nowrap;
+  overflow-wrap: anywhere;
 }
 
 .destination-total small {
@@ -1956,6 +1985,24 @@ a.destination-card:focus-visible {
 
 .comparison-tooltip[hidden] {
   display: none;
+}
+
+.comparison-tooltip--with-image {
+  width: min(360px, calc(100vw - 24px));
+  max-width: min(360px, calc(100vw - 24px));
+}
+
+.comparison-tooltip__copy {
+  margin: 0;
+}
+
+.comparison-tooltip__image {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin-top: 0.65rem;
+  border: 1px solid var(--border);
+  border-radius: 6px;
 }
 
 .comparison-live {
@@ -2053,33 +2100,31 @@ a.destination-card:focus-visible {
   }
 
   .cost-comparison {
-    width: max-content;
-    min-width: 0;
-    table-layout: auto;
+    min-width: 260px;
+    font-size: 0.7rem;
   }
 
   .cost-comparison th,
   .cost-comparison td {
-    min-width: 0;
-    padding: 0.55rem 0.5rem;
+    padding: 0.5rem 0.35rem;
   }
 
-  .cost-comparison .comparison-row-heading,
-  .cost-comparison tbody th[scope="row"],
-  .cost-comparison tfoot th[scope="row"] {
-    width: auto;
-    min-width: 0;
-    max-width: min(38vw, 150px);
+  .cost-choice {
+    gap: 0.35rem;
   }
 
   .cost-comparison .destination-total {
-    min-width: 0 !important;
-    max-width: min(46vw, 180px);
+    max-width: none;
   }
 
   .destination-total strong {
     white-space: normal;
-    overflow-wrap: anywhere;
+  }
+
+  .cost-info {
+    width: 28px;
+    height: 28px;
+    margin-left: 0.15rem;
   }
 
   .site-header {
@@ -2203,7 +2248,7 @@ a.destination-card:focus-visible {
   }
 
   .comparison-panel {
-    padding: 1rem;
+    padding: 0.75rem;
   }
 
   .breadcrumb {
@@ -2211,7 +2256,7 @@ a.destination-card:focus-visible {
   }
 
   .destination-hero__grid { gap: 1.5rem; }
-  .destination-score .country-code--large { display: none; }
+  .destination-score .country-flag--large { display: none; }
   .destination-score p { margin-block: 0 0.5rem; }
 
   .quick-strip { grid-template-columns: repeat(2, minmax(0, 1fr)); }

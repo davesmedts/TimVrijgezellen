@@ -28,8 +28,8 @@
         </a>
         <nav class="tabs" aria-label="Hoofdnavigatie">
           <a class="tab" href="./index.html">Home</a>
-          <a class="tab" href="./bestemmingen/lissabon.html">lissabon</a>
-          <a class="tab" href="./bestemmingen/amsterdam.html">amsterdam</a>
+          <a class="tab" href="./bestemmingen/lissabon.html">Lissabon</a>
+          <a class="tab" href="./bestemmingen/amsterdam.html">Amsterdam</a>
           <a class="tab is-active" href="./kosten.html" aria-current="page">Kostenvergelijking</a>
         </nav>
         <button class="theme-toggle" type="button" role="switch" aria-checked="false" aria-label="Lichte modus" data-theme-toggle hidden>
@@ -53,7 +53,7 @@
         <h1 class="green">Kosten vergelijken.</h1>
         <p class="hero-lede">
           Zet bestemmingen naast elkaar en vink per bestemming aan wat je wilt meenemen.
-          De posten zijn geprijsd per deelnemer; de groepssom voor 13 (inclusief Tim) wordt verdeeld over 12 betalende gasten.
+          De posten zijn geprijsd per deelnemer; de groepssom voor 13 (inclusief Tim) wordt verdeeld over 12 betalende gasten. (Nieuwe ideeen kunnen nog toegevoegd worden om mee de implact en planning te onderzoeken)
         </p>
       </section>
 
@@ -62,21 +62,27 @@
           <div class="comparison-heading">
             <div>
               <p class="section-kicker">01 / bijdrage per betalende gast</p>
-              <h2 id="comparison-title">Bestemmingen naast elkaar.</h2>
-              <p class="comparison-intro">De basisselectie sluit aan op de huidige kostenramingen. Elke kostenpost is eerst berekend voor 13 deelnemers, Tim inbegrepen; daarna wordt de volledige groepssom door 12 betalende gasten gedeeld. Tim betaalt dus niet zelf. Lissabon gebruikt City Stays Cais do Sodré inclusief geraamde toeristenbelasting. Amsterdam heeft twee verblijfopties: BUNK-hotel (€184 per deelnemer, geselecteerd) en Hostel Heart of Amsterdam (€120,83 per deelnemer). Parkeren is één ruime raming van €15 per deelnemer, los van de verblijfkeuze.</p>
+              <div class="comparison-title-row">
+                <h2 id="comparison-title">Bestemmingen naast elkaar.</h2>
+                <button class="cost-info comparison-summary-info" type="button" data-tooltip="De basisselectie sluit aan op de huidige kostenramingen. Elke kostenpost is eerst berekend voor 13 deelnemers, Tim inbegrepen; daarna wordt de volledige groepssom door 12 betalende gasten gedeeld. Tim betaalt dus niet zelf. Lissabon gebruikt City Stays Cais do Sodré inclusief geraamde toeristenbelasting. Amsterdam heeft twee verblijfopties: BUNK-hotel (€184 per deelnemer, geselecteerd) en Hostel Heart of Amsterdam (€120,83 per deelnemer). Parkeren is één ruime raming van €15 per deelnemer, los van de verblijfkeuze." aria-label="Toelichting op de basisselectie">i</button>
+              </div>
             </div>
             <button class="button button--ghost comparison-reset" type="button" data-reset-costs>Herstel basisselectie</button>
           </div>
 
-          <p class="comparison-scroll-hint" id="table-hint">Op een smal scherm kun je de tabel horizontaal scrollen.</p>
-          <div class="comparison-table-scroll" role="region" aria-label="Kostenvergelijking; scroll horizontaal voor alle bestemmingen" aria-describedby="table-hint" tabindex="0">
+          <div class="comparison-table-scroll" role="region" aria-label="Kostenvergelijking; horizontaal scrollen indien nodig" tabindex="0">
             <table class="cost-comparison" data-cost-comparison data-participants="13" data-payers="12">
               <caption class="visually-hidden">Kosten voor 13 deelnemers, gedeeld over 12 betalende gasten. Vink kostenposten aan of uit om de totalen te wijzigen.</caption>
+              <colgroup>
+                <col class="cost-column-label" />
+                <col />
+                <col />
+              </colgroup>
               <thead>
                 <tr>
                   <th class="comparison-row-heading" scope="col">Kostenpost · prijs per deelnemer</th>
-                  <th scope="col"><a href="./bestemmingen/lissabon.html">Lissabon <span>PT</span></a></th>
-                  <th scope="col"><a href="./bestemmingen/amsterdam.html">Amsterdam <span>NL</span></a></th>
+                  <th scope="col"><a href="./bestemmingen/lissabon.html">Lissabon <span class="country-flag-inline"><img src="./assets/flag-pt.svg" alt="" /></span></a></th>
+                  <th scope="col"><a href="./bestemmingen/amsterdam.html">Amsterdam <span class="country-flag-inline"><img src="./assets/flag-nl.svg" alt="" /></span></a></th>
                 </tr>
               </thead>
               <tbody>
@@ -84,8 +90,8 @@
                 <tr>
                   <th scope="row">Vlucht retour</th>
                   <td class="cost-cell">
-                    <label class="cost-choice"><input type="checkbox" data-cost-item="lissabon-flight" data-city="lissabon" data-min="155" data-max="169" checked><span>€155–169</span></label>
-                    <button class="cost-info" type="button" data-tooltip="Retourvlucht per persoon. Kleine tas (40×30×15 cm) en handbagage (55×40×25 cm, 10 kg) zijn inbegrepen; ruimbagage niet. Prijs en beschikbaarheid voor 13 reizigers bevestigen." aria-label="Info over de retourvlucht naar Lissabon">i</button>
+                    <label class="cost-choice"><input type="checkbox" data-cost-item="lissabon-flight" data-city="lissabon" data-min="154" data-max="154" checked><span>€154</span></label>
+                    <button class="cost-info" type="button" data-tooltip="Retourvlucht per persoon: €154. Kleine tas (40×30×15 cm) en handbagage (55×40×25 cm, 10 kg) zijn inbegrepen; ruimbagage niet. De boekingskosten moeten nog worden berekend. Prijs en beschikbaarheid voor 13 reizigers bevestigen." data-tooltip-image="./assets/lissabon-vlucht.png" data-tooltip-image-alt="Vluchtoptie van TAP Air Portugal van Brussel naar Lissabon, retour, voor €154 per persoon" data-tooltip-image-width="529" data-tooltip-image-height="152" aria-label="Info over de retourvlucht naar Lissabon">i</button>
                   </td>
                   <td class="cost-empty" aria-label="Geen vlucht; vervoer met de auto">—</td>
                 </tr>
@@ -186,8 +192,8 @@
               <tfoot>
                 <tr>
                   <th scope="row">Totaal geselecteerd</th>
-                    <td class="destination-total" data-total-city="lissabon"><strong data-total-per-person>€424,04–450,04 per betalende gast</strong><small data-total-group>€5.088,52–5.400,52 groepskosten voor 13 deelnemers ÷ 12 gasten</small></td>
-                    <td class="destination-total" data-total-city="amsterdam"><strong data-total-per-person>€340,65 per betalende gast</strong><small data-total-group>€4.087,85 groepskosten voor 13 deelnemers ÷ 12 gasten</small></td>
+                    <td class="destination-total" data-total-city="lissabon"><strong data-total-per-person>€422,96–433,79 per betalende gast</strong></td>
+                    <td class="destination-total" data-total-city="amsterdam"><strong data-total-per-person>€340,65 per betalende gast</strong></td>
                 </tr>
               </tfoot>
             </table>
