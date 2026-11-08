@@ -8,13 +8,14 @@
 - Groepsgrootte: 13 personen
 - Vertrek: regio Antwerpen/Brecht, vrijdag na 17:00
 - Hoofdvervoer: eigen auto’s, indicatief drie wagens
-- Concept: vrijdag aankomen en slapen; zaterdag citytrip, VR-game, diner en nachtleven; zondag Phantasialand
+- Verblijf: **Motel One Köln-Mediapark**, €1.470 voor 13 personen / 2 nachten (incl. belasting)
+- Concept: vrijdag aankomst, inchecken en bars; zaterdag VR, Brauhaustour en in de avond optioneel de partyboot; zondag Phantasialand
 
 ## Korte beoordeling
 
 Keulen is een bijzonder haalbare combinatie van stad en pretpark: je kunt vrijdag na het werk vertrekken, zaterdag de stad beleven en zondag naar Phantasialand in Brühl. De rit vanuit Antwerpen is ongeveer 215–225 km; de reis per auto duurt bij normaal verkeer circa 2 uur 20 tot 2 uur 50 minuten. Op vrijdagavond kan de rit langer worden.
 
-Het weekend sluit goed aan bij de must-haves: een echte citytrip, nachtleven en groepsactiviteiten. De opgegeven Opera Hotel-optie is centraal en past bij de groepsgrootte; ontbijt en eventuele belasting moeten nog worden gecontroleerd. De grootste onzekerheden zijn de definitieve hotelvoorwaarden en de opening/ticketprijs van Phantasialand op zondag 18 april 2027.
+Het weekend sluit goed aan bij de must-haves: een echte citytrip, nachtleven en groepsactiviteiten. De gekozen verblijfoptie is **Motel One Köln-Mediapark**: €1.470 totaal voor 13 personen en 2 nachten, inclusief 7% btw en 5% Keulse stadstoeslag, verdeeld over 7 tweepersoons queensize kamers. Dat is **€113,08 p.p.** Ontbijt zit er niet bij (Motel One rekent daarvoor circa €17,90 p.p. per dag). De grootste onzekerheden zijn nu het parkeertarief bij Parkhaus MediaPark en de opening van Phantasialand op zondag 18 april 2027; voor het park is in de raming uitgegaan van €45 per persoon.
 
 ## Weerbeeld midden april
 
@@ -28,20 +29,28 @@ Dit is een seizoensindicatie, geen weersvoorspelling voor april 2027.
 
 ## Voorlopig programma
 
-### Vrijdag 16 april — verplaatsing en slapen
+### Vrijdag 16 april — aankomst, inchecken en bars
 
 - Vertrek na 17:00 vanuit Antwerpen/Brecht.
-- Naar Keulen rijden, inchecken en slapen. Plan geen vaste groepsactiviteit op vrijdag.
-- Reken zonder verkeersproblemen op circa 2u20–2u50; vrijdagavondspits kan extra reistijd opleveren.
+- Naar Keulen rijden en inchecken bij Motel One Köln-Mediapark. Reken zonder verkeersproblemen op circa 2u20–2u50; vrijdagavondspits kan extra reistijd opleveren.
+- Daarna de bars in: het Belgisches Viertel ligt op loopafstand van het hotel; de Altstadt is circa 15–20 minuten lopen.
 
-### Zaterdag 17 april — citytrip, VR, diner en uitgaan
+### Zaterdag 17 april — VR, Brauhaustour en optioneel de partyboot
 
-- Ontbijt en wandeling door het centrum: **Dom → Hohenzollernbrücke → Rijnpromenade → Alter Markt/Altstadt**. Reken op ongeveer 2 uur met fotostops; de wandeling is gratis.
-- Lunch in of nabij de Altstadt.
 - **Hoofdactiviteit: 7th Space VR**, centraal aan Mittelstraße 20–24. De aanbevolen keuze is de 50-minuten-**7th Box** met VR-escape- en partygames. De meeste games speel je in kleinere teams; vraag vooraf hoe 13 deelnemers het best in parallelle sessies worden ingedeeld.
-- Optioneel: een **Kölsche Brauhaustour** van 2 uur als extra activiteit of alternatief. De huidige richtprijs is €27,50 per persoon, inclusief 3 Kölsch of 2 frisdranken; de tour is geschikt vanaf 10 personen. Een brouwerijtour na de VR is mogelijk, maar maakt de dag langer en voegt al drankjes toe vóór het diner.
-- Avondeten met reservatie voor 13, bijvoorbeeld bij Brauhaus Sion of Früh am Dom.
-- Daarna: cafés en brouwerijen in de Altstadt, bars in het Belgisches Viertel of clubs in Ehrenfeld. Check de agenda en openingsvoorwaarden dichter bij de datum.
+- **Kölsche Brauhaustour** van 2 uur: richtprijs €27,50 per persoon, inclusief 3 Kölsch of 2 frisdranken; de tour is geschikt vanaf 10 personen. Combineer de tour met het diner in een brauhaus, bijvoorbeeld Brauhaus Sion of Früh am Dom.
+- **In de avond optioneel: Partyboot Köln** (zie hieronder). Zonder partyboot: cafés en brouwerijen in de Altstadt, bars in het Belgisches Viertel of clubs in Ehrenfeld. Check de agenda en openingsvoorwaarden dichter bij de datum.
+
+#### Optioneel: Partyboot Köln
+
+Als alternatief voor of verlengstuk van de zaterdagavond is er de **Partyboot Köln**: een all-inclusive scheepsfeest op de Rijn, met live-DJ (80er/90er, 2000er, charts, house), uitzicht op de verlichte Dom en overdekt binnen- en buitenplan. Het schip biedt plaats aan maximaal 450 personen; de toegang is inbegrepen en het feest start **om 20:00 uur**.
+
+- **Basispakket: €79 p.p.** met onbeperkt bier, wijn, sekt, frisdranken en sappen, zonder tijdslimiet. Er is ook een Premium-pakket van **€99 p.p.** met longdrinks, shots en flesbier.
+- Voor 13 personen: **€1.027 voor het basispakket**. Het pakket moet voor de hele groep dezelfde zijn.
+- **Datum:** de kalender toont **zaterdag 17 april 2027 als beschikbaar** (op het moment van controleren). Populaire data lopen vaak weken vooraf vol; vraag vroeg een vrijblijvende offerte aan.
+- **Duur:** het feest start om 20:00 en loopt volgens een beschrijving van dit concept door tot **ca. 03:00 uur** — dus circa **7 uur** aan boord. Partyboot.net zelf publiceert geen eindtijd; bevestig die bij de offerte. (Algemene richtlijn voor Keulse bootfeesten: 3–5 uur.)
+- **Planning:** de boot vertrekt om 20:00, dus een vroeg diner (rond 18:00) is nodig of het diner wordt als combipakket via de aanbieder geboekt (mogelijkheden: brauhausdiner, vervoer naar de aanlegsteiger). De boot vervangt dan grotendeels het Altstadt-café- en clubprogramma — drank zit er al in.
+- **Rekening houden:** met een einde rond 03:00 op zaterdagavond en een vroeg begin op zondag (Phantasialand) wordt het een zeer korte nacht; weeg dat af voordat jullie boeken.
 
 #### VR-activiteit — actuele prijsindicatie
 
@@ -56,7 +65,7 @@ Als alternatief is er Free Walk VR. Die biedt in Keulen onder andere actie- en z
 - Een volledige dag in het park.
 - Daarna terug naar Antwerpen/Brecht; reken opnieuw op circa 2u20–2u50 zonder files. De precieze aankomst hangt af van de sluitingstijd, verkeersdrukte en stops.
 
-**Belangrijke datumcontrole:** Phantasialand werkt met datumgebonden online tickets en dynamische prijzen. De actuele ticketshop toont voor april 2027 prijscategorieën van **€35, €59 en €78**; de exacte prijs en bevestigde openingstijden voor zondag 18 april moeten vóór het boeken in de officiële kalender worden gecontroleerd. Reserveer daarom geen niet-annuleerbaar verblijf uitsluitend op basis van de veronderstelling dat het park die dag geopend is.
+**Belangrijke datumcontrole:** Phantasialand werkt met datumgebonden online tickets en dynamische prijzen. Voor de raming is **€45 per persoon** aangehouden; de exacte prijs en bevestigde openingstijden voor zondag 18 april moeten vóór het boeken in de officiële kalender worden gecontroleerd. Reserveer daarom geen niet-annuleerbaar verblijf uitsluitend op basis van de veronderstelling dat het park die dag geopend is.
 
 ## Vervoer
 
@@ -75,29 +84,34 @@ De trein kan via Brussel naar Köln Hbf; de hogesnelheidsrit Brussel–Keulen du
 
 ### Milieuzone en parkeren
 
-Keulen heeft een Umweltzone. Controleer voor elke auto of de **groene Umweltplakette** vereist is en aanwezig is voordat je de binnenstad inrijdt. Voor Opera Hotel Köln zijn Q-Park Quincy met online hotelgasttarief en Parkhaus Brückenstraße met hotelkorting concrete opties; de raming staat apart van de hotelprijs.
+Keulen heeft een Umweltzone. Controleer voor elke auto of de **groene Umweltplakette** vereist is en aanwezig is voordat je de binnenstad inrijdt. Parkeren bij het gekozen Motel One Köln-Mediapark gaat via de nabijgelegen openbare Parkhaus MediaPark; de tariefopties staan hierboven bij het verblijf.
 
 ## Verblijf
 
-### Gekozen optie: Opera Hotel Köln
+### Gekozen optie: Motel One Köln-Mediapark
 
-De opgegeven Booking.com-prijs voor **16–18 april 2027**, **13 personen** en **2 nachten** is **€1.582 totaal**. De kamerindeling is **1 driepersoonskamer + 5 tweepersoonskamers** (6 kamers). Dat is **€121,69 p.p.** voor de kamerprijs, vóór eventuele kosten die niet in het getoonde totaal zitten.
+De opgegeven Booking.com-prijs voor **16–18 april 2027**, **13 volwassenen** en **2 nachten** is **€1.470 totaal, inclusief belasting en toeslagen**. De kamerindeling is **7 × Standard Queen Room** (7 kamers voor 13 personen, dus zes kamers met twee en één kamer met één persoon). Dat is **€113,08 p.p.**
 
-- **Ligging:** Perlenpfuhl 6–8, in het centrum; handig voor de Altstadt, winkels en zaterdagavond.
-- **Ontbijt:** het hotel biedt een ontbijtbuffet, maar controleer in de gekozen Booking.com-tariefregel of dit inbegrepen is.
-- **Keulse cultuur-/overnachtingsbelasting:** doorgaans 5%. Controleer of Booking.com die al in de €1.582 heeft verwerkt; zo niet, dan is de indicatieve toeslag **€79,10 totaal / €6,08 p.p.**
+- **Prijsopbouw volgens de opgegeven selectie:** €161,59 aan belasting en toeslagen, waarvan **7% btw €91,59** en **5% stadstoeslag €70**. De Keulse cultuur-/overnachtingsbelasting zit er dus **in** verwerkt.
+- **Check-in/check-out:** vrijdag 16 april vanaf 15:00, zondag 18 april tot 12:00.
+- **Ligging:** Am Kümpchenshof 2, Neustadt Nord, direct aan het Mediapark; ongeveer 1 km naar de Dom en ca. 15–20 minuten lopen naar de Altstadt. Het Belgisches Viertel ligt op loopafstand, wat gunstig is voor het zaterdagavondprogramma.
+- **Kamers:** queensize boxspringbed van 160 cm, 16 m², gratis wifi, 24/7 receptie. Voor 13 mensen in 7 tweepersoonskamers krijgt één persoon een eigen kamer; verdeel dat vooraf.
+- **Ontbijt:** het hotel heeft een ontbijtbuffet, maar dat is bij deze prijs **niet inbegrepen**. Het huidige Motel One-tarief is **€17,90 p.p. per dag**; twee ochtenden voor 13 personen zou neerkomen op **€465,40 totaal / €35,80 p.p.** Bevestig het tarief voor april 2027.
+- **Huisdieren:** toegestaan; even met het hotel overleggen.
 - **Prijsstatus:** dit is de prijs uit de opgegeven datum- en kamerselectie, geen garantie dat prijs en beschikbaarheid ongewijzigd blijven.
 
-#### Parkeren bij Opera Hotel Köln
+#### Parkeren bij Motel One Köln-Mediapark
 
-Voor de voorlopige vervoersraming blijven drie auto’s aangehouden. Het hotelparkingtarief staat los van de opgegeven hotelprijs.
+Het hotel heeft **geen eigen parkeerplaats**. Aanbevolen wordt de openbare parkeergarage **Parkhaus MediaPark** op circa 100 m van de ingang. De gepubliceerde tarieven lopen uiteen: Motel One noemt in de aankomstinformatie **€15 per dag**, op de Engelstalige hotelpagina staat **€25 per dag**, en er worden hotelgastkortingen van circa **€5 per dag** gemeld (circa €20 per dag inclusief korting). Laat het exacte tarief en de eventuele hotelkorting bij aankomst bevestigen.
 
-- **Aanbevolen: Q-Park Quincy / Breite Straße**, Neven-DuMont-Straße 1. Met de online hotelgastdeal is het **€9,90 per 24 uur**, met herhaald in- en uitrijden tijdens de reservering. Voor 3 auto’s en 2 × 24 uur is dat indicatief **€59,40 totaal / €4,57 p.p.** Reserveer vooraf; de aanbieding is volgens Q-Park tot 14 dagen te boeken. De hotelpagina noemt circa 750 m lopen.
-- **Dichtstbij: Parkhaus Brückenstraße / Ludwigstraße 1**, circa 30 m van het hotel. Na afstempelen van het parkeerticket bij de receptie noemt het hotel **€25 per periode van 12–24 uur**. Voor circa 2 dagen: ongeveer **€50 per auto**, of **€150 voor 3 auto’s / €11,54 p.p.**
+Voor de voorlopige vervoersraming blijven drie auto’s aangehouden, met een bandbreedte van €15–€25 per auto per dag:
 
-De parkeertarieven zijn de huidige gepubliceerde tarieven en kunnen vóór april 2027 wijzigen. Let bij Q-Park op de gekozen begin- en eindtijd; de definitieve prijs wordt in het reserveringsproces getoond.
+- **Laag:** 3 auto’s × 2 dagen × €15 = **€90 totaal / €6,92 p.p.**
+- **Hoog:** 3 auto’s × 2 dagen × €25 = **€150 totaal / €11,54 p.p.**
 
-Motel One Köln-Neumarkt en Köln-Messe blijven mogelijke alternatieven, maar de actuele kostenraming hieronder gebruikt nu de opgegeven Opera Hotel-optie.
+De parkeertarieven zijn de huidige gepubliceerde tarieven en kunnen vóór april 2027 wijzigen.
+
+Motel One Köln-Neumarkt en Köln-Messe blijven mogelijke alternatieven voor het verblijf.
 
 ## Eten, drinken en nachtleven
 
@@ -109,25 +123,27 @@ Motel One Köln-Neumarkt en Köln-Messe blijven mogelijke alternatieven, maar de
 
 ## Budget per persoon
 
-Indicatieve raming met drie eigen auto’s en de opgegeven centrale Opera Hotel-optie. Ontbijt is nog niet als inbegrepen bevestigd. Eten, drank, uitgaan en taxi’s zijn uitgesloten.
+Indicatieve raming met drie eigen auto’s en de gekozen Motel One Köln-Mediapark-optie (€1.470 incl. belasting). Ontbijt is niet inbegrepen en staat apart. Eten, drank, uitgaan en taxi’s zijn uitgesloten.
 
 | Onderdeel | Raming p.p. | Opmerking |
 |---|---:|---|
-| Vervoer en lokaal vervoer | €10–€20 | Brandstoframing voor drie auto’s; hotelparking staat apart hieronder |
-| Verblijf — Opera Hotel Köln | €121,69 | €1.582 volgens de opgegeven Booking.com-selectie / 13; ontbijt en eventuele niet-inbegrepen belasting controleren |
-| Hotelparking — Q-Park Quincy | €4,57 | Raming voor 3 auto’s × 2 × 24 uur à €9,90, vooraf online reserveren |
+| Vervoer en lokaal vervoer | €10–€20 | Brandstoframing voor drie auto’s; parkeren staat apart hieronder |
+| Verblijf — Motel One Köln-Mediapark | €113,08 | €1.470 inclusief 7% btw en 5% stadstoeslag, volgens de opgegeven Booking.com-selectie / 13 |
+| Parkeren — Parkhaus MediaPark | €6,92–€11,54 | 3 auto’s × 2 dagen; tarief volgens gepubliceerde bronnen €15–€25 per auto per dag, hotelkorting bevestigen |
 | Zaterdag — VR 7th Box | €34,90 | Huidige weekendprijs; tarief voor 2027 kan wijzigen |
-| Zondag — Phantasialand | €59–€78 | Voorzichtige raming op basis van huidige april-tarieven; exacte dagprijs/opening controleren |
-| **Totaal kernprogramma** | **circa €230–€259** | **Exclusief ontbijt als dat niet in de boeking zit; belasting kan nog wijzigen** |
+| Zaterdag — Kölsche Brauhaustour | €27,50 | 2 uur, inclusief 3 Kölsch of 2 frisdranken; richtprijs |
+| Zondag — Phantasialand | €45 | Aangenomen prijs per persoon; exacte dagprijs en opening controleren |
+| **Totaal kernprogramma** | **circa €238–€252** | **Exclusief ontbijt (circa €35,80 p.p. voor twee ochtenden)** |
 
-Optionele Kölsche Brauhaustour: **+€27,50 p.p.**. Daarmee wordt de geraamde som ongeveer **€258–€287 p.p.**; ook dan blijft de raming onder het plafond van €450. Eten, drinken en uitgaan blijven in alle gevallen uitgesloten.
+Optionele Partyboot Köln (basispakket): **+€79 p.p.** Dat brengt de geraamde som op ongeveer **€317–€331 p.p.**, nog steeds onder het plafond van €450. Het basispakket is all-inclusive drank, waardoor de reguliere uitgaanskosten voor die avond grotendeels vervallen (betaalde inkom voor clubs dan weer wel). De Brauhaustour staat overdag gepland en de boot vertrekt om 20:00; ze zijn dus te combineren, maar het wordt een lange dag.
 
 ### Groepstotaal voor 13
 
-- Kernprogramma: ongeveer **€2.992–€3.369**.
-- Met optionele brouwerijtour: ongeveer **€3.350–€3.727**.
+- Kernprogramma: ongeveer **€3.088–€3.276**.
+- Met optionele Partyboot (basispakket): ongeveer **€4.115–€4.303**.
+- Met ontbijt voor twee ochtenden erbij: **+€465,40** op de groep.
 
-Dit zijn planningsramingen op basis van de opgegeven Booking.com-prijs en de huidige Q-Park-prijs, geen vastgezette eindprijs. De grootste open punten zijn of ontbijt en de 5% Keulse belasting in de hotelprijs zitten, de reservering van drie parkeerplaatsen en de opening/ticketprijs van Phantasialand op 18 april.
+Dit zijn planningsramingen op basis van de opgegeven Booking.com-prijs en de huidige parkeertarieven, geen vastgezette eindprijs. De belastingvraag is met deze boeking beantwoord: €161,59 aan btw en stadstoeslag zit in de €1.470. De grootste open punten zijn nu het definitieve parkeertarief van Parkhaus MediaPark, het ontbijttarief voor april 2027 en de opening/ticketprijs van Phantasialand op 18 april.
 
 ## Voetbal als bonus
 
@@ -137,28 +153,30 @@ De Bundesliga-speelronde van 16–18 april 2027 vermeldt **RB Leipzig – 1. FC 
 
 - Korte autorit vanuit Antwerpen/Brecht en geen vlucht nodig.
 - Duidelijke verdeling: vrijdag reizen, zaterdag Keulen, zondag Phantasialand.
-- Sterke zaterdagcombinatie van citytrip, VR-groepsspel, typisch Keuls diner en nachtleven.
+- Sterke zaterdagcombinatie van VR-groepsspel, Kölsche Brauhaustour en optioneel de partyboot.
 - De kernactiviteiten passen volgens de huidige raming binnen €450 p.p. voor vervoer, verblijf en geplande activiteiten.
 - Indoor zaterdagopties blijven bruikbaar bij regen.
 
 ## Aandachtspunten
 
 - Phantasialand moet de opening van 18 april 2027 en de exacte ticketprijs bevestigen.
-- Voor 13 personen tijdig VR-slot, bedden, restaurant en eventueel brouwerijtour reserveren.
-- De hotelprijs van €1.582 is de opgegeven Booking.com-prijs, geen vastgezette eindprijs; ontbijt en eventuele 5% belasting moeten worden gecontroleerd.
+- Voor 13 personen tijdig VR-slot, bedden, restaurant en eventueel brouwerijtour reserveren; de Motel One-boeking van €1.470 is de opgegeven Booking.com-prijs, geen vastgezette eindprijs, en annuleringsvoorwaarden moeten worden gecontroleerd.
+- Ontbijt is niet inbegrepen: beslis of het erbij komt (circa €35,80 p.p. voor twee ochtenden) of dat er extern wordt ontbeten.
+- Parkhaus MediaPark heeft geen online hotelboeking die hier is vastgelegd; bevestig tarief en eventuele hotelkorting.
 - Vrijdagavondverkeer kan de rit verlengen.
 - Controleer groene milieustickers voor auto’s die Keulen inrijden.
 - Eten, drank en nachtleven vallen buiten het opgegeven budgetplafond.
 
 ## Openstaande acties
 
-1. De Opera Hotel-boeking op Booking.com controleren op ontbijt, belasting, annuleringsvoorwaarden en de exacte €1.582-eindtotaalprijs.
-2. Q-Park Quincy voor de benodigde parkeertijden en drie auto’s vooraf online reserveren; controleer de dagindeling van het tarief.
+1. De Motel One-boeking op Booking.com controleren op annuleringsvoorwaarden en bevestigen dat €1.470 het echte eindtotaal is (belasting zit er volgens de selectie wel in).
+2. Parkhaus MediaPark voor drie auto’s en twee dagen tarief + eventuele hotelgastkorting laten bevestigen; beslissen over ontbijt (bijboeken bij Motel One of extern).
 3. Phantasialand-kalender controleren voor 18 april 2027 en daarna tickets voor 13 boeken.
 4. Bij 7th Space navragen of 13 deelnemers op één tijdslot voor de 7th Box kunnen worden verdeeld.
 5. Diner, eventuele club en vervoer na het uitgaan vooraf vastleggen.
-6. Controleren welke auto’s een groene Umweltplakette hebben.
-7. Treinoptie en groepsprijs vergelijken als er niet met drie eigen auto’s wordt gereden.
+6. Als de Partyboot wordt gekozen: vrijblijvende offerte aanvragen voor zaterdag 17 april 2027 (basispakket €79 p.p., hele groep zelfde pakket) en het diner eventueel als combipakket regelen.
+7. Controleren welke auto’s een groene Umweltplakette hebben.
+8. Treinoptie en groepsprijs vergelijken als er niet met drie eigen auto’s wordt gereden.
 
 ## Bronnen
 
@@ -168,13 +186,15 @@ De Bundesliga-speelronde van 16–18 april 2027 vermeldt **RB Leipzig – 1. FC 
 - [7th Space Köln — locatie en openingstijden](https://www.7th-space.com/standorte/koeln)
 - [7th Space — VR-activiteiten en prijzen](https://www.7th-space.com/erlebnis/virtual-reality)
 - [KölnTourismus — Kölsche Brauhaustour](https://www.cologne-tourism.com/experiences-lifestyle/events/detail/koelsch-beer-brewery-tour)
+- [Partyboot Köln — pakketten, prijzen en data](https://www.partyboot.net/partyboot-koeln/)
+- [Partyboot — vrijblijvende terminaanvraag](https://www.partyboot.net/anfrage/?Stadt=K%C3%B6ln)
+- [JGA-gids — Partyboot Köln, tijdslijn 20:00–03:00 (externe beschrijving, geen aanbieder zelf)](https://www.junggesellenabschied.net/ratgeber/partyboot-koeln-jga/)
+- [Motel One Köln-Mediapark — hotel, kamers en locatie](https://www.motel-one.com/de/hotels/koeln/hotel-koeln-mediapark/)
+- [Motel One Köln-Mediapark — aankomstinformatie en parkeren (PDF)](https://www.motel-one.com/fileadmin/dam/Hotels/Koeln/Koeln-Mediapark/Anfahrtsbeschreibung_Koeln-Mediapark_EN.pdf)
 - [Motel One Köln-Neumarkt — hotel en locatie](https://www.motel-one.com/de/hotels/koeln/hotel-koeln-neumarkt/)
 - [Motel One Köln-Messe — hotel en locatie](https://www.motel-one.com/de/hotels/koeln/hotel-koeln-messe/)
 - [Motel One — groepsaanvraag](https://www.motel-one.com/de/services/gruppenbuchung/)
 - [Motel One — ontbijt, momenteel €17,90 p.p.](https://www.motel-one.com/de/services/essen-trinken/urban-bio-breakfast/)
-- [Opera Hotel Köln — Booking.com, opgegeven selectie 16–18 april 2027](https://www.booking.com/hotel/de/opera-koln.nl.html?aid=304142&label=gen173nr-10CAEoggI46AdIM1gEaBWIAQGYATO4ARfIAQzYAQPoAQH4AQGIAgGoAgG4ApWlk9YGwAIB0gIkY2Q2YTdhOTctMTk5NS00Njc0LTg4OTgtNTJkNTdlYTNiYzFl2AIB4AIB&sid=a60167233a3885ec86adfa2fd0d19db0&all_sr_blocks=289750306_400919916_4_0_0%2C289750303_400919916_0_0_0%2C289750303_400919916_0_0_0%2C289750303_400919916_0_0_0&checkin=2027-04-16&checkout=2027-04-18&dest_id=-1810561&dest_type=city&dist=0&group_adults=13&group_children=0&hapos=4&highlighted_blocks=289750306_400919916_4_0_0%2C289750303_400919916_0_0_0%2C289750303_400919916_0_0_0%2C289750303_400919916_0_0_0&hpos=4&matching_block_id=289750306_400919916_4_0_0&nflt=distance%3D1000&no_rooms=1&req_adults=13&req_children=0&room1=A%2CA%2CA%2CA%2CA%2CA%2CA%2CA%2CA%2CA%2CA%2CA%2CA&sb_price_type=total&sr_order=popularity&sr_pri_blocks=289750306_400919916_4_0_0__44491%2C289750303_400919916_0_0_0__34604%2C289750303_400919916_0_0_0__34604%2C289750303_400919916_0_0_0__34604&srepoch=1791301776&srpvid=89416eb0f6980369&type=total&ucfs=1&)
-- [Opera Hotel Köln — parkeerinfo en hotelkorting Brückenstraße](https://www.operahotel.de/about-us.html)
-- [Q-Park — Opera Hotel-deal Quincy / Breite Straße, €9,90 per 24 uur](https://www.q-park.de/de-de/staedte/k%C3%B6ln/opera-hotel-koln/quincy/)
 - [Stad Keulen — cultuur-/overnachtingsbelasting](https://www.stadt-koeln.de/artikel/06845/index.html)
 - [Stad Keulen — milieusticker en Umweltzone](https://www.stadt-koeln.de/service/produkte/00783/index.html)
 - [Bundesliga — speeldag 30, 2026/27](https://www.bundesliga.com/en/bundesliga/matchday/2026-2027/30)

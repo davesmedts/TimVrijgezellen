@@ -816,6 +816,12 @@ a.destination-card:focus-visible {
   background: var(--green);
 }
 
+.destination-card--keulen::after {
+  bottom: -15%;
+  left: -20%;
+  background: var(--green);
+}
+
 .destination-card__top {
   display: flex;
   align-items: center;
@@ -923,6 +929,7 @@ a.destination-card:focus-visible {
 
 .destination-card--lisbon .card-link { color: var(--green-bright); }
 .destination-card--amsterdam .card-link { color: var(--green-bright); }
+.destination-card--keulen .card-link { color: var(--green-bright); }
 
 .destination-card--empty {
   display: flex;
@@ -1969,6 +1976,68 @@ a.destination-card:focus-visible {
 .comparison-notes strong {
   color: var(--text-secondary);
   font-weight: 600;
+}
+
+.option-add-bar {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.55rem;
+}
+
+.option-add-bar .button { min-height: 44px; }
+
+.option-column-head {
+  display: grid;
+  gap: 0.35rem;
+}
+
+.option-name {
+  width: 100%;
+  min-width: 6.5rem;
+  padding: 0.45rem 0.55rem;
+  border: 1px solid var(--border);
+  border-radius: 9px;
+  background: var(--control-background);
+  color: var(--foreground);
+  font: inherit;
+  font-size: 0.78rem;
+  text-align: center;
+}
+
+.option-name:hover { background: var(--control-hover); }
+
+.option-name:focus-visible {
+  border-color: var(--border-strong);
+  outline: 2px solid var(--blue);
+  outline-offset: 2px;
+}
+
+.option-remove {
+  padding: 0.25rem 0.55rem;
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  background: transparent;
+  color: var(--muted);
+  font-size: 0.72rem;
+  line-height: 1;
+  cursor: pointer;
+}
+
+.option-remove:hover {
+  border-color: var(--danger-border);
+  color: var(--red-soft);
+}
+
+.option-remove:focus-visible {
+  outline: 2px solid var(--blue);
+  outline-offset: 2px;
+}
+
+.option-intro {
+  margin: 0 0 1.15rem;
+  color: var(--muted);
+  font-size: 0.78rem;
+  line-height: 1.65;
 }
 
 @media (max-width: 900px) {

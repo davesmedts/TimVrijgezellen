@@ -84,7 +84,7 @@ Alle exacte aftrapuren moeten nog worden bevestigd. De vermelde wedstrijden zijn
 
 | Bestemming | Eten en drinken | Nachtleven | Groepsactiviteiten | Weer midden april | Algemene indruk |
 |---|---:|---:|---:|---|---|
-| Keulen | Brauhaus en Kölsch | Goed, meerdere wijken | VR, stadswandeling, Phantasialand | 12-16 °C, wisselvallig | Sterke citytrip- en pretparkcombinatie |
+| Keulen | Brauhaus en Kölsch | Goed, meerdere wijken | VR, Brauhaustour, Phantasialand | 12-16 °C, wisselvallig | Sterke citytrip- en pretparkcombinatie |
 | Amsterdam | Veel restaurants en foodhallen | Zeer uitgebreid | Rondvaart, escape room, musea | Wisselvallig voorjaarsweer | Praktisch met de auto, dure accommodatie |
 | Barcelona | Tapas, restaurants en kust | Zeer uitgebreid | Fietsen, stad, museum/tour | Zachte aprildagen, frisse avonden | Sterke citytrip; latere vlucht nodig en geen derby als basis |
 | Willingen | Berghutten en Brauhaus | Party-bars | Skywalk, mountaincarts, rodelbaan, karting | 12-14 °C, wisselvallig | Avontuurlijk alternatief, geen volwaardige citytrip |

@@ -247,11 +247,11 @@ try {
   await send("Network.enable");
   // Offline third-party resources keep layout tests deterministic and avoid network/certificate failures.
   await send("Network.setBlockedURLs", { urls: ["*maps.google.com*", "*fonts.googleapis.com*", "*fonts.gstatic.com*"] });
-  const { identifier } = await send("Page.addScriptToEvaluateOnNewDocument", { source: 'window.localStorage.removeItem("tim-theme"); window.localStorage.removeItem("tim-cost-comparison-v1");' });
+  const { identifier } = await send("Page.addScriptToEvaluateOnNewDocument", { source: 'window.localStorage.removeItem("tim-theme"); window.localStorage.removeItem("tim-cost-comparison-v1"); window.localStorage.removeItem("tim-keulen-opties-v1");' });
 
   const results = [];
   let firstLoad = true;
-  for (const page of ["index.html", "kosten.html", "bestemmingen/lissabon.html", "bestemmingen/amsterdam.html"]) {
+  for (const page of ["index.html", "kosten.html", "bestemmingen/lissabon.html", "bestemmingen/amsterdam.html", "bestemmingen/keulen.html"]) {
     for (const width of [320, 390, 768, 1024, 1440]) {
       await send("Emulation.setDeviceMetricsOverride", { width, height: 900, deviceScaleFactor: 1, mobile: false });
       await navigate(page);

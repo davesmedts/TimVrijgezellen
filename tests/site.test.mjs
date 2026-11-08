@@ -108,10 +108,10 @@ test("every page has a shared, accessible header theme switch with early initial
   }
 });
 
-test("overview has no destination estimates and keeps the two remaining destinations", async () => {
+test("overview has no destination estimates and keeps the three remaining destinations", async () => {
   const html = await readFile(resolve(root, "docs/index.html"), "utf8");
   const cards = [...html.matchAll(/<a class="destination-card[\s\S]*?<\/a>/g)];
-  assert.equal(cards.length, 2);
+  assert.equal(cards.length, 3);
   for (const [card] of cards) assert.doesNotMatch(card, /€|raming/i);
   const intro = html.indexOf("<h1>Vrijgezellen");
   const group = html.indexOf('<section class="section container group-section">');
@@ -124,7 +124,7 @@ test("overview has no destination estimates and keeps the two remaining destinat
 test("cost comparison starts with destination budgets matching the detail pages", async () => {
   const html = await readFile(resolve(root, "docs/kosten.html"), "utf8");
   const expected = {
-    lissabon: { group: [4698.52, 4880.52], payer: [391.5433333333, 406.71] },
+    lissabon: { group: [5075.52, 5205.52], payer: [422.96, 433.7933333333] },
     amsterdam: { group: [4087.85, 4087.85], payer: [340.6541666667, 340.6541666667] },
   };
   const sums = Object.fromEntries(Object.keys(expected).map((city) => [city, [0, 0]]));
