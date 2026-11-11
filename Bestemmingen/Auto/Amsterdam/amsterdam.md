@@ -236,7 +236,7 @@ Dit is een momentopname van **6 oktober 2026**, geen bindende groepsofferte; de 
 De groep heeft naast BUNK een tweede concrete verblijfoptie:
 
 - Verblijf voor twee nachten: **€120,83 per deelnemer**, ongeveer **€1.570,79** voor 13 personen.
-- Dat valt binnen de hostelraming van €100-€220 per deelnemer. In de kostenvergelijking vervangt dit hostel alleen de BUNK-verblijfspost; de ene parkeeraming van €15 per deelnemer blijft gelijk, ongeacht het verblijf.
+- Dat valt binnen de hostelraming van €100-€220 per deelnemer. Dit hostel vervangt alleen de BUNK-verblijfspost; de parkeeraming van €15 per deelnemer blijft gelijk, ongeacht het verblijf.
 - Kamerindeling voor 13 personen, ontbijt, toeristenbelasting en annuleringsvoorwaarden nog opvragen.
 - De parkeerregeling van dit hostel nakijken. De begroting gebruikt dezelfde ruime raming van €15 per deelnemer als bij BUNK; het werkelijke tarief hangt af van de gekozen parkeerlocatie.
 

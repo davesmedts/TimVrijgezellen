@@ -10,8 +10,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet" />
-    <link rel="stylesheet" href="../assets/styles.css?v=2" />
-    <script src="../assets/option-comparison.js?v=2" defer></script>
+    <link rel="stylesheet" href="../assets/styles.css?v=3" />
+    <script src="../assets/option-comparison.js?v=4" defer></script>
   </head>
   <body>
     <a class="skip-link" href="#inhoud">Ga naar de inhoud</a>
@@ -31,7 +31,6 @@
           <a class="tab" href="./lissabon.html">Lissabon <span class="tab-status">Niet weerhouden</span></a>
           <a class="tab" href="./amsterdam.html">Amsterdam</a>
           <a class="tab is-active" href="./keulen.html" aria-current="page">Keulen</a>
-          <a class="tab" href="../kosten.html">Kostenvergelijking</a>
         </nav>
         <button class="theme-toggle" type="button" role="switch" aria-checked="false" aria-label="Lichte modus" data-theme-toggle hidden>
           <svg class="theme-toggle__icon theme-toggle__icon--sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" aria-hidden="true">
@@ -72,7 +71,7 @@
 
       <section class="container quick-strip" aria-label="Kerncijfers Keulen">
         <div><span>autoroute</span><strong>± 215–225 km</strong></div>
-        <div><span>kernactiviteiten</span><strong><a href="#kosten">€257,18–273,02 per betalende gast ↘</a></strong></div>
+        <div><span>kernactiviteiten</span><strong><a href="#kosten">€266,35 per betalende gast ↘</a></strong></div>
         <div><span>groep</span><strong>13 personen</strong></div>
         <div><span>zondag</span><strong>Phantasialand</strong></div>
       </section>
@@ -115,9 +114,6 @@
               ligt aan het Mediapark, ongeveer een kilometer van de Dom en op loopafstand van het
               Belgisches Viertel. Parkeren kan in de Parkhaus MediaPark op circa honderd meter.
           </p>
-          <a class="map-link" href="https://www.booking.com/hotel/de/motel-one-koeln-mediapark.html?checkin=2027-04-16&amp;checkout=2027-04-18&amp;group_adults=13&amp;no_rooms=7" target="_blank" rel="noopener noreferrer">
-            Bekijk Motel One op Booking.com <span>↗</span>
-          </a>
           <a class="map-link" href="https://www.google.com/maps/search/?api=1&amp;query=50.9475%2C6.9440" target="_blank" rel="noopener noreferrer">
             Open in Google Maps <span>↗</span>
           </a>
@@ -173,11 +169,10 @@
             <h3>Motel One Köln-Mediapark</h3>
             <p>€1.470 voor 13 personen en twee nachten, inclusief 7% btw en 5% stadstoeslag. Zeven queensize kamers; één persoon krijgt een eigen kamer. Ontbijt niet inbegrepen.</p>
             <div class="tag-row"><span>13 gasten</span><span>7 kamers</span><span>incl. belasting</span></div>
+            <a class="map-link" href="https://www.booking.com/hotel/de/motel-one-koeln-mediapark.html?checkin=2027-04-16&amp;checkout=2027-04-18&amp;group_adults=13&amp;no_rooms=7" target="_blank" rel="noopener noreferrer">
+              Bekijk Motel One op Booking.com <span>↗</span>
+            </a>
           </article>
-          <a class="next-card" href="./amsterdam.html">
-            <span>vergelijk met</span>
-            <strong>Amsterdam ↗</strong>
-          </a>
         </aside>
       </section>
 
@@ -198,7 +193,7 @@
 
           <p class="option-intro">
             Voeg opties en activiteiten toe, vul prijzen per deelnemer in en vink aan wat meetelt.
-            De groepskosten voor 13 deelnemers worden verdeeld over 12 betalende gasten.
+            Je wijzigingen worden enkel lokaal opgeslagen, andere deelnemers zien deze dus niet.
           </p>
 
           <div class="comparison-table-scroll" role="region" aria-label="Optievergelijking Keulen; horizontaal scrollen indien nodig" tabindex="0">
@@ -220,17 +215,22 @@
               </thead>
               <tbody>
                 <tr class="comparison-category"><th colspan="2" scope="colgroup">Vervoer &amp; verblijf</th></tr>
-                <tr data-item="vervoer" data-min="10" data-max="20" data-price="€10–20" data-default="true">
-                  <th scope="row">Vervoer · brandstof 3 auto’s</th>
-                  <td class="cost-cell"><label class="cost-choice"><input type="checkbox" checked /><span>€10–20</span></label></td>
+                <tr data-item="vervoer" data-min="10" data-max="10" data-price="€10" data-default="true">
+                  <th scope="row">Vervoer · brandstof</th>
+                  <td class="cost-cell"><label class="cost-choice"><input type="checkbox" checked /><span>€10</span></label></td>
                 </tr>
                 <tr data-item="motel-one" data-min="113.0769230769" data-max="113.0769230769" data-price="€113,08" data-default="true">
                   <th scope="row">Motel One Köln-Mediapark · 2 nachten</th>
                   <td class="cost-cell"><label class="cost-choice"><input type="checkbox" checked /><span>€113,08</span></label></td>
                 </tr>
-                <tr data-item="parkeren" data-min="6.9230769231" data-max="11.5384615385" data-price="€6,92–11,54" data-default="true">
-                  <th scope="row">Parkeren · Parkhaus MediaPark</th>
-                  <td class="cost-cell"><label class="cost-choice"><input type="checkbox" checked /><span>€6,92–11,54</span></label></td>
+                <tr data-item="parkeren" data-min="15.384615384615" data-max="15.384615384615" data-price="€15,38" data-default="true" data-label="Parkeren · Parkhaus MediaPark">
+                  <th scope="row">Parkeren · Parkhaus MediaPark
+                    <details class="option-info">
+                      <summary class="cost-info" aria-label="Info over de parkeerraming">i</summary>
+                      <span>Vier auto’s × €50 voor het verblijf = €200 groepskosten, of €15,38 per deelnemer. Verdeeld over 12 betalende gasten is dat €16,67 per gast. Tarief nog te bevestigen.</span>
+                    </details>
+                  </th>
+                  <td class="cost-cell"><label class="cost-choice"><input type="checkbox" checked /><span>€15,38</span></label></td>
                 </tr>
                 <tr data-item="ontbijt" data-min="35.8" data-max="35.8" data-price="€35,80">
                   <th scope="row">Ontbijt · 2 ochtenden</th>
@@ -245,13 +245,21 @@
                   <th scope="row">Kölsche Brauhaustour · za</th>
                   <td class="cost-cell"><label class="cost-choice"><input type="checkbox" checked /><span>€27,50</span></label></td>
                 </tr>
+                <tr data-item="karten-3-tickets" data-min="43.5" data-max="43.5" data-price="€43,50">
+                  <th scope="row">Karten · 3 ritten van 10 min · za</th>
+                  <td class="cost-cell"><label class="cost-choice"><input type="checkbox" /><span>€43,50</span></label></td>
+                </tr>
+                <tr data-item="lasertag-3-spellen" data-min="22" data-max="22" data-price="€22">
+                  <th scope="row">Lasertag · 3 spellen · ca. 90 min · za</th>
+                  <td class="cost-cell"><label class="cost-choice"><input type="checkbox" /><span>€22</span></label></td>
+                </tr>
+                <tr data-item="reball-comfort" data-min="49" data-max="49" data-price="€49">
+                  <th scope="row">Paintball / reball · Comfortpakket · za</th>
+                  <td class="cost-cell"><label class="cost-choice"><input type="checkbox" /><span>€49</span></label></td>
+                </tr>
                 <tr data-item="partyboot" data-min="79" data-max="79" data-price="€79" data-exclusive-group="partyboot">
                   <th scope="row">Partyboot Köln · basispakket · za</th>
                   <td class="cost-cell"><label class="cost-choice"><input type="checkbox" /><span>€79</span></label></td>
-                </tr>
-                <tr data-item="partyboot-premium" data-min="99" data-max="99" data-price="€99" data-exclusive-group="partyboot">
-                  <th scope="row">Partyboot Köln · premium · za</th>
-                  <td class="cost-cell"><label class="cost-choice"><input type="checkbox" /><span>€99</span></label></td>
                 </tr>
                 <tr class="option-add-activity-row" hidden><th colspan="2"><button class="option-add-activity" type="button" data-add-activity="zaterdag">+ activiteit zaterdag</button></th></tr>
                 <tr class="comparison-category"><th colspan="2" scope="colgroup">Activiteiten zondag</th></tr>
@@ -264,7 +272,7 @@
               <tfoot>
                 <tr>
                   <th scope="row">Totaal geselecteerd</th>
-                  <td class="destination-total"><strong>€257,18–273,02 per betalende gast</strong><small>€3.086,20–3.276,20 groepskosten voor 13 deelnemers</small></td>
+                  <td class="destination-total"><strong>€266,35 per betalende gast</strong><small>€3.196,20 groepskosten voor 13 deelnemers</small></td>
                 </tr>
               </tfoot>
             </table>
@@ -285,6 +293,9 @@
             <li><a href="https://www.motel-one.com/fileadmin/dam/Hotels/Koeln/Koeln-Mediapark/Anfahrtsbeschreibung_Koeln-Mediapark_EN.pdf" target="_blank" rel="noopener noreferrer">Motel One — aankomst en parkeren Parkhaus MediaPark (PDF) ↗</a></li>
             <li><a href="https://www.partyboot.net/partyboot-koeln/" target="_blank" rel="noopener noreferrer">Partyboot Köln — pakketten, prijzen en data ↗</a></li>
             <li><a href="https://www.7th-space.com/standorte/koeln" target="_blank" rel="noopener noreferrer">7th Space Köln — VR-activiteiten en prijzen ↗</a></li>
+            <li><a href="https://kartcenter-cologne.de/angebot/tickets/" target="_blank" rel="noopener noreferrer">KartCenter Cologne — drie tickets van 10 minuten ↗</a></li>
+            <li><a href="https://adrenalinpark.de/koeln-lasertag/" target="_blank" rel="noopener noreferrer">Adrenalinpark Köln — lasertag, drie spellen ↗</a></li>
+            <li><a href="https://adrenalinpark.de/koeln-paintball/" target="_blank" rel="noopener noreferrer">Adrenalinpark Köln — reball Comfortpakket ↗</a></li>
             <li><a href="https://shop.phantasialand.de/en/products/theme-park-tickets/2027-04" target="_blank" rel="noopener noreferrer">Phantasialand — actuele ticketprijzen per datum ↗</a></li>
             <li><a href="https://www.phantasialand.de/en/theme-park/opening-hours/" target="_blank" rel="noopener noreferrer">Phantasialand — openingstijdenkalender ↗</a></li>
             <li><a href="https://www.cologne-tourism.com/experiences-lifestyle/events/detail/koelsch-beer-brewery-tour" target="_blank" rel="noopener noreferrer">KölnTourismus — Kölsche Brauhaustour ↗</a></li>

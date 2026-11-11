@@ -90,85 +90,6 @@ const audit = () => {
     report(document.querySelectorAll(".sun-summary dt").length === 2, "Missing sunrise/sunset summary");
     if (width <= 900) report(getComputedStyle(document.querySelector(".detail-aside")).order === "-1", "Mobile costs should precede detailed content");
   }
-  const comparison = document.querySelector("[data-cost-comparison]");
-  if (comparison) {
-    const scroller = document.querySelector(".comparison-table-scroll");
-    report(Boolean(scroller), "Cost comparison scroll region missing");
-    if (width <= 900) report(getComputedStyle(scroller).overflowX === "auto", "Cost comparison should allow horizontal scrolling when needed");
-    const rowHeading = comparison.querySelector(".comparison-row-heading");
-    if (width <= 720 && rowHeading) report(rowHeading.getBoundingClientRect().width <= width * 0.5 + 1, "The cost table's first column should stay within half the screen on mobile");
-    if (width <= 720) {
-      const destinationColumns = [...comparison.querySelectorAll("thead th")].slice(1);
-      report(destinationColumns.every((column) => column.getBoundingClientRect().width <= width * 0.85), "Mobile destination price columns should stay compact");
-    }
-    if (width >= 1440) report(scroller.scrollWidth <= scroller.clientWidth + 1, "Cost comparison should show all destinations on wide screens");
-    const total = document.querySelector('[data-total-city="lissabon"] [data-total-per-person]');
-    const firstItem = comparison.querySelector('[data-cost-item="lissabon-flight"]');
-    if (total && firstItem) {
-      const baseline = total.textContent;
-      firstItem.checked = !firstItem.checked;
-      firstItem.dispatchEvent(new Event("change", { bubbles: true }));
-      report(total.textContent !== baseline, "Toggling a cost did not update its destination total");
-      firstItem.checked = !firstItem.checked;
-      firstItem.dispatchEvent(new Event("change", { bubbles: true }));
-      report(total.textContent === baseline, "Restoring a cost did not restore the destination total");
-    }
-    const lissabonBoat = comparison.querySelector('[data-cost-item="lissabon-splash-boat"]');
-    const lissabonMuseum = comparison.querySelector('[data-cost-item="lissabon-benfica-museum"]');
-    const lissabonMatch = comparison.querySelector('[data-cost-item="lissabon-benfica"]');
-    const lissabonTotal = comparison.querySelector('[data-total-city="lissabon"] [data-total-per-person]');
-    if (lissabonBoat && lissabonMuseum && lissabonMatch && lissabonTotal) {
-      lissabonMuseum.checked = true;
-      lissabonMuseum.dispatchEvent(new Event("change", { bubbles: true }));
-      report(lissabonBoat.checked, "The Sunday Benfica Museum should not replace the Saturday boat party");
-      report(!lissabonMatch.checked, "Selecting the Benfica Museum should deselect the match ticket");
-      report(lissabonTotal.textContent.includes("€448,96–459,79"), "Selecting the Benfica Museum should add its share to the Lisbon total");
-      lissabonMatch.checked = true;
-      lissabonMatch.dispatchEvent(new Event("change", { bubbles: true }));
-      report(!lissabonMuseum.checked, "Selecting the Benfica match should deselect the museum");
-      report(lissabonTotal.textContent.includes("€471,71–482,54"), "Selecting the Benfica match should add its share to the Lisbon total");
-      lissabonMatch.checked = false;
-      lissabonMatch.dispatchEvent(new Event("change", { bubbles: true }));
-      report(lissabonTotal.textContent.includes("€422,96–433,79"), "Clearing the Benfica option should restore the Lisbon total including the Oeiras kayak");
-    }
-    const lissabonOeirasKayak = comparison.querySelector('[data-cost-item="lissabon-oeiras-kayak"]');
-    if (lissabonBoat && lissabonMuseum && lissabonMatch && lissabonOeirasKayak && lissabonTotal) {
-      lissabonOeirasKayak.checked = false;
-      lissabonOeirasKayak.dispatchEvent(new Event("change", { bubbles: true }));
-      report(lissabonTotal.textContent.includes("€390,46"), "Unchecking the Oeiras kayak should show the Lisbon base total");
-      lissabonOeirasKayak.checked = true;
-      lissabonOeirasKayak.dispatchEvent(new Event("change", { bubbles: true }));
-      report(lissabonBoat.checked && !lissabonMuseum.checked && !lissabonMatch.checked, "The Oeiras kayak should be an independent Sunday activity option");
-      report(lissabonTotal.textContent.includes("€422,96–433,79"), "The Oeiras kayak should be included in the preliminary Lisbon total");
-    }
-    const amsterdamHostel = comparison.querySelector('[data-cost-item="amsterdam-heart-hostel"]');
-    const amsterdamHotel = comparison.querySelector('[data-cost-item="amsterdam-bunk-hotel"]');
-    const amsterdamParking = comparison.querySelector('[data-cost-item="amsterdam-parking"]');
-    const amsterdamTotal = comparison.querySelector('[data-total-city="amsterdam"] [data-total-per-person]');
-    if (amsterdamHostel && amsterdamHotel && amsterdamParking && amsterdamTotal) {
-      amsterdamHostel.checked = true;
-      amsterdamHostel.dispatchEvent(new Event("change", { bubbles: true }));
-      report(!amsterdamHotel.checked && amsterdamParking.checked && !amsterdamParking.disabled, "Selecting the Amsterdam hostel should keep the shared parking estimate selected");
-      report(amsterdamTotal.textContent.includes("€272,22"), "The Amsterdam hostel total should include shared parking");
-      amsterdamParking.checked = false;
-      amsterdamParking.dispatchEvent(new Event("change", { bubbles: true }));
-      report(amsterdamHostel.checked && !amsterdamParking.checked, "Parking should be independently toggleable with the hostel");
-      report(amsterdamTotal.textContent.includes("€255,97"), "Unchecking parking should remove its share from the hostel total");
-      amsterdamParking.checked = true;
-      amsterdamParking.dispatchEvent(new Event("change", { bubbles: true }));
-      amsterdamHotel.checked = true;
-      amsterdamHotel.dispatchEvent(new Event("change", { bubbles: true }));
-      report(!amsterdamHostel.checked, "Restoring the BUNK hotel should deselect the Amsterdam hostel");
-      report(amsterdamHotel.checked && amsterdamParking.checked, "The shared parking estimate should remain selected with BUNK");
-      report(amsterdamTotal.textContent.includes("€340,65"), "Restoring the BUNK stay should restore the Amsterdam total");
-    }
-    const info = comparison.querySelector(".cost-info[data-tooltip]");
-    if (info) {
-      info.click();
-      report(!document.querySelector(".comparison-tooltip")?.hidden, "Activity information tooltip did not open");
-      info.click();
-    }
-  }
   const options = document.querySelector("[data-option-comparison]");
   if (options) {
     const add = document.querySelector("[data-add-option]");
@@ -177,18 +98,51 @@ const audit = () => {
     if (add && reset) {
       reset.click();
       const baseline = options.tFoot.rows[0].cells[1].textContent;
+      const parkingInfo = options.querySelector('[data-item="parkeren"] .option-info');
+      const parkingSummary = parkingInfo?.querySelector("summary");
+      report(Boolean(parkingSummary), "Parking estimate should have an info control");
+      if (parkingSummary) {
+        parkingSummary.scrollIntoView({ block: "center", behavior: "instant" });
+        const parkingTooltip = document.querySelector("#option-parking-tooltip");
+        parkingSummary.dispatchEvent(new PointerEvent("pointerenter", { pointerType: "mouse" }));
+        const tipBounds = parkingTooltip?.getBoundingClientRect();
+        report(Boolean(parkingTooltip && !parkingTooltip.hidden && /Vier auto’s × €50/.test(parkingTooltip.textContent)), "Hover should show the parking information");
+        report(Boolean(tipBounds && tipBounds.left >= 0 && tipBounds.right <= innerWidth && tipBounds.top >= 0 && tipBounds.bottom <= innerHeight), "Parking tooltip should fit in the viewport");
+        parkingSummary.dispatchEvent(new PointerEvent("pointerleave", { pointerType: "mouse" }));
+        report(parkingTooltip?.hidden, "Parking tooltip should close when hover ends");
+        parkingSummary.focus();
+        report(!parkingTooltip?.hidden, "Keyboard focus should show the parking information");
+        parkingSummary.dispatchEvent(new KeyboardEvent("keydown", { key: "Escape", bubbles: true }));
+        report(parkingTooltip?.hidden, "Escape should close the parking information");
+        parkingSummary.blur();
+        parkingSummary.click();
+        report(!parkingTooltip?.hidden && parkingTooltip.textContent.includes("€200"), "Click should show the parking information on touch devices");
+        parkingSummary.click();
+        report(parkingTooltip?.hidden, "Parking info should close when clicked again");
+      }
+      for (const [id, expected] of [
+        ["karten-3-tickets", "€313,48"],
+        ["lasertag-3-spellen", "€290,18"],
+        ["reball-comfort", "€319,43"],
+      ]) {
+        const input = options.querySelector(`[data-item="${id}"] input[type="checkbox"]`);
+        report(Boolean(input && !input.checked), `${id} should be an optional activity`);
+        if (input) {
+          input.click();
+          report(options.tFoot.rows[0].cells[1].textContent.includes(expected), `${id} should update the total per paying guest`);
+          input.click();
+          report(options.tFoot.rows[0].cells[1].textContent === baseline, `Unchecking ${id} should restore the total`);
+        }
+      }
       add.click();
       report(options.tHead.rows[0].cells.length === 3, "Adding a Keulen option should add a column");
       report([...options.tHead.rows[0].cells].slice(1).every((cell) => cell.getBoundingClientRect().width >= 120), "Option columns must stay wide enough for price inputs");
       const basisBoat = options.querySelector('[data-item="partyboot"] td:nth-child(2) input');
       const optionBoat = options.querySelector('[data-item="partyboot"] td:nth-child(3) input');
-      const optionPremium = options.querySelector('[data-item="partyboot-premium"] td:nth-child(3) input');
-      if (basisBoat && optionBoat && optionPremium) {
+      if (basisBoat && optionBoat) {
         optionBoat.click();
         report(!basisBoat.checked && optionBoat.checked, "Keulen option selections should be independent");
         report(options.tFoot.rows[0].cells[1].textContent === baseline && options.tFoot.rows[0].cells[2].textContent !== baseline, "Selecting an option should update only its total");
-        optionPremium.click();
-        report(!optionBoat.checked && optionPremium.checked, "Keulen partyboat packages should be mutually exclusive");
       } else {
         report(false, "Keulen option selection controls missing");
       }
@@ -210,11 +164,11 @@ const audit = () => {
           basisPrice.dispatchEvent(new Event("input", { bubbles: true }));
           report(options.tFoot.rows[0].cells[1].textContent === baseline, "Unchecked custom activities should not affect totals");
           basisCheck.click();
-          report(options.tFoot.rows[0].cells[1].textContent.includes("€270,73–286,56"), "A selected custom price should update the total per payer");
+          report(options.tFoot.rows[0].cells[1].textContent.includes("€279,89"), "A selected custom price should update the total per payer");
           otherPrice.value = "20.00";
           otherPrice.dispatchEvent(new Event("input", { bubbles: true }));
           otherCheck.click();
-          report(options.tFoot.rows[0].cells[1].textContent.includes("€270,73–286,56"), "Custom prices should be independent between options");
+          report(options.tFoot.rows[0].cells[1].textContent.includes("€279,89"), "Custom prices should be independent between options");
           basisPrice.value = "ongeldig";
           basisPrice.dispatchEvent(new Event("input", { bubbles: true }));
           report(basisPrice.getAttribute("aria-invalid") === "true" && options.tFoot.rows[0].cells[1].textContent.includes("Niet meegerekend: Testactiviteit"), "Invalid custom prices should be clearly excluded");
@@ -323,11 +277,11 @@ try {
   await send("Network.enable");
   // Offline third-party resources keep layout tests deterministic and avoid network/certificate failures.
   await send("Network.setBlockedURLs", { urls: ["*maps.google.com*", "*fonts.googleapis.com*", "*fonts.gstatic.com*"] });
-  const { identifier } = await send("Page.addScriptToEvaluateOnNewDocument", { source: 'window.localStorage.removeItem("tim-theme"); window.localStorage.removeItem("tim-cost-comparison-v1"); window.localStorage.removeItem("tim-keulen-opties-v1");' });
+  const { identifier } = await send("Page.addScriptToEvaluateOnNewDocument", { source: 'window.localStorage.removeItem("tim-theme"); window.localStorage.removeItem("tim-keulen-opties-v1");' });
 
   const results = [];
   let firstLoad = true;
-  for (const page of ["index.html", "kosten.html", "bestemmingen/lissabon.html", "bestemmingen/amsterdam.html", "bestemmingen/keulen.html"]) {
+  for (const page of ["index.html", "bestemmingen/lissabon.html", "bestemmingen/amsterdam.html", "bestemmingen/keulen.html"]) {
     for (const width of [320, 390, 768, 1024, 1440]) {
       await send("Emulation.setDeviceMetricsOverride", { width, height: 900, deviceScaleFactor: 1, mobile: false });
       await navigate(page);
@@ -361,7 +315,7 @@ try {
           await send("Runtime.evaluate", { expression: 'document.activeElement?.blur(); window.scrollTo({ top: 0, behavior: "instant" });' });
           const { data } = await send("Page.captureScreenshot", { format: "png", captureBeyondViewport: false });
           await writeFile(resolve(artifacts, `${page.replaceAll("/", "-")}-${width}${suffix}.png`), Buffer.from(data, "base64"));
-          await send("Runtime.evaluate", { expression: 'document.querySelector("#kosten, #bestemmingen, [data-cost-comparison]")?.scrollIntoView({ behavior: "instant" });' });
+          await send("Runtime.evaluate", { expression: 'document.querySelector("#kosten, #bestemmingen")?.scrollIntoView({ behavior: "instant" });' });
           const section = await send("Page.captureScreenshot", { format: "png", captureBeyondViewport: false });
           await writeFile(resolve(artifacts, `${page.replaceAll("/", "-")}-${width}${suffix}-details.png`), Buffer.from(section.data, "base64"));
         }

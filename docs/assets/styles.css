@@ -1632,23 +1632,6 @@ a.destination-card:focus-visible {
   font-size: 0.58rem;
 }
 
-.next-card {
-  display: flex;
-  min-height: 105px;
-  padding: 1.4rem;
-  border: 1px solid var(--border);
-  border-radius: var(--radius);
-  justify-content: center;
-  flex-direction: column;
-  background: var(--surface-tint);
-  transition: border-color 160ms ease, background 160ms ease;
-}
-
-.next-card:hover { border-color: var(--border-strong); background: var(--surface-hover); }
-.next-card span { color: var(--muted-dark); font-size: 0.59rem; text-transform: uppercase; }
-.next-card strong { color: var(--green-bright); font-size: 1rem; font-weight: 500; }
-.next-card strong .status-badge--rejected { color: var(--red-bright); }
-
 /* Cross-destination cost comparison */
 .visually-hidden {
   position: absolute;
@@ -2084,6 +2067,11 @@ a.destination-card:focus-visible {
 
 .option-activity-heading { display: grid; gap: 0.4rem; }
 .option-activity-heading .option-remove { justify-self: start; }
+.option-info { display: inline; }
+.option-info[open] { display: block; }
+.option-info summary { list-style: none; }
+.option-info summary::-webkit-details-marker { display: none; }
+.option-info > span { display: block; margin-top: 0.5rem; color: var(--text-secondary); line-height: 1.5; }
 .option-activity-cost { display: flex; align-items: center; gap: 0.4rem; }
 .option-activity-cost input[type="checkbox"] { width: 17px; height: 17px; margin: 0; accent-color: var(--green-bright); }
 .option-add-activity {
@@ -2418,7 +2406,7 @@ a.destination-card:focus-visible {
 @media print {
   :root, :root[data-theme] { color-scheme: light; --foreground: #111; --muted: #333; --muted-dark: #444; --border: #ccc; --surface: #fff; }
   body { background: #fff; color: #111; }
-  .ambient, .site-header, .skip-link, .hero-actions, .countdown-section, .map-frame, .next-card { display: none; }
+  .ambient, .site-header, .skip-link, .hero-actions, .countdown-section, .map-frame { display: none; }
   .container { width: 100%; }
   .hero, .destination-hero, .section { min-height: 0; padding-block: 1rem; }
   .detail-layout, .detail-aside { display: block; }

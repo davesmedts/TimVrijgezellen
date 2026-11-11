@@ -7,7 +7,7 @@
 - Reisperiode: vrijdag 16 tot zondag 18 april 2027
 - Groepsgrootte: 13 personen
 - Vertrek: regio Antwerpen/Brecht, vrijdag na 17:00
-- Hoofdvervoer: eigen auto’s, indicatief drie wagens
+- Hoofdvervoer: eigen auto’s, indicatief vier wagens
 - Verblijf: **Motel One Köln-Mediapark**, €1.470 voor 13 personen / 2 nachten (incl. belasting)
 - Concept: vrijdag aankomst, inchecken en bars; zaterdag VR, Brauhaustour en in de avond optioneel de partyboot; zondag Phantasialand
 
@@ -58,6 +58,14 @@ Als alternatief voor of verlengstuk van de zaterdagavond is er de **Partyboot K�
 
 Als alternatief is er Free Walk VR. Die biedt in Keulen onder andere actie- en zombiespellen. De huidige weekendprijs begint bij **€29,90 p.p. voor 25 minuten**. De aanbieder vermeldt voor Keulen een capaciteit tot 12 bij Free Walk; laat dus bevestigen hoe een groep van 13 wordt ingepland.
 
+#### Andere zaterdagopties
+
+Deze opties staan los van het kernprogramma en zijn afzonderlijk aan te vinken in de kostenberekening. Prijzen en beschikbaarheid voor 13 deelnemers op 17 april 2027 moeten nog worden bevestigd.
+
+- **Karten — KartCenter Cologne:** drie tickets voor **€43,50 per deelnemer**, goed voor **3 × 10 minuten** rijden. De baan is niet exclusief gereserveerd; controleer de baanbezetting vooraf telefonisch en vraag hoe 13 personen worden ingedeeld. Voor 13 deelnemers: **€565,50 groepskost**, of **€47,13 per betalende gast** bij verdeling over 12 gasten.
+- **Lasertag — Adrenalinpark Köln:** drie spellen voor **€22 per deelnemer**, circa **90 minuten**. De aanbieder adviseert extra tijd voor pauzes en omkleden; de genoemde groepskorting geldt op aanvraag vanaf 15 personen. Voor 13 deelnemers: **€286 groepskost**, of **€23,83 per betalende gast**.
+- **Paintball / reball — Adrenalinpark Köln, Comfortpakket:** **€49 per deelnemer**, met **500 reballs** en **2 uur verblijf**, inclusief masker, huurmarker en perslucht. De Keulse locatie gebruikt rubberen reballs in plaats van verfballetjes. Voor 13 deelnemers: **€637 groepskost**, of **€53,08 per betalende gast**. Beschikbaarheid en eventuele extra's vooraf bevestigen.
+
 ### Zondag 18 april — Phantasialand en terugreis
 
 - Vroeg ontbijt; check uit en spreek af waar de bagage blijft.
@@ -73,7 +81,7 @@ Als alternatief is er Free Walk VR. Die biedt in Keulen onder andere actie- en z
 
 - Afstand Antwerpen–Keulen: ongeveer **215–225 km enkele reis**.
 - Rijtijd zonder zware files: ongeveer **2u20–2u50**; vertrek vrijdag na het werk kan langer duren.
-- Voor 13 personen: drie auto’s met vier à vijf inzittenden.
+- Voor 13 personen: vier auto’s; de verdeling van de inzittenden wordt nog afgesproken.
 - Voordeel: eenvoudig naar Phantasialand, geen afhankelijkheid van late treinen na een parkdag.
 - Nadelen: parkeerbudget en milieusticker controleren; bij uitgaan moeten de auto’s blijven staan.
 - Phantasialand vermeldt momenteel **€8 parkeerkosten per auto**.
@@ -104,10 +112,7 @@ De opgegeven Booking.com-prijs voor **16–18 april 2027**, **13 volwassenen** e
 
 Het hotel heeft **geen eigen parkeerplaats**. Aanbevolen wordt de openbare parkeergarage **Parkhaus MediaPark** op circa 100 m van de ingang. De gepubliceerde tarieven lopen uiteen: Motel One noemt in de aankomstinformatie **€15 per dag**, op de Engelstalige hotelpagina staat **€25 per dag**, en er worden hotelgastkortingen van circa **€5 per dag** gemeld (circa €20 per dag inclusief korting). Laat het exacte tarief en de eventuele hotelkorting bij aankomst bevestigen.
 
-Voor de voorlopige vervoersraming blijven drie auto’s aangehouden, met een bandbreedte van €15–€25 per auto per dag:
-
-- **Laag:** 3 auto’s × 2 dagen × €15 = **€90 totaal / €6,92 p.p.**
-- **Hoog:** 3 auto’s × 2 dagen × €25 = **€150 totaal / €11,54 p.p.**
+Voor de voorlopige parkeerraming rekenen we met **vier auto’s × €50 voor het verblijf = €200 groepskosten**. Dat is **€15,38 per deelnemer**, of **€16,67 per betalende gast** wanneer de kosten van 13 deelnemers over 12 gasten worden verdeeld. Het uiteindelijke tarief en de eventuele hotelkorting moeten nog worden bevestigd.
 
 De parkeertarieven zijn de huidige gepubliceerde tarieven en kunnen vóór april 2027 wijzigen.
 
@@ -123,24 +128,24 @@ Motel One Köln-Neumarkt en Köln-Messe blijven mogelijke alternatieven voor het
 
 ## Budget per persoon
 
-Indicatieve raming met drie eigen auto’s en de gekozen Motel One Köln-Mediapark-optie (€1.470 incl. belasting). Ontbijt is niet inbegrepen en staat apart. Eten, drank, uitgaan en taxi’s zijn uitgesloten.
+Indicatieve raming met vier eigen auto’s en de gekozen Motel One Köln-Mediapark-optie (€1.470 incl. belasting). Ontbijt is niet inbegrepen en staat apart. Eten, drank, uitgaan en taxi’s zijn uitgesloten.
 
 | Onderdeel | Raming p.p. | Opmerking |
 |---|---:|---|
-| Vervoer en lokaal vervoer | €10–€20 | Brandstoframing voor drie auto’s; parkeren staat apart hieronder |
+| Vervoer en lokaal vervoer | €10 | Brandstoframing per deelnemer; parkeren staat apart hieronder |
 | Verblijf — Motel One Köln-Mediapark | €113,08 | €1.470 inclusief 7% btw en 5% stadstoeslag, volgens de opgegeven Booking.com-selectie / 13 |
-| Parkeren — Parkhaus MediaPark | €6,92–€11,54 | 3 auto’s × 2 dagen; tarief volgens gepubliceerde bronnen €15–€25 per auto per dag, hotelkorting bevestigen |
+| Parkeren — Parkhaus MediaPark | €15,38 | 4 auto’s × €50 voor het verblijf = €200 groepskosten; tarief en hotelkorting bevestigen |
 | Zaterdag — VR 7th Box | €34,90 | Huidige weekendprijs; tarief voor 2027 kan wijzigen |
 | Zaterdag — Kölsche Brauhaustour | €27,50 | 2 uur, inclusief 3 Kölsch of 2 frisdranken; richtprijs |
 | Zondag — Phantasialand | €45 | Aangenomen prijs per persoon; exacte dagprijs en opening controleren |
-| **Totaal kernprogramma** | **circa €238–€252** | **Exclusief ontbijt (circa €35,80 p.p. voor twee ochtenden)** |
+| **Totaal kernprogramma** | **circa €246** | **Exclusief ontbijt (circa €35,80 p.p. voor twee ochtenden)** |
 
-Optionele Partyboot Köln (basispakket): **+€79 p.p.** Dat brengt de geraamde som op ongeveer **€317–€331 p.p.**, nog steeds onder het plafond van €450. Het basispakket is all-inclusive drank, waardoor de reguliere uitgaanskosten voor die avond grotendeels vervallen (betaalde inkom voor clubs dan weer wel). De Brauhaustour staat overdag gepland en de boot vertrekt om 20:00; ze zijn dus te combineren, maar het wordt een lange dag.
+Optionele Partyboot Köln (basispakket): **+€79 p.p.** Dat brengt de geraamde som op ongeveer **€325 p.p.**, nog steeds onder het plafond van €450. Het basispakket is all-inclusive drank, waardoor de reguliere uitgaanskosten voor die avond grotendeels vervallen (betaalde inkom voor clubs dan weer wel). De Brauhaustour staat overdag gepland en de boot vertrekt om 20:00; ze zijn dus te combineren, maar het wordt een lange dag.
 
 ### Groepstotaal voor 13
 
-- Kernprogramma: ongeveer **€3.088–€3.276**.
-- Met optionele Partyboot (basispakket): ongeveer **€4.115–€4.303**.
+- Kernprogramma: ongeveer **€3.196**.
+- Met optionele Partyboot (basispakket): ongeveer **€4.223**.
 - Met ontbijt voor twee ochtenden erbij: **+€465,40** op de groep.
 
 Dit zijn planningsramingen op basis van de opgegeven Booking.com-prijs en de huidige parkeertarieven, geen vastgezette eindprijs. De belastingvraag is met deze boeking beantwoord: €161,59 aan btw en stadstoeslag zit in de €1.470. De grootste open punten zijn nu het definitieve parkeertarief van Parkhaus MediaPark, het ontbijttarief voor april 2027 en de opening/ticketprijs van Phantasialand op 18 april.
@@ -170,7 +175,7 @@ De Bundesliga-speelronde van 16–18 april 2027 vermeldt **RB Leipzig – 1. FC 
 ## Openstaande acties
 
 1. De Motel One-boeking op Booking.com controleren op annuleringsvoorwaarden en bevestigen dat €1.470 het echte eindtotaal is (belasting zit er volgens de selectie wel in).
-2. Parkhaus MediaPark voor drie auto’s en twee dagen tarief + eventuele hotelgastkorting laten bevestigen; beslissen over ontbijt (bijboeken bij Motel One of extern).
+2. Parkhaus MediaPark voor vier auto’s en twee dagen tarief + eventuele hotelgastkorting laten bevestigen; ook de brandstoframing voor vier auto’s en de ontbijtkeuze controleren.
 3. Phantasialand-kalender controleren voor 18 april 2027 en daarna tickets voor 13 boeken.
 4. Bij 7th Space navragen of 13 deelnemers op één tijdslot voor de 7th Box kunnen worden verdeeld.
 5. Diner, eventuele club en vervoer na het uitgaan vooraf vastleggen.
@@ -185,6 +190,9 @@ De Bundesliga-speelronde van 16–18 april 2027 vermeldt **RB Leipzig – 1. FC 
 - [Phantasialand — route, parking en shuttle](https://www.phantasialand.de/en/theme-park/information-and-arrival/arrival-and-shuttle-bus/)
 - [7th Space Köln — locatie en openingstijden](https://www.7th-space.com/standorte/koeln)
 - [7th Space — VR-activiteiten en prijzen](https://www.7th-space.com/erlebnis/virtual-reality)
+- [KartCenter Cologne — tickets en prijzen](https://kartcenter-cologne.de/angebot/tickets/)
+- [Adrenalinpark Köln — lasertag, drie spellen](https://adrenalinpark.de/koeln-lasertag/)
+- [Adrenalinpark Köln — reball Comfortpakket](https://adrenalinpark.de/koeln-paintball/)
 - [KölnTourismus — Kölsche Brauhaustour](https://www.cologne-tourism.com/experiences-lifestyle/events/detail/koelsch-beer-brewery-tour)
 - [Partyboot Köln — pakketten, prijzen en data](https://www.partyboot.net/partyboot-koeln/)
 - [Partyboot — vrijblijvende terminaanvraag](https://www.partyboot.net/anfrage/?Stadt=K%C3%B6ln)

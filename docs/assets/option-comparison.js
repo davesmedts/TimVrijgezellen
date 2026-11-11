@@ -21,12 +21,81 @@
   const addButton = document.querySelector("[data-add-option]");
   const resetButton = document.querySelector("[data-reset-options]");
 
+  // Op desktop verschijnt de uitleg bij hover; op mobiel en met toetsenbord werkt klikken ook.
+  // Zonder JavaScript blijft het details-element gewoon uitklapbaar.
+  const parkingInfo = table.querySelector("[data-item='parkeren'] .option-info");
+  const parkingButton = parkingInfo?.querySelector("summary");
+  const parkingText = parkingInfo?.querySelector("span")?.textContent.trim();
+  if (parkingButton && parkingText) {
+    const tooltip = document.createElement("div");
+    tooltip.className = "comparison-tooltip";
+    tooltip.id = "option-parking-tooltip";
+    tooltip.setAttribute("role", "tooltip");
+    tooltip.textContent = parkingText;
+    tooltip.hidden = true;
+    document.body.append(tooltip);
+    let pinned = false;
+    let hovering = false;
+    let focused = false;
+    parkingButton.setAttribute("aria-expanded", "false");
+
+    const hide = () => {
+      tooltip.hidden = true;
+      parkingButton.removeAttribute("aria-describedby");
+      parkingButton.setAttribute("aria-expanded", "false");
+    };
+    const show = () => {
+      const bounds = parkingButton.getBoundingClientRect();
+      if (bounds.bottom < 0 || bounds.top > window.innerHeight) return hide();
+      tooltip.hidden = false;
+      parkingButton.setAttribute("aria-describedby", tooltip.id);
+      parkingButton.setAttribute("aria-expanded", "true");
+      const tip = tooltip.getBoundingClientRect();
+      const padding = 12;
+      const left = Math.max(padding, Math.min(bounds.left, window.innerWidth - tip.width - padding));
+      let top = bounds.bottom + 8;
+      if (top + tip.height > window.innerHeight - padding) top = bounds.top - tip.height - 8;
+      tooltip.style.left = `${left}px`;
+      tooltip.style.top = `${Math.max(padding, top)}px`;
+    };
+
+    parkingButton.addEventListener("pointerenter", (event) => {
+      if (event.pointerType === "touch") return;
+      hovering = true;
+      show();
+    });
+    parkingButton.addEventListener("pointerleave", () => {
+      hovering = false;
+      if (!pinned && !focused) hide();
+    });
+    parkingButton.addEventListener("focus", () => { focused = true; show(); });
+    parkingButton.addEventListener("blur", () => {
+      focused = false;
+      pinned = false;
+      if (!hovering) hide();
+    });
+    parkingButton.addEventListener("click", (event) => {
+      event.preventDefault();
+      pinned = !pinned;
+      if (pinned) show();
+      else hide();
+    });
+    document.addEventListener("pointerdown", (event) => {
+      if (!parkingInfo.contains(event.target)) { pinned = false; hide(); }
+    });
+    document.addEventListener("keydown", (event) => {
+      if (event.key === "Escape" && !tooltip.hidden) { pinned = false; hide(); }
+    });
+    window.addEventListener("resize", () => { if (!tooltip.hidden) show(); });
+    window.addEventListener("scroll", () => { if (!tooltip.hidden) show(); }, true);
+  }
+
   const baseItems = rows.map((row) => ({
     id: row.dataset.item,
     minimum: Number(row.dataset.min),
     maximum: Number(row.dataset.max),
     price: row.dataset.price || "",
-    label: (row.querySelector("th")?.textContent || row.dataset.item).trim(),
+    label: (row.dataset.label || row.querySelector("th")?.textContent || row.dataset.item).trim(),
     standard: row.dataset.default === "true",
     group: row.dataset.exclusiveGroup || "",
   }));
@@ -42,8 +111,7 @@
     return Number.isFinite(amount) && amount <= 100000000 ? amount : null;
   };
 
-  // Binnen een optie mag per wisselgroep (bv. basis versus premium partyboot)
-  // maar één post aangevinkt staan.
+  // Binnen een optie mag per wisselgroep maar één post aangevinkt staan.
   const withoutConflicts = (ids, knownItems) => {
     const picked = [];
     const usedGroups = new Set();
