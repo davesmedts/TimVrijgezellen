@@ -58,6 +58,13 @@ test("destination cost cards add up and exclude spending/reserve", async () => {
   for (const path of htmlFiles.filter((file) => dirname(file).endsWith("bestemmingen"))) {
     const html = await readFile(path, "utf8");
     assert.match(html, /id="kosten"/, path);
+    assert.match(html, /class="sun-summary"/, path);
+    assert.doesNotMatch(html, /weather-sun-table/, path);
+    if (path.endsWith("keulen.html")) {
+      assert.match(html, /data-option-comparison/, path);
+      assert.doesNotMatch(html, /class="panel budget-card"|voorlopige berekening/, path);
+      continue;
+    }
     const budget = html.match(/<dl class="budget-list">([\s\S]*?)<\/dl>/)?.[1];
     assert.ok(budget, path);
     assert.doesNotMatch(budget, /reserve|nachtleven|party|eten|drank/i, path);
@@ -82,8 +89,6 @@ test("destination cost cards add up and exclude spending/reserve", async () => {
     assert.ok(Math.abs(displayedAmounts[0] - Number(total[1])) < 0.01, `Displayed minimum differs from checked values in ${path}`);
     assert.ok(Math.abs(displayedAmounts.at(-1) - Number(total[2])) < 0.01, `Displayed maximum differs from checked values in ${path}`);
     assert.match(html, /class="panel-label">voorlopige berekening<\/p>/, path);
-    assert.match(html, /class="sun-summary"/, path);
-    assert.doesNotMatch(html, /weather-sun-table/, path);
   }
 });
 
@@ -108,7 +113,7 @@ test("every page has a shared, accessible header theme switch with early initial
   }
 });
 
-test("overview has no destination estimates and keeps the three remaining destinations", async () => {
+test("overview keeps Keulen and marks Lissabon as not retained", async () => {
   const html = await readFile(resolve(root, "docs/index.html"), "utf8");
   const cards = [...html.matchAll(/<a class="destination-card[\s\S]*?<\/a>/g)];
   assert.equal(cards.length, 3);
@@ -119,10 +124,70 @@ test("overview has no destination estimates and keeps the three remaining destin
   assert.ok(intro < group && group < fixed, "The participant list belongs between the intro and fixed agreements");
   const overview = await readFile(resolve(root, "Bestemmingen/overzicht.md"), "utf8");
   assert.doesNotMatch(overview, /Hostelbasis|Hotelbasis|Budgetinterpretatie/);
+  assert.match(html, /Groepsbesluit: autoreis/);
+  assert.match(html, /class="status-badge status-badge--rejected">Niet weerhouden<\/span>/);
+  assert.match(html, /destination-card--keulen[\s\S]*?href="\.\/bestemmingen\/keulen\.html"/);
+  assert.match(overview, /De groep kiest voor een trip met de auto en wil niet vliegen/);
+  assert.match(overview, /Lissabon is niet weerhouden/);
+});
+
+test("Lissabon is visibly marked as not retained throughout the website", async () => {
+  for (const path of htmlFiles) {
+    const html = await readFile(path, "utf8");
+    assert.match(html, /Niet weerhouden/, `Missing Lissabon status on ${path}`);
+    assert.match(html, /class="tab-status">Niet weerhouden<\/span>/, `Missing Lissabon navigation status on ${path}`);
+  }
+  const lisbon = await readFile(resolve(root, "docs/bestemmingen/lissabon.html"), "utf8");
+  assert.match(lisbon, /class="status-badge status-badge--rejected">Niet weerhouden<\/span>/);
+  const costs = await readFile(resolve(root, "docs/kosten.html"), "utf8");
+  assert.match(costs, /Lissabon is niet weerhouden/);
+  assert.match(costs, /bestemmingen\/keulen\.html#opties/);
+});
+
+test("Keulen retains its option comparison and updated research", async () => {
+  const html = await readFile(resolve(root, "docs/bestemmingen/keulen.html"), "utf8");
+  assert.match(html, /assets\/option-comparison\.js/);
+  assert.match(html, /data-option-comparison/);
+  assert.match(html, /data-add-option/);
+  assert.match(html, /data-item="partyboot-premium"/);
+  assert.match(html, /data-add-activity="zaterdag"/);
+  assert.match(html, /data-add-activity="zondag"/);
+  assert.match(html, /<h2 id="opties-title">Kostenberekening\.<\/h2>/);
+  const intro = html.match(/<p class="option-intro">([\s\S]*?)<\/p>/)?.[1] ?? "";
+  assert.doesNotMatch(intro, /partyboot/i);
+  assert.match(intro, /13 deelnemers[\s\S]*12 betalende gasten/);
+  const table = html.match(/<table class="cost-comparison" data-option-comparison[\s\S]*?<\/table>/)?.[0] ?? "";
+  const groups = [...table.matchAll(/<tr class="comparison-category"><th[^>]*>([^<]+)<\/th><\/tr>([\s\S]*?)(?=<tr class="comparison-category"|<\/tbody>)/g)];
+  assert.deepEqual(groups.map((group) => group[1]), ["Vervoer &amp; verblijf", "Activiteiten zaterdag", "Activiteiten zondag"]);
+  assert.deepEqual(groups.map((group) => [...group[2].matchAll(/data-item="([^"]+)"/g)].map((match) => match[1])), [
+    ["vervoer", "motel-one", "parkeren", "ontbijt"],
+    ["vr", "brauhaustour", "partyboot", "partyboot-premium"],
+    ["phantasialand"],
+  ]);
+  const defaults = [...table.matchAll(/<tr data-item="[^"]+" data-min="([\d.]+)" data-max="([\d.]+)"[^>]*data-default="true"/g)];
+  const format = (value) => new Intl.NumberFormat("nl-BE", { minimumFractionDigits: 2, maximumFractionDigits: 2 }).format(Math.round((value + 1e-9) * 100) / 100);
+  const amounts = [1, 2].map((index) => defaults.reduce((sum, item) => sum + Number(item[index]), 0) * 13 / 12);
+  assert.match(table, new RegExp(`€${format(amounts[0])}–${format(amounts[1])} per betalende gast`));
+  const location = html.match(/<section class="container location-section"[\s\S]*?<\/section>/)?.[0] ?? "";
+  assert.match(location, /booking\.com\/hotel\/de\/motel-one-koeln-mediapark\.html\?checkin=2027-04-16&amp;checkout=2027-04-18&amp;group_adults=13&amp;no_rooms=7/);
+  assert.match(html, /<section class="section container" aria-labelledby="bronnen-title">[\s\S]*?<\/section>\s*<\/main>/);
+  assert.doesNotMatch(html, /Bron klimaatgemiddelden|Bron zontijden|Klimaatgemiddelden en zontijden zijn indicaties|de weersverwachting voor april 2027 is nog niet bekend/i);
+  const research = await readFile(resolve(root, "Bestemmingen/Auto/Keulen/keulen.md"), "utf8");
+  assert.match(research, /Motel One Köln-Mediapark/);
+  assert.match(research, /Partyboot Köln/);
+});
+
+test("destination research is grouped by travel mode", async () => {
+  const auto = await readdir(resolve(root, "Bestemmingen/Auto"));
+  const flight = await readdir(resolve(root, "Bestemmingen/Vliegen"));
+  assert.deepEqual(auto.sort(), ["Amsterdam", "Keulen", "Sauerland"]);
+  assert.deepEqual(flight.sort(), ["Barcelona", "Budapest", "Istanbul", "Krakow", "Lissabon", "Londen", "Madrid", "Munchen", "Porto", "Sevilla", "Sofia", "Valencia"]);
 });
 
 test("cost comparison starts with destination budgets matching the detail pages", async () => {
   const html = await readFile(resolve(root, "docs/kosten.html"), "utf8");
+  const tableHead = html.match(/<thead>[\s\S]*?<\/thead>/)?.[0] ?? "";
+  assert.ok(tableHead.indexOf("Amsterdam") < tableHead.indexOf("Lissabon"), "Amsterdam should be the first destination column");
   const expected = {
     lissabon: { group: [5075.52, 5205.52], payer: [422.96, 433.7933333333] },
     amsterdam: { group: [4087.85, 4087.85], payer: [340.6541666667, 340.6541666667] },
@@ -153,7 +218,8 @@ test("cost comparison starts with destination budgets matching the detail pages"
     const displayed = amounts.payer.map((amount) => new Intl.NumberFormat("nl-BE", { minimumFractionDigits: 2, maximumFractionDigits: 2 }).format(amount));
     const range = displayed[0] === displayed[1] ? `€${displayed[0]} per betalende gast` : `€${displayed[0]}–${displayed[1]} per betalende gast`;
     assert.ok(html.includes(range), `Missing displayed payer total for ${city}: ${range}`);
-    assert.match(html, new RegExp(`data-total-city="${city}"[\\s\\S]*?data-total-group`));
+    assert.match(html, new RegExp(`data-total-city="${city}"[\\s\\S]*?data-total-per-person`));
+    assert.match(html, new RegExp(`data-total-city="${city}"[^>]*>[\\s\\S]*?data-total-group`));
   }
 
   assert.match(html, /Activiteit 1[\s\S]*Activiteit 4/);
@@ -252,7 +318,7 @@ test("key content regressions stay fixed", async () => {
   assert.match(lisbon, /Benfica Museum/);
   assert.match(lisbon, /kajaktour in Oeiras/i);
   assert.doesNotMatch(lisbon, /Arrábida|€80–120|6,5-7 uur/i);
-  const lisbonResearch = await readFile(resolve(root, "Bestemmingen/Lissabon/lissabon.md"), "utf8");
+   const lisbonResearch = await readFile(resolve(root, "Bestemmingen/Vliegen/Lissabon/lissabon.md"), "utf8");
   assert.match(lisbonResearch, /kajak- en snorkeltour/i);
   assert.match(lisbonResearch, /Benfica Museum[\s\S]*?€24 per deelnemer/i);
   assert.match(lisbonResearch, /kajaktour in Oeiras[\s\S]*?€30–€40 per deelnemer/i);

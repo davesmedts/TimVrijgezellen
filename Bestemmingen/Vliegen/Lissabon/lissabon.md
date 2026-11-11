@@ -3,7 +3,7 @@
 ## Status
 
 - Optie: 11
-- Status: Onderzoek
+- Status: Niet weerhouden — de groep kiest voor een trip met de auto en wil niet vliegen.
 - Reisperiode: 16-18 april 2027
 - Groepsgrootte: 13 personen
 - Vertrek: Antwerpen/Brecht

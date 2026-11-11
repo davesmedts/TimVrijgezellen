@@ -13,6 +13,10 @@
 - De vluchtprijzen hieronder zijn prijsindicaties uit concrete zoekopdrachten.
 - De prijs voor 13 personen moet telkens nog worden bevestigd: prijszoekmachines tonen soms maximaal 8 reizigers en groepsprijzen kunnen afwijken.
 
+## Groepsbesluit vervoer
+
+De groep kiest voor een trip met de auto en wil niet vliegen. De vluchtvergelijking en aanbevelingen hieronder zijn bewaard als eerder onderzoek, niet als actuele shortlist. **Lissabon is niet weerhouden** omdat de optie van een vliegreis afvalt. Londen staat bij de niet-auto-opties, maar heeft Eurostar als praktisch alternatief voor een vlucht.
+
 ## Snelle vergelijking
 
 | Bestemming | Vervoer | Concreet vlucht-/transporttarief p.p. | Tijdvoorwaarden | Voetbalstatus |
@@ -31,7 +35,7 @@
 | **Sevilla** | Vlucht | Geen geschikte avondcombinatie gevonden | Niet geschikt zonder flexibele uren | Betis thuis op zondag |
 | **Valencia** | Vlucht | Geen geschikte avondcombinatie gevonden | Niet geschikt zonder flexibele uren | Levante thuis op zondag |
 | **Porto** | Vlucht BRU-OPO via LIS | **± €171 retour**, 1 overstap | Aankomst 23:55 in Brussel; niet zondagavond thuis | FC Porto - Santa Clara op zondag |
-| **Lissabon** | Vlucht BRU-LIS | **± €169 retour**, direct | Retour landt 23:55 in Brussel; vroegere vlucht nodig voor zondagavond thuis | Benfica - Nacional op zondag |
+| **Lissabon** | Vlucht BRU-LIS | **± €169 retour**, direct | **Niet weerhouden:** groep kiest voor een trip met de auto | Benfica - Nacional op zondag |
 
 
 ## Vluchtprijzen en praktische haalbaarheid
@@ -100,7 +104,9 @@ Alle exacte aftrapuren moeten nog worden bevestigd. De vermelde wedstrijden zijn
 | Porto | Portwijn, petiscos en vis | Goed | Portwijn, Douro, foodtour | 16-19 °C, natter | Compact en betaalbaar |
 | Lissabon | Zeer goed | Zeer goed | Taag, Sintra, surf, foodtour | 19-22 °C | Sterke citytrip, maar heuvelachtig |
 
-## Voorlopige aanbeveling
+## Eerdere aanbevelingen uit het vlucht- en bestemmingsonderzoek
+
+De aanbevelingen in dit onderdeel dateren van vóór het groepsbesluit om niet te vliegen. Ze zijn geen actuele keuze voor het weekend.
 
 ### Als vluchtprijs het zwaarst weegt
 
@@ -139,18 +145,23 @@ Alle exacte aftrapuren moeten nog worden bevestigd. De vermelde wedstrijden zijn
 
 ## Links naar de bestemmingsfiches
 
-- [Keulen](Keulen/keulen.md)
-- [Amsterdam](Amsterdam/amsterdam.md)
-- [Willingen / Sauerland](Sauerland/sauerland.md)
-- [Londen](Londen/londen.md)
-- [München](Munchen/munchen.md)
-- [Istanbul](Istanbul/istanbul.md)
-- [Budapest](Budapest/budapest.md)
-- [Krakow](Krakow/krakow.md)
-- [Sofia](Sofia/sofia.md)
-- [Madrid](Madrid/madrid.md)
-- [Barcelona](Barcelona/barcelona.md)
-- [Sevilla](Sevilla/sevilla.md)
-- [Valencia](Valencia/valencia.md)
-- [Porto](Porto/porto.md)
-- [Lissabon](Lissabon/lissabon.md)
+### Met de auto
+
+- [Amsterdam](Auto/Amsterdam/amsterdam.md)
+- [Keulen](Auto/Keulen/keulen.md)
+- [Willingen / Sauerland](Auto/Sauerland/sauerland.md)
+
+### Vliegen of ander vervoer
+
+- [Londen — Eurostar-optie](Vliegen/Londen/londen.md)
+- [München](Vliegen/Munchen/munchen.md)
+- [Istanbul](Vliegen/Istanbul/istanbul.md)
+- [Budapest](Vliegen/Budapest/budapest.md)
+- [Krakow](Vliegen/Krakow/krakow.md)
+- [Sofia](Vliegen/Sofia/sofia.md)
+- [Madrid](Vliegen/Madrid/madrid.md)
+- [Barcelona](Vliegen/Barcelona/barcelona.md)
+- [Sevilla](Vliegen/Sevilla/sevilla.md)
+- [Valencia](Vliegen/Valencia/valencia.md)
+- [Porto](Vliegen/Porto/porto.md)
+- [Lissabon — niet weerhouden](Vliegen/Lissabon/lissabon.md)

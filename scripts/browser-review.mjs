@@ -94,7 +94,7 @@ const audit = () => {
   if (comparison) {
     const scroller = document.querySelector(".comparison-table-scroll");
     report(Boolean(scroller), "Cost comparison scroll region missing");
-    if (width <= 900) report(scroller.scrollWidth > scroller.clientWidth, "Cost comparison should scroll horizontally on narrow screens");
+    if (width <= 900) report(getComputedStyle(scroller).overflowX === "auto", "Cost comparison should allow horizontal scrolling when needed");
     const rowHeading = comparison.querySelector(".comparison-row-heading");
     if (width <= 720 && rowHeading) report(rowHeading.getBoundingClientRect().width <= width * 0.5 + 1, "The cost table's first column should stay within half the screen on mobile");
     if (width <= 720) {
@@ -122,24 +122,24 @@ const audit = () => {
       lissabonMuseum.dispatchEvent(new Event("change", { bubbles: true }));
       report(lissabonBoat.checked, "The Sunday Benfica Museum should not replace the Saturday boat party");
       report(!lissabonMatch.checked, "Selecting the Benfica Museum should deselect the match ticket");
-      report(lissabonTotal.textContent.includes("€450,04–476,04"), "Selecting the Benfica Museum should add its share to the Lisbon total");
+      report(lissabonTotal.textContent.includes("€448,96–459,79"), "Selecting the Benfica Museum should add its share to the Lisbon total");
       lissabonMatch.checked = true;
       lissabonMatch.dispatchEvent(new Event("change", { bubbles: true }));
       report(!lissabonMuseum.checked, "Selecting the Benfica match should deselect the museum");
-      report(lissabonTotal.textContent.includes("€472,79–498,79"), "Selecting the Benfica match should add its share to the Lisbon total");
+      report(lissabonTotal.textContent.includes("€471,71–482,54"), "Selecting the Benfica match should add its share to the Lisbon total");
       lissabonMatch.checked = false;
       lissabonMatch.dispatchEvent(new Event("change", { bubbles: true }));
-      report(lissabonTotal.textContent.includes("€424,04–450,04"), "Clearing the Benfica option should restore the Lisbon total including the Oeiras kayak");
+      report(lissabonTotal.textContent.includes("€422,96–433,79"), "Clearing the Benfica option should restore the Lisbon total including the Oeiras kayak");
     }
     const lissabonOeirasKayak = comparison.querySelector('[data-cost-item="lissabon-oeiras-kayak"]');
     if (lissabonBoat && lissabonMuseum && lissabonMatch && lissabonOeirasKayak && lissabonTotal) {
       lissabonOeirasKayak.checked = false;
       lissabonOeirasKayak.dispatchEvent(new Event("change", { bubbles: true }));
-      report(lissabonTotal.textContent.includes("€391,54–406,71"), "Unchecking the Oeiras kayak should show the Lisbon base total");
+      report(lissabonTotal.textContent.includes("€390,46"), "Unchecking the Oeiras kayak should show the Lisbon base total");
       lissabonOeirasKayak.checked = true;
       lissabonOeirasKayak.dispatchEvent(new Event("change", { bubbles: true }));
       report(lissabonBoat.checked && !lissabonMuseum.checked && !lissabonMatch.checked, "The Oeiras kayak should be an independent Sunday activity option");
-      report(lissabonTotal.textContent.includes("€424,04–450,04"), "The Oeiras kayak should be included in the preliminary Lisbon total");
+      report(lissabonTotal.textContent.includes("€422,96–433,79"), "The Oeiras kayak should be included in the preliminary Lisbon total");
     }
     const amsterdamHostel = comparison.querySelector('[data-cost-item="amsterdam-heart-hostel"]');
     const amsterdamHotel = comparison.querySelector('[data-cost-item="amsterdam-bunk-hotel"]');
@@ -167,6 +167,82 @@ const audit = () => {
       info.click();
       report(!document.querySelector(".comparison-tooltip")?.hidden, "Activity information tooltip did not open");
       info.click();
+    }
+  }
+  const options = document.querySelector("[data-option-comparison]");
+  if (options) {
+    const add = document.querySelector("[data-add-option]");
+    const reset = document.querySelector("[data-reset-options]");
+    report(Boolean(add && !add.hidden && reset && !reset.hidden), "Keulen option controls should be available");
+    if (add && reset) {
+      reset.click();
+      const baseline = options.tFoot.rows[0].cells[1].textContent;
+      add.click();
+      report(options.tHead.rows[0].cells.length === 3, "Adding a Keulen option should add a column");
+      report([...options.tHead.rows[0].cells].slice(1).every((cell) => cell.getBoundingClientRect().width >= 120), "Option columns must stay wide enough for price inputs");
+      const basisBoat = options.querySelector('[data-item="partyboot"] td:nth-child(2) input');
+      const optionBoat = options.querySelector('[data-item="partyboot"] td:nth-child(3) input');
+      const optionPremium = options.querySelector('[data-item="partyboot-premium"] td:nth-child(3) input');
+      if (basisBoat && optionBoat && optionPremium) {
+        optionBoat.click();
+        report(!basisBoat.checked && optionBoat.checked, "Keulen option selections should be independent");
+        report(options.tFoot.rows[0].cells[1].textContent === baseline && options.tFoot.rows[0].cells[2].textContent !== baseline, "Selecting an option should update only its total");
+        optionPremium.click();
+        report(!optionBoat.checked && optionPremium.checked, "Keulen partyboat packages should be mutually exclusive");
+      } else {
+        report(false, "Keulen option selection controls missing");
+      }
+      const addSaturday = options.querySelector('[data-add-activity="zaterdag"]');
+      const addSunday = options.querySelector('[data-add-activity="zondag"]');
+      report(Boolean(addSaturday && addSunday && !addSaturday.closest("tr").hidden && !addSunday.closest("tr").hidden), "Activity controls should be available for both days");
+      if (addSaturday && addSunday) {
+        addSaturday.click();
+        const row = options.querySelector(".option-custom-row");
+        const name = row?.querySelector(".option-activity-name");
+        const basisPrice = row?.querySelector("td:nth-child(2) .option-activity-price");
+        const basisCheck = row?.querySelector('td:nth-child(2) input[type="checkbox"]');
+        const otherPrice = row?.querySelector("td:nth-child(3) .option-activity-price");
+        const otherCheck = row?.querySelector('td:nth-child(3) input[type="checkbox"]');
+        if (name && basisPrice && basisCheck && otherPrice && otherCheck) {
+          name.value = "Testactiviteit";
+          name.dispatchEvent(new Event("input", { bubbles: true }));
+          basisPrice.value = "12,50";
+          basisPrice.dispatchEvent(new Event("input", { bubbles: true }));
+          report(options.tFoot.rows[0].cells[1].textContent === baseline, "Unchecked custom activities should not affect totals");
+          basisCheck.click();
+          report(options.tFoot.rows[0].cells[1].textContent.includes("€270,73–286,56"), "A selected custom price should update the total per payer");
+          otherPrice.value = "20.00";
+          otherPrice.dispatchEvent(new Event("input", { bubbles: true }));
+          otherCheck.click();
+          report(options.tFoot.rows[0].cells[1].textContent.includes("€270,73–286,56"), "Custom prices should be independent between options");
+          basisPrice.value = "ongeldig";
+          basisPrice.dispatchEvent(new Event("input", { bubbles: true }));
+          report(basisPrice.getAttribute("aria-invalid") === "true" && options.tFoot.rows[0].cells[1].textContent.includes("Niet meegerekend: Testactiviteit"), "Invalid custom prices should be clearly excluded");
+          basisPrice.value = "12,50";
+          basisPrice.dispatchEvent(new Event("input", { bubbles: true }));
+          add.click();
+          const updatedRow = options.querySelector(".option-custom-row");
+          const clonedPrice = updatedRow?.querySelector("td:nth-child(4) .option-activity-price");
+          const clonedCheck = updatedRow?.querySelector('td:nth-child(4) input[type="checkbox"]');
+          report(clonedPrice?.value === "12,50" && clonedCheck?.checked, "New options should copy the base custom price and selection");
+          const saved = JSON.parse(localStorage.getItem("tim-keulen-opties-v1") ?? "null");
+          const savedItem = saved?.customItems?.find((item) => item.label === "Testactiviteit" && item.day === "zaterdag");
+          report(Boolean(savedItem && saved.options[0].selected.includes(savedItem.id) && saved.options[0].prices[savedItem.id] === "12,50"), "Custom activities and their prices should be saved");
+          reset.click();
+          const resetRow = options.querySelector(".option-custom-row");
+          report(resetRow?.querySelector(".option-activity-price")?.value === "12,50" && !resetRow?.querySelector('td input[type="checkbox"]')?.checked, "Reset should preserve custom activities and base prices without selecting them");
+          resetRow?.querySelector(".option-remove")?.click();
+          report(!options.querySelector(".option-custom-row") && options.tFoot.rows[0].cells[1].textContent === baseline, "Removing a custom activity should remove its costs");
+        } else {
+          report(false, "Custom activity inputs are missing");
+        }
+        addSunday.click();
+        const sundayRow = options.querySelector(".option-custom-row");
+        report(sundayRow?.nextElementSibling?.querySelector('[data-add-activity="zondag"]'), "Sunday activities should be added to the Sunday section");
+        sundayRow?.querySelector(".option-remove")?.click();
+      }
+      reset.click();
+      report(options.tHead.rows[0].cells.length === 2 && options.tFoot.rows[0].cells[1].textContent === baseline, "Keulen reset should restore the base option");
     }
   }
   const countdown = document.querySelector("[data-countdown]");

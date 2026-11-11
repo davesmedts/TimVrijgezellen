@@ -10,8 +10,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet" />
-    <link rel="stylesheet" href="../assets/styles.css" />
-    <script src="../assets/option-comparison.js" defer></script>
+    <link rel="stylesheet" href="../assets/styles.css?v=2" />
+    <script src="../assets/option-comparison.js?v=2" defer></script>
   </head>
   <body>
     <a class="skip-link" href="#inhoud">Ga naar de inhoud</a>
@@ -28,7 +28,7 @@
         </a>
         <nav class="tabs" aria-label="Hoofdnavigatie">
           <a class="tab" href="../index.html">Home</a>
-          <a class="tab" href="./lissabon.html">Lissabon</a>
+          <a class="tab" href="./lissabon.html">Lissabon <span class="tab-status">Niet weerhouden</span></a>
           <a class="tab" href="./amsterdam.html">Amsterdam</a>
           <a class="tab is-active" href="./keulen.html" aria-current="page">Keulen</a>
           <a class="tab" href="../kosten.html">Kostenvergelijking</a>
@@ -87,7 +87,6 @@
             <span class="weather-symbol" aria-hidden="true">☁</span>
             <div>
               <h2 id="weather-title">Fris voorjaar, wisselvallig.</h2>
-              <p>De zaterdag is grotendeels indoor met VR en de Brauhaustour; de partyboot heeft een overdekt binnen- en buitenplan. Neem een lichte waterdichte jas mee.</p>
             </div>
           </div>
           <div class="weather-metrics" aria-label="Gebruikelijk aprilweer in Keulen">
@@ -103,14 +102,6 @@
             </dl>
             <p>Lokale tijd · CEST (UTC+2) · indicatie voor 17 april 2027</p>
           </div>
-          <div class="weather-card__footer">
-            <p><strong>Praktisch:</strong> de weersverwachting voor april 2027 is nog niet bekend; check buitenactiviteiten kort voor vertrek.</p>
-            <div class="weather-sources">
-              <a href="https://www.timeanddate.com/weather/germany/cologne/climate" target="_blank" rel="noopener noreferrer">Bron klimaatgemiddelden ↗</a>
-              <a href="https://api.sunrise-sunset.org/json?lat=50.9375&amp;lng=6.9603&amp;date=2027-04-17&amp;formatted=0" target="_blank" rel="noopener noreferrer">Bron zontijden: Sunrise-Sunset.org ↗</a>
-            </div>
-          </div>
-          <p class="weather-disclaimer">Klimaatgemiddelden en zontijden zijn indicaties, geen weersvoorspelling voor april 2027.</p>
         </article>
       </section>
 
@@ -124,6 +115,9 @@
               ligt aan het Mediapark, ongeveer een kilometer van de Dom en op loopafstand van het
               Belgisches Viertel. Parkeren kan in de Parkhaus MediaPark op circa honderd meter.
           </p>
+          <a class="map-link" href="https://www.booking.com/hotel/de/motel-one-koeln-mediapark.html?checkin=2027-04-16&amp;checkout=2027-04-18&amp;group_adults=13&amp;no_rooms=7" target="_blank" rel="noopener noreferrer">
+            Bekijk Motel One op Booking.com <span>↗</span>
+          </a>
           <a class="map-link" href="https://www.google.com/maps/search/?api=1&amp;query=50.9475%2C6.9440" target="_blank" rel="noopener noreferrer">
             Open in Google Maps <span>↗</span>
           </a>
@@ -171,39 +165,9 @@
             </div>
           </article>
 
-          <article class="panel content-panel">
-            <p class="section-kicker">03 / bronnen</p>
-            <h2>Controleer vóór het boeken.</h2>
-            <ul class="bullet-list source-list">
-              <li><a href="https://www.motel-one.com/de/hotels/koeln/hotel-koeln-mediapark/" target="_blank" rel="noopener noreferrer">Motel One Köln-Mediapark — hotel, kamers en locatie ↗</a></li>
-              <li><a href="https://www.booking.com/hotel/de/motel-one-koeln-mediapark.html" target="_blank" rel="noopener noreferrer">Booking.com — opgegeven selectie 16–18 april 2027, 7 kamers voor 13 ↗</a></li>
-              <li><a href="https://www.motel-one.com/fileadmin/dam/Hotels/Koeln/Koeln-Mediapark/Anfahrtsbeschreibung_Koeln-Mediapark_EN.pdf" target="_blank" rel="noopener noreferrer">Motel One — aankomst en parkeren Parkhaus MediaPark (PDF) ↗</a></li>
-              <li><a href="https://www.partyboot.net/partyboot-koeln/" target="_blank" rel="noopener noreferrer">Partyboot Köln — pakketten, prijzen en data ↗</a></li>
-              <li><a href="https://www.7th-space.com/standorte/koeln" target="_blank" rel="noopener noreferrer">7th Space Köln — VR-activiteiten en prijzen ↗</a></li>
-              <li><a href="https://shop.phantasialand.de/en/products/theme-park-tickets/2027-04" target="_blank" rel="noopener noreferrer">Phantasialand — actuele ticketprijzen per datum ↗</a></li>
-              <li><a href="https://www.phantasialand.de/en/theme-park/opening-hours/" target="_blank" rel="noopener noreferrer">Phantasialand — openingstijdenkalender ↗</a></li>
-              <li><a href="https://www.cologne-tourism.com/experiences-lifestyle/events/detail/koelsch-beer-brewery-tour" target="_blank" rel="noopener noreferrer">KölnTourismus — Kölsche Brauhaustour ↗</a></li>
-            </ul>
-          </article>
         </div>
 
         <aside class="detail-aside">
-          <article class="panel budget-card" id="kosten" aria-labelledby="kosten-title">
-            <p class="panel-label">voorlopige berekening</p>
-            <h2 id="kosten-title">Kosten per betalende gast</h2>
-            <p class="budget-amount budget-amount--range">€257,18–273,02</p>
-
-            <dl class="budget-list">
-              <div data-min="10.83" data-max="21.67"><dt>vervoer · brandstof 3 auto’s</dt><dd>€10,83–21,67</dd></div>
-              <div data-min="122.5" data-max="122.5"><dt>Motel One · 2 nachten</dt><dd>€122,50</dd></div>
-              <div data-min="7.5" data-max="12.5"><dt>parkeren · Parkhaus MediaPark</dt><dd>€7,50–12,50</dd></div>
-              <div data-min="37.81" data-max="37.81"><dt>7th Space VR · za</dt><dd>€37,81</dd></div>
-              <div data-min="29.79" data-max="29.79"><dt>Brauhaustour · za</dt><dd>€29,79</dd></div>
-              <div data-min="48.75" data-max="48.75"><dt>Phantasialand · zo</dt><dd>€48,75</dd></div>
-              <div class="budget-total" data-total-min="257.18" data-total-max="273.02"><dt>totaal per betalende gast</dt><dd>€257,18–273,02</dd></div>
-            </dl>
-            <p class="budget-note">Rekenmethode: de posten hierboven zijn Tims aandeel inbegrepen — elke bijdrage is de groepskost voor 13 gedeeld door 12 betalende gasten.</p>
-          </article>
           <article class="panel compact-card">
             <p class="panel-label">overnachten</p>
             <h3>Motel One Köln-Mediapark</h3>
@@ -217,13 +181,13 @@
         </aside>
       </section>
 
-      <section class="section container comparison-section" aria-labelledby="opties-title">
-        <div class="panel comparison-panel">
+      <section class="section container comparison-section" id="kosten" aria-labelledby="opties-title">
+        <div class="panel comparison-panel" id="opties">
           <div class="comparison-heading">
             <div>
-              <p class="section-kicker">04 / opties naast elkaar</p>
+              <p class="section-kicker">03 / opties naast elkaar</p>
               <div class="comparison-title-row">
-                <h2 id="opties-title">Bouw je eigen opties.</h2>
+                <h2 id="opties-title">Kostenberekening.</h2>
               </div>
             </div>
             <div class="option-add-bar">
@@ -233,11 +197,8 @@
           </div>
 
           <p class="option-intro">
-            Voeg hierboven kolommen toe (Basis optie, Optie 1, Optie 2 …) en vink per optie aan
-            welke kostenposten erin zitten. Elke nieuwe optie start als kopie van de Basis optie;
-            kolomnamen zijn aanpasbaar. De posten staan per deelnemer; het toont per optie het
-            totaal per betalende gast (groepskost voor 13 gedeeld door 12) en de groepskosten.
-            Binnen een optie gelden basis en premium partyboot als wisselende keuzes.
+            Voeg opties en activiteiten toe, vul prijzen per deelnemer in en vink aan wat meetelt.
+            De groepskosten voor 13 deelnemers worden verdeeld over 12 betalende gasten.
           </p>
 
           <div class="comparison-table-scroll" role="region" aria-label="Optievergelijking Keulen; horizontaal scrollen indien nodig" tabindex="0">
@@ -271,7 +232,11 @@
                   <th scope="row">Parkeren · Parkhaus MediaPark</th>
                   <td class="cost-cell"><label class="cost-choice"><input type="checkbox" checked /><span>€6,92–11,54</span></label></td>
                 </tr>
-                <tr class="comparison-category"><th colspan="2" scope="colgroup">Activiteiten</th></tr>
+                <tr data-item="ontbijt" data-min="35.8" data-max="35.8" data-price="€35,80">
+                  <th scope="row">Ontbijt · 2 ochtenden</th>
+                  <td class="cost-cell"><label class="cost-choice"><input type="checkbox" /><span>€35,80</span></label></td>
+                </tr>
+                <tr class="comparison-category"><th colspan="2" scope="colgroup">Activiteiten zaterdag</th></tr>
                 <tr data-item="vr" data-min="34.9" data-max="34.9" data-price="€34,90" data-default="true">
                   <th scope="row">7th Space VR · 7th Box · za</th>
                   <td class="cost-cell"><label class="cost-choice"><input type="checkbox" checked /><span>€34,90</span></label></td>
@@ -280,11 +245,6 @@
                   <th scope="row">Kölsche Brauhaustour · za</th>
                   <td class="cost-cell"><label class="cost-choice"><input type="checkbox" checked /><span>€27,50</span></label></td>
                 </tr>
-                <tr data-item="phantasialand" data-min="45" data-max="45" data-price="€45" data-default="true">
-                  <th scope="row">Phantasialand · zo</th>
-                  <td class="cost-cell"><label class="cost-choice"><input type="checkbox" checked /><span>€45</span></label></td>
-                </tr>
-                <tr class="comparison-category"><th colspan="2" scope="colgroup">Optioneel</th></tr>
                 <tr data-item="partyboot" data-min="79" data-max="79" data-price="€79" data-exclusive-group="partyboot">
                   <th scope="row">Partyboot Köln · basispakket · za</th>
                   <td class="cost-cell"><label class="cost-choice"><input type="checkbox" /><span>€79</span></label></td>
@@ -293,10 +253,13 @@
                   <th scope="row">Partyboot Köln · premium · za</th>
                   <td class="cost-cell"><label class="cost-choice"><input type="checkbox" /><span>€99</span></label></td>
                 </tr>
-                <tr data-item="ontbijt" data-min="35.8" data-max="35.8" data-price="€35,80">
-                  <th scope="row">Ontbijt · 2 ochtenden</th>
-                  <td class="cost-cell"><label class="cost-choice"><input type="checkbox" /><span>€35,80</span></label></td>
+                <tr class="option-add-activity-row" hidden><th colspan="2"><button class="option-add-activity" type="button" data-add-activity="zaterdag">+ activiteit zaterdag</button></th></tr>
+                <tr class="comparison-category"><th colspan="2" scope="colgroup">Activiteiten zondag</th></tr>
+                <tr data-item="phantasialand" data-min="45" data-max="45" data-price="€45" data-default="true">
+                  <th scope="row">Phantasialand · zo</th>
+                  <td class="cost-cell"><label class="cost-choice"><input type="checkbox" checked /><span>€45</span></label></td>
                 </tr>
+                <tr class="option-add-activity-row" hidden><th colspan="2"><button class="option-add-activity" type="button" data-add-activity="zondag">+ activiteit zondag</button></th></tr>
               </tbody>
               <tfoot>
                 <tr>
@@ -308,8 +271,25 @@
           </div>
 
           <p class="comparison-live" data-option-status role="status" aria-live="polite"></p>
-          <noscript><p class="comparison-noscript">De tabel blijft leesbaar zonder JavaScript (alleen de Basis optie), maar kolommen toevoegen en aan- of uitvinken vereist JavaScript.</p></noscript>
+          <noscript><p class="comparison-noscript">De tabel blijft leesbaar zonder JavaScript (alleen de Basis optie), maar opties en activiteiten toevoegen en berekenen vereist JavaScript.</p></noscript>
         </div>
+      </section>
+
+      <section class="section container" aria-labelledby="bronnen-title">
+        <article class="panel content-panel">
+          <p class="section-kicker">04 / bronnen</p>
+          <h2 id="bronnen-title">Controleer vóór het boeken.</h2>
+          <ul class="bullet-list source-list">
+            <li><a href="https://www.motel-one.com/de/hotels/koeln/hotel-koeln-mediapark/" target="_blank" rel="noopener noreferrer">Motel One Köln-Mediapark — hotel, kamers en locatie ↗</a></li>
+            <li><a href="https://www.booking.com/hotel/de/motel-one-koeln-mediapark.html?checkin=2027-04-16&amp;checkout=2027-04-18&amp;group_adults=13&amp;no_rooms=7" target="_blank" rel="noopener noreferrer">Booking.com — zoekselectie 16–18 april 2027, 7 kamers voor 13 ↗</a></li>
+            <li><a href="https://www.motel-one.com/fileadmin/dam/Hotels/Koeln/Koeln-Mediapark/Anfahrtsbeschreibung_Koeln-Mediapark_EN.pdf" target="_blank" rel="noopener noreferrer">Motel One — aankomst en parkeren Parkhaus MediaPark (PDF) ↗</a></li>
+            <li><a href="https://www.partyboot.net/partyboot-koeln/" target="_blank" rel="noopener noreferrer">Partyboot Köln — pakketten, prijzen en data ↗</a></li>
+            <li><a href="https://www.7th-space.com/standorte/koeln" target="_blank" rel="noopener noreferrer">7th Space Köln — VR-activiteiten en prijzen ↗</a></li>
+            <li><a href="https://shop.phantasialand.de/en/products/theme-park-tickets/2027-04" target="_blank" rel="noopener noreferrer">Phantasialand — actuele ticketprijzen per datum ↗</a></li>
+            <li><a href="https://www.phantasialand.de/en/theme-park/opening-hours/" target="_blank" rel="noopener noreferrer">Phantasialand — openingstijdenkalender ↗</a></li>
+            <li><a href="https://www.cologne-tourism.com/experiences-lifestyle/events/detail/koelsch-beer-brewery-tour" target="_blank" rel="noopener noreferrer">KölnTourismus — Kölsche Brauhaustour ↗</a></li>
+          </ul>
+        </article>
       </section>
     </main>
 

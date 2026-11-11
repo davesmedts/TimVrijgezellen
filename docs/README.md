@@ -53,7 +53,9 @@ docs/
      └── lissabon.html              # Detailpagina Lissabon
 ```
 
-De kostenvergelijker toont bestemmingen naast elkaar. Selecties worden lokaal per browser bewaard; ze worden niet met andere bezoekers gedeeld. Een streepje betekent dat een post niet van toepassing is. `n.t.b.` betekent dat een prijs nog ontbreekt en telt niet mee in de totalen.
+De kostenvergelijker toont Amsterdam en Lissabon naast elkaar. De Keulen-pagina heeft een eigen optievergelijking: voeg activiteiten toe bij zaterdag of zondag en geef per optie een prijs per deelnemer op. Alleen aangevinkte posten tellen mee. Ontbrekende of ongeldige prijzen worden bij het totaal vermeld en niet meegerekend. Een nieuwe optie kopieert de eerste; herstel van de basisoptie bewaart eigen activiteiten en hun prijzen in de eerste optie. Selecties en eigen activiteiten worden lokaal per browser bewaard; ze worden niet met andere bezoekers gedeeld. Een streepje betekent dat een post niet van toepassing is. `n.t.b.` betekent dat een prijs nog ontbreekt en telt niet mee in de totalen.
+
+De groep kiest voor een autoreis; Lissabon is daarom op de website als **Niet weerhouden** gemarkeerd. De kostenraming blijft alleen als referentie beschikbaar.
 
 ## Lichte en donkere modus
 

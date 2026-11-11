@@ -4,8 +4,8 @@ Planning voor 13 personen, vrijdag 16 tot zondag 18 april 2027. Vertrek uit Antw
 
 ## Website en bronnen
 
-- `docs/`: de statische website voor GitHub Pages, met Lissabon en Amsterdam.
-- `Bestemmingen/`: onderzoeksfiches en voorbeeldplanningen, ook voor bestemmingen die nog geen websitepagina hebben.
+- `docs/`: de statische website voor GitHub Pages. De groep kiest voor een autoreis; Lissabon blijft zichtbaar als niet-weerhouden referentie.
+- `Bestemmingen/`: onderzoeksfiches en voorbeeldplanningen, gegroepeerd in `Auto/` en `Vliegen/` (Londen heeft ook een Eurostar-optie).
 - `vrijgezellen.md`: uitgangspunten en deelnemers.
 - De La Liga-bestanden in de hoofdmap zijn bewaarde externe onderzoeksbronnen, niet de applicatie. `voetbaltrip_samenvatting.md` is een eerdere voetbalgerichte samenvatting; gebruik de bestemmingsfiches voor de actuele planning.
 
